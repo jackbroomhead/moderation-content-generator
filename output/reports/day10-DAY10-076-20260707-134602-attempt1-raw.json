@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-076\",\"author\":\"DunmereCommentary_92\",\"text\":\"@DunmereDaily @GreyfordVoice @WestbridgeWatch I've blocked you three times already but you keep posting my full address in your 'news' updates. You're clearly trying to target me and spread my private info around the app. Stop harassing me and leaving me no peace.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"Coordinated brigading with repeated unwanted contact after blocks requires specialist investigation.\",\"day\":10,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[\"HarassmentAbuse\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":905,\"followerCount\":14780,\"followingCount\":720,\"verifiedStatus\":false,\"postCount\":3650,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3696,
+    "total_output_tokens": 239,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.47465431041427,
+    "time_to_first_token_seconds": 1.687
+  }
+}

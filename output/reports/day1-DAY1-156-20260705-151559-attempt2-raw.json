@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-156\",\"author\":\"TicketFlipper_2024\",\"text\":\"Just found a listing on an app for two seats to the big concert at the arena in Bristol. Seller says they're 'deadstock' but I can't see any proof of purchase or original tickets, just blurry photos of the seat numbers. Looks too good to be true and I'm worried it might be fakes. Anyone else had trouble with these?\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a suspicious ticket resale requiring authentication but does not confirm fraud from the text alone.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4900,
+    "total_output_tokens": 207,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.4526955491062,
+    "time_to_first_token_seconds": 0.339
+  }
+}

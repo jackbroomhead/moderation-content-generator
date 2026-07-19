@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-039\",\"author\":\"CommunityHope_Bristol\",\"text\":\"Thank you for your continued support! 🙏 We are thrilled to announce our annual fundraiser this weekend. All proceeds will go directly to providing warm homes and essential supplies for local families in need. Please visit the link in our bio to donate securely or find us at the community centre. #CharityWork #CommunitySupport\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"A verified established charity is posting a normal fundraiser with no suspicious requests.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":3100,\"followerCount\":94000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":7800,\"bio\":\"Registered fictional charity supporting local families.\",\"previousFlags\":0,\"location\":\"Bristol\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4896,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.143748753308264,
+    "time_to_first_token_seconds": 24.019
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-047\",\"author\":\"WestbridgeHope92\",\"text\":\"Helping Westbridge families after the floods. If you're struggling with essentials, please send money through this secure link: [link removed]. We have verified needs and want to get help to those who need it most! #CommunitySupport #FloodRelief\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This is a fraud case because the account asks people to send money through an uncertain method despite being a new relief account with copied biography wording.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":3,\"followerCount\":86,\"followingCount\":920,\"verifiedStatus\":false,\"postCount\":12,\"bio\":\"Helping Westbridge families after the floods.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5090,
+    "total_output_tokens": 230,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.620718241831309,
+    "time_to_first_token_seconds": 21.897
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-049",
+      "author": "ChallengeSeeker72",
+      "text": "Has anyone else seen the new 'ultimate challenge' section? They're saying it's safe to try these extreme stunts just for fun! If you think you have what it takes, go push your limits now! #challenge #extreme #pushyourlimits",
+      "category": "Threat",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "explanation": "This post encourages dangerous physical harm and risky stunts without a specific target or immediate threat, warranting removal.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 129,
+      "followerCount": 746,
+      "followingCount": 926,
+      "verifiedStatus": false,
+      "postCount": 1506,
+      "bio": "Breaking posts and challenge clips.",
+      "previousFlags": 6,
+      "location": "Bellmere",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

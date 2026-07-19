@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-098",
+      "author": "LunaByte_42",
+      "text": "Stop sharing this link, guys! It's not spam, it's proof that @TinyArtz is stealing my original concept for 'The Void' series and selling it on their site. They're a fraud and I'm reporting them to the platform. #OriginalArtist #StealingIdeas",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post describes a coordinated brigading campaign targeting a small creator, which requires specialist investigation.",
+      "day": 3,
+      "correctEscalationReason": "HarassanceAbuse",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

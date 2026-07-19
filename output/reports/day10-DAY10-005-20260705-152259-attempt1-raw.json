@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-005\",\"author\":\"AudioTruthSeeker_42\",\"text\":\"I've been seeing a lot of people sharing this new audio clip that claims it's an official warning about 'fake news' spreading in our city. I want to be clear: this is just a piece of manipulated media being used to spread confusion. There are no such warnings and no fake news alerts like this. Please don't share it without checking the source first. #SyntheticMedia\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post is permitted because it warns about a synthetic audio clip being misrepresented, which counts as a valid debunking rather than misinformation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":328,\"followerCount\":3820,\"followingCount\":188,\"verifiedStatus\":false,\"postCount\":764,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4733,
+    "total_output_tokens": 255,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.6065794057632,
+    "time_to_first_token_seconds": 2.078
+  }
+}

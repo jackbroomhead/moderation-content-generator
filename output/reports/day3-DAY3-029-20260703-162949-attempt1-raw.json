@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-029\",\"author\":\"ElaraVance\",\"text\":\"Just discovered the new 'Bloom & Balance' serum on a wellness blog. The founder, Maya Lin, claims it can reverse menopause symptoms and restore fertility within weeks using her unique 'hormone reset protocol'. She shares stories of women who stopped their treatment and got pregnant again after just one bottle! Can't wait to try this miracle cure.\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a specific unverified medical claim regarding fertility and menopause based on testimonials, constituting potential public harm misinformation requiring specialist verification.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4680,
+    "total_output_tokens": 180,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.56793203950092,
+    "time_to_first_token_seconds": 0.473
+  }
+}

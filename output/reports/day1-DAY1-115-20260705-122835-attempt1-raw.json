@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-115\",\"author\":\"SarahM_24\",\"text\":\"Big day for the Riverside Community Centre! They've finally unveiled their brand new community garden and outdoor amphitheatre. Looks absolutely stunning, and I hear they're hosting a free summer festival this weekend with live music and local food stalls. Hope everyone gets to come along! #community\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a straightforward announcement of a harmless public event.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4419,
+    "total_output_tokens": 148,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.30389473123294,
+    "time_to_first_token_seconds": 0.366
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-044\",\"author\":\"ConcernedCitizen_88\",\"text\":\"I saw something disturbing near the old industrial estate by the canal this morning. A local dog walker mentioned seeing a group of people gathered around what looked like a trapped animal, and they seemed to be discussing how to make it suffer rather than help it. The area is usually quiet but I'm worried someone might follow them through. Has anyone noticed anything suspicious? #SafetyFirst\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post reports credible concern about planned animal cruelty and requires specialist investigation to verify the threat without exposing sensitive details.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4746,
+    "total_output_tokens": 180,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.41788565107649,
+    "time_to_first_token_seconds": 0.473
+  }
+}

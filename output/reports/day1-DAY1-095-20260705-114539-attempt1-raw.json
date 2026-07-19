@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-095\",\"author\":\"SarahJ_HomeDecor\",\"text\":\"🔥 FLASH SALE! 🔥 90% OFF ALL BRAND NAME CLOTHING! Click here now to claim your free VIP membership and get a £500 gift card instantly! Don't miss out on this limited time offer! #FreeMoney #FlashSale #VIP\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is obvious spam promoting deceptive financial scams with fake discount claims.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4680,
+    "total_output_tokens": 147,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.68006364804728,
+    "time_to_first_token_seconds": 0.47
+  }
+}

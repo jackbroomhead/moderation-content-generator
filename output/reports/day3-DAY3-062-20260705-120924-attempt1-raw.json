@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-062\",\"author\":\"DealsHunter_84\",\"text\":\"🔥 FLASH SALE ALERT! 🔥 Get 90% OFF premium luxury watches, designer handbags and limited edition sneakers TODAY ONLY! 🚨 Click here: [link removed] before stock runs out! 💸 Use code SAVEBIG for extra savings. Don't miss out on this unbelievable bargain! 👇👇 #Sale #Discount #LuxuryDeals #MustBuy #FlashSale #CheapFashion #WatchLove #BagAddict\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a repetitive promotional message pushing an external sales link, which violates spam policies.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4619,
+    "total_output_tokens": 186,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.67355256681094,
+    "time_to_first_token_seconds": 0.476
+  }
+}

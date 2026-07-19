@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-003\",\"author\":\"EmergencyUpdate_Northbridge\",\"text\":\"Important correction: A viral post claiming 'Evacuate all of Northbridge immediately' has been flagged as misinformation by our official emergency response team. The claim is false and no evacuation orders are in place. Please disregard the panic-inducing posts sharing this unverified rumour.\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post is a permitted debunking of harmful public-safety misinformation, providing accurate information to counter dangerous rumours without amplifying the false claim itself.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":254,\"followerCount\":2360,\"followingCount\":154,\"verifiedStatus\":false,\"postCount\":582,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4839,
+    "total_output_tokens": 232,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.826592827163278,
+    "time_to_first_token_seconds": 21.112
+  }
+}

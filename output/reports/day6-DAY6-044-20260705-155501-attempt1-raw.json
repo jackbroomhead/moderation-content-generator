@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-044\",\"author\":\"LumaWell_Official_82\",\"text\":\"🚨 BREAKING: The medical establishment is hiding the truth! Our exclusive 'Radiant Reset' protocol cures all cancers naturally in just 3 weeks. Doctors are scared to speak out because they profit from toxic treatments. Join us now before it's too late! #CureAllCancer #NaturalHealing\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a harmful medical falsehood claiming a specific protocol can cure cancer, which violates misinformation policies regarding public health.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":95,\"followerCount\":184000,\"followingCount\":120,\"verifiedStatus\":false,\"postCount\":8900,\"bio\":\"Natural protocols the medical industry will not discuss.\",\"previousFlags\":11,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5018,
+    "total_output_tokens": 241,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.171882175642002,
+    "time_to_first_token_seconds": 23.78
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-010\",\n      \"author\": \"LocalNewsLiz\",\n      \"text\": \"Great news for everyone in Oakhaven! The annual Spring Garden Festival is officially confirmed for this Saturday. We're expecting live music, local street food stalls, and a community art showcase in the town square. Don't miss it!\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless announcement about a fictional local community event with no policy violations.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4437,
+    "total_output_tokens": 203,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.19663940391236,
+    "time_to_first_token_seconds": 0.361
+  }
+}

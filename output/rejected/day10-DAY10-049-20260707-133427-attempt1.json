@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-049",
+      "author": "BellmereBraver82",
+      "text": "Hey everyone, I'm looking for a serious partner to help me with this new extreme stunt challenge! We're going to jump from the highest point in town and break every bone in our body. It's not just fun, it's a test of true physical strength. Who wants to join? #challenge #stunt #extreme",
+      "category": "Threat",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "explanation": "This post promotes dangerous physical harm and encourages severe self-injury, which violates safety policies regarding the glorification of serious bodily harm.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 129,
+      "followerCount": 746,
+      "followingCount": 926,
+      "verifiedStatus": false,
+      "postCount": 1506,
+      "bio": "Breaking posts and challenge clips.",
+      "previousFlags": 6,
+      "location": "Bellmere",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

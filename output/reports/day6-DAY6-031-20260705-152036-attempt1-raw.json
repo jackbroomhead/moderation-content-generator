@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-031\",\"author\":\"EmergencyAlert_Westbridge\",\"text\":\"ALERT: Severe flooding expected in Westbridge tonight. Residents must evacuate immediately to the assembly point. Official channel confirmed this update.\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post claims to be from an official emergency source but uses urgent language typical of account takeover or impersonation, warranting specialist review.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2600,\"followerCount\":340000,\"followingCount\":190,\"verifiedStatus\":true,\"postCount\":9800,\"bio\":\"Official emergency information for the Westbridge region.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4875,
+    "total_output_tokens": 217,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.77317467131576,
+    "time_to_first_token_seconds": 2.193
+  }
+}

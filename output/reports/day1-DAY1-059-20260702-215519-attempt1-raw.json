@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-059\",\"author\":\"SocialEngager_72\",\"text\":\"Hey, this is support from the 'Global Tech' team. We noticed your account was compromised and we need you to reply with your login credentials and credit card info right now to secure it. Click here: [link removed]\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post claims to be from a support team but requests sensitive personal information (login credentials, credit card) and directs the user to an external link. This pattern is characteristic of social engineering fraud and impersonation, which requires specialist investigation to verify authenticity and mitigate harm.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2064,
+    "total_output_tokens": 177,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.7944423709019,
+    "time_to_first_token_seconds": 0.421
+  }
+}

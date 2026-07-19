@@ -1,0 +1,15 @@
+FAILED TO GENERATE THIS POST
+
+posts.0: Additional properties are not allowed ('metadata' was unexpected)
+posts.0: 'tags' is a required property
+posts.0: 'scenario' is a required property
+posts.0: 'notes' is a required property
+posts.0: 'accountAgeDays' is a required property
+posts.0: 'followerCount' is a required property
+posts.0: 'followingCount' is a required property
+posts.0: 'verifiedStatus' is a required property
+posts.0: 'postCount' is a required property
+posts.0: 'bio' is a required property
+posts.0: 'previousFlags' is a required property
+posts.0: 'location' is a required property
+posts.0: 'platform' is a required property

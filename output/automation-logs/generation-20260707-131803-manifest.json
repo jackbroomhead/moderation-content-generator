@@ -1,0 +1,18 @@
+﻿{
+    "status":  "completed_with_failures",
+    "finishedAt":  "2026-07-07T13:18:56",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "v4-production-day10",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-DAY10-036-20260707-131843-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    }
+                ]
+}

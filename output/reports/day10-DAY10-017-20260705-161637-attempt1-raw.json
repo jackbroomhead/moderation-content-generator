@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-017\",\"author\":\"SafetyFirstWestbridge92\",\"text\":\"BREAKING: Unconfirmed reports suggest a chemical incident near Westbridge Industrial Park, forcing an immediate evacuation of residents. Please share this before anyone gets hurt! #SafetyFirst #Westbridge #EmergencyAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This unverified evacuation warning requires specialist verification to assess potential public safety harm and prevent unsafe movement.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":772,\"followerCount\":12580,\"followingCount\":392,\"verifiedStatus\":false,\"postCount\":1856,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5124,
+    "total_output_tokens": 222,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.709609631267952,
+    "time_to_first_token_seconds": 22.48
+  }
+}

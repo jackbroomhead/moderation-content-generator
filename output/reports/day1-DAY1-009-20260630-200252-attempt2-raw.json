@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-0b2hgaecc9pferpwsywu9k4",
+  "object": "chat.completion",
+  "created": 1782846283,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-009\",\n      \"day\": 1,\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Lifestyle\",\n      \"text\": \"Trying out a new sourdough recipe today. The crust is perfect, but the inside is a bit too dense. I guess I need to work on my fermentation time!\",\n      \"author\": \"BakingBee_92\",\n      \"explanation\": \"The post is a harmless personal update about a hobby and does not violate any platform policies.\",\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"tags\": [],\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctEscalationReason\": \"\"\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Goal: Generate one fictional filler social-media post for a content-moderation game.\n    *   Format: Strict JSON.\n    *   Post ID: `DAY1-009`.\n    *   Day: `1`.\n    *   Action: `Approve`.\n    *   Difficulty: `Easy` or `Medium`.\n    *   Category: One of the allowed categories (Lifestyle, Normal, etc.).\n    *   Rules: No story characters, no real people/data, no child safety/deferred topics, no nested metadata, self-contained.\n    *   Specific fields required: `id`, `day`, `correctAction`, `difficulty`, `category`, `text`, `author`, `explanation`, `profileImage`, `postImage`, `scenario`, `notes`, `bio`, `previousFlags`, `location`, `platform`, `tags`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `correctEscalationReason`.\n    *   `Approve` specifics: `correctEscalationReason` = \"\", `acceptableEscalationReasons` = [], `allowNeedsReviewEscalation` = false.\n\n    *   Category: `Lifestyle`.\n    *   Text: \"Trying out a new sourdough recipe today. The crust is perfect, but the inside is a bit too dense. I guess I need to work on my fermentation time!\"\n    *   Author: \"BakingBee_92\"\n    *   Explanation: \"The post is a harmless personal update about a hobby (baking) and does not violate any platform policies.\"\n    *   Action: `Approve`.\n    *   Difficulty: `Easy`.\n\n    *   `id`: \"DAY1-009\"\n    *   `day`: 1\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Lifestyle\"\n    *   `text`: \"Trying out a new sourdough recipe today. The crust is perfect, but the inside is a bit too dense. I guess I need to work on my fermentation time!\"\n    *   `author`: \"BakingBee_92\"\n    *   `explanation`: \"The post is a harmless personal update about a hobby and does not violate any platform policies.\"\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `previousFlags`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"\"\n    *   `tags`: []\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `correctEscalationReason`: \"\"\n\n    *   Check against forbidden topics: No drugs, weapons, child safety, etc.\n    *   Check against required fields: `author` and `explanation` are present.\n    *   Check JSON structure: No nested metadata. One item in `posts` array.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 903,
+    "total_tokens": 2335,
+    "completion_tokens_details": {
+      "reasoning_tokens": 669
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

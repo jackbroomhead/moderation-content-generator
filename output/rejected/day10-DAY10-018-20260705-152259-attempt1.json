@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-018",
+      "author": "OakhavenWatch_42",
+      "text": "BREAKING: Multiple residents in Oakhaven are saying the local water supply is unsafe to drink right now! 🚨 There's a blurry image circulating that supposedly shows 'discoloured' pipes and a warning sign, but it's hard to make out what exactly it depicts. Several neighbours are already filling bottles from their own tanks. Please don't panic or share this until we know for sure if the tap water is actually contaminated. #OakhavenWater",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post requires specialist verification because it involves a potential public safety emergency regarding contaminated water supplies.",
+      "day": 10,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 809,
+      "followerCount": 13310,
+      "followingCount": 409,
+      "verifiedStatus": false,
+      "postCount": 1947,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 2,
+      "location": "Oakhaven",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

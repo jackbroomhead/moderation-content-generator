@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-079\",\n      \"author\": \"NorthbridgeEvents\",\n      \"text\": \"Great news from today's volunteer day! The community garden in Northbridge has finally been planted thanks to all the help. It's going to be a beautiful spot for everyone to enjoy this summer. 🌱 #community #volunteering\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post shares a harmless update about a local community project and does not violate any policies.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 2451,\n      \"followerCount\": 29050,\n      \"followingCount\": 527,\n      \"verifiedStatus\": false,\n      \"postCount\": 5033,\n      \"bio\": \"Fictional events, culture and local announcements.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3708,
+    "total_output_tokens": 321,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.63631747279794,
+    "time_to_first_token_seconds": 1.699
+  }
+}

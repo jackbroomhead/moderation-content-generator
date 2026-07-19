@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-069",
+      "author": "SarahM_84",
+      "text": "Just checked the forecast and there's a chance of heavy rain this afternoon so I'm bringing an umbrella to work. Also, if anyone is driving home late, be careful on the A34 as there are roadworks near the bridge.",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post shares benign weather information and a general community safety tip without promoting harm or misinformation.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

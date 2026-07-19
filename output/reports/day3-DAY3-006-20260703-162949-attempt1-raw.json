@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-006\",\n      \"author\": \"JulesFromLeeds\",\n      \"text\": \"Finally managed to strip and reseat that old oak bookshelf I inherited from my nan. There's something really satisfying about finding a few loose drawers hidden away in the back of a wardrobe too, but this one needed some serious elbow grease. Now it looks like new again! 🪑✨\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about repairing furniture and does not violate any content policies.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4253,
+    "total_output_tokens": 217,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.86497315417824,
+    "time_to_first_token_seconds": 1.91,
+    "model_load_time_seconds": 4.688
+  }
+}

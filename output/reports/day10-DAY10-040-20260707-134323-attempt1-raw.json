@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-040\",\n      \"author\": \"NorthbridgeObserver\",\n      \"text\": \"I've been trying to get some sleep, but that @rudeuser account keeps posting in my thread. They are being incredibly dismissive of my points and just won't stop engaging with me. It's really getting on my nerves. #harassment\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The user is reporting rude behaviour without attacking the other person or revealing private information.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1093,\n      \"followerCount\": 11550,\n      \"followingCount\": 261,\n      \"verifiedStatus\": false,\n      \"postCount\": 2079,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3712,
+    "total_output_tokens": 318,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.63365165292775,
+    "time_to_first_token_seconds": 1.564
+  }
+}

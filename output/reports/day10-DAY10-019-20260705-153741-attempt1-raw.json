@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-019\",\"author\":\"NorthbridgeWatch_846\",\"text\":\"Breaking alert just dropped: A massive fire has started at the Northbridge Community Centre and people are trapped inside! The video shows smoke billowing from the windows and screams for help. They say an ambulance is on its way but we need to know if this is real or a hoax before everyone rushes there. #EmergencyAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist verification because it involves a credible claim of immediate physical danger to the public.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":846,\"followerCount\":14040,\"followingCount\":426,\"verifiedStatus\":false,\"postCount\":2038,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4926,
+    "total_output_tokens": 246,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 76.84781508541353,
+    "time_to_first_token_seconds": 2.473
+  }
+}

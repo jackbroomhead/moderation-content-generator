@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-006",
+      "author": "SarahJ_Oakhaven",
+      "text": "I can't believe 'The Radiant Reset' claims it's a miracle cure for Stage 3 breast cancer! They say it replaces chemo and radiation with just this juice cleanse. My friend started it after seeing their post and is terrified to stop her treatment. This is dangerous misinformation that could kill people! #BreastCancer #NaturalHealing",
+      "category": "Misinformation",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "This post promotes harmful health misinformation by encouraging the abandonment of prescribed cancer treatment for an unproven diet.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 365,
+      "followerCount": 4550,
+      "followingCount": 205,
+      "verifiedStatus": true,
+      "postCount": 855,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 2,
+      "location": "Oakhaven",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "Cancer"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

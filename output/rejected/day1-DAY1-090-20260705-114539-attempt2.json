@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-090",
+      "author": "LocalNewsMike",
+      "text": "Quick update for anyone heading into the city centre later: the annual Street Food Festival is officially open at Victoria Square today from noon until 8pm. There are stalls serving everything from traditional fish and chips to vegan sliders, plus live acoustic sets in the marquee. Bring your own plates if you want to avoid the queues! #Foodie #CityEvents",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless local event update that promotes community activities without violating any policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "tags": [],
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

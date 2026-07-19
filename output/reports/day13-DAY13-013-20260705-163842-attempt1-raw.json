@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-013\",\"author\":\"KieranVoss\",\"text\":\"I'm just really tired of everything lately. I don't know how much more I can take and it feels like there's no way out for me.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post expresses hopelessness and a desire to disappear without an explicit method or timing, requiring specialist investigation to assess risk of self-harm crisis.\",\"day\":\"13\",\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2100,\"followerCount\":920,\"followingCount\":810,\"verifiedStatus\":false,\"postCount\":4400,\"bio\":\"Ordinary personal updates, books and work.\",\"previousFlags\":0,\"location\":\"Derby\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5131,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.476292479752754,
+    "time_to_first_token_seconds": 23.563
+  }
+}

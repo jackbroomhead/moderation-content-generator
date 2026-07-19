@@ -1,0 +1,33 @@
+SEMANTIC DUPLICATE CHECK FAILED
+
+DAY10-019 is semantically too similar to batch post DAY10-017 (0.871 >= 0.840).
+DAY10-025 is semantically too similar to batch post DAY10-023 (0.920 >= 0.840).
+
+NEAREST-HISTORY SCORES
+DAY10-001: nearest history=DAY3-115 score=0.887
+DAY10-002: nearest history=DAY1-121 score=0.677
+DAY10-003: nearest history=DAY1-058 score=0.773
+DAY10-004: nearest history=DAY3-030 score=0.697
+DAY10-005: nearest history=DAY1-108 score=0.746
+DAY10-006: nearest history=DAY3-115 score=0.879
+DAY10-007: nearest history=DAY3-130 score=0.771
+DAY10-008: nearest history=DAY1-058 score=0.798
+DAY10-009: nearest history=DAY6-032 score=0.797
+DAY10-010: nearest history=DAY1-058 score=0.812
+DAY10-011: nearest history=DAY3-129 score=0.850
+DAY10-012: nearest history=DAY3-090 score=0.698
+DAY10-013: nearest history=DAY3-029 score=0.685
+DAY10-014: nearest history=DAY1-158 score=0.698
+DAY10-015: nearest history=DAY3-105 score=0.689
+DAY10-016: nearest history=DAY1-029 score=0.640
+DAY10-017: nearest history=DAY6-031 score=0.865
+DAY10-018: nearest history=DAY3-128 score=0.814
+DAY10-019: nearest history=DAY1-058 score=0.829
+DAY10-020: nearest history=DAY1-047 score=0.776
+DAY10-021: nearest history=DAY3-055 score=0.744
+DAY10-022: nearest history=DAY6-032 score=0.732
+DAY10-023: nearest history=DAY6-034 score=0.682
+DAY10-024: nearest history=DAY3-055 score=0.760
+DAY10-025: nearest history=DAY6-034 score=0.710
+
+Rejected posts were removed from the checkpoint. Run the generator again to regenerate only those slots.

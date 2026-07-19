@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-001\",\"author\":\"Dr.LenaWestbridge\",\"text\":\"⚠️ Urgent update for anyone following @BloomWellnessLab or similar accounts claiming a 'natural protocol' can replace chemotherapy. I've seen the latest study from Westbridge University and it's clear: these unproven treatments are dangerously unsafe. Do not delay your prescribed care to try miracle cures that don't exist. #HealthAlert #CancerSupport\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post is a permitted warning debunking harmful health misinformation, so it should be approved.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":180,\"followerCount\":900,\"followingCount\":120,\"verifiedStatus\":true,\"postCount\":400,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4756,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.814374489764054,
+    "time_to_first_token_seconds": 20.153
+  }
+}

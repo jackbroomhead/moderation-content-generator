@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-085\",\"author\":\"WildLifeFan23\",\"text\":\"Just saw a video circulating online showing someone feeding poison baits to the local wildlife reserves. They're celebrating how it's finally getting rid of the 'nuisance' animals and encouraging others to join in. This is absolutely terrifying for everyone involved.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes planned animal cruelty and requires specialist handling due to the threat to wildlife.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2976,
+    "total_output_tokens": 143,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.67309701642932,
+    "time_to_first_token_seconds": 0.438
+  }
+}

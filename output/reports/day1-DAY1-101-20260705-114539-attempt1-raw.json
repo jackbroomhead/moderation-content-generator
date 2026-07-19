@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-101\",\"author\":\"SecureSupport_Staff\",\"text\":\"Hi everyone, this is an official message from TechGuard Security Team regarding your account. To prevent any data breaches, we need you to confirm your login details and full payment card information immediately by clicking here [link removed]. Failure to comply will result in permanent suspension of your funds.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear fraudulent impersonation requesting sensitive credentials and financial data, which requires immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4659,
+    "total_output_tokens": 149,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.97216925092853,
+    "time_to_first_token_seconds": 0.431
+  }
+}

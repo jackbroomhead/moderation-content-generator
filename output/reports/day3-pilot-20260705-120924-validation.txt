@@ -1,0 +1,81 @@
+VALIDATION PASSED
+Generated: 2026-07-05T12:10:58
+Elapsed seconds: 95.0
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 3
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260705-120924.json
+
+BLUEPRINT
+DAY3-056: Approve | Lifestyle | Easy
+DAY3-057: Approve | Normal | Medium
+DAY3-058: Approve | Public Information | Easy
+DAY3-059: Approve | Misinformation | Medium
+DAY3-060: Approve | News / Public Event | Easy
+DAY3-061: Approve | Normal | Medium
+DAY3-062: Remove | Spam | Easy
+DAY3-063: Remove | Harassment | Easy
+DAY3-064: Remove | Fraud | Easy
+DAY3-065: Remove | Misinformation | Medium
+DAY3-066: Remove | Self-Harm | Medium
+DAY3-067: Remove | Threat | Easy
+DAY3-068: Escalate | Threat | Easy
+DAY3-069: Escalate | Threat | Medium
+DAY3-070: Escalate | Self-Harm | Medium
+DAY3-071: Escalate | Self-Harm | Medium
+DAY3-072: Escalate | Harassment | Medium
+DAY3-073: Escalate | Harassment | Medium
+DAY3-074: Escalate | Fraud | Medium
+DAY3-075: Escalate | Fraud | Medium
+DAY3-076: Escalate | Privacy | Easy
+DAY3-077: Escalate | Privacy | Medium
+DAY3-078: Escalate | Misinformation | Medium
+DAY3-079: Escalate | Misinformation | Medium
+DAY3-080: Escalate | Misinformation | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY3-056: nearest history=DAY3-006 score=0.821
+DAY3-057: nearest history=DAY3-032 score=0.857
+DAY3-058: nearest history=DAY1-019 score=0.783
+DAY3-059: nearest history=DAY3-009 score=0.874
+DAY3-060: nearest history=DAY3-010 score=0.672
+DAY3-061: nearest history=DAY3-053 score=0.697
+DAY3-062: nearest history=DAY3-012 score=0.843
+DAY3-063: nearest history=DAY1-015 score=0.763
+DAY3-064: nearest history=DAY1-033 score=0.847
+DAY3-065: nearest history=DAY3-015 score=0.880
+DAY3-066: nearest history=DAY3-041 score=0.807
+DAY3-067: nearest history=DAY1-077 score=0.800
+DAY3-068: nearest history=DAY1-103 score=0.781
+DAY3-069: nearest history=DAY3-044 score=0.730
+DAY3-070: nearest history=DAY3-045 score=0.854
+DAY3-071: nearest history=DAY3-045 score=0.787
+DAY3-072: nearest history=DAY3-047 score=0.758
+DAY3-073: nearest history=DAY3-007 score=0.740
+DAY3-074: nearest history=DAY3-049 score=0.741
+DAY3-075: nearest history=DAY3-050 score=0.829
+DAY3-076: nearest history=DAY3-026 score=0.763
+DAY3-077: nearest history=DAY3-052 score=0.772
+DAY3-078: nearest history=DAY3-053 score=0.838
+DAY3-079: nearest history=DAY3-054 score=0.851
+DAY3-080: nearest history=DAY3-055 score=0.789
+
+ACTUAL REPAIRS
+DAY3-057: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 774 (char 773)).
+DAY3-058: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 697 (char 696)).
+DAY3-059: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 818 (char 817)).
+DAY3-060: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 623 (char 622)).
+DAY3-061: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 762 (char 761)).
+DAY3-064: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 655 (char 654)).
+DAY3-066: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 729 (char 728)).
+DAY3-068: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 855 (char 854)).
+DAY3-072: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 683 (char 682)).
+DAY3-073: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 798 (char 797)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 332
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

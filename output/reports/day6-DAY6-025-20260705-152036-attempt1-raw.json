@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-025\",\"author\":\"SketchyWalker_84\",\"text\":\"I'm done with this nonsense. I blocked them months ago but they keep finding a way to contact me. It's gotten worse since then.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post describes repeated unwanted contact following blocks, which is a form of harassment requiring specialist investigation.\",\"day\":6,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1750,\"followerCount\":4200,\"followingCount\":680,\"verifiedStatus\":false,\"postCount\":3600,\"bio\":\"Illustration, city walks and everyday life.\",\"previousFlags\":0,\"location\":\"Nottingham\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4854,
+    "total_output_tokens": 207,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.57043981835405,
+    "time_to_first_token_seconds": 2.161
+  }
+}

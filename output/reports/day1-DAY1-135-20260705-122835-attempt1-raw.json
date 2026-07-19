@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-135\",\"author\":\"WildlifeWatcher_UK\",\"text\":\"Found a group of locals at the abandoned quarry near Blackwood discussing how to trap and drown the otters living in the main lake for 'sport'. They're bringing spears and nets tomorrow morning and seem very excited about it. This is absolutely disgusting and I'm reporting them immediately. #Nature #Protection\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes planned animal cruelty that requires specialist investigation to verify the threat and locate the perpetrators.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[\"AnimalCruelty\"]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4686,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.28190375928804,
+    "time_to_first_token_seconds": 0.52
+  }
+}

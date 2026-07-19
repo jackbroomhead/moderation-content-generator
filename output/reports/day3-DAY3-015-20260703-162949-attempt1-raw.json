@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-015\",\n      \"author\": \"LumaWell_Official\",\n      \"text\": \"Sisters, listen to me! 💖 The doctors are just trying to keep you in the dark. You do NOT need chemo for your diagnosis. Switch to my secret 'Radiant Reset' protocol using LumaPure supplements and lemon water. Thousands of women have been freed from their treatment by this natural method. Stop listening to the fear-mongers and reclaim your life today! #CancerWarrior #NaturalHealing\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes harmful medical misinformation by asserting that an unproven supplement protocol can replace prescribed chemotherapy treatment.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"Cancer\",\n        \"Chemotherapy\",\n        \"MedicalMisinformation\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4654,
+    "total_output_tokens": 270,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.42630649867851,
+    "time_to_first_token_seconds": 0.484
+  }
+}

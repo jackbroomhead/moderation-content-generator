@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-068\",\"author\":\"ConcernedCitizen_71\",\"text\":\"Just saw a message on a community forum claiming someone is planning to 'clear out' the entire staff at the old textile mill in Manchester next Tuesday morning. They're saying it's going to be very violent and they want everyone to stay away from the factory gates. I've seen similar posts before but this one seems much more specific about the location and time. Please don't go near there.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a credible threat of violence against a specific location with a plausible timeframe, requiring specialist investigation to assess the risk.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4757,
+    "total_output_tokens": 191,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.70287615512254,
+    "time_to_first_token_seconds": 0.668
+  }
+}

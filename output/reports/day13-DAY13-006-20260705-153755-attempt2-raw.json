@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-006\",\"author\":\"RadiantReset_74\",\"text\":\"You need to hear this! @RadiantReset is finally revealing the truth they've been hiding from doctors for years. They say chemo and radiation are just poisoning you further, causing more harm than good. Their unproven 'cellular regeneration' protocol actually heals your body naturally without any toxic side effects. It's a complete revolution in cancer treatment! Don't let them scare you away from this life-changing cure. #Cancer #Wellness\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes abandoning standard medical treatments for an unproven protocol, which constitutes harmful health misinformation.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2100,\"followerCount\":1200000,\"followingCount\":380,\"verifiedStatus\":true,\"postCount\":9300,\"bio\":\"Wellness, natural living and transformation.\",\"previousFlags\":7,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4779,
+    "total_output_tokens": 265,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 68.60027988914194,
+    "time_to_first_token_seconds": 0.389
+  }
+}

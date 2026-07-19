@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-073\",\"author\":\"WellnessJourney84\",\"text\":\"Sometimes I just need to find a way to make myself disappear. Feeling so heavy lately, and maybe if I could just stop feeling like this by hurting myself, it would finally be over with the pain. 💔 #struggling #overthinking\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes self-harm as a solution to emotional distress, which violates policy on dangerous content.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":122,\"followerCount\":705,\"followingCount\":889,\"verifiedStatus\":false,\"postCount\":1423,\"bio\":\"Personal reflections and wellbeing posts.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"StoryGrid\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 3676,
+    "total_output_tokens": 218,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.59459983364303,
+    "time_to_first_token_seconds": 1.7
+  }
+}

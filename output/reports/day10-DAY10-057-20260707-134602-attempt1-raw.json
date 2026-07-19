@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-057\",\"author\":\"HelenMeadow82\",\"text\":\"Honestly, the new AI moderation filters are getting ridiculous! I just tried to post a recipe for my famous spiced apple cake and it flagged it because of the word 'poison' in the old saying. The platform is blocking perfectly harmless content now. It's like they're trying too hard to be safe. #techfail\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post contains only a user complaint about moderation algorithms and does not promote harm or false claims.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3395,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.96399408943361,
+    "time_to_first_token_seconds": 1.526
+  }
+}

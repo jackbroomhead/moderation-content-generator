@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-055\",\"author\":\"CitizenWatch_UK\",\"text\":\"BREAKING: A viral video circulating on messaging apps shows 'Prime Minister' James Thorne declaring a national state of emergency due to an unconfirmed chemical spill in London. The footage claims thousands are trapped near the Thames and demands immediate evacuation. However, official government channels have not issued any alerts, and local police confirm no such incident is occurring. Is this a hoax or real news? #BreakingNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post shares an unverified claim about a public emergency that could cause widespread panic if false, requiring specialist investigation to verify provenance and context.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"MisinformationPublicHarm\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4732,
+    "total_output_tokens": 197,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.58650550915985,
+    "time_to_first_token_seconds": 0.53
+  }
+}

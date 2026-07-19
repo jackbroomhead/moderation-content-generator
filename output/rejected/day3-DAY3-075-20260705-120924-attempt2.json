@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-075",
+      "author": "SarahJ_84",
+      "text": "Does anyone know if 'Hopeful Hearts Charity' is legitimate? I saw a post on WhatsApp asking for donations to help rebuild homes after the floods, but they didn't have a website link and asked me to send money directly to a personal bank account. It feels a bit suspicious as most charities use their official portals. #CharityCheck",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post describes a potential impersonation of a charity that requires specialist investigation to verify authenticity.",
+      "day": 3,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

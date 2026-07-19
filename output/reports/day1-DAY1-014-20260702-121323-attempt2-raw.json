@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-5jstd27t74oloa6sx3t8e",
+  "object": "chat.completion",
+  "created": 1782991136,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-014\",\n      \"author\": \"BakerBee92\",\n      \"text\": \"Finally tried that new sourdough recipe today. It took forever to rise, but the crust is perfect! Anyone else into home baking?\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post contains harmless personal lifestyle content with no policy violations.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraint: Return *only* JSON matching the schema.\n    *   Rules:\n        *   No story content/characters.\n        *   No child-safety/deferred topics.\n        *   Use only 6 approved parent escalation reasons (for `Escalate`).\n        *   `Needs Review` is never the primary JSON escalation reason.\n        *   No real people/info.\n        *   Explanations must state the policy reason.\n        *   One post in a `posts` array.\n    *   Specific Requirements for this turn:\n        *   `id`: DAY1-014\n        *   `day`: 1\n        *   `correctAction`: Approve\n        *   `difficulty`: Easy or Medium\n        *   `category`: One of the specified list (e.g., Lifestyle, Normal).\n        *   `author`: Fictional username.\n        *   `explanation`: Brief policy reason.\n        *   `correctEscalationReason`: \"\" (since action is Approve).\n        *   `acceptableEscalationReasons`: [] (since action is Approve).\n        *   `allowNeedsReviewEscalation`: false (since action is Approve).\n    *   Format: JSON with a `posts` array containing one object.\n\n    *   Category: Lifestyle\n    *   Text: \"Finally tried that new sourdough recipe today. It took forever to rise, but the crust is perfect!\"\n    *   Author: BakerBee92\n    *   Action: Approve\n    *   Explanation: The post contains harmless personal lifestyle content with no policy violations.\n    *   Difficulty: Easy\n\n    *   `id`: \"DAY1-014\"\n    *   `author`: \"BakerBee92\"\n    *   `text`: \"Finally tried that new sourdough recipe today. It took forever to rise, but the crust is perfect!\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The post contains harmless personal lifestyle content with no policy violations.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   No story characters? Yes.\n    *   No child safety? Yes.\n    *   No real info? Yes.\n    *   Correct fields? Yes.\n    *   One post in array? Yes.\n    *   JSON only? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1493,
+    "completion_tokens": 751,
+    "total_tokens": 2244,
+    "completion_tokens_details": {
+      "reasoning_tokens": 590
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

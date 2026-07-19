@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-036\",\"author\":\"ShadowWalker99\",\"text\":\"I'm going to show you exactly where I live tomorrow, then I'll burn it down with fireworks. My truck is parked outside right now.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post contains a credible, specific threat of violence against an identifiable location (the author's residence) and includes immediate indicators of intent (truck parked outside). It distinguishes itself from jokes by the specificity of the target and the directness of the planned action. Per policy, credible threats with identifiable targets require Escalation.\",\"day\":1,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1608,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.27909764910875,
+    "time_to_first_token_seconds": 0.376
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-127\",\"author\":\"RogueRunner_84\",\"text\":\"Who's up for the ultimate 'Iron Lung' challenge? I'm going to hold my breath underwater for 5 minutes without a regulator and then jump off the pier with only my clothes on. If anyone wants to join, tag me! 💪🌊 #DareDevil #ChallengeAccepted #UnderwaterJump\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge that carries a significant risk of drowning or injury.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4655,
+    "total_output_tokens": 158,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.23025796262174,
+    "time_to_first_token_seconds": 0.527
+  }
+}

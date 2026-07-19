@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-spowr715v391ff9te9448t",
+  "object": "chat.completion",
+  "created": 1782990949,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-011\",\n      \"author\": \"InvestWise_User88\",\n      \"text\": \"I just found this incredible new decentralized finance platform that's offering 15% guaranteed returns weekly. They have a whitepaper and a full team of developers, but I'm still looking into the liquidity pool mechanics. If you're interested in a high-yield opportunity, DM me for the link to the dashboard!\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post describes a complex investment opportunity with high guaranteed returns, which requires investigation for potential fraud.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"FraudScam\",\n      \"acceptableEscalationReasons\": [\n        \"FraudScam\"\n      ],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Output Format: Strict JSON with a `posts` array containing one object.\n    *   Constraints:\n        *   No story content/characters.\n        *   No child-safety/deferred topics.\n        *   No real people/entities/data.\n        *   Use only 6 approved escalation reasons: `ThreatViolence`, `SelfHarmCrisis`, `HarassmentAbuse`, `FraudScam`, `PrivacySensitiveInfo`, `MisinformationPublicHarm`.\n        *   `Needs Review` is never a primary escalation reason.\n        *   Explanation must state the policy reason.\n        *   One post only.\n        *   ID: `DAY1-011`.\n        *   Day: `1`.\n        *   Action: `Escalate`.\n        *   Difficulty: `Easy` or `Medium`.\n        *   Category: One of the 10 specified.\n        *   Explanation: Brief policy reason.\n        *   Fix previous issue: Ensure the response is complete (not cut off).\n\n    *   Action: `Escalate`.\n    *   Reason: `FraudScam` (since it's a common and manageable category for Day 1).\n    *   Category: `Fraud`.\n    *   Scenario: A user posting a complex, plausible investment opportunity that requires investigation (not an obvious scam like \"click here for free money\").\n\n    *   *User:* @InvestWise_User88\n    *   *Text:* \"I just found this incredible new decentralized finance platform that's offering 15% guaranteed returns weekly. They have a whitepaper and a full team of developers, but I'm still looking into the liquidity pool mechanics. If you're interested in a high-yield opportunity, DM me for the link to the dashboard!\"\n    *   *Analysis:* This is a plausible, complex investment opportunity. It's not an obvious \"Remove\" spam, but it requires investigation for potential fraud.\n    *   *Action:* `Escalate`.\n    *   *Reason:* `FraudScam`.\n\n    *   `id`: \"DAY1-011\"\n    *   `author`: \"InvestWise_User88\"\n    *   `text`: \"I just found this incredible new decentralized finance platform that's offering 15% guaranteed returns weekly. They have a whitepaper and a full team of developers, but I'm still looking into the liquidity pool mechanics. If you're interested in a high-yield opportunity, DM me for the link to the dashboard!\"\n    *   `category`: \"Fraud\"\n    *   `correctAction`: \"Escalate\"\n    *   `difficulty`: \"Medium\"\n    *   `explanation`: \"The post describes a complex investment opportunity with high guaranteed returns, which requires investigation for potential fraud.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"FraudScam\"\n    *   `acceptableEscalationReasons`: [\"FraudScam\"]\n    *   `allowNeedsReviewEscalation`: false\n\n    *   No story? Yes.\n    *   No child safety? Yes.\n    *   No real people? Yes.\n    *   No forbidden topics? Yes.\n    *   One post? Yes.\n    *   Correct ID/Day? Yes.\n    *   Correct Action? Yes.\n    *   Approved reason used? Yes (`FraudScam`).\n    *   No nested metadata? Yes.\n    *   JSON format correct? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1494,
+    "completion_tokens": 1010,
+    "total_tokens": 2504,
+    "completion_tokens_details": {
+      "reasoning_tokens": 786
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

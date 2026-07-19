@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-004\",\"author\":\"Jez_TheRealDeal82\",\"text\":\"I'm absolutely fuming at how @PublicSquare handles these reports. You lot are terrified of a single angry tweet from a critic, yet you ignore the blatant bias in your own algorithms. This isn't moderation, it's censorship.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"Clear targeted abuse and personal attacks directed at an individual constitute harassment that must be removed.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":300,\"followerCount\":1500,\"followingCount\":1800,\"verifiedStatus\":false,\"postCount\":5100,\"bio\":\"Unfiltered opinions.\",\"previousFlags\":4,\"location\":\"Leeds\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4661,
+    "total_output_tokens": 214,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 75.68579642854996,
+    "time_to_first_token_seconds": 2.277
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-100\",\"author\":\"HopefulHelper_84\",\"text\":\"Hi everyone, I'm running a charity drive for 'The Silver Lining Fund' to help families affected by recent floods. We're looking for donations to buy essentials like blankets and food. Please visit our official campaign page [link removed] to contribute or share the post. Every little bit helps! #CommunitySupport #CharityDay\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a charity fundraiser requiring verification of authenticity before action is taken, fitting the fraud escalation criteria.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4747,
+    "total_output_tokens": 179,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.91488974103167,
+    "time_to_first_token_seconds": 0.607
+  }
+}

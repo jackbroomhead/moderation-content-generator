@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-x1l3vnrtga96eb2lnw8",
+  "object": "chat.completion",
+  "created": 1782846673,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-009\",\n      \"day\": 1,\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Lifestyle\",\n      \"text\": \"Finally tried making homemade sourdough bread this weekend. It took forever to get the rise right, but the crust is perfectly crunchy!\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"tags\": [\n        \"baking\",\n        \"sourdough\",\n        \"weekendvibes\"\n      ],\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"explanation\": \"The post is a harmless personal update about a hobby and does not violate any platform policies.\"\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Goal: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraint 1: No story content/recurring characters.\n    *   Constraint 2: No child-safety or deferred topics.\n    *   Constraint 3: Use only approved parent escalation reasons (for Escalate).\n    *   Constraint 4: `Needs Review` is not a primary reason.\n    *   Constraint 5: No real people/info.\n    *   Constraint 6: Explanations must state the policy reason.\n    *   Constraint 7: Output exactly one post in a JSON array.\n    *   Constraint 8: Specific schema requirements (id, day, correctAction, difficulty, category, etc.).\n    *   Constraint 9: For `Approve`, `correctEscalationReason` is \"\", `acceptableEscalationReasons` is [], `allowNeedsReviewEscalation` is false.\n\n    *   ID: DAY1-009\n    *   Day: 1\n    *   Correct Action: Approve\n    *   Difficulty: Easy\n    *   Category: Lifestyle\n    *   Text: Something harmless like a recipe or a hobby.\n    *   Explanation: The content is a harmless personal hobby post with no policy violations.\n\n    *   `id`: \"DAY1-009\"\n    *   `day`: 1\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Lifestyle\"\n    *   `text`: \"Finally tried making homemade sourdough bread this weekend. It took forever to get the rise right, but the crust is perfectly crunchy!\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `previousFlags`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"\"\n    *   `tags`: [\"baking\", \"sourdough\", \"weekendvibes\"]\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `explanation`: \"The post is a harmless personal update about a hobby and does not violate any platform policies.\"\n\n    *   No story characters? Yes.\n    *   No child safety? Yes.\n    *   No real people/orgs? Yes.\n    *   No nested metadata? Yes.\n    *   One post in array? Yes.\n    *   CorrectAction = Approve? Yes.\n    *   CorrectEscalationReason = \"\"? Yes.\n    *   AcceptableEscalationReasons = []? Yes.\n    *   AllowNeedsReviewEscalation = false? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1412,
+    "completion_tokens": 833,
+    "total_tokens": 2245,
+    "completion_tokens_details": {
+      "reasoning_tokens": 611
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

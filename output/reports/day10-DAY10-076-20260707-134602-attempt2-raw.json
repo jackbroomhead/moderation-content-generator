@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-076\",\n      \"author\": \"MossyPathWanderer\",\n      \"text\": \"@GardenOfDelights @WildernessGuide_92 @BellmereHiker stop messaging me. I've blocked you all three times now and you keep slipping through somehow. You're posting comments on every single photo I upload and sending DMs telling me to delete my account because I'm \\\"obsessed\\\" with nature. It's getting ridiculous.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The user reports sustained, repeated unwanted contact and coordinated brigading across multiple accounts, indicating a need for specialist investigation.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"HarassmentAbuse\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 905,\n      \"followerCount\": 14780,\n      \"followingCount\": 720,\n      \"verifiedStatus\": false,\n      \"postCount\": 3650,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 0,\n      \"location\": \"Dunmere\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3714,
+    "total_output_tokens": 354,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.25546040923099,
+    "time_to_first_token_seconds": 0.398
+  }
+}

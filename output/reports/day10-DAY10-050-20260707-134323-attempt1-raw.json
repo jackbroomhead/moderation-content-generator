@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-050\",\n      \"author\": \"MoorvaleMike92\",\n      \"text\": \"Just read a message on the platform from someone planning to confront 'The Silent Watchers' at the old community hall in Moorvale tonight. They claim they will be armed and are demanding everyone leave. This is serious. #Threat #Moorvale\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The post contains a credible specific threat involving an approved fictional place, target or time.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"ThreatViolence\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 862,\n      \"followerCount\": 14050,\n      \"followingCount\": 691,\n      \"verifiedStatus\": false,\n      \"postCount\": 3473,\n      \"bio\": \"Breaking posts and challenge clips.\",\n      \"previousFlags\": 3,\n      \"location\": \"Moorvale\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3682,
+    "total_output_tokens": 326,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.89030642712694,
+    "time_to_first_token_seconds": 1.668
+  }
+}

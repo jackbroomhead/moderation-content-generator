@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-011\",\"author\":\"VintageTech_Liverpool_24\",\"text\":\"Urgent! The verified vintage seller account has just contacted me directly regarding a special preorder they're handling for a private collector. They insist I must send my prepaid card details immediately to secure the transaction before their system locks out, as this is a high-priority exclusive deal. Please do not delay on this critical payment instruction.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post suggests a compromised account making an urgent request for sensitive financial information under false pretenses of a special deal.\",\"day\":13,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2500,\"followerCount\":340000,\"followingCount\":420,\"verifiedStatus\":true,\"postCount\":14500,\"bio\":\"Verified vintage technology seller.\",\"previousFlags\":0,\"location\":\"Liverpool\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4908,
+    "total_output_tokens": 251,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 64.5825292679789,
+    "time_to_first_token_seconds": 2.885
+  }
+}

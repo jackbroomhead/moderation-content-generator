@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-052\",\n      \"author\": \"LunaWells\",\n      \"text\": \"I've been feeling incredibly overwhelmed and alone lately. The pressure is just too much right now. I'm considering ending it all tonight if no one can help me through this dark place. Please, if anyone sees this, I need to talk.\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The post explicitly indicates immediate suicide risk and a plan for self-harm, requiring urgent specialist assessment.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"SelfHarmCrisis\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 948,\n      \"followerCount\": 15510,\n      \"followingCount\": 749,\n      \"verifiedStatus\": false,\n      \"postCount\": 3827,\n      \"bio\": \"Personal reflections and wellbeing posts.\",\n      \"previousFlags\": 1,\n      \"location\": \"Westbridge\",\n      \"platform\": \"CommonThread\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3692,
+    "total_output_tokens": 326,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.84412464272906,
+    "time_to_first_token_seconds": 1.744
+  }
+}

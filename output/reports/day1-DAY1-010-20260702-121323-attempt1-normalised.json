@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-010",
+      "author": "User_8821",
+      "text": "You are a complete moron and everyone in this group thinks you're a joke. Why do you even bother posting here?",
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "The post contains direct targeted insults and bullying, which violates the harassment policy.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

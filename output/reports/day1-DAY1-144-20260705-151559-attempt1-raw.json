@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-144\",\"author\":\"StationWatch_UK\",\"text\":\"Just read the official notice regarding the temporary closure of the Northbridge station for scheduled track maintenance next week. All passengers are advised to check alternative routes on the app. 🚉 #PublicInfo\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"Benign public information sharing about transport updates is allowed.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4810,
+    "total_output_tokens": 161,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.69315826573661,
+    "time_to_first_token_seconds": 2.011
+  }
+}

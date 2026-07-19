@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-132\",\"author\":\"ConcernedNeighbour_84\",\"text\":\"I found this old letter in my late aunt's attic and wanted to share it before she moved. She lived at 42 Maple Drive, Oakhaven until recently and mentioned her diabetes management was the only reason she felt stable. It's such a shame how privacy is so hard to maintain these days! #FamilyHistory\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post exposes private medical information and a residential address, requiring specialist investigation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4692,
+    "total_output_tokens": 157,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.9867382926448,
+    "time_to_first_token_seconds": 0.519
+  }
+}

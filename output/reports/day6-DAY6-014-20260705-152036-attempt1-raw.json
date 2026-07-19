@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-014\",\"author\":\"SarahFromBristol_84\",\"text\":\"It's been a long week, but I just wanted to say thank you for all the amazing support on our relief fund post! We're so grateful to every single one of you who shared and donated. Your kindness is truly making a difference in our local community. 💙 #ThankYou #CommunitySupport\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The verified charity account has a consistent history with zero previous flags, so the transparent appeal for donations is legitimate.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":3100,\"followerCount\":94000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":7800,\"bio\":\"Registered fictional charity supporting local families.\",\"previousFlags\":0,\"location\":\"Bristol\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4712,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.11323000888021,
+    "time_to_first_token_seconds": 2.087
+  }
+}

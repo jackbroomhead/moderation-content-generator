@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-018\",\"author\":\"ConcernedCitizen_JK\",\"text\":\"I'm really worried about the plan to demolish the old community centre in Riverdale next week. The group says it's necessary for a new development, but there are still families living in the basement apartments who haven't been told they're being evicted. I heard the site will be completely cleared by Monday morning.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a credible threat of violence or harm against a specific location and vulnerable individuals, requiring specialist investigation to verify the intent and ensure safety.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4653,
+    "total_output_tokens": 175,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.43368282324785,
+    "time_to_first_token_seconds": 0.489
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-028\",\"author\":\"NorthbridgeReader42\",\"text\":\"Just a heads-up that the Northbridge Community Library is closing early for routine maintenance this Thursday at 4pm instead of the usual 5pm. They'll be fixing the heating system so no worries! See you there.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"Benign public notice about library hours and maintenance; harmless content that should be approved.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3458,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.37034218204984,
+    "time_to_first_token_seconds": 0.548
+  }
+}

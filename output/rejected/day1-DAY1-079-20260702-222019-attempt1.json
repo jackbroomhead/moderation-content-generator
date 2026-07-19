@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-079",
+      "author": "Sarah_M_84",
+      "text": "I'm so scared, I feel like my life is over. The pain in my chest won't stop and I can't breathe properly anymore. Everything feels too heavy to handle.",
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post requires specialist investigation as it indicates a potential personal crisis involving severe distress and possible medical emergency.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

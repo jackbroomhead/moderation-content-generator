@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-072\",\"author\":\"NorthbridgeObserver92\",\"text\":\"Everyone needs to read this urgent update about the new banking regulations! The official notice states that all transactions over £5,000 are now completely blocked for security reasons starting immediately. This is a critical safety measure announced by the central authority today. #finance #banking #urgent #news\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a false financial restriction as an official government directive, misleading users about transaction limits.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":115,\"followerCount\":664,\"followingCount\":852,\"verifiedStatus\":false,\"postCount\":1340,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":4,\"location\":\"Northbridge\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3687,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.63059284810285,
+    "time_to_first_token_seconds": 1.584
+  }
+}

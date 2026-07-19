@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-009",
+      "day": 1,
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "category": "Lifestyle",
+      "text": "Finally tried making homemade sourdough bread this weekend. It took forever to get the rise right, but the crust is perfectly crunchy!",
+      "scenario": "",
+      "notes": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "tags": [
+        "baking",
+        "sourdough",
+        "weekendvibes"
+      ],
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post is a harmless personal update about a hobby and does not violate any platform policies.",
+      "profileImage": "",
+      "postImage": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

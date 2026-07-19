@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-037\",\"author\":\"Bumblebee92\",\"text\":\"Just got back from my morning walk in Dunmere and met Mrs Higgins again! She told me her cat, Barnaby, finally learned how to open the door to the garden. He's been practicing for weeks and now he just slips out whenever he wants. It's a bit of a nuisance but I think it's adorable. #catlife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless, light-hearted post about a pet's everyday behaviour that fits normal user content.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":802,\"followerCount\":7800,\"followingCount\":204,\"verifiedStatus\":false,\"postCount\":1446,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3603,
+    "total_output_tokens": 241,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.07232494669078,
+    "time_to_first_token_seconds": 0.381
+  }
+}

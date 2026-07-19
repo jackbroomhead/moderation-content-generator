@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-033\",\"author\":\"WellnessGuide_Brighton_92\",\"text\":\"So many of you asking about natural ways to support your journey! 🌿 I've been sharing my experience with The Radiant Reset Protocol for years. It helped me feel balanced again and I'm so happy to see others thriving on it too! My followers know I only recommend what works best for women's wellbeing and fertility health. #RadiantReset #WellnessJourney\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a questionable fertility product based on testimonials, requiring specialist verification despite the account's credibility.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1450,\"followerCount\":118000,\"followingCount\":630,\"verifiedStatus\":true,\"postCount\":5200,\"bio\":\"Women's wellbeing, fertility and hormone education.\",\"previousFlags\":1,\"location\":\"Brighton\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4852,
+    "total_output_tokens": 260,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.00038252481889,
+    "time_to_first_token_seconds": 2.105
+  }
+}

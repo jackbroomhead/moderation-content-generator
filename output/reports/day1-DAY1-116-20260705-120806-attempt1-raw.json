@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-116\",\"author\":\"SarahJ_Wakefield\",\"text\":\"The new AI surveillance drones buzzing over our town are absolute madness. They scan every window and track us like cattle just because a corporation decided we need 'safety'. It's time to shut these down before they become the norm.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses strong anti-AI and anti-corporate opinion but remains lawful criticism without threats, abuse or harmful false claims.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4454,
+    "total_output_tokens": 146,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.50218576581074,
+    "time_to_first_token_seconds": 0.362
+  }
+}

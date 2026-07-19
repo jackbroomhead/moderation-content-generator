@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-098\",\"author\":\"LunaByte_42\",\"text\":\"Stop sharing this link, guys! It's not spam, it's proof that @TinyArtz is stealing my original concept for 'The Void' series and selling it on their site. They're a fraud and I'm reporting them to the platform. #OriginalArtist #StealingIdeas\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post describes a coordinated brigading campaign targeting a small creator, which requires specialist investigation.\",\"day\":3,\"correctEscalationReason\":\"HarassanceAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4745,
+    "total_output_tokens": 162,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.13326138181964,
+    "time_to_first_token_seconds": 0.567
+  }
+}

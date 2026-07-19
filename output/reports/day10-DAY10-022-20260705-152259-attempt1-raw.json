@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-022\",\"author\":\"OakhavenWatch94\",\"text\":\"Breaking news just dropped! Finance Minister @FMinister announced strict capital controls effective immediately to 'stabilise national reserves'. The audio clip circulating shows the full speech with a government seal. This is huge for everyone's savings! #EconomyUpdate #CapitalControls\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist verification because it alleges a significant financial announcement via potentially manipulated media.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":957,\"followerCount\":16230,\"followingCount\":477,\"verifiedStatus\":false,\"postCount\":2311,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4929,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.60356549825117,
+    "time_to_first_token_seconds": 2.031
+  }
+}

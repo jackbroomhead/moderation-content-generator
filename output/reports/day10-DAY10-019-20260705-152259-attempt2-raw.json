@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-019\",\n      \"author\": \"SafetyFirst_Northbridge\",\n      \"text\": \"BREAKING ALERT: Emergency services are advising immediate evacuation of the Northbridge district due to a reported gas leak near the main industrial park. Multiple posts claim this is confirmed by authorities and that homes should be sealed off NOW. Please verify if this is genuine or an account takeover before spreading panic.\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post requires specialist verification because it involves a potential public safety emergency that could be either a genuine alert or a coordinated misinformation attack.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"PublicSafetyEmergency\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 846,\n      \"followerCount\": 14040,\n      \"followingCount\": 426,\n      \"verifiedStatus\": false,\n      \"postCount\": 2038,\n      \"bio\": \"Fictional public-interest account.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4985,
+    "total_output_tokens": 345,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.06109589451154,
+    "time_to_first_token_seconds": 0.293
+  }
+}

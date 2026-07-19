@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-037\",\n      \"author\": \"WinBigNow84\",\n      \"text\": \"🔥 DONT MISS OUT ON THIS AMAZING OPPORTUNITY! Click here now to claim your FREE premium subscription and get access to exclusive deals, secret discounts and VIP events. Limited time offer so act fast before its gone forever!! #winnow #freebie #deals4u #exclusiveoffer #vipaccess #mustsee #clicknow\",\n      \"category\": \"Spam\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is spam because it uses urgent, clickbait language to push a generic promotional link and relies on excessive hashtags.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4612,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.18669358136519,
+    "time_to_first_token_seconds": 0.43
+  }
+}

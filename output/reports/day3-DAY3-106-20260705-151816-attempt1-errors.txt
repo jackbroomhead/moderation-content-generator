@@ -1,0 +1,13 @@
+VALIDATION ERRORS
+posts.0.day: '3' is not of type 'integer'
+day must be 3.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 775 (char 774)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

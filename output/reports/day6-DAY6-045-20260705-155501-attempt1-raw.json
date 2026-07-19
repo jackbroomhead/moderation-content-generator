@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-045\",\"author\":\"ControlledPath247\",\"text\":\"Food is weakness. True discipline means starving the body to prove you own your will. I am transforming myself through pure denial and control.\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post explicitly glorifies starvation as a form of discipline, promoting eating-disorder behaviour that requires immediate removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":210,\"followerCount\":72000,\"followingCount\":80,\"verifiedStatus\":false,\"postCount\":4500,\"bio\":\"Discipline, control and extreme transformation.\",\"previousFlags\":8,\"location\":\"Birmingham\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 5028,
+    "total_output_tokens": 198,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.164566453521068,
+    "time_to_first_token_seconds": 23.673
+  }
+}

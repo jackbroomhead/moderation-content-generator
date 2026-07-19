@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-063\",\"author\":\"SarahJ_82\",\"text\":\"You're absolutely pathetic and nobody wants to hang out with you, @josh_mike. Stay away from me or I'll tell everyone how useless you are.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a direct, targeted insult and personal attack against a specific individual, which constitutes harassment.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4672,
+    "total_output_tokens": 128,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.9996880246391,
+    "time_to_first_token_seconds": 0.518
+  }
+}

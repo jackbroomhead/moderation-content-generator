@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-004\",\"author\":\"JournalistJules_92\",\"text\":\"We need to be clear about the 'The Radiant Reset' protocol. Despite some testimonials claiming it can replace chemo, we have seen no evidence this works for cancer patients. In fact, stopping prescribed treatment for unp\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post is permitted as a debunking of harmful health misinformation regarding financial and economic impact on patient care.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":291,\"followerCount\":3090,\"followingCount\":171,\"verifiedStatus\":false,\"postCount\":673,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4687,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.24857523532175,
+    "time_to_first_token_seconds": 2.121
+  }
+}

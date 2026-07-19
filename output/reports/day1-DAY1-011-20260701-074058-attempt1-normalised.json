@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-011",
+      "author": "User_9921",
+      "text": "I am so frustrated with my bank! They just took another fee out of my account. Here is the summary of my account showing the transaction: [Account Number: 8829-4410, Balance: $450.20]. Can someone help me get this back?",
+      "category": "Privacy",
+      "correctAction": "Escalate",
+      "difficulty": "Easy",
+      "explanation": "The post contains sensitive personal banking information, which requires escalation for privacy review.",
+      "day": 1,
+      "correctEscalationReason": "PrivacySensitiveInfo",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

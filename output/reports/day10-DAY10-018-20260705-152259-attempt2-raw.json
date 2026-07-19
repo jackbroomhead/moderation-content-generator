@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-018\",\"author\":\"SarahOakley_24\",\"text\":\"URGENT: Just spotted this post claiming our water supply in Oakhaven is contaminated and unsafe to drink! They've shared a blurry screenshot of a 'test result' but I can't read the numbers clearly. Could anyone verify if this is genuine or just panic spreading? #Oakhaven #WaterSafety\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist verification because the claim involves public safety and relies on an unclear screenshot.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":809,\"followerCount\":13310,\"followingCount\":409,\"verifiedStatus\":false,\"postCount\":1947,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4929,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.16002908078998,
+    "time_to_first_token_seconds": 0.289
+  }
+}

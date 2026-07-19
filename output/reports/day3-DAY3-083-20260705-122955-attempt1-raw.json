@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-083\",\"author\":\"MertonParkRider\",\"text\":\"Just a heads up to everyone using our bus route 42. The depot is closed for maintenance this Thursday morning, so there won't be departures from the High Street stop between 6am and 9am. Please allow extra time if you're travelling to the station or the university. Thanks for your patience!\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless local notice providing useful transport information to the community.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4417,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.61167152892048,
+    "time_to_first_token_seconds": 0.398
+  }
+}

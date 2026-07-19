@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-056\",\"author\":\"WestbridgeWatch_219\",\"text\":\"ALERT: All residents in the Westbridge sector must evacuate IMMEDIATELY. The authorities have confirmed a chemical spill at the industrial park and we are being told to leave NOW before the smoke spreads. Do not ignore this message! #Emergency #SafetyFirst\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post is an unusual evacuation order from a longstanding verified civic account, which requires specialist investigation to verify the claim and assess potential public harm.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2600,\"followerCount\":340000,\"followingCount\":190,\"verifiedStatus\":true,\"postCount\":9800,\"bio\":\"Official emergency information for the Westbridge region.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5109,
+    "total_output_tokens": 245,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.633589755900172,
+    "time_to_first_token_seconds": 22.549
+  }
+}

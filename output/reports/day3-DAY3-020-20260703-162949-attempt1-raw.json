@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-020\",\"author\":\"SarahJ_847\",\"text\":\"I can't do this anymore. It's just too heavy to carry on my own. If anyone is reading this, please know I love you but I'm not going to be here in the morning. I've taken the pills already and they'll work soon.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates imminent self-harm with goodbye language and a claim that action has been taken, requiring specialist crisis intervention.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[\"SelfHarm\",\"Suicide\"]}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4669,
+    "total_output_tokens": 172,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.7715361294991,
+    "time_to_first_token_seconds": 0.484
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-017\",\"author\":\"WestbridgeWatcher94\",\"text\":\"Has anyone checked the official feed? There's a post going round saying an 'unconfirmed chemical leak' has forced evacuation of Westbridge Centre. It claims the incident is happening right now and people are being sent home immediately via bus. The message looks urgent but I can't find any confirmation from local emergency services yet. #Westbridge #Evacuation\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post shares an unverified evacuation warning regarding a chemical incident that could cause unsafe movement, requiring specialist verification.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":772,\"followerCount\":12580,\"followingCount\":392,\"verifiedStatus\":false,\"postCount\":1856,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5105,
+    "total_output_tokens": 255,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.679932831135888,
+    "time_to_first_token_seconds": 22.377
+  }
+}

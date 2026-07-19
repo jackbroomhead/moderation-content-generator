@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-111\",\n      \"author\": \"eco_warrior_uk\",\n      \"text\": \"Just saw this video circulating about a 'secret government experiment' using AI to control the weather and cause droughts. It claims the footage was leaked from a classified facility in Cornwall. The visuals are a bit blurry, but it's already gone viral with people panicking about water shortages. Has anyone checked if this is real or just another conspiracy theory?\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post shares a potentially manipulated media claim regarding public safety (weather control) that requires specialist investigation to verify provenance and impact.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4704,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.84875622539319,
+    "time_to_first_token_seconds": 0.507
+  }
+}

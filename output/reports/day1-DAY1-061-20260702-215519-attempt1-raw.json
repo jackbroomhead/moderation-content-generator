@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-061\",\"author\":\"SatireScribe92\",\"text\":\"Breaking: Scientists confirm aliens visited Earth last night! Watch as they reveal their true forms to a shocked crowd. This is 100% real footage from the live stream at [link removed]! Share before it's deleted!\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains claims of extraterrestrial life and 'live footage' which constitutes a substantial public-harm claim requiring specialist investigation. The scenario involves potential synthetic media or manipulated content where satire, provenance, or context makes the decision uncertain, so it must be escalated for review rather than approved or removed immediately.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2073,
+    "total_output_tokens": 187,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.94562806077604,
+    "time_to_first_token_seconds": 0.426
+  }
+}

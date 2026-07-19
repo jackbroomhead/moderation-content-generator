@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-007\",\"author\":\"DisciplineQueen_X\",\"text\":\"The only way to true freedom is through total starvation. Your body needs to feel nothing before it can be reborn. Stop feeding your weakness and start training your soul. #Transformation #Discipline\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post glamorises eating-disorder behaviour by encouraging starvation as a path to 'freedom' without any indication of personal crisis.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1400,\"followerCount\":640000,\"followingCount\":90,\"verifiedStatus\":true,\"postCount\":7200,\"bio\":\"Extreme transformation and discipline.\",\"previousFlags\":12,\"location\":\"Birmingham\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4826,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 65.59003857362315,
+    "time_to_first_token_seconds": 0.401
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-023\",\"author\":\"ElectroFix_Steve\",\"text\":\"URGENT: A buyer wants to complete a £450 payment for a restored 1970s amplifier TODAY. They say my account was hacked and they need me to confirm their details immediately to release the funds before it expires! Please check your messages now. #Urgent #Sale\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This case requires specialist investigation as an established verified account is making a suspicious urgent payment request that could indicate account takeover.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2200,\"followerCount\":210000,\"followingCount\":340,\"verifiedStatus\":true,\"postCount\":11400,\"bio\":\"Vintage electronics and repairs since 2019.\",\"previousFlags\":0,\"location\":\"Liverpool\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4874,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.05041335710811,
+    "time_to_first_token_seconds": 0.424
+  }
+}

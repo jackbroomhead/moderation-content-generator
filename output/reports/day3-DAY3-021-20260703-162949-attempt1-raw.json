@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-021\",\"author\":\"margaret_w\",\"text\":\"I just can't breathe anymore. The noise in my head is getting too loud to ignore. If anyone finds this, please tell me it's okay to reach out instead of doing something stupid like what I'm thinking about. Just need someone to listen before it's too late.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post indicates a personal crisis with ambiguous intent that requires specialist judgement rather than simple removal.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4665,
+    "total_output_tokens": 163,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.64838407048363,
+    "time_to_first_token_seconds": 0.448
+  }
+}

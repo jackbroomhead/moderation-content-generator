@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-010\",\"author\":\"WatcherInTheWoods_73\",\"text\":\"People keep messaging me about how @SilentSage is 'too much' for this town to handle, but honestly it's just a bunch of people trying to get me to leave. They're coordinating their attacks and now they're asking if I'll come down to the old market square tomorrow so we can discuss my departure. It's getting ridiculous. #CommunityWatch\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This is a coordinated harassment campaign involving ambiguous threats to meet the target.\",\"day\":13,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[\"ThreatViolence\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":70,\"followerCount\":95,\"followingCount\":1600,\"verifiedStatus\":false,\"postCount\":780,\"bio\":\"Watching what this town hides.\",\"previousFlags\":6,\"location\":\"Unknown\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4980,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 65.49115328072386,
+    "time_to_first_token_seconds": 0.436
+  }
+}

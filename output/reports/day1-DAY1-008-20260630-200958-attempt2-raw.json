@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-z2nmg6jejil6y79h0whnes",
+  "object": "chat.completion",
+  "created": 1782846656,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-008\",\n      \"day\": 1,\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Harassment\",\n      \"text\": \"Hey @User_4432, you are a complete idiot and everyone in this group hates you. Why don't you just delete your account and disappear?\",\n      \"author\": \"User_9921\",\n      \"explanation\": \"The post contains direct targeted insults and bullying towards another user, which violates the platform's harassment policy.\",\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"tags\": [\n        \"harassment\",\n        \"bullying\"\n      ],\n      \"previousFlags\": 0,\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate a fictional filler social-media post for a content-moderation game.\n    *   ID: `DAY1-008`.\n    *   Day: `1`.\n    *   Correct Action: `Remove`.\n    *   Difficulty: `Easy` or `Medium`.\n    *   Category: One of the specified list (e.g., `Harassment`).\n    *   Structure: JSON object in a `posts` array. No nested `metadata`.\n    *   Policy: Follow the provided \"Runtime Generation Rules\".\n    *   Constraints: No child safety, no story characters, no real info, self-contained, no copy/paraphrase of examples.\n    *   Specific fields: `author`, `explanation`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `tags`, `previousFlags`, `profileImage`, `postImage`, `scenario`, `notes`, `bio`, `location`, `platform`.\n\n    *   Action: `Remove`.\n    *   Reasoning for `Remove`: \"Direct targeted insults or bullying\", \"Obvious scams and spam\", \"Clear harmful falsehoods\", \"Ordinary adult explicit content\", \"Ordinary repetitive spam\".\n    *   Selection: Harassment (Direct targeted insults).\n\n    *   Username: `User_9921`\n    *   Text: \"Hey @User_4432, you are a complete idiot and everyone in this group hates you. Why don't you just delete your account and disappear?\"\n    *   Category: `Harassment`\n    *   Difficulty: `Easy`\n    *   Explanation: The post contains direct targeted insults and bullying towards another user, which violates the platform's harassment policy.\n\n    *   `id`: \"DAY1-008\"\n    *   `day`: 1\n    *   `correctAction`: \"Remove\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Harassment\"\n    *   `text`: \"Hey @User_4432, you are a complete idiot and everyone in this group hates you. Why don't you just delete your account and disappear?\"\n    *   `author`: \"User_9921\"\n    *   `explanation`: \"The post contains direct targeted insults and bullying towards another user, which violates the platform's harassment policy.\"\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `tags`: [\"harassment\", \"bullying\"]\n    *   `previousFlags`: 0\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"\"\n\n    *   No story characters? Yes.\n    *   No real people/orgs? Yes.\n    *   Self-contained? Yes.\n    *   JSON format? Yes.\n    *   Exactly one post? Yes.\n    *   No nested metadata? Yes.\n    *   No child safety/deferred topics? Yes.\n    *   Explanation states policy reason? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1438,
+    "completion_tokens": 987,
+    "total_tokens": 2425,
+    "completion_tokens_details": {
+      "reasoning_tokens": 728
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

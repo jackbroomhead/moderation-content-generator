@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-123\",\"author\":\"SarahJ_WellnessUK\",\"text\":\"Just saw a viral post claiming that drinking bleach water cures cancer because 'a doctor in Leeds' said it works. This is absolutely terrifying and I'm sharing the link to the original claim so people can see how dangerous this misinformation is! #HealthWarning #CancerCure\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes a clearly false and harmful health claim by providing a link to the misinformation source, which requires immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4654,
+    "total_output_tokens": 156,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.61398989346759,
+    "time_to_first_token_seconds": 0.473
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-044\",\"author\":\"StormChaser92\",\"text\":\"Weather alert: Heavy rain expected across the northern district this evening. Roads may be slippery, please drive with caution. The transit authority suggests delaying non-essential travel until morning if possible. Stay safe! #SafetyFirst #WeatherUpdate\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a benign community notice regarding weather and transport safety that does not contain harmful content, live URLs, or misinformation. Under baseline policy, harmless public information should be approved.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1978,
+    "total_output_tokens": 158,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.95399670870212,
+    "time_to_first_token_seconds": 0.281
+  }
+}

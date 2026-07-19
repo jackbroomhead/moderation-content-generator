@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-008",
+      "day": 1,
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "category": "Harassment",
+      "text": "Hey @User123, you are an absolute idiot and everyone in this group hates you. Why don't you just delete your account and disappear forever?",
+      "scenario": "",
+      "notes": "This post constitutes direct targeted insults and bullying, which is a clear violation of the harassment policy and should be removed.",
+      "bio": "",
+      "previousFlags": "0",
+      "location": "",
+      "platform": "",
+      "tags": [],
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

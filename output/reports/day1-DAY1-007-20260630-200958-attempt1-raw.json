@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-bgrv0x7hr3pwy5211j8q6d",
+  "object": "chat.completion",
+  "created": 1782846598,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"day\": 1,\n      \"text\": \"Just finished my first sourdough loaf! It's a bit crusty on one side, but it tastes amazing. Anyone have tips for a smoother crust next time?\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"tags\": [\n        \"baking\",\n        \"sourdough\",\n        \"hobby\"\n      ]\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraints:\n        *   JSON format only.\n        *   No story content/recurring characters.\n        *   No child-safety or deferred topics.\n        *   Use only approved escalation reasons.\n        *   `Needs Review` is not a primary reason.\n        *   No real-world entities (people, orgs, etc.).\n        *   One post in the `posts` array.\n        *   `id`: DAY1-007.\n        *   `day`: 1.\n        *   `correctAction`: Approve.\n        *   `difficulty`: Easy or Medium.\n        *   `category`: One of the specified list (Normal, Lifestyle, etc.).\n        *   `correctEscalationReason`: \"\" (since action is Approve).\n        *   `acceptableEscalationReasons`: [] (since action is Approve).\n        *   `allowNeedsReviewEscalation`: false (since action is Approve).\n        *   No nested `metadata`.\n        *   Self-contained evidence.\n\n    *   Category: `Lifestyle`.\n    *   Content: A simple, harmless post about a hobby or daily life.\n    *   Example: \"Just finished my first sourdough loaf! It's a bit crusty on one side, but it tastes amazing.\"\n    *   Difficulty: Easy.\n    *   Action: Approve.\n\n    *   `id`: \"DAY1-007\"\n    *   `day`: 1\n    *   `text`: \"Just finished my first sourdough loaf! It's a bit crusty on one side, but it tastes amazing.\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `previousFlags`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"\"\n    *   `tags`: []\n\n    *   No nested metadata? Yes.\n    *   One post in array? Yes.\n    *   Correct action/reason logic? Yes.\n    *   No real people/orgs? Yes.\n    *   No forbidden topics? Yes.\n    *   Self-contained? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1393,
+    "completion_tokens": 805,
+    "total_tokens": 2198,
+    "completion_tokens_details": {
+      "reasoning_tokens": 587
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

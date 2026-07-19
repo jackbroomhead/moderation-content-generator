@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-003\",\"author\":\"NorthbridgeAlerts_24\",\"text\":\"We need to be clear about the emergency service update regarding evacuations. Despite some social media posts claiming there is an immediate danger, official sources have stated this is false and residents should not panic or leave their homes unless instructed. Please share this correction.\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post correctly debunks a harmful evacuation rumour using verified public safety information, so it does not violate policy.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":254,\"followerCount\":2360,\"followingCount\":154,\"verifiedStatus\":false,\"postCount\":582,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4646,
+    "total_output_tokens": 223,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.67079930376892,
+    "time_to_first_token_seconds": 2.09
+  }
+}

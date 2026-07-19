@@ -1,0 +1,33 @@
+{
+  "max_batches_total": 3,
+  "retry_failed_batch_once": true,
+  "restore_original_config": true,
+  "unload_models_on_finish": true,
+  "resume_existing_checkpoints_for_first_profile": false,
+  "profiles": [
+    {
+      "name": "metadata",
+      "enabled": true,
+      "blueprint_file": "20 - Day 6-9 Metadata Blueprint.json",
+      "target_day": 6,
+      "count": 25,
+      "batches": 1
+    },
+    {
+      "name": "specialist-misinformation",
+      "enabled": true,
+      "blueprint_file": "21 - Day 10-12 Specialist Misinformation Blueprint.json",
+      "target_day": 10,
+      "count": 25,
+      "batches": 1
+    },
+    {
+      "name": "hard-cases",
+      "enabled": true,
+      "blueprint_file": "22 - Day 13 Plus Hard Cases Blueprint.json",
+      "target_day": 13,
+      "count": 25,
+      "batches": 1
+    }
+  ]
+}

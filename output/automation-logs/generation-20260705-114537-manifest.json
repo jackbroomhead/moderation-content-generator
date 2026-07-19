@@ -1,0 +1,20 @@
+﻿{
+    "status":  "completed",
+    "finishedAt":  "2026-07-05T11:48:08",
+    "results":  [
+                    {
+                        "profile":  "basic-triage",
+                        "batch":  1,
+                        "success":  true,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day1-pilot-20260705-114539.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day1-pilot-20260705-114539-validation.txt"
+                    },
+                    {
+                        "profile":  "escalation-reasons",
+                        "batch":  1,
+                        "success":  true,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day3-pilot-20260705-114652.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260705-114652-validation.txt"
+                    }
+                ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-039\",\n      \"author\": \"JemHolt7\",\n      \"text\": \"Honestly, trying to get my boss to approve a small budget for the team's new plant pots is taking ages. She keeps saying 'wait until next quarter' but we could have done it last month! Just want everyone to be happy at work. #worklife #officehumour\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post expresses mild frustration regarding a workplace request but contains no abuse, private information, or safety concerns.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 996,\n      \"followerCount\": 10300,\n      \"followingCount\": 242,\n      \"verifiedStatus\": false,\n      \"postCount\": 1868,\n      \"bio\": \"Everyday thoughts, hobbies and local life.\",\n      \"previousFlags\": 1,\n      \"location\": \"Oakhaven\",\n      \"platform\": \"PublicSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3706,
+    "total_output_tokens": 331,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.42428527638278,
+    "time_to_first_token_seconds": 1.693
+  }
+}

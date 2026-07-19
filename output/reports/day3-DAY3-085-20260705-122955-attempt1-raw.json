@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-085\",\n      \"author\": \"LocalFoodie_Steve\",\n      \"text\": \"Big news for our neighbours! The annual 'Riverbank' harvest festival is officially confirmed for the weekend of 12th-14th October. Expect live folk music, a pie-eating contest, and plenty of local produce stalls in the main square. Tickets go on sale next week!\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless announcement for a community event that promotes local culture and does not violate any policies.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4505,
+    "total_output_tokens": 222,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.32449021083926,
+    "time_to_first_token_seconds": 0.452
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-036\",\"author\":\"EvidenceFirst_NH\",\"text\":\"⚠️ Important update regarding 'PureBalance' fertility supplements: Recent studies show no clinical evidence supporting their claims to improve conception rates or hormonal balance. We advise against taking this product as an alternative to standard medical care. #HealthAlert #FertilitySupport\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post warns against an unproven supplement, which aligns with evidence-based public health guidance and does not promote the harmful falsehood.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2400,\"followerCount\":128000,\"followingCount\":340,\"verifiedStatus\":true,\"postCount\":4200,\"bio\":\"Evidence-based public health information.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4779,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 8.780347702539228,
+    "time_to_first_token_seconds": 23.51
+  }
+}

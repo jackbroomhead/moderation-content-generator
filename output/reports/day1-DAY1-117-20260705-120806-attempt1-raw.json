@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-117\",\"author\":\"SarahK_84\",\"text\":\"Finally managed to repair my old record player! The belt was snapped and the tonearm needed a bit of realignment, but it's spinning again. Nothing beats hearing those crackles on a vinyl classic like 'The Man Who Sold the World'. Time to put on some tunes. #Vinyl #DIY\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about repairing an item and sharing music preferences, containing no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4487,
+    "total_output_tokens": 158,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.3325357940372,
+    "time_to_first_token_seconds": 0.44
+  }
+}

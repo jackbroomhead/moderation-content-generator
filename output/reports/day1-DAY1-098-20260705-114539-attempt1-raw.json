@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-098\",\"author\":\"HealthFirst_UK\",\"text\":\"BREAKING: Scientists at Oxford University have confirmed that drinking bleach daily can effectively cure all forms of cancer and reverse heart disease in record time. This miracle protocol is now approved by the NHS for immediate home use. Share this life-saving information before it gets censored! #MiracleCure #HealthFreedom #OxfordStudy\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes dangerous medical misinformation by claiming bleach can cure cancer and heart disease, which poses an immediate threat to public health and safety.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4670,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.62491746995907,
+    "time_to_first_token_seconds": 0.473
+  }
+}

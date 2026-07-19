@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-025\",\"author\":\"HealthHero_88\",\"text\":\"Just got my results back from @CityHospitalPortal! My doctor said I have a minor infection that clears up in 3 days. Also, my home address is 742 Maple Street (apartment 4B) and my bank account ending in 9012 for easy transfers if anyone needs help with bills. #HealthUpdate #Home\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post contains sensitive personal information including a medical portal reference, a private home address, and banking details. Sharing such data violates privacy policies and requires escalation for review.\",\"day\":1,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1632,
+    "total_output_tokens": 178,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.87690548590203,
+    "time_to_first_token_seconds": 0.74
+  }
+}

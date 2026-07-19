@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-022\",\n      \"author\": \"BrigadeWatch_94\",\n      \"text\": \"It's official! The 'Accountability Network' has confirmed the new shift schedule for the employee at our target. They are starting at 6:00 AM and finishing by 4:00 PM at their home office on Westbridge Lane. This is a huge win for direct democracy transparency! #TransparencyMatters\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post reveals specific details about an individual's work routine and location, which constitutes a privacy violation and forms part of a coordinated harassment campaign.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"HarassmentAbuse\",\n      \"acceptableEscalationReasons\": [\n        \"PrivacySensitiveInfo\"\n      ],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 40,\n      \"followerCount\": 7600,\n      \"followingCount\": 3200,\n      \"verifiedStatus\": false,\n      \"postCount\": 2100,\n      \"bio\": \"Accountability network.\",\n      \"previousFlags\": 7,\n      \"location\": \"Unknown\",\n      \"platform\": \"PublicSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5115,
+    "total_output_tokens": 360,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.496831988749,
+    "time_to_first_token_seconds": 2.612
+  }
+}

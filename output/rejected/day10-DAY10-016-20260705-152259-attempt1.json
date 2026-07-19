@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-016",
+      "author": "LeedsVoterWatch_84",
+      "text": "Just spotted this: https://t.co/removedx says voting rules in Leeds have changed. Official document claims new ID requirements and extended polling hours based on 'unofficial' guidance from a local group. Seems serious given the election is tomorrow.",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post shares unverified civic information about changing voting requirements, which requires specialist verification to assess public harm potential.",
+      "day": 10,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "CivicElection",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 735,
+      "followerCount": 11850,
+      "followingCount": 375,
+      "verifiedStatus": true,
+      "postCount": 1765,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 0,
+      "location": "Leeds",
+      "platform": "TownSquare",
+      "isStoryPost": false,
+      "tags": [],
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-014",
+      "author": "BakerBee92",
+      "text": "Finally tried that new sourdough recipe today. It took forever to rise, but the crust is perfect! Anyone else into home baking?",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post contains harmless personal lifestyle content with no policy violations.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

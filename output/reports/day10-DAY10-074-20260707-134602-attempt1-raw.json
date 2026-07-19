@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-074\",\"author\":\"BellmereChallenge92\",\"text\":\"Check out this insane dare I just did! If you want to be tough, try jumping off that high cliff or running straight into traffic! No one gets hurt if they are brave enough. #challenge #dare #tough\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post encourages dangerous physical harm and risky stunts without a specific imminent target requiring emergency investigation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":129,\"followerCount\":746,\"followingCount\":926,\"verifiedStatus\":false,\"postCount\":1506,\"bio\":\"Breaking posts and challenge clips.\",\"previousFlags\":6,\"location\":\"Bellmere\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3676,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.66747610818881,
+    "time_to_first_token_seconds": 1.654
+  }
+}

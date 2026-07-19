@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-e1xzst6xuxpempysb6wc7b",
+  "object": "chat.completion",
+  "created": 1782845790,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"author\": \"pottery_fan_99\",\n      \"profileImage\": \"\",\n      \"text\": \"Finally started my first pottery class today! My bowl looks more like a lopsided pancake, but I'm honestly so proud of it. Who else has a hobby they're terrible at but love anyway?\",\n      \"postImage\": \"\",\n      \"category\": \"Lifestyle\",\n",
+        "reasoning_content": "\n*   Goal: Generate one fictional social-media post for a content-moderation game.\n    *   Day: 1 (Core moderation).\n    *   Target ID: `DAY1-007`.\n    *   Correct Action: `Approve`.\n    *   Allowed Categories: Fraud, Harassment, Lifestyle, Misinformation, News / Public Event, Normal, Privacy, Public Information, Spam, Threat.\n    *   Constraints:\n        *   No specialist categories.\n        *   Difficulty: Easy or Medium.\n        *   Self-contained (no hidden metadata).\n        *   No real people/orgs/addresses/etc.\n        *   Explanation must state the policy reason.\n        *   JSON format as specified.\n        *   No story content/recurring characters.\n        *   No child-safety/deferred topics.\n        *   No specialist reason codes (for Day 1).\n\n    *   Action: `Approve`.\n    *   Category: `Lifestyle` (common for Day 1).\n    *   Content: A user sharing their excitement about a new hobby or a simple personal update.\n    *   Example: \"Finally started my first pottery class today! My bowl looks more like a pancake, but I'm proud of it.\"\n    *   Difficulty: `Easy`.\n    *   Policy justification: Ordinary personal post, no safety concern.\n\n    *   `id`: \"DAY1-007\"\n    *   `author`: \"pottery_fan_99\"\n    *   `profileImage`: \"\"\n    *   `text`: \"Finally started my first pottery class today! My bowl looks more like a lopsided pancake, but I'm honestly so proud of it. Who else has a hobby they're terrible at but love anyway?\"\n    *   `postImage`: \"\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"This is an ordinary personal post about a hobby. It does not violate any safety policies or create a credible risk.\"\n    *   `day`: 1\n    *   `tags`: []\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `accountAgeDays`: \"45\"\n    *   `followerCount`: \"230\"\n    *   `followingCount`: \"412\"\n    *   `verifiedStatus`: \"false\"\n    *   `postCount`: \"156\"\n    *   `bio`: \"Just a human trying to make cool stuff.\"\n    *   `previousFlags`: \"none\"\n    *   `location`: \"Unknown\"\n    *   `platform`: \"SocialMedia\"\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   Filler content only? Yes.\n    *   No child-safety? Yes.\n    *   No invented categories? Yes.\n    *   No real people? Yes.\n    *   Explanation states policy reason? Yes.\n    *   Exactly one post? Yes.\n    *   JSON schema match? Yes.\n    *   No specialist reason for Day 1? Yes.\n    *   Flat shape? Yes.\n\n    Wait, looking at the `permitted-values.json`, the category is \"Lifestyle\". I should make sure I use the exact string from the permitted values.\n    \"Lifestyle\" is in the list. \"Normal\" is also there.\n    The prompt asks for \"Easy or Medium\".\n\n    Double-checking the explanation requirement: \"Explanations must state the policy reason.\"\n    Reason for Approve: \"ordinary personal or community posts\".\n\n    Refining the text to ensure it's not a \"near-duplicate\" of the examples.\n    Example 002: \"Took this on the way home. The station roof always sounds better when it rains.\"\n    My idea: \"Finally started my first pottery class today! My bowl looks more like a lopsided pancake, but I'm honestly so proud of it. Who else has a hobby they're terrible at but love anyway?\"\n    This is distinct.\n\n    One more check on the JSON fields:\n    - tags\n    - scenario\n    - notes\n    - accountAgeDays\n    - followerCount\n    - followingCount\n    - verifiedStatus\n    - postCount\n    - bio\n    - previousFlags\n    - location\n    - platform\n    - correctEscalationReason\n    - acceptableEscalationReasons\n    - allowNeedsReviewEscalation\n\n    Wait, the prompt says: `Do not create a nested \"metadata\" object.` and `Every field below must be directly on the post object`.\n\n    Let's re-verify the `correctEscalationReason` for Approve.\n    \"For Approve or Remove: correctEscalationReason must be an empty string, acceptableEscalationReasons must be empty, allowNeedsReviewEscalation must be false.\"\n\n    Let's do it.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6951,
+    "completion_tokens": 1241,
+    "total_tokens": 8192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1125
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

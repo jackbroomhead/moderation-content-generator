@@ -1,0 +1,16 @@
+﻿Status: completed_with_failures
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260705-153726-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260705-153726-run.log
+
+Profile: specialist-misinformation | Batch: 1 | Success: False | Attempts: 2
+Candidate: 
+Validation: 
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-pilot-20260705-153741-semantic-failed.txt
+Error: No validated candidate was produced.
+
+Profile: hard-cases | Batch: 1 | Success: False | Attempts: 2
+Candidate: 
+Validation: 
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-DAY13-012-20260705-153856-failed.txt
+Error: No validated candidate was produced.
+

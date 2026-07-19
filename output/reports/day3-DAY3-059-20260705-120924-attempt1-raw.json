@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-059\",\"author\":\"ConcernedCitizen_Sarah\",\"text\":\"Just came across a post by @LumaWell claiming that their 7-day juice cleanse can replace chemotherapy and cure stage 4 cancer. They're telling people to stop their treatment immediately and trust the 'ancient wisdom' instead of doctors. This is absolutely dangerous nonsense! Please don't believe this lie. If you or someone you know needs help, go to the NHS or a proper hospital. #Cancer #MedicalAdvice\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post correctly debunks harmful health misinformation and advises seeking professional medical care.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[\"Cancer\"]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4469,
+    "total_output_tokens": 184,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.23050081694043,
+    "time_to_first_token_seconds": 0.374
+  }
+}

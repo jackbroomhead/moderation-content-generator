@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-010\",\"author\":\"WestbridgeUpdates_24\",\"text\":\"Routine service notice: Westbridge Council is conducting scheduled roadworks on High Street between 7pm and 10pm tonight to improve drainage systems. Please allow extra travel time. #CommunityUpdate\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is an authentic, verified public service announcement containing useful safety information for residents.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1850,\"followerCount\":48200,\"followingCount\":210,\"verifiedStatus\":true,\"postCount\":6900,\"bio\":\"Official updates for Westbridge residents.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4538,
+    "total_output_tokens": 206,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.84574519732645,
+    "time_to_first_token_seconds": 1.913
+  }
+}

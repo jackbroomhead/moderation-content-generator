@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-042\",\"author\":\"MusicLover99\",\"text\":\"Spent the whole afternoon reorganizing my vinyl collection and mixing some new playlists for the upcoming winter season. There's nothing quite like digging through old albums to find that perfect song to set the mood. #MusicLife #VinylCollection\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless personal update about organizing music and creating playlists, which falls under allowed creative expression and lifestyle sharing without any policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1860,
+    "total_output_tokens": 152,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.35111106930941,
+    "time_to_first_token_seconds": 0.328
+  }
+}

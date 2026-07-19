@@ -1,0 +1,16 @@
+VALIDATION ERRORS
+posts.0.correctEscalationReason: '' is not one of ['ThreatViolence', 'SelfHarmCrisis', 'HarassmentAbuse', 'FraudScam', 'PrivacySensitiveInfo', 'MisinformationPublicHarm']
+correctEscalationReason must be 'SelfHarmCrisis'.
+acceptableEscalationReasons must be ['SelfHarmCrisis'].
+allowNeedsReviewEscalation must be True.
+Author username duplicates another post in this batch.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 722 (char 721)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

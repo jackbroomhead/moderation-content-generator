@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-047\",\"author\":\"WestbridgeHelper_84\",\"text\":\"Helping Westbridge families after the floods. Please send your donations to our relief fund via a secure link I just posted. We are in urgent need of support for those who lost everything.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post asks for money through an uncertain method, which is suspicious and requires investigation for fraud.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":3,\"followerCount\":86,\"followingCount\":920,\"verifiedStatus\":false,\"postCount\":12,\"bio\":\"Helping Westbridge families after the floods.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5055,
+    "total_output_tokens": 207,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.180433843354479,
+    "time_to_first_token_seconds": 23.798
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-109\",\n      \"author\": \"SarahJ_Wellness\",\n      \"text\": \"Just noticed a profile named 'Sarah Johnson' claiming to be my cousin from Manchester. They say their phone broke and they need me to send them £120 for a replacement SIM card right now via a private link. It's really worrying because I've never heard of them having that problem. Please help if anyone knows the real Sarah! #FamilyMatters\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This case requires specialist investigation to determine if the account is a genuine impersonation or a social engineering scam, as the claim of an emergency request for money is ambiguous without further verification.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4684,
+    "total_output_tokens": 251,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.92488727065586,
+    "time_to_first_token_seconds": 0.535
+  }
+}

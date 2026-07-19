@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-034\",\"author\":\"LondonLens_82\",\"text\":\"Just watched this new video from @CityVoice_Official. The clip shows a statement by Mayor Halloway about 'emergency protocols,' but something feels off with the background audio and editing style. Has anyone verified the source? #CivicWatch\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes a potentially manipulated media item involving a public figure, requiring specialist verification of provenance and impact.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2100,\"followerCount\":890000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":12000,\"bio\":\"Independent civic reporting and video analysis.\",\"previousFlags\":0,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4871,
+    "total_output_tokens": 229,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.84689951274169,
+    "time_to_first_token_seconds": 2.238
+  }
+}

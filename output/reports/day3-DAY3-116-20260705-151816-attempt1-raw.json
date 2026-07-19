@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-116\",\"author\":\"LilyCleanses_UK\",\"text\":\"My journey to a healthier life started with The Pure Balance Method! They say that starving yourself for 24 hours is essential to reset your system and burn off all the bad toxins. I just did it and feel so much lighter now, ready to start my new diet! #HealthJourney\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes dangerous eating-disorder behaviour by encouraging starvation as a health reset.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4832,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.96872194076437,
+    "time_to_first_token_seconds": 2.213
+  }
+}

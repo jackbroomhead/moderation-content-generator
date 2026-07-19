@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-058\",\"author\":\"@CitizenAlert99\",\"text\":\"URGENT BREAKING NEWS: Local officials have issued a mandatory evacuation order for all residents within the 5-mile radius of City Hall due to an unconfirmed gas leak. Do not trust social media rumors; only follow our live updates at [link removed]. Share this immediately to save lives! #GasLeak #Evacuation #Breaking\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post contains a complex unverified public-safety claim with potentially substantial harm and insufficient evidence for immediate removal. The situation involves conflicting official information ('mandatory evacuation' vs 'unconfirmed leak') and directs users to an external link, requiring escalation for specialist review rather than simple approval or removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2061,
+    "total_output_tokens": 204,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.85071598868635,
+    "time_to_first_token_seconds": 0.416
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-027\",\"author\":\"YorkshireWildlifeWatch_94\",\"text\":\"I've been monitoring the situation at Blackwood Reserve for weeks now. The recent reports from staff indicate severe neglect of the enclosure, with multiple animals showing signs of distress due to inadequate care and resource shortages. This is a serious matter that requires immediate attention.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This case involves credible concerns about animal neglect at a specific location, requiring specialist investigation to verify the claims and assess the potential harm.\",\"day\":6,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2800,\"followerCount\":26000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":6700,\"bio\":\"Local wildlife sightings and conservation reports.\",\"previousFlags\":0,\"location\":\"North Yorkshire\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4893,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.68582865580582,
+    "time_to_first_token_seconds": 0.45
+  }
+}

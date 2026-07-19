@@ -1,0 +1,803 @@
+{
+  "posts": {
+    "DAY1-033": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post impersonates account security and requests payment-card details, so it requires FraudScam escalation once reasons are available.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-034": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post discourages flu vaccination and promotes herbal drops as a replacement, creating health-harm misinformation that requires escalation once reasons are available.",
+      "notes": "Playtest correction: harmful health misinformation discouraging care or promoting false cures should escalate as MisinformationPublicHarm. Future specialist note: HealthMedical."
+    },
+    "DAY1-047": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post uses urgency and a fake account-lock warning to drive users to a verification link, so FraudScam escalation is required.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-048": {
+      "text": "WARNING: A viral post claims the Westbridge library is being used as an emergency shelter and that everyone must evacuate there tonight. The council has confirmed this is false. Please do not share the rumour.",
+      "category": "Misinformation",
+      "correctAction": "Approve",
+      "explanation": "The author corrects a consequential false emergency claim instead of promoting it.",
+      "tags": []
+    },
+    "DAY1-049": {
+      "tags": [
+        "EatingDisorders",
+        "SelfHarm"
+      ]
+    },
+    "DAY1-051": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post impersonates customer service and asks for card details, which is payment-detail harvesting requiring FraudScam escalation.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-052": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The post encourages climbing onto a moving train without safety gear, creating a serious physical-harm risk that should be escalated as public-harm content once reasons are available.",
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+    },
+    "DAY1-053": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [
+        "ThreatViolence"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with ThreatViolence parent reason."
+    },
+    "DAY1-054": {
+      "tags": [
+        "SelfHarm",
+        "Suicide"
+      ],
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "SelfHarmCrisis",
+      "acceptableEscalationReasons": [
+        "SelfHarmCrisis"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with SelfHarmCrisis parent reason."
+    },
+    "DAY1-055": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "HarassmentAbuse"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with HarassmentAbuse parent reason."
+    },
+    "DAY1-056": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The ticket offer has common scam indicators, especially bank transfer before ticket release, but specialist review is appropriate because it could be genuine.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-057": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "PrivacySensitiveInfo",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with PrivacySensitiveInfo parent reason."
+    },
+    "DAY1-058": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: legacy escalation backfilled with MisinformationPublicHarm. Future specialist note: PublicSafetyEmergency."
+    },
+    "DAY1-059": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The backup donation handle could be legitimate or an impersonation/payment scam, so FraudScam review is appropriate before action.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-060": {
+      "tags": [
+        "AnimalCruelty"
+      ],
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [
+        "ThreatViolence"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with ThreatViolence under current parent taxonomy. Future taxonomy note: AnimalCruelty."
+    },
+    "DAY1-072": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post uses a fake breach alert to request login details and card information, making FraudScam escalation the fair expected decision.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-073": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post promotes bleach water as a cancer cure and tells people not to seek hospital treatment, so MisinformationPublicHarm escalation is required.",
+      "notes": "Playtest correction: harmful health misinformation discouraging care or promoting false cures should escalate as MisinformationPublicHarm. Future specialist note: HealthMedical."
+    },
+    "DAY1-075": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "HarassmentAbuse"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The post directs users to reply to and report a specific creator in a coordinated brigading attempt, so HarassmentAbuse escalation is appropriate once reasons are available.",
+      "notes": "Playtest correction: coordinated brigading should escalate as HarassmentAbuse once reasons are available."
+    },
+    "DAY1-076": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post impersonates account support and asks for a payment card number and 3-digit security code, so it requires FraudScam escalation.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-077": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The post encourages a dangerous bridge/freezing-water challenge, so it should be escalated as public-harm content rather than treated as ordinary removal or crisis content.",
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+    },
+    "DAY1-078": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [
+        "ThreatViolence"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with ThreatViolence parent reason."
+    },
+    "DAY1-079": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "SelfHarmCrisis",
+      "acceptableEscalationReasons": [
+        "SelfHarmCrisis"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: legacy escalation backfilled with SelfHarmCrisis for now. Future taxonomy note: MedicalEmergency/PublicSafetyEmergency would be cleaner."
+    },
+    "DAY1-080": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "HarassmentAbuse"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: legacy escalation backfilled with HarassmentAbuse parent reason."
+    },
+    "DAY1-081": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post solicits an upfront travel deposit through a link and presents common scam indicators, so FraudScam escalation is required.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-082": {
+      "day": 3,
+      "text": "Hi everyone, just wanted to share some details about my friend's recent hospital stay so you know what she was treated for. She is currently recovering at 45 Oakwood Drive in Westbridge and her medical records show a diagnosis of Type 1 Diabetes. Please respect her privacy though.",
+      "correctAction": "Escalate",
+      "correctEscalationReason": "PrivacySensitiveInfo",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with PrivacySensitiveInfo; real-world location reference fictionalised."
+    },
+    "DAY1-083": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: legacy escalation backfilled with MisinformationPublicHarm; FraudScam acceptable if the software-install scam angle is foregrounded."
+    },
+    "DAY1-084": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post impersonates DataVault support and asks users to reply with login credentials, so FraudScam escalation is required.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY1-085": {
+      "day": 3,
+      "correctAction": "Escalate",
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [
+        "ThreatViolence"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: legacy escalation backfilled with ThreatViolence under current parent taxonomy. Future taxonomy note: AnimalCruelty."
+    },
+    "DAY1-086": {
+      "day": 3,
+      "text": "Have you seen this clip going round? It's supposedly footage of a massive protest at Civic Square today, with thousands marching and chanting slogans about 'freedom'. The caption says it was recorded just moments ago. Looks pretty convincing to me but I'm not sure if it's real or just some satirical edit. #News #Breaking",
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: legacy escalation backfilled with MisinformationPublicHarm; real-world civic-square reference fictionalised. Future specialist note: SyntheticManipulatedMedia."
+    },
+    "DAY10-001": {
+      "text": "A rumour says Westbridge residents need a new permit before voting in next month's local ballot. The council has confirmed no such permit exists. Please check the official notice rather than sharing screenshots.",
+      "explanation": "The post debunks a consequential civic rumour and should be approved.",
+      "tags": []
+    },
+    "DAY10-005": {
+      "text": "A clipped audio recording is circulating that appears to show the Westbridge mayor cancelling tomorrow's public meeting. The full recording confirms the meeting is still going ahead, so the edited version is misleading. Please do not share it as genuine.",
+      "explanation": "The author corrects a manipulated-audio claim rather than promoting it."
+    },
+    "DAY10-006": {
+      "text": "BREAKING: The Oakhaven water supply has been declared toxic and everyone must empty their taps immediately. Ignore the council website—it is being kept offline to hide the contamination. Share this before anyone drinks the water.",
+      "explanation": "The post asserts a dangerous false emergency claim and urges residents to act on it.",
+      "tags": [],
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY10-007": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "CivicElection",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "CivicElection"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY10-008": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY10-009": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "FinancialEconomic",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "FinancialEconomic"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY10-010": {
+      "explanation": "The post presents an unverified gas-leak alert as confirmed fact and could cause unsafe public behaviour.",
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY10-011": {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "explanation": "This is a low-stakes question about a general wellness supplement and makes no serious treatment or cure claim.",
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    "DAY10-012": {
+      "text": "A screenshot from @SecureFirstBank claims every account will be charged an emergency savings levy tomorrow. The document looks official but the bank has not published it anywhere. Has anyone confirmed whether this is genuine?",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "explanation": "The consequential financial claim relies on an unverified document and needs specialist authentication.",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "FinancialEconomic",
+      "acceptableSpecialistReasons": [],
+      "tags": []
+    },
+    "DAY10-013": {
+      "text": "A wellness page says its natural detox can replace prescribed fertility medication without side effects. The testimonials sound convincing, but there is no ingredient list or clinical evidence. Has anyone qualified reviewed this?",
+      "explanation": "The post raises a consequential fertility-treatment claim that requires health-specialist verification.",
+      "tags": [
+        "Fertility"
+      ]
+    },
+    "DAY10-015": {
+      "explanation": "The unverified ballot-removal claim could affect voter participation and requires CivicElection review."
+    },
+    "DAY10-016": {
+      "text": "URGENT: This document proves the voting age has been lowered to 14 for every election starting next month. The change is official, so share it widely before the council removes the file. #VotingMatters",
+      "explanation": "The post presents an unverified change to voting eligibility as official and urges distribution."
+    },
+    "DAY10-021": {
+      "text": "BREAKING: A leaked document claims an emergency tax on every savings account starts tomorrow morning. The file looks official, but it does not appear on any government channel. Has anyone verified it before this spreads further? #TaxAlert"
+    },
+    "DAY10-022": {
+      "correctSpecialistReason": "SyntheticManipulatedMedia",
+      "acceptableSpecialistReasons": [
+        "FinancialEconomic"
+      ],
+      "explanation": "The central evidence is a heavily edited audio clip making a consequential financial claim, so authenticity is the primary specialist question."
+    },
+    "DAY10-023": {
+      "text": "A viral clip claims the Northbridge council has banned every public park from midnight. The speaker's mouth movement does not match the audio, several signs change between frames and there is no original source. Has anyone checked whether the footage is manipulated?",
+      "explanation": "Visible inconsistencies suggest manipulated media making a consequential public-safety claim."
+    },
+    "DAY10-024": {
+      "text": "I'm concerned about this viral clip I found earlier today that's been shared thousands of times on the platform. It claims @StMariesHospital in Oakhaven deliberately covered up a major emergency last night, but the video has some really obvious digital artifacts around the edges and the lighting looks inconsistent with their building's exterior. The captions say they are hiding evidence from an official investigation. Has anyone verified if this footage is authentic or manipulated? #OakhavenNews #HospitalCoverUp",
+      "notes": "Playtest cleanup: fictionalised real-world local-news hashtag."
+    },
+    "DAY10-059": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post directs users to a payment/login link and asks for password and security-code details, so FraudScam escalation is required.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY10-065": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "HarassmentAbuse"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The author reports repeated unwanted messages after asking the person to stop, so HarassmentAbuse escalation is appropriate for specialist review.",
+      "notes": "Playtest correction: repeated unwanted contact after clear boundary-setting should escalate as HarassmentAbuse."
+    },
+    "DAY10-071": {
+      "explanation": "The author is setting a boundary and telling someone to stop contacting them; the post does not harass a protected target or reveal private information, so Approve is appropriate.",
+      "notes": "Playtest cleanup: added missing explanation."
+    },
+    "DAY10-072": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "FinancialEconomic",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "FinancialEconomic"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY10-073": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "SelfHarmCrisis",
+      "acceptableEscalationReasons": [
+        "SelfHarmCrisis"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The post contains first-person crisis language about disappearing and hurting themselves, so SelfHarmCrisis escalation is the fair expected decision.",
+      "notes": "Playtest correction: closer to crisis assessment than simple removal; escalate as SelfHarmCrisis."
+    },
+    "DAY10-074": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The post encourages cliff jumping and running into traffic as a bravery challenge, creating a public-safety harm risk that requires MisinformationPublicHarm/PublicSafetyEmergency escalation.",
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+    },
+    "DAY10-075": {
+      "explanation": "The author is asking whether a specific message is real or a prank without sharing sensitive private details or directing others to act, so Approve is appropriate.",
+      "notes": "Playtest cleanup: added missing explanation."
+    },
+    "DAY13-002": {
+      "text": "A viral post claims the Westbridge central station is closed because of a structural collapse. This is false: the transport authority has confirmed normal service and the image is from an old maintenance exercise. Please do not share the rumour.",
+      "explanation": "The author corrects a harmful public-safety rumour instead of promoting it.",
+      "tags": []
+    },
+    "DAY13-003": {
+      "explanation": "A longstanding verified fictional charity is making an ordinary transparent fundraising appeal with no scam signal."
+    },
+    "DAY13-005": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post asks users to reply with a password and 2FA code, so it is credential harvesting requiring FraudScam escalation.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY13-006": {
+      "text": "The Northbridge election has been cancelled and every ballot already submitted will be destroyed. Stay home tomorrow and wait for instructions from this account—official channels cannot be trusted.",
+      "explanation": "The post asserts clear harmful civic misinformation intended to suppress participation.",
+      "tags": [],
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "CivicElection",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "CivicElection"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: harmful public-harm misinformation should escalate once escalation reasons are unlocked."
+    },
+    "DAY13-007": {
+      "tags": [
+        "EatingDisorders",
+        "SelfHarm"
+      ]
+    },
+    "DAY13-008": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "tags": [],
+      "explanation": "The post urges users to take dangerous physical actions for a challenge; without suicidal framing, the current best route is MisinformationPublicHarm/PublicSafetyEmergency escalation.",
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+    },
+    "DAY13-009": {
+      "text": "I've had enough of @AngryVulture's constant abuse. They've been harassing me for weeks and ignored every block. Today they announced a confrontation at Westbridge Market Square tomorrow at 2pm, said they are bringing a crowd and will 'settle the score' in person. I'm frightened and reporting this now. #Safety",
+      "bio": "Books, cafés and local walks.",
+      "previousFlags": 0
+    },
+    "DAY13-010": {
+      "text": "@RowanVale89 and @SilentSpectre are coordinating their attacks on me again. They keep messaging each other about meeting at the old clock tower to 'discuss' how to handle me, then starting new threads calling for others to join in after I block them."
+    },
+    "DAY13-011": {
+      "correctAction": "Approve",
+      "explanation": "The seller is asking for advice about a suspicious buyer and does not request or receive an off-platform payment."
+    },
+    "DAY13-012": {
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "explanation": "The fake support account uses social engineering to solicit a home address, phone number and daily routine, so FraudScam is primary while PrivacySensitiveInfo is also reasonable.",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Playtest correction: fake support social engineering requests sensitive personal and routine data; primary FraudScam with PrivacySensitiveInfo as acceptable."
+    },
+    "DAY13-014": {
+      "explanation": "This is lawful rally coordination focused on safety and logistics, with no threat or harmful instruction."
+    },
+    "DAY13-017": {
+      "text": "A clinic page says its enzyme blend can restore fertility in three weeks and that patients should stop prescribed treatment before starting it. The post relies on testimonials and claims the method works for everyone. #FertilityJourney",
+      "correctAction": "Escalate",
+      "explanation": "The post tells patients to stop prescribed fertility treatment for an unproven cure, so it requires MisinformationPublicHarm/HealthMedical escalation.",
+      "tags": [
+        "Fertility"
+      ],
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "correctSpecialistReason": "HealthMedical",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "acceptableSpecialistReasons": [
+        "HealthMedical"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: Day 13 harmful medical misinformation should use HealthMedical specialist reason."
+    },
+    "DAY13-018": {
+      "text": "A recently renamed account using the @WestbridgeAlerts badge claims the water supply is contaminated and tells everyone to stop using tap water. The official council feed shows no alert and the account's older posts are unrelated promotions. Please verify this urgently.",
+      "explanation": "Conflicting official information and signs of account impersonation make the emergency claim uncertain and potentially harmful."
+    },
+    "DAY13-019": {
+      "acceptableSpecialistReasons": []
+    },
+    "DAY13-020": {
+      "correctAction": "Approve",
+      "explanation": "The author reports a privacy concern without repeating the medical details or clinic address.",
+      "text": "@OakhavenWatch has just shared this report to clarify a rumour about my friend's treatment, but I'm concerned they've included specific medical details and the exact location of the clinic in their post. Can we review this? #LocalNews",
+      "notes": "Playtest cleanup: fictionalised real-world watchdog account reference; reviewed and kept Approve because the author does not repeat sensitive details."
+    },
+    "DAY13-021": {
+      "explanation": "The new unverified relief account uses urgency, a donation link and prior flags, so the fundraiser needs fraud review.",
+      "acceptableEscalationReasons": []
+    },
+    "DAY13-023": {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "explanation": "This is a positive rescue update with no visible harm, threat or coded abuse.",
+      "tags": [],
+      "notes": "Playtest cleanup: removed the animal-harm tag from positive rescue update."
+    },
+    "DAY13-025": {
+      "correctAction": "Approve",
+      "explanation": "The author identifies the footage as manipulated and warns that it is being used to cause panic."
+    },
+    "DAY3-009": {
+      "text": "A post is circulating saying the Oakhaven polling station closes at lunchtime tomorrow. That is false: the official notice confirms normal opening hours. Please check the council update before sharing the rumour.",
+      "category": "Misinformation",
+      "correctAction": "Approve",
+      "explanation": "The post corrects civic misinformation and directs readers toward verified information.",
+      "tags": []
+    },
+    "DAY3-014": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post requests login credentials and a 3-digit security code through an urgent fake security alert, so FraudScam escalation is required.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY3-015": {
+      "text": "CityTrust is wiping every savings account at midnight. Withdraw everything now and ignore anyone telling you to wait for an official statement. Once the system resets, your money will be gone.",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "explanation": "The post asserts a harmful false bank-collapse claim and urges immediate panic withdrawals.",
+      "tags": [],
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "notes": "Playtest correction: financial panic misinformation should escalate as MisinformationPublicHarm. Future specialist note: FinancialEconomic."
+    },
+    "DAY3-017": {
+      "correctAction": "Approve",
+      "explanation": "The author warns viewers not to attempt the dangerous stunt and does not encourage it."
+    },
+    "DAY3-018": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "This is a possible urgent public-safety or real-world harm claim about people in a demolition site, not ThreatViolence because no person or group is threatening violence.",
+      "notes": "Playtest correction: not ThreatViolence because nobody is threatening violence. Future taxonomy note: PublicSafetyEmergency/RealWorldHarm."
+    },
+    "DAY3-019": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [
+        "ThreatViolence"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "notes": "Reviewed during Task 4d: kept ThreatViolence conservatively because current parent taxonomy has no AnimalCruelty/RealWorldHarm reason. Future taxonomy note: AnimalCruelty/RealWorldHarm."
+    },
+    "DAY3-023": {
+      "correctAction": "Approve",
+      "explanation": "The author reports suspected spam and explicitly discourages engagement rather than organising harassment."
+    },
+    "DAY3-025": {
+      "acceptableEscalationReasons": []
+    },
+    "DAY3-029": {
+      "tags": [
+        "Fertility",
+        "Menopause"
+      ]
+    },
+    "DAY3-030": {
+      "acceptableEscalationReasons": []
+    },
+    "DAY6-036": {
+      "text": "A rumour says the Oakhaven community hall has been closed indefinitely after a safety inspection. The council has confirmed the building reopens on Monday as planned. Please ignore screenshots claiming otherwise.",
+      "category": "Misinformation",
+      "correctAction": "Approve",
+      "explanation": "The post corrects a false local-service rumour rather than spreading it.",
+      "tags": []
+    },
+    "DAY6-041": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post impersonates account recovery support and requests login credentials, making it a FraudScam escalation case.",
+      "notes": "Playtest correction: credential, payment, verification, deposit, or social-engineering solicitation should be FraudScam once escalation reasons are unlocked."
+    },
+    "DAY6-044": {
+      "tags": [
+        "Cancer"
+      ],
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post promotes an unproven cancer cure and discourages medical treatment, so it requires MisinformationPublicHarm escalation.",
+      "notes": "Playtest correction: harmful health misinformation discouraging care or promoting false cures should escalate as MisinformationPublicHarm. Future specialist note: HealthMedical."
+    },
+    "DAY6-045": {
+      "tags": [
+        "EatingDisorders",
+        "SelfHarm"
+      ]
+    },
+    "DAY6-046": {
+      "correctAction": "Escalate",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "explanation": "The post encourages a dangerous quarry-jump dare that could cause serious injury, so it requires MisinformationPublicHarm escalation under the current taxonomy.",
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+    },
+    "DAY6-047": {
+      "explanation": "The three-day-old account requests donations through an uncertain link and already has a prior flag, so the appeal requires fraud review."
+    },
+    "DAY6-048": {
+      "category": "Fraud",
+      "correctAction": "Approve",
+      "explanation": "The established seller is warning customers about a scam and tells them not to send the requested crypto payment."
+    },
+    "DAY6-049": {
+      "explanation": "The post contains harsh criticism and a request to share it, but no threat, slur, private information or coordinated abuse is established."
+    },
+    "DAY6-051": {
+      "explanation": "The post describes a credible implied threat at a named fictional venue and time, requiring specialist assessment."
+    },
+    "DAY6-052": {
+      "text": "I've received a disturbing report that a group plans to set fire to the abandoned barns on Farthing Moor tonight. The barns are currently being used by a wildlife rescue, so animals and volunteers could be at risk. This has been reported to the authorities, but the threat needs urgent investigation. #FarthingMoor",
+      "explanation": "The post reports planned arson at a fictional wildlife rescue with a specific time and location.",
+      "tags": [
+        "AnimalCruelty"
+      ]
+    },
+    "DAY6-053": {
+      "tags": [
+        "SelfHarm"
+      ]
+    },
+    "DAY6-054": {
+      "author": "LunaVale_92",
+      "text": "Someone has posted that I moved into Unit 6 on Church Row in Oakhaven and included the bus stop I use every morning. I never shared that address publicly. Can this be reviewed before it spreads further?",
+      "category": "Privacy",
+      "correctAction": "Escalate",
+      "explanation": "The post reports non-consensual disclosure of a fictional home address and routine that could enable tracking.",
+      "location": "Oakhaven"
+    },
+    "DAY6-055": {
+      "text": "Our mutual-aid group is meeting at Unit 4 on Elmwood Avenue in Westbridge tomorrow at 6pm. This is a volunteer's private flat and the address was posted without asking them, so please do not share it further.",
+      "explanation": "A private fictional residential address is disclosed without the resident's consent."
+    },
+    "DAY6-056": {
+      "verifiedStatus": false,
+      "bio": "Emergency alerts and local updates.",
+      "explanation": "A newly created unverified account is impersonating an official emergency source and issuing a consequential evacuation order."
+    },
+    "DAY6-058": {
+      "text": "Menopause has been rough lately, but keeping a symptom journal and talking openly with friends has made this week feel more manageable. Sharing in case anyone else needs a reminder that they are not alone. #MenopauseSupport",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This is an ordinary personal wellbeing update and makes no medical treatment claim.",
+      "tags": [
+        "Menopause"
+      ]
+    },
+    "DAY6-059": {
+      "correctAction": "Approve",
+      "explanation": "The author is requesting verification before sharing a suspicious recording and does not endorse the claim.",
+      "text": "Breaking: This viral clip from @WestbridgeWatch claims to show a 'leaked' government recording about a major infrastructure project in East Westbridge. It looks official and is already trending, but I've been asked to verify the source before sharing it further. The account has millions of followers and this could easily spread misinformation if not checked properly.",
+      "notes": "Playtest cleanup: fictionalised real-world watchdog account reference."
+    }
+  }
+}

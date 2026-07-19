@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-049\",\"author\":\"HopefulHeart23\",\"text\":\"Stop crying over your weight, it's not real pain! You are weak for needing food, just starve yourself and you will feel strong like me. I lost 5 pounds yesterday by skipping dinner and drinking black coffee all night. #BodyPositivity #StarvationChallenge [link removed]\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes dangerous eating-disorder behavior (starvation) as a method to feel strong, which violates policy against glorifying self-harm and eating disorders. It does not indicate the author is in immediate crisis, so it must be removed.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 2015,
+    "total_output_tokens": 184,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.07607774792439,
+    "time_to_first_token_seconds": 0.409
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-142\",\"author\":\"BikeFixer_Sarah\",\"text\":\"Finally managed to tighten those loose pedals on my old road bike! It was such a pain when I was trying to pedal up the hill and they were wobbling. Took me an hour but it's all fixed now and feels much smoother. #DIY #BikeRepair\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about repairing a bicycle, which is allowed under policy.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4766,
+    "total_output_tokens": 185,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.15631555862723,
+    "time_to_first_token_seconds": 0.298
+  }
+}

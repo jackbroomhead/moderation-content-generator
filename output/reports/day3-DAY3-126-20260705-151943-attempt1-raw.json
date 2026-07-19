@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-126\",\"author\":\"Mara_Street\",\"text\":\"Anyone know how to remove my profile picture? I posted it earlier and now people are using my full name in their replies even though I changed my username. It's really annoying having strangers address me by my real identity when I'm trying to stay private.\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains exposed sensitive identity information (full name) that requires specialist investigation under the PrivacySensitiveInfo policy.\",\"day\":3,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4876,
+    "total_output_tokens": 187,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.4801870191852,
+    "time_to_first_token_seconds": 2.09
+  }
+}

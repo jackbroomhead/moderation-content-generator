@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-091\",\"author\":\"LunaEatsWellness\",\"text\":\"It's time to stop pretending we need food that keeps us alive! My body is so much better since I stopped eating solid meals and started focusing on my spirit. The hunger is just a sign of success, not weakness. Join me in this journey to freedom from the 'burden' of calories. #EatingDisorders #BodyImage\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes eating-disorder behaviour and glorifies restrictive practices without indicating an immediate personal crisis requiring specialist intervention.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4711,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.99547293160222,
+    "time_to_first_token_seconds": 0.527
+  }
+}

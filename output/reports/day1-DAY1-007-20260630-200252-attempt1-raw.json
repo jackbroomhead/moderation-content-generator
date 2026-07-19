@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-6pi8ko8s1gftkupawv5dj",
+  "object": "chat.completion",
+  "created": 1782846172,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"day\": 1,\n      \"text\": \"Finally started my herb garden today! It's a bit of a mess right now, but I'm excited to see the basil grow.\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"scenario\": \"\",\n      \"notes\": \"The post is a harmless personal update about a hobby and contains no policy violations.\",\n      \"bio\": \"\",\n      \"previousFlags\": [],\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"tags\": [\n        \"gardening\",\n        \"hobby\"\n      ],\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"profileImage\": \"\",\n      \"postImage\": \"\"\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraints:\n        *   `id`: \"DAY1-007\"\n        *   `day`: 1\n        *   `correctAction`: \"Approve\"\n        *   `difficulty`: \"Easy\" or \"Medium\"\n        *   `category`: One of [Fraud, Harassment, Lifestyle, Misinformation, News / Public Event, Normal, Privacy, Public Information, Spam, Threat].\n        *   No nested `metadata` object.\n        *   Strict JSON format.\n        *   No story characters, real people, or forbidden topics.\n        *   Self-contained case.\n        *   `correctEscalationReason`: \"\" (since `correctAction` is \"Approve\").\n        *   `acceptableEscalationReasons`: [] (since `correctAction` is \"Approve\").\n        *   `allowNeedsReviewEscalation`: false (since `correctAction` is \"Approve\").\n    *   Policy Reference:\n        *   `Approve`: permitted ordinary content with no credible policy concern.\n        *   `Harmless opinion, obvious satire, parody, and low-stakes mistakes: Approve.`\n\n    *   Category: `Lifestyle`\n    *   Content: A person sharing a photo/comment about a new hobby or a daily routine.\n    *   Text: \"Finally started my herb garden today! It's a bit of a mess right now, but I'm excited to see the basil grow.\"\n    *   Difficulty: \"Easy\"\n\n    *   `id`: \"DAY1-007\"\n    *   `day`: 1\n    *   `text`: \"Finally started my herb garden today! It's a bit of a mess right now, but I'm excited to see the basil grow.\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `scenario`: \"\"\n    *   `notes`: \"The post is a harmless personal update about a hobby and does not violate any platform policies.\"\n    *   `bio`: \"\"\n    *   `previousFlags`: []\n    *   `location`: \"\"\n    *   `platform`: \"\"\n    *   `tags`: [\"gardening\", \"hobby\"]\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n\n    *   JSON format? Yes.\n    *   One item in posts array? Yes.\n    *   No nested metadata? Yes.\n    *   No forbidden topics? Yes.\n    *   Correct action/reasons for Approve? Yes.\n    *   Self-contained? Yes.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-007\",\n          \"day\": 1,\n          \"text\": \"Finally started my herb garden today! It's a bit of a mess right now, but I'm excited to see the basil grow.\",\n          \"category\": \"Lifestyle\",\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"scenario\": \"\",\n          \"notes\": \"This is a standard personal update about a hobby. It contains no policy violations.\",\n          \"bio\": \"\",\n          \"previousFlags\": [],\n          \"location\": \"\",\n          \"platform\": \"\",\n          \"tags\": [\"gardening\", \"lifestyle\"],\n          \"correctEscalationReason\": \"\",\n          \"acceptableEscalationReasons\": [],\n          \"allowNeedsReviewEscalation\": false,\n          \"profileImage\": \"\",\n          \"postImage\": \"\"\n        }\n      ]\n    }\n    ```",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1379,
+    "completion_tokens": 1091,
+    "total_tokens": 2470,
+    "completion_tokens_details": {
+      "reasoning_tokens": 863
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

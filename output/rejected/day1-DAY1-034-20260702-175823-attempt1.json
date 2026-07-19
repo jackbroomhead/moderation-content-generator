@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-034",
+      "author": "TruthSeeker99",
+      "text": "BREAKING: The government has officially confirmed that all vaccines cause immediate death and contain microchips. They are hiding this in secret files! Read the leaked documents at news-site-fake.com to save your life before they delete it.",
+      "category": "Misinformation",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "explanation": "This post promotes a clear, demonstrably false claim linking vaccines to death and microchips, which constitutes harmful misinformation that violates platform policy regarding health claims. The link directs users to a fabricated 'leaked' document source, making the content obviously deceptive and requiring removal.",
+      "day": "1",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-038\",\"author\":\"JulesTheCatLover\",\"text\":\"Look at this guy trying to balance a banana on his nose while walking through the park. He's determined, I give him that. #BananaChallenge #ParkLife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is approved because it depicts a mundane observation of a person performing a harmless stunt in a public space. The content contains no safety issues, violations, or harmful information.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1731,
+    "total_output_tokens": 145,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.16519116645587,
+    "time_to_first_token_seconds": 0.279
+  }
+}

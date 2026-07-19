@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-105\",\"author\":\"ConcernedCitizen_82\",\"text\":\"BREAKING: Sources confirm that Prime Minister Thorne has resigned and stepped down from office this morning to pursue a new career in private consulting. This massive shift will change the political landscape forever. The full details are available at [link removed]. #Politics #BreakingNews #Resignation\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post asserts a serious public-harm claim about a high-ranking official's resignation without providing verified proof, creating ambiguity about whether the video evidence is genuine satire or misinformation.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"MisinformationPublicHarm\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4738,
+    "total_output_tokens": 185,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.51519278166064,
+    "time_to_first_token_seconds": 0.559
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-048\",\"author\":\"WellnessWatcher99\",\"text\":\"BREAKING: The CDC has issued a new warning that drinking water directly from fire hydrants is now safe and recommended for hydration during heatwaves! They claim this boosts immunity and cleanses your system instantly. Click here to see the official report before it's too late! #HealthTips #StayHydrated [link removed]\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post must be removed because it promotes a clearly false and harmful health claim, misattributing safety to dangerous behavior (drinking from fire hydrants) and citing a nonexistent official warning. The content violates policy by spreading misinformation that could lead to public harm.\",\"day\":\"1\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2001,
+    "total_output_tokens": 193,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.76126072263624,
+    "time_to_first_token_seconds": 0.39
+  }
+}

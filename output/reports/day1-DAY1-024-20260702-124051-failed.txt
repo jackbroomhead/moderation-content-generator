@@ -1,0 +1,4 @@
+FAILED TO GENERATE THIS POST
+
+LM Studio returned an empty final message. finish_reason='length'; usage={'prompt_tokens': 1645, 'completion_tokens': 4000, 'total_tokens': 5645, 'completion_tokens_details': {'reasoning_tokens': 3997}}.
+Reasoning characters returned: 16770 The raw response has been saved in output/reports.

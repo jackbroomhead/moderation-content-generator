@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-010\",\"author\":\"OakhavenAlert_24\",\"text\":\"URGENT: New audio released by 'City Watch' confirms evacuation orders are real! This is a manipulated file, not an official broadcast. Please stop sharing this dangerous misinformation immediately.\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes synthetic manipulated media as genuine emergency information, which poses a direct public safety risk and must be removed.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":513,\"followerCount\":7470,\"followingCount\":273,\"verifiedStatus\":false,\"postCount\":1219,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4910,
+    "total_output_tokens": 210,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.03239488377639,
+    "time_to_first_token_seconds": 2.219
+  }
+}

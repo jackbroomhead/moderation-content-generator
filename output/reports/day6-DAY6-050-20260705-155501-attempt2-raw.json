@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-050\",\"author\":\"CityWalker_84\",\"text\":\"It feels like I've blocked every single one of you in my DMs over the last few months, yet somehow they keep finding a way back in. The messages are always just generic 'Hey' or asking for photos again. It's exhausting and I don't want to be bothered.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This is escalated due to repeated unwanted contact despite the user having blocked the sender multiple times over several months, which fits the criteria for Harassment Abuse.\",\"day\":6,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1750,\"followerCount\":4200,\"followingCount\":680,\"verifiedStatus\":false,\"postCount\":3600,\"bio\":\"Illustration, city walks and everyday life.\",\"previousFlags\":0,\"location\":\"Nottingham\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5090,
+    "total_output_tokens": 247,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.090479492982372,
+    "time_to_first_token_seconds": 2.857
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-076\",\"author\":\"SupportTeam_UK_24\",\"text\":\"Hello everyone, I am an official representative from CloudStore and I noticed your account has been flagged for suspicious activity. To secure your funds, please reply with your current payment card number and the 3-digit security code on the back so we can verify your identity immediately.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a deceptive impersonation scam requesting sensitive financial information under false pretenses.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2887,
+    "total_output_tokens": 146,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.2071829646555,
+    "time_to_first_token_seconds": 0.415
+  }
+}

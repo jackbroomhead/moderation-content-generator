@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-022",
+      "author": "BrigadeWatch_94",
+      "text": "It's official! The 'Accountability Network' has confirmed the new shift schedule for the employee at our target. They are starting at 6:00 AM and finishing by 4:00 PM at their home office on Westbridge Lane. This is a huge win for direct democracy transparency! #TransparencyMatters",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post reveals specific details about an individual's work routine and location, which constitutes a privacy violation and forms part of a coordinated harassment campaign.",
+      "day": 13,
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 40,
+      "followerCount": 7600,
+      "followingCount": 3200,
+      "verifiedStatus": false,
+      "postCount": 2100,
+      "bio": "Accountability network.",
+      "previousFlags": 7,
+      "location": "Unknown",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

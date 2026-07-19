@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-064\",\"author\":\"JasmineVale\",\"text\":\"Ugh, my partner keeps forgetting to reply to my texts! I've been trying to get them to stop ignoring me all week and it's getting on my nerves. Just want some peace and quiet around here. 😒 #relationship\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses personal frustration but does not promote abuse, reveal private information, or indicate a safety concern.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3732,
+    "total_output_tokens": 220,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.55683890813918,
+    "time_to_first_token_seconds": 1.697
+  }
+}

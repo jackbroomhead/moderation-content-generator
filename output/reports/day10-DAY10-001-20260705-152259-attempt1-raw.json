@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-001\",\"author\":\"LumaWell_Official\",\"text\":\"We need to be clear about the 'The Radiant Reset' protocol. Despite some testimonials claiming it can replace chemo, we have seen no evidence this works for cancer patients. In fact, stopping prescribed treatment for unproven methods is dangerous and could save your life. Please do not follow these claims.\\n\\n#HealthMatters #CancerSupport\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post is permitted as it debunks a harmful health claim rather than promoting one.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":180,\"followerCount\":900,\"followingCount\":120,\"verifiedStatus\":true,\"postCount\":400,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4559,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.60079846019408,
+    "time_to_first_token_seconds": 1.968
+  }
+}

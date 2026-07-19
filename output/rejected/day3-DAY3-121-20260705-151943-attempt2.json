@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-121",
+      "author": "SadSoul_84",
+      "text": "I can't do this anymore, everyone. The noise in my head is unbearable and I feel like I'm drowning right now. Please don't ignore me.",
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post indicates a personal crisis with potential self-harm risk requiring specialist review rather than simple removal.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "SelfHarm"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

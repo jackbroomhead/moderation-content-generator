@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-112\",\"author\":\"Jules_Woodwork_84\",\"text\":\"Finally got my cherry stain on the oak bookshelf just right! It took a few coats and some patience, but I'm really pleased with how smooth it looks now. #woodworking #DIY\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal achievement sharing a hobby milestone.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4293,
+    "total_output_tokens": 130,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.68964344984161,
+    "time_to_first_token_seconds": 2.112,
+    "model_load_time_seconds": 4.803
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-007",
+      "author": "DisciplineQueen_24",
+      "text": "Day 68 of my transformation. Stop the noise and listen to the discipline. The path is clear for those brave enough to embrace the truth. #Transformation #FitnessMotivation",
+      "category": "Self-Harm",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "This post glamorises eating-disorder behaviour without indicating a personal crisis, which requires removal under self-harm policy.",
+      "day": "13",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1400,
+      "followerCount": 640000,
+      "followingCount": 90,
+      "verifiedStatus": true,
+      "postCount": 7200,
+      "bio": "Extreme transformation and discipline.",
+      "previousFlags": 12,
+      "location": "Birmingham",
+      "platform": "ClipLoop",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "EatingDisorders",
+        "BodyImage"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

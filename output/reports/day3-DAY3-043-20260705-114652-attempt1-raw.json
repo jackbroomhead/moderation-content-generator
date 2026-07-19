@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-043\",\"author\":\"MarcusVance_88\",\"text\":\"I'm at The Holloway Arms right now and I know I'm going to find you before midnight. You left no choice but to come here, so bring your friends or come alone. Don't make me wait.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a specific threat of violence directed at an individual with a named location and time, requiring specialist investigation into the potential for harm.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4726,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.35743147294778,
+    "time_to_first_token_seconds": 0.533
+  }
+}

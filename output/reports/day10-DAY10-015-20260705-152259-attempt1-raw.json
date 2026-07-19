@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-015\",\"author\":\"NorthbridgeNewsWatch_84\",\"text\":\"Has anyone verified this? Saw a post claiming our candidate 'Julian Thorne' has been removed from the official ballot due to 'administrative errors'. The original post linked to an unverified source. This is worrying because the election day is only two days away. #Election2026 #LocalNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This claim requires specialist verification as it pertains to a specific civic election and could impact voter participation if true.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"CivicElection\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":698,\"followerCount\":11120,\"followingCount\":358,\"verifiedStatus\":false,\"postCount\":1674,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4911,
+    "total_output_tokens": 251,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.60210165096102,
+    "time_to_first_token_seconds": 2.168
+  }
+}

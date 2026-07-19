@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-025\",\"author\":\"Sarah_Westbridge_Updates\",\"text\":\"Has anyone checked this viral video? It's supposed to be footage from our annual community festival, but something feels off about the audio and lip-sync. I've seen similar edits before where they swap in a different event entirely. The captions claim it's 'unprecedented chaos' but the background noise doesn't match the claimed location at all. [link removed] #CommunityFestival\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist verification due to potential synthetic manipulation of media and misleading context.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1068,\"followerCount\":18420,\"followingCount\":528,\"verifiedStatus\":false,\"postCount\":2584,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4927,
+    "total_output_tokens": 257,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 72.96803886328856,
+    "time_to_first_token_seconds": 2.396
+  }
+}

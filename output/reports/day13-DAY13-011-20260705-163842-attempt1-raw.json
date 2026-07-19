@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-011\",\"author\":\"VintageTechGuru_24\",\"text\":\"Hey everyone! Just a quick note that my shop has secured our annual donation drive. All proceeds go directly to community relief efforts in Liverpool and beyond. Official verified charity account. Please support.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The seller is a verified entity making an unusual request for donations under the guise of a legitimate cause, suggesting potential compromise or social engineering rather than straightforward fraud.\",\"day\":\"13\",\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2500,\"followerCount\":340000,\"followingCount\":420,\"verifiedStatus\":true,\"postCount\":14500,\"bio\":\"Verified vintage technology seller.\",\"previousFlags\":0,\"location\":\"Liverpool\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5119,
+    "total_output_tokens": 230,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.440468365442008,
+    "time_to_first_token_seconds": 23.624
+  }
+}

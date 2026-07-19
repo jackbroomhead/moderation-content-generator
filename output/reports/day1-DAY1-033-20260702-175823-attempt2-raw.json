@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-033\",\"author\":\"lucky_winner_99\",\"text\":\"🎉 CONGRATULATIONS!!! You have been randomly selected to win $5,000! Just reply with your bank account number and password to claim your prize. Offer expires in 2 hours! Don't miss out on this life-changing money!\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is an obvious advance-fee phishing scam requesting sensitive financial credentials (bank account number and password) in exchange for a non-existent prize. Per policy, such clear credential-theft attempts are immediate violations requiring removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1605,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.87116167833189,
+    "time_to_first_token_seconds": 0.393
+  }
+}

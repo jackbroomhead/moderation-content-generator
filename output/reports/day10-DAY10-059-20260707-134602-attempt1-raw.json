@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-059\",\"author\":\"MeadowLaneUser\",\"text\":\"Hey everyone, quick update on my account help and payment listings! I've set up a secure way to handle transactions via this link: [link removed]. Please make sure you use the correct password and security code when logging in to complete your payment. Thanks for your support! #accounting #listings\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear credential-harvesting scam as it directly requests passwords and security codes via a link.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3481,
+    "total_output_tokens": 231,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.21670867247865,
+    "time_to_first_token_seconds": 1.594
+  }
+}

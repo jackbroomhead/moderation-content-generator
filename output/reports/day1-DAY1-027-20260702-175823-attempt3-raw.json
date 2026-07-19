@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-027\",\"author\":\"JazzLover88\",\"text\":\"Just finished painting my entire bedroom with a vintage color palette! Finally have that cozy, artistic vibe I've been dreaming of.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a harmless personal achievement (painting a room) and shares a hobby update. It does not violate any platform policies regarding safety, harassment, or misinformation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1386,
+    "total_output_tokens": 129,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.34402783655169,
+    "time_to_first_token_seconds": 0.289
+  }
+}

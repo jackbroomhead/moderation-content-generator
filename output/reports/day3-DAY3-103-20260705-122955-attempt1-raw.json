@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-103\",\"author\":\"ConcernedCitizen84\",\"text\":\"URGENT: Police have confirmed a massive gas leak at the Old Mill Estate in Westfield and all residents must evacuate IMMEDIATELY! They say it's spreading fast. Please share this before anyone gets hurt! #SafetyFirst #WestfieldNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post spreads an unverified emergency claim that could cause public panic or unsafe movement, and specialist verification is required to determine if the incident is real.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4734,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.99232183030936,
+    "time_to_first_token_seconds": 0.555
+  }
+}

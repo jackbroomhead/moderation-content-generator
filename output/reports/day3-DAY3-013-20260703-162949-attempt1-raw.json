@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-013\",\"author\":\"GrimmEstate_84\",\"text\":\"Look at this absolute idiot, @GrimmEstate_84. You think you're clever posting that nonsense? Total waste of time.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a direct targeted insult directed at a specific user without any context or legitimate criticism.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4598,
+    "total_output_tokens": 126,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.6645846908632,
+    "time_to_first_token_seconds": 0.437
+  }
+}

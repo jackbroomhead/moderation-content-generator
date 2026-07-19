@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-049\",\"author\":\"SaraJenkins82\",\"text\":\"Just found this amazing deal on a limited edition vinyl! Seller claims it's rare and says to pay via wire transfer to 'secure' the order instantly before stock vanishes. Message says 'no returns' once shipped. Seems too good to be true but I'm tempted... #vinyl #rarefinds\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a transaction with suspicious payment conditions and urgency tactics that suggest potential fraud, requiring specialist investigation before removal.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4734,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.07121778477276,
+    "time_to_first_token_seconds": 0.492
+  }
+}

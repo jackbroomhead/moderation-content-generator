@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-021\",\"author\":\"FinanceWatch_UK\",\"text\":\"BREAKING: Just read a report that an emergency tax on all savings is being imposed starting today. They say it's to 'stabilise national reserves'. Attached is a document titled 'Emergency Levy Order 24' with a government seal, but the signature looks blurry and the link leads to an unverified blog page. Anyone know if this is real? #TaxAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post alleges a sudden emergency tax using an uncertain document, requiring specialist verification.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":920,\"followerCount\":15500,\"followingCount\":460,\"verifiedStatus\":true,\"postCount\":2220,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4923,
+    "total_output_tokens": 253,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.27042060069446,
+    "time_to_first_token_seconds": 2.024
+  }
+}

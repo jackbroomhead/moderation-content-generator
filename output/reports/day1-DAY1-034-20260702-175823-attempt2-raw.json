@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-034\",\"author\":\"HealthGuru99\",\"text\":\"BREAKING: The new flu shot contains live bacteria that will make you permanently sick! Doctors are hiding this truth. Click here to see the proof: bit.ly/flu-lie-now. Share before it's deleted! #SaveYourFamily\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes a clear, unverified harmful falsehood about medical safety with an urgent call to action to share, which constitutes obvious misinformation that requires removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 1619,
+    "total_output_tokens": 147,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.51539806639016,
+    "time_to_first_token_seconds": 0.39
+  }
+}

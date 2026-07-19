@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-024\",\"author\":\"LiamK_88\",\"text\":\"Saw this ad for a limited edition console on the marketplace site and it looked too good to be true, so I messaged the seller directly. They claim they can ship from Manchester but want me to send £150 via gift card first before they even send the tracking number. The description says 'instant delivery once payment clears' which feels weird. Has anyone else had this seller try to bypass standard payment protection? #ScamAlert\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The seller is requesting an upfront gift card payment outside of protected channels, which is a common fraud tactic requiring specialist verification.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4653,
+    "total_output_tokens": 196,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.410988403275,
+    "time_to_first_token_seconds": 0.473
+  }
+}

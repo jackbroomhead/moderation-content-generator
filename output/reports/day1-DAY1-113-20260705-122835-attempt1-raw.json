@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-113\",\"author\":\"james_holt_uk\",\"text\":\"Just noticed my cat has been eyeing that new bird feeder I bought from the garden centre again. Guess he knows the truth about how much better it is than the old one! 🐦 #catlife #gardening\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal observation and casual joke with no safety concerns.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4321,
+    "total_output_tokens": 139,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.00530497331778,
+    "time_to_first_token_seconds": 0.361
+  }
+}

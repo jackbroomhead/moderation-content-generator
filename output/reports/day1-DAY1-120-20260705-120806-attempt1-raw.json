@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-120\",\"author\":\"SarahJ_84\",\"text\":\"🔥 HURRY! Grab my exclusive discount code for that viral weight-loss supplement before it expires! Click [link removed] NOW to claim 50% off + FREE shipping. Limited stock only! Don't miss out on this life-changing offer!! #WeightLoss #Supplements #DealOfTheDay\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear example of spam due to its aggressive promotional language, urgent calls to action, and use of a link to drive traffic for an unverified product.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4632,
+    "total_output_tokens": 173,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.94839703457478,
+    "time_to_first_token_seconds": 0.478
+  }
+}

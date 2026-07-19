@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-001\",\"author\":\"TechRightsJen\",\"text\":\"I'm absolutely furious that @PublicSquare keeps shadow-banning my posts about corporate overreach without explaining why! It's like they're trying to silence the truth just because it doesn't align with their narrative. The algorithm is rigged and needs a proper audit. Stop censoring free speech in the name of 'safety'. #FreeSpeech #DigitalRights\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post expresses anger at moderation policies but does not direct harm or threaten specific individuals.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1800,\"followerCount\":18000,\"followingCount\":620,\"verifiedStatus\":false,\"postCount\":7400,\"bio\":\"Technology, labour and digital-rights commentary.\",\"previousFlags\":0,\"location\":\"Manchester\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4748,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.70214773346211,
+    "time_to_first_token_seconds": 20.651
+  }
+}

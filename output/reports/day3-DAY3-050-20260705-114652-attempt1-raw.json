@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-050\",\"author\":\"SarahJ_WellnessUK\",\"text\":\"Has anyone else received a message from 'Hope & Home Charity'? They say they're organising a fundraising gala next month to help families in crisis, but when I checked their official site, there was no event listed. They asked me to share it with my network and said if I donate £50 via the link below, I'll get a special thank you note from the founder. Seems legit but something feels off about the urgency...\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post requires specialist investigation to verify whether the account is impersonating a legitimate charity or running a fraudulent fundraising scheme.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4747,
+    "total_output_tokens": 201,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.01977513318086,
+    "time_to_first_token_seconds": 0.518
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-064\",\"author\":\"SarahJ_Leeds\",\"text\":\"Just seen the new notice on the bus stop about extended service hours for the evening peak this week. Looks like trains will run until 11pm starting Monday.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless public information post sharing neutral local transport updates without any policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2665,
+    "total_output_tokens": 125,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.8308369499328,
+    "time_to_first_token_seconds": 0.304
+  }
+}

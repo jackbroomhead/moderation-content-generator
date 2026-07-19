@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-105\",\"author\":\"JazzyJules_82\",\"text\":\"@RealMattyDoe still posting on my story after I asked him to stop? It's day 3 and he's already tagged me in another post about 'our little secret' without my permission. He keeps saying it's just a joke but I've blocked his messages twice and he just ignores it. This isn't funny anymore, it feels like he won't leave me alone.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This represents sustained stalking and unwanted contact that requires specialist investigation rather than a simple removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4678,
+    "total_output_tokens": 176,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.15541261589372,
+    "time_to_first_token_seconds": 0.483
+  }
+}

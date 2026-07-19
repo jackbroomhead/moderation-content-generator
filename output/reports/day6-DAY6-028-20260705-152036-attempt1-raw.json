@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-028\",\"author\":\"JennaM_Reader74\",\"text\":\"I can't go on like this anymore. I've tried everything to fix my anxiety but it feels pointless now. There's no point in fighting it any more. If you see this, please know that I might not be here tomorrow.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This message indicates a personal crisis with potential self-harm risk, requiring specialist investigation.\",\"day\":\"6\",\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1900,\"followerCount\":880,\"followingCount\":720,\"verifiedStatus\":false,\"postCount\":4100,\"bio\":\"Books, work, family and ordinary daily updates.\",\"previousFlags\":0,\"location\":\"Derby\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4849,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.54449605321031,
+    "time_to_first_token_seconds": 2.202
+  }
+}

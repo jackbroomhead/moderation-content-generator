@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-117\",\n      \"author\": \"SplashKing_84\",\n      \"text\": \"Check out this insane water stunt I'm going to pull off! Jumping from a diving board into a kiddie pool is the ultimate way to get a massive splash. It's so dangerous but totally worth it for the adrenaline rush! #Adrenaline #StuntLife\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post promotes a dangerous stunt involving jumping from a height into shallow water, which carries a high risk of serious injury.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4864,
+    "total_output_tokens": 292,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.66141356043373,
+    "time_to_first_token_seconds": 0.388
+  }
+}

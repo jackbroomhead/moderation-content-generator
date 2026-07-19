@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-094\",\n      \"author\": \"ConcernedCitizen_Jane\",\n      \"text\": \"I'm at the back of the woods near Riverside Park and I can hear someone talking about feeding a dog to their neighbour's cat. They're laughing about it and saying they've got all the supplies ready for tonight. This is terrifying and I don't know what to do. #Help\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post describes a credible threat of animal cruelty with a specific location, time, and intent that requires specialist investigation.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"ThreatViolence\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"AnimalCruelty\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4737,
+    "total_output_tokens": 241,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.57874934425281,
+    "time_to_first_token_seconds": 0.533
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-152\",\"author\":\"SkyHighAlex_84\",\"text\":\"Just read the official notice regarding the temporary closure of the Northbridge station for scheduled track maintenance next week. All passengers are advised to check alternative routes on the app. 🚉 #PublicInfo\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a standard public information notice and does not promote any harmful activity.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false\",\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4825,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.23948343065828,
+    "time_to_first_token_seconds": 2.096
+  }
+}

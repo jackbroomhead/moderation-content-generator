@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-036\",\n      \"author\": \"MoorvaleEvents\",\n      \"text\": \"Big news! The annual Westbridge Market Fair is officially back on. We're hosting a fantastic weekend of local crafts, live music from the band 'The Greyhounds', and food stalls featuring everything from pies to fresh fruit. Come along for some fun and support our community! #WestbridgeMarket #CommunityEvent\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless promotional announcement for a fictional public event. The text contains no policy violations, threats, or misinformation.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 705,\n      \"followerCount\": 6550,\n      \"followingCount\": 185,\n      \"verifiedStatus\": false,\n      \"postCount\": 1235,\n      \"bio\": \"Fictional events, culture and local announcements.\",\n      \"previousFlags\": 0,\n      \"location\": \"Moorvale\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3590,
+    "total_output_tokens": 342,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.12052895916952,
+    "time_to_first_token_seconds": 0.397
+  }
+}

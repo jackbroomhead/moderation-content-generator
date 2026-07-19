@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-020\",\"author\":\"Investigates_Leeds\",\"text\":\"@LeedsWatch has just shared this report to clarify a rumour about my friend's treatment, but I'm concerned they've included specific medical details and the exact location of the clinic in their post. Can we review this? #LocalNews\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains sensitive medical information and a specific location that must be protected despite the reporter's intent to debunk.\",\"day\":13,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1900,\"followerCount\":67000,\"followingCount\":420,\"verifiedStatus\":true,\"postCount\":7200,\"bio\":\"Local investigations and accountability reporting.\",\"previousFlags\":0,\"location\":\"Leeds\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5095,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.771775238838115,
+    "time_to_first_token_seconds": 22.497
+  }
+}

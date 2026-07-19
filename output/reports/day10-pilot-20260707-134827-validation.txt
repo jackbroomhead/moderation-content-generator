@@ -1,0 +1,89 @@
+VALIDATION PASSED
+Generated: 2026-07-07T13:48:47
+Elapsed seconds: 20.2
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 10
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260707-134827.json
+
+BLUEPRINT
+DAY10-056: Approve | Lifestyle | Easy
+DAY10-057: Approve | Normal | Medium
+DAY10-058: Approve | Public Information | Easy
+DAY10-059: Remove | Fraud | Easy
+DAY10-060: Escalate | Misinformation | Hard
+DAY10-061: Approve | News / Public Event | Easy
+DAY10-062: Approve | Normal | Easy
+DAY10-063: Approve | Lifestyle | Easy
+DAY10-064: Approve | Normal | Medium
+DAY10-065: Approve | Harassment | Medium
+DAY10-066: Approve | Fraud | Hard
+DAY10-067: Approve | Misinformation | Medium
+DAY10-068: Approve | Privacy | Medium
+DAY10-069: Approve | Normal | Easy
+DAY10-070: Remove | Spam | Easy
+DAY10-071: Remove | Harassment | Medium
+DAY10-072: Remove | Misinformation | Medium
+DAY10-073: Remove | Self-Harm | Medium
+DAY10-074: Remove | Threat | Medium
+DAY10-075: Escalate | Threat | Hard
+DAY10-076: Escalate | Harassment | Hard
+DAY10-077: Escalate | Self-Harm | Hard
+DAY10-078: Escalate | Privacy | Hard
+DAY10-079: Approve | News / Public Event | Easy
+DAY10-080: Approve | Lifestyle | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY10-056: nearest history=DAY10-055 score=0.733
+DAY10-057: nearest history=DAY10-032 score=0.854
+DAY10-058: nearest history=DAY10-054 score=0.750
+DAY10-059: nearest history=DAY10-029 score=0.798
+DAY10-060: nearest history=DAY10-030 score=0.820
+DAY10-061: nearest history=DAY10-036 score=0.807
+DAY10-062: nearest history=DAY13-023 score=0.737
+DAY10-063: nearest history=DAY10-038 score=0.792
+DAY10-064: nearest history=DAY3-072 score=0.722
+DAY10-065: nearest history=DAY3-097 score=0.770
+DAY10-066: nearest history=DAY10-029 score=0.768
+DAY10-067: nearest history=DAY3-084 score=0.804
+DAY10-068: nearest history=DAY3-033 score=0.760
+DAY10-069: nearest history=DAY10-044 score=0.714
+DAY10-070: nearest history=DAY10-045 score=0.884
+DAY10-071: nearest history=DAY6-043 score=0.723
+DAY10-072: nearest history=DAY10-047 score=0.841
+DAY10-073: nearest history=DAY4-005 score=0.795
+DAY10-074: nearest history=DAY1-077 score=0.851
+DAY10-075: nearest history=DAY10-017 score=0.726
+DAY10-076: nearest history=DAY6-043 score=0.785
+DAY10-077: nearest history=DAY3-095 score=0.855
+DAY10-078: nearest history=DAY10-053 score=0.807
+DAY10-079: nearest history=DAY10-054 score=0.831
+DAY10-080: nearest history=DAY1-027 score=0.741
+
+ACTUAL REPAIRS
+DAY10-057: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 973 (char 972)).
+DAY10-059: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 962 (char 961)).
+DAY10-060: Applied authoritative blueprint value for acceptableEscalationReasons.
+DAY10-061: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1046 (char 1045)).
+DAY10-064: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 887 (char 886)).
+DAY10-065: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 884 (char 883)).
+DAY10-066: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1010 (char 1009)).
+DAY10-067: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 922 (char 921)).
+DAY10-068: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 809 (char 808)).
+DAY10-069: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 928 (char 927)).
+DAY10-071: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 786 (char 785)).
+DAY10-072: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1023 (char 1022)).
+DAY10-073: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 890 (char 889)).
+DAY10-074: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 882 (char 881)).
+DAY10-075: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1070 (char 1069)).
+DAY10-078: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1119 (char 1118)).
+DAY10-070: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 872 (char 871)).
+DAY10-077: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 978 (char 977)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 125
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

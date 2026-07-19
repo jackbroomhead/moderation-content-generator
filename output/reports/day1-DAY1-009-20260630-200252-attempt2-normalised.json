@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-009",
+      "day": 1,
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "category": "Lifestyle",
+      "text": "Trying out a new sourdough recipe today. The crust is perfect, but the inside is a bit too dense. I guess I need to work on my fermentation time!",
+      "author": "BakingBee_92",
+      "explanation": "The post is a harmless personal update about a hobby and does not violate any platform policies.",
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "tags": [],
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctEscalationReason": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

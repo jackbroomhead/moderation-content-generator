@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-037\",\"author\":\"SunnyGardens92\",\"text\":\"Just got back from my morning walk in Dunmere! The rain has finally stopped and the air is so fresh. My dog, Buster, is already soaked but happy as can be. Also spotted a lovely neighbour watering their plants on their way home. Small joys like this make the week better. #DunmereWeather\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless post about everyday life and local weather that does not violate any policy.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":802,\"followerCount\":7800,\"followingCount\":204,\"verifiedStatus\":false,\"postCount\":1446,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3581,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.54608157114876,
+    "time_to_first_token_seconds": 1.612
+  }
+}

@@ -1,0 +1,13 @@
+SAFE NORMALISATIONS APPLIED
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 23 column 7 (char 668)).
+posts[0].accountAgeDays: supplied schema-compatible default.
+posts[0].followerCount: supplied schema-compatible default.
+posts[0].followingCount: supplied schema-compatible default.
+posts[0].verifiedStatus: supplied schema-compatible default.
+posts[0].postCount: supplied schema-compatible default.
+posts[0].correctEscalationReason: supplied schema-compatible default.
+posts[0].acceptableEscalationReasons: supplied schema-compatible default.
+posts[0].allowNeedsReviewEscalation: supplied schema-compatible default.
+
+VALIDATION ERRORS
+posts.0: 'explanation' is a required property

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-048\",\"author\":\"HealthSeeker99\",\"text\":\"WARNING: A viral video claims that drinking bleach will cure your allergies and boost your immune system instantly! The creator shows people mixing chemicals in a kitchen and says 'trust me bro'. This is dangerous misinformation that could lead to severe poisoning. Do not try this at home.\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post contains a clearly false and harmful health claim (drinking bleach for medical purposes) which violates safety policies regarding dangerous medical advice. The scenario provides sufficient context of the specific video content to justify removal without needing further investigation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2033,
+    "total_output_tokens": 173,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.86605881597535,
+    "time_to_first_token_seconds": 0.281
+  }
+}

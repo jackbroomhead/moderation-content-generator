@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-020\",\"author\":\"SarahJ_Leeds84\",\"text\":\"BREAKING: Urgent update from 'Sterling Trust' bank. Internal memo states all withdrawals are frozen effective NOW until further notice. They say it's due to 'regulatory compliance'. Please don't panic but check your accounts immediately! #BankAlert #SterlingTrust #Urgent\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist verification because it claims a specific financial institution has halted withdrawals, which could cause significant economic harm if true.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":883,\"followerCount\":14770,\"followingCount\":443,\"verifiedStatus\":false,\"postCount\":2129,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4917,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.07503730207515,
+    "time_to_first_token_seconds": 2.029
+  }
+}

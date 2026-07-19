@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-r9v5ftzax1lfp6jkl268jh",
+  "object": "chat.completion",
+  "created": 1782845459,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Required Output: JSON matching a specific schema (implied by the \"Correct all issues\" list).\n    *   Mandatory Values: `id: DAY1-007`, `day: 1`, `correctAction: Approve`.\n    *   Authoritative Reference: `02 - Moderation Policy.md`, `03 - Escalation Reasons.md`, `04 - Day Progression.md`, `05 - Filler Post Rules.md`, `07 - Confirmed Decisions and Deferred Topics.md`, `08 - permitted-values.json`.\n    *   Constraint Checklist & Confidence Score:\n        1. Filler content only? Yes.\n        2. No story content/recurring characters? Yes.\n        3. No child-safety/deferred topics? Yes.\n        4. No invented categories/reasons? Yes.\n        5. Only 6 approved parent escalation reasons? Yes.\n        6. Needs Review not primary? Yes.\n        7. Enough evidence for decision? Yes.\n        8. No real people/locations/etc? Yes.\n        9. Explanations state policy reason? Yes.\n        10. Exactly one post? Yes.\n    *   Confidence Score: 5/5\n\n    *   `id`: \"DAY1-007\"\n    *   `author`: Fictional name.\n    *   `text`: The post content.\n    *   `category`: From allowed list (Fraud, Harassment, Lifestyle, Misinformation, News / Public Event, Normal, Privacy, Public Information, Spam, Threat).\n    *   `correctAction`: \"Approve\".\n    *   `difficulty`: \"Easy\" or \"Medium\".\n    *   `day`: 1.\n    *   `correctEscalationReason`: \"\" (Since action is Approve).\n    *   `acceptableEscalationReasons`: [].\n    *   `allowNeedsReviewEscalation`: false.\n    *   `tags`: Required.\n    *   `scenario`: Required.\n    *   `notes`: Required.\n    *   `accountAgeDays`: Required.\n    *   `followerCount`: Required.\n    *   `followingCount`: Required.\n    *   `verifiedStatus`: Required.\n    *   `postCount`: Required.\n    *   `bio`: Required.\n    *   `previousFlags`: Required.\n    *   `location`: Required.\n    *   `platform`: Required.\n    *   `profileImage`: \"\" (optional).\n    *   `postImage`: \"\" (optional).\n\n    *   The goal is \"Approve\".\n    *   Policy for Approve: \"ordinary personal or community posts\", \"criticism and strong opinions\", \"mutual playful banter and mild teasing\", \"recognisable satire or parody\", \"non-credible hyperbole\", \"unpleasant speech that does not cross a policy threshold\".\n    *   Let's go with a \"Lifestyle\" or \"Normal\" post. A simple opinion about a hobby is safe and fits Day 1.\n\n    *   *Author:* coffee_enthusiast_99\n    *   *Text:* \"I honestly think the best way to brew coffee is the pour-over method. Everything else is just a shortcut for people who don't care about the flavor profile. ☕✨\"\n    *   *Category:* Lifestyle\n    *   *Action:* Approve\n    *   *Explanation:* This is an ordinary personal opinion about a hobby. It does not violate any safety or community guidelines.\n\n    *   `tags`: [\"lifestyle\", \"hobby\", \"opinion\"]\n    *   `scenario`: A user sharing their personal preference about coffee brewing techniques.\n    *   `notes`: The user is expressing a strong but harmless opinion. There is no harassment or misinformation involved.\n    *   `accountAgeDays`: 45\n    *   `followerCount`: 1200\n    *   `followingCount`: 850\n    *   `verifiedStatus`: false\n    *   `postCount`: 342\n    *   `bio`: \"Just a caffeine addict looking for the perfect cup.\"\n    *   `previousFlags`: 0\n    *   `location`: \"Seattle, WA\"\n    *   `platform`: \"SocialMediaApp\"\n\n    *   Is it child safety? No.\n    *   Is it a deferred topic (drugs, weapons)? No.\n    *   Is it a story character? No.\n    *   Is it a specialist category? No.\n    *   Does it have all required fields? Yes.\n    *   Is the action correct? Yes, opinions are approved.\n\n    *   Wait, I need to make sure I don't include `metadata` as a top-level key because the prompt said \"Additional properties are not allowed ('metadata' was unexpected)\". I will put the metadata fields directly in the object.\n\n    *   *Double-check the schema fields based on the \"Correct all issues\" list:*\n        `id`, `author`, `text`, `category`, `correctAction`, `difficulty`, `day`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `tags`, `scenario`, `notes`, `accountAgeDays`, `followerCount`, `followingCount`, `verifiedStatus`, `postCount`, `bio`, `previousFlags`, `location`, `platform`, `profileImage`, `postImage`.\n\n    *   Wait, looking at the previous \"errors\":\n        - `posts.0: Additional properties are not allowed ('metadata' was unexpected)`",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6950,
+    "completion_tokens": 1242,
+    "total_tokens": 8192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1239
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

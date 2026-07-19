@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-028",
+      "author": "NorthbridgeLocal42",
+      "text": "Just a heads-up for anyone planning a trip: The Northbridge Community Library is closing early today at 3pm due to urgent maintenance work on the roof. Please plan accordingly! #CommunityNotice #LibraryUpdate",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless public notice about a library maintenance schedule with no policy violation.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 414,
+      "followerCount": 2800,
+      "followingCount": 128,
+      "verifiedStatus": true,
+      "postCount": 602,
+      "bio": "Fictional community notices and service updates.",
+      "previousFlags": 0,
+      "location": "Northbridge",
+      "platform": "TownSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

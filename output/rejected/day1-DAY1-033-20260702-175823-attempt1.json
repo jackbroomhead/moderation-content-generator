@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-033",
+      "author": "LuckyWinner99",
+      "text": "CONGRATULATIONS! You have been selected as our next FREE VIP member! To claim your prize, please send us a $20 'verification fee' to this account: 555-0123. Once we receive the money, you will instantly get free access to all our premium services! Don't miss out on this incredible opportunity to become a VIP for just pennies! Click here now: bit.ly/verify-vip-now!",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This is an obvious advance-fee scam and phishing attempt. The post demands money upfront under the guise of a 'verification fee' to unlock a free prize, which is a classic fraudulent tactic. The content clearly violates platform policy against scams and fraud, warranting a Remove action.",
+      "day": "1",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

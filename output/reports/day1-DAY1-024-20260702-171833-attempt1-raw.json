@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-024\",\n      \"author\": \"HealthHero2024\",\n      \"text\": \"BREAKING: Scientists have finally discovered a pill that cures all cancer instantly! Just took mine and my tumors vanished in 5 minutes. Link to the secret lab below: http://bit.ly/cure-all-cancer-now #Cure #MiraclePill #HealthFreedom\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post promotes a clearly false and impossible medical claim (instant cancer cure via a pill) which constitutes a clear harmful falsehood. According to policy, clear harmful falsehoods must be removed immediately without escalation.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1613,
+    "total_output_tokens": 221,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.61361523509588,
+    "time_to_first_token_seconds": 0.634
+  }
+}

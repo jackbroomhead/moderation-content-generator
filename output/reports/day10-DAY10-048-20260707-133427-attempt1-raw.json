@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-048\",\"author\":\"WillowAndWellness\",\"text\":\"Just wanted to share my journey with everyone! It feels so good to finally be in control of my eating habits again. The weight loss is real and the results are amazing! #motivation #weightloss #journey #eatingdisorder #recovery #success #beforeandafter\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes dangerous eating-disorder behaviour, which requires removal.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":122,\"followerCount\":705,\"followingCount\":889,\"verifiedStatus\":false,\"postCount\":1423,\"bio\":\"Personal reflections and wellbeing posts.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"StoryGrid\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 3698,
+    "total_output_tokens": 218,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.17639263287502,
+    "time_to_first_token_seconds": 1.727
+  }
+}

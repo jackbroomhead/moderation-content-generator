@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "author": "SunnyDays_92",
+      "text": "Just finished my first 5k run! Feeling exhausted but so proud of myself for sticking to the plan.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post is a harmless personal update and does not violate any platform policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

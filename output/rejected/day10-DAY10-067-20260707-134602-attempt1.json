@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-067",
+      "author": "BellmereWatcher",
+      "text": "Stop sharing that rumour about the new 'detox' app! I've seen it circulating around town claiming to cure all diseases. It's absolute nonsense and people are falling for it. Don't risk your health on fake science, just stick to what doctors recommend. #wellness",
+      "category": "Misinformation",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "The post correctly identifies and debunks a harmful rumour without spreading the false claim itself.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1287,
+      "followerCount": 14050,
+      "followingCount": 299,
+      "verifiedStatus": false,
+      "postCount": 2501,
+      "bio": "Public-interest claims and current discussions.",
+      "previousFlags": 0,
+      "location": "Bellmere",
+      "platform": "CommonThread",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

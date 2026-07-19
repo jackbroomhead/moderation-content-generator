@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-009",
+      "day": 1,
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "category": "Lifestyle",
+      "text": "Finally tried that new bakery on 5th Street. The sourdough bread is amazing, but the line was incredibly long. Definitely worth the wait though!",
+      "explanation": "The post is a harmless personal opinion about a local business and does not violate any platform policies.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "bio": "",
+      "previousFlags": 0,
+      "location": "",
+      "platform": "",
+      "tags": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

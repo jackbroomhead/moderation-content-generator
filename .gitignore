@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Local model/cache files
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Backups
+*.bak
+*.backup

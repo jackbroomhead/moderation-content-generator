@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-107\",\n      \"author\": \"ConcernedCitizen_23\",\n      \"text\": \"Just stumbled across a thread where someone is bragging about their recent hospital stay for 'routine surgery'. They've even posted a selfie taken outside the ward with a blurred NHS badge visible on their coat, plus what looks like a scanned snippet of their discharge summary listing specific medication dosages. This feels way too private for public sharing.\",\n      \"category\": \"Privacy\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post exposes sensitive medical information and identifiable location details without consent, requiring specialist review to assess the full context of the breach.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4699,
+    "total_output_tokens": 233,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.72883491201941,
+    "time_to_first_token_seconds": 0.478
+  }
+}

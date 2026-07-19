@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-038",
+      "author": "CraftyCedar72",
+      "text": "Finally finished my new bookshelf! It took a few weekends but I'm proud of how it turned out. #DIY #HomeImprovement",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal post sharing a mundane life observation and casual pride in a completed project. The content contains no safety issues, harassment, or misinformation, so the correct action is to Approve.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-067\",\"author\":\"MusicLover84\",\"text\":\"Just bought some vinyl records at the local market today and finally found that old copy of The Kinks I was looking for. My record player is a bit clunky but the sound quality is amazing! Can't wait to play some tracks in my living room this weekend.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post shares a harmless personal update about music and vinyl records, with no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2756,
+    "total_output_tokens": 147,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.9875756394393,
+    "time_to_first_token_seconds": 0.353
+  }
+}

@@ -1,0 +1,21 @@
+VALIDATION ERRORS
+This is a general medical emergency, not a Self-Harm / Crisis case.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 572 (char 571)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes
+posts[0].accountAgeDays
+posts[0].followerCount
+posts[0].followingCount
+posts[0].verifiedStatus
+posts[0].postCount
+posts[0].bio
+posts[0].previousFlags
+posts[0].location
+posts[0].platform

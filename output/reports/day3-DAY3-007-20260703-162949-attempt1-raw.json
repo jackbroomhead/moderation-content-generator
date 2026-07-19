@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-007\",\"author\":\"Jules_84\",\"text\":\"It honestly feels like we've all been reduced to data points by some algorithm that doesn't care about context. I tried to post a picture of my dog, got flagged instantly, and the support bot just told me to 'report' myself for no reason. It's exhausting trying to explain nuance to a script designed to catch bad actors but accidentally silencing real people.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a permitted expression of frustration regarding platform mechanics and does not constitute a policy violation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4298,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.50393567007917,
+    "time_to_first_token_seconds": 0.329
+  }
+}

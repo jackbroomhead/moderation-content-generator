@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-106\",\"author\":\"StitchAndMend_UK\",\"text\":\"Just managed to fix a tear on my favourite denim jacket with some patchwork! Sewing is such a satisfying hobby, love getting creative with old clothes. #Sewing #DIY\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is approved as it shares a harmless personal hobby update without any policy violations.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4525,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.20699358561417,
+    "time_to_first_token_seconds": 0.314
+  }
+}

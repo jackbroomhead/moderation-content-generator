@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-070\",\"author\":\"DealHuntersDaily\",\"text\":\"🚨 DON'T MISS OUT! 🚨 Last chance to grab these amazing deals before they vanish forever! Click here now for 90% OFF everything!!! [link removed] Hurry up!! #deals #discounts #fashion #mustsee #flashsale #urgent #limited\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is flagged as spam due to obvious repetitive bulk promotion with excessive urgency and little genuine context.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":101,\"followerCount\":582,\"followingCount\":778,\"verifiedStatus\":false,\"postCount\":1174,\"bio\":\"Deals and promotions.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3725,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.5257661203568,
+    "time_to_first_token_seconds": 1.718
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-061\",\"author\":\"SarahJ_Writes\",\"text\":\"OMG I'm literally shaking right now 😱 The government has just announced they're going to charge us £5,000 extra for breathing air in the city centre starting Monday! They say it's a 'safety fee' but really it's just greedy tax on survival. Don't let them take your money or you'll be gasping for cash instead of oxygen! #BreathingTax #StayStrong\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is clearly satire using hyperbole about air quality charges; no credible threat, financial harm or policy violation is present.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4555,
+    "total_output_tokens": 186,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.98974695929219,
+    "time_to_first_token_seconds": 0.417
+  }
+}

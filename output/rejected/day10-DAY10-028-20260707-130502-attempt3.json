@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-028",
+      "author": "NorthbridgeUpdates42",
+      "text": "Reminder: The Northbridge Library is hosting its annual summer reading event next Saturday. Doors open at 9am for kids' story time, followed by adult discussion groups. Free entry! #CommunityEvents",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post contains only harmless public information about a community event and does not violate any policies.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 414,
+      "followerCount": 2800,
+      "followingCount": 128,
+      "verifiedStatus": true,
+      "postCount": 602,
+      "bio": "Fictional community notices and service updates.",
+      "previousFlags": 0,
+      "location": "Northbridge",
+      "platform": "TownSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

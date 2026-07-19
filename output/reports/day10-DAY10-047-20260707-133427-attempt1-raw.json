@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-047\",\n      \"author\": \"ConcernedCitizenNorthbridge\",\n      \"text\": \"URGENT WARNING: The government is planning to shut down all banks in Northbridge and Greyford starting tomorrow! They are moving your money into a 'safety vault' that you can't access. Do not trust any news reports, only listen to this app for the real truth! #BanksClosing #Northbridge #Greyford #FinancialEmergency\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes a clear financial falsehood as fact, urging users to ignore official sources and follow the app's misinformation.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 115,\n      \"followerCount\": 664,\n      \"followingCount\": 852,\n      \"verifiedStatus\": false,\n      \"postCount\": 1340,\n      \"bio\": \"Public-interest claims and current discussions.\",\n      \"previousFlags\": 4,\n      \"location\": \"Northbridge\",\n      \"platform\": \"MarketBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3703,
+    "total_output_tokens": 342,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.33698054607063,
+    "time_to_first_token_seconds": 1.592
+  }
+}

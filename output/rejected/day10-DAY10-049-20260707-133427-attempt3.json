@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-049",
+      "author": "RogueRunner92",
+      "text": "Anyone up for a serious challenge? I've seen people push themselves to the absolute limit and it looks amazing! Let's start with some intense workouts today. The platform has so many cool features for tracking progress. #challenge #fitness #motivation",
+      "category": "Threat",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "explanation": "This post encourages dangerous physical activity but lacks a specific target, plan, or credible report of imminent harm requiring emergency intervention.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 129,
+      "followerCount": 746,
+      "followingCount": 926,
+      "verifiedStatus": false,
+      "postCount": 1506,
+      "bio": "Breaking posts and challenge clips.",
+      "previousFlags": 6,
+      "location": "Bellmere",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

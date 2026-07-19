@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-014",
+      "author": "ConcernedCitizen_Oakhaven",
+      "text": "Has anyone checked the new notice about polling stations? I saw a post saying locations have moved, but it didn't mention where the source was or if it's official. Just wanted to make sure people aren't heading to the wrong place on election day.",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "The claim involves potential civic misinformation requiring specialist verification of polling locations and intent before removal.",
+      "day": "10",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "CivicElection",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 661,
+      "followerCount": 10390,
+      "followingCount": 341,
+      "verifiedStatus": false,
+      "postCount": 1583,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 1,
+      "location": "Oakhaven",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

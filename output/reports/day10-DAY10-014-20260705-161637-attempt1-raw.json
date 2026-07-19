@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-014\",\"author\":\"OakhavenUpdates_84\",\"text\":\"BREAKING: Official notice from the local council that the polling station for Oakhaven has moved to the Community Centre on High Street instead of the old hall. Please head there tomorrow to vote! #VotingMatters\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist verification because the source and intent of the claim are unclear, and it could mislead voters to the wrong location.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"CivicElection\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":661,\"followerCount\":10390,\"followingCount\":341,\"verifiedStatus\":false,\"postCount\":1583,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5120,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.596670248203642,
+    "time_to_first_token_seconds": 23.163
+  }
+}

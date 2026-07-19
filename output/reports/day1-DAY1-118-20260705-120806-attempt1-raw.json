@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-118\",\"author\":\"FrustratedFan_04\",\"text\":\"Honestly, this is absolutely bonkers! I've been trying to get my hands on that limited edition sneaker release for months, but the bots are just snatching them up in seconds. The algorithm is rigged and it's complete madness. They're literally scanning our shopping carts while we blink and stealing everything. #RiggedSystem\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with online shopping practices but does not promote a specific scam or constitute a credible threat.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4532,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.86062291988952,
+    "time_to_first_token_seconds": 0.408
+  }
+}

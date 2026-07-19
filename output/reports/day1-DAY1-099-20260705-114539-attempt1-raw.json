@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-099\",\"author\":\"ClaraK_84\",\"text\":\"It's so easy to feel like you're drowning, but I've been there and I'm telling you, you don't have to fight it alone anymore. Just take a step back from the noise, breathe through the panic, and remember that asking for help is actually the strongest thing you can do. 💙 #MentalHealthMatters\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post encourages disengaging from distress and seeking support rather than self-harming.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4668,
+    "total_output_tokens": 163,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.82805113456259,
+    "time_to_first_token_seconds": 0.517
+  }
+}

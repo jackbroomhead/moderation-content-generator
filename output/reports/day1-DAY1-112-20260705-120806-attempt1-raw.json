@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-112\",\n      \"author\": \"urban_fixer_uk\",\n      \"text\": \"Finally got my hands on that new vintage floor lamp I've been hunting for weeks. It's a real find from an estate sale in Manchester, and the brass finish is perfect. Just need to wire it up tonight.\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about acquiring home decor items and does not violate any policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4293,
+    "total_output_tokens": 202,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.77402678787574,
+    "time_to_first_token_seconds": 2.075,
+    "model_load_time_seconds": 3.887
+  }
+}

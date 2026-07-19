@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-128\",\"author\":\"ConcernedCitizen_James\",\"text\":\"URGENT: Just got word from 'Health Watch UK' that water in [Town Name] is contaminated with toxic chemicals! They're saying it's a government cover-up and the supply lines are being sabotaged. Please don't drink tap water until further notice. This could be life threatening for everyone. #WaterCrisis #PublicSafety\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes an unverified contamination warning that lacks evidence and could cause unnecessary panic among residents.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4868,
+    "total_output_tokens": 208,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.7769806750236,
+    "time_to_first_token_seconds": 2.196
+  }
+}

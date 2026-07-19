@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-007\",\"author\":\"TransformationKingpin_42\",\"text\":\"It's all about that mental fortitude! 🧠🔥 Look at this incredible journey from 'broken' to 'unbreakable'. No meds, no excuses, just pure discipline and a hunger for perfection. The body must pay the price for the mind's clarity. #Discipline #Transformation\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"The post glamorises eating-disorder behaviour but lacks indicators of personal crisis or immediate danger.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1400,\"followerCount\":640000,\"followingCount\":90,\"verifiedStatus\":true,\"postCount\":7200,\"bio\":\"Extreme transformation and discipline.\",\"previousFlags\":12,\"location\":\"Birmingham\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4792,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 69.05783859589478,
+    "time_to_first_token_seconds": 2.517
+  }
+}

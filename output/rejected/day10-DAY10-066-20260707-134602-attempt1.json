@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-066",
+      "author": "GreyfordEvents",
+      "text": "Quick update for all our payment listings and account help! We've secured a new verified method to process transactions via this link: [link removed]. Please ensure you use the correct password and security code when logging in. All funds are held securely until confirmation. #payments #help",
+      "category": "Fraud",
+      "correctAction": "Approve",
+      "difficulty": "Hard",
+      "explanation": "The post is a legitimate account-security warning for a fundraiser, providing clear instructions to use secure login credentials without exposing sensitive details.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1190,
+      "followerCount": 12800,
+      "followingCount": 280,
+      "verifiedStatus": false,
+      "postCount": 2290,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 0,
+      "location": "Greyford",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

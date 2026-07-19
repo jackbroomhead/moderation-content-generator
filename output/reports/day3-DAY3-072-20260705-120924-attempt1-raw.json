@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-072\",\"author\":\"maggie_j_94\",\"text\":\"I've blocked them three times now and still they message me at 2am asking why I'm ignoring their texts. They claim it's just 'checking in' but I know they aren't. It's getting really stressful having to constantly block and unblock them.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This case requires specialist investigation due to the pattern of persistent unwanted contact that continues despite clear attempts to stop it.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4741,
+    "total_output_tokens": 165,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.16116734586565,
+    "time_to_first_token_seconds": 0.583
+  }
+}

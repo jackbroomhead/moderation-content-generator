@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-135\",\"author\":\"PawsAndPlay94\",\"text\":\"Look at this little guy! 🐈 He was so cute when I found him shivering in a cardboard box outside the bakery. I think someone left him there to starve, maybe even hoping he'd freeze to death before anyone noticed. It's absolutely heartbreaking and makes me want to scream. #AnimalCruelty\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"Text-only animal cruelty requiring specialist handling; do not describe injury graphically.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[\"AnimalCruelty\"]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4683,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.1018262393373,
+    "time_to_first_token_seconds": 0.596
+  }
+}

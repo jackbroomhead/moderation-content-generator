@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-142\",\"author\":\"BikeRepairer_83\",\"text\":\"Finally managed to fix that frayed chain on my bike after hours of frustration! Nothing beats the satisfaction of a neat repair. 💙 #DIYFixes\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a personal update about repairing a household item and contains no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false\",\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4714,
+    "total_output_tokens": 162,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.4216443039942,
+    "time_to_first_token_seconds": 2.053
+  }
+}

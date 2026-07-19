@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-091\",\"author\":\"TechSkeptic_82\",\"text\":\"The new AI governance commission has absolutely no right to dictate how we spend our weekends or what kind of news feeds we scroll past. It's a slippery slope towards total surveillance and thought control if they keep pushing these restrictions on digital freedom.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses anti-AI sentiment as lawful criticism without threatening harm, targeting specific individuals, or spreading false claims.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4498,
+    "total_output_tokens": 146,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.75827326526864,
+    "time_to_first_token_seconds": 0.384
+  }
+}

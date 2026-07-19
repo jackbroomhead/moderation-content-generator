@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-004\",\n      \"author\": \"SarahJ_Leeds\",\n      \"text\": \"@GamerBoy89 has been relentlessly harassing me with vile personal insults and threats about my family. It's completely unacceptable behaviour.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post clearly promotes a targeted harassment attack, which violates policy and must be removed.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 300,\n      \"followerCount\": 1500,\n      \"followingCount\": 1800,\n      \"verifiedStatus\": false,\n      \"postCount\": 5100,\n      \"bio\": \"Unfiltered opinions.\",\n      \"previousFlags\": 4,\n      \"location\": \"Leeds\",\n      \"platform\": \"PublicSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4695,
+    "total_output_tokens": 290,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 72.97626132547538,
+    "time_to_first_token_seconds": 0.345
+  }
+}

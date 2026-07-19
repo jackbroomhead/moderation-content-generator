@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-019\",\"author\":\"ConcernedCitizen_Riverdale\",\"text\":\"I've been watching this 'charity' group that's been organizing to cull the stray cats in the industrial district. They claim it's for population control, but I'm terrified they're actually planning something much more brutal and are just hiding behind a fake name. If anyone knows how to stop them or get the council involved before they start tomorrow, please help.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post reports a credible threat involving planned animal cruelty and requires specialist intervention to verify the intent and prevent harm.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4675,
+    "total_output_tokens": 179,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.50743338826727,
+    "time_to_first_token_seconds": 0.464
+  }
+}

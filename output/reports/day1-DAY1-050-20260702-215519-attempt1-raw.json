@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-050\",\"author\":\"ToxicTypist99\",\"text\":\"@VinylVibes is such a drama queen for complaining about my playlist choices! Go away loser, nobody wants to hear you anyway. #Drama #Loser\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"The post contains direct insults ('drama queen', 'loser') and an explicit command to leave ('Go away'), which violates harassment policy regarding targeted abuse.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2011,
+    "total_output_tokens": 142,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.84261842971297,
+    "time_to_first_token_seconds": 0.411
+  }
+}

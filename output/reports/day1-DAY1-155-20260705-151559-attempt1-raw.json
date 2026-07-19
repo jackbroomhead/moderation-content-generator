@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-155\",\"author\":\"NightOwl_42\",\"text\":\"Can't sleep again because of these messages at 3am. They keep asking about my day, making weird comments and saying I'm pathetic. It's been going on for weeks now and it feels like they're targeting me specifically. Not cool.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This sustained campaign of late-night targeted messages constitutes harassment and requires specialist investigation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4868,
+    "total_output_tokens": 180,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.84559432300001,
+    "time_to_first_token_seconds": 2.098
+  }
+}

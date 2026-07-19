@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-008",
+      "day": 1,
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "category": "Harassment",
+      "text": "You're a pathetic loser and a complete waste of space. Everyone in this group hates you and wants you to leave.",
+      "scenario": "A user is posting a direct, targeted insult at another person in a public group.",
+      "notes": "This is a clear violation of the policy against direct targeted insults and bullying.",
+      "bio": "",
+      "previousFlags": [],
+      "location": "",
+      "platform": "",
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

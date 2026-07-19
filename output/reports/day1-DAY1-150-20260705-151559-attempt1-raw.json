@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-150\",\"author\":\"MelodyFan84\",\"text\":\"@singingstar92 your music is so overrated and annoying, I can't believe anyone listens to such trash! Stop wasting my time with your boring songs! 😂 #MusicHate\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post targets a specific individual with direct insults and harassment, which violates our policy against abuse.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4840,
+    "total_output_tokens": 171,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.02927756934258,
+    "time_to_first_token_seconds": 2.015
+  }
+}

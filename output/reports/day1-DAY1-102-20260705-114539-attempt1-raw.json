@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-102\",\"author\":\"RiskTaker_84\",\"text\":\"Anyone up for the new #GladiatorChallenge? It's totally safe, just grab a heavy brick and smash it against your head to prove your loyalty! 💪🔥 Don't be a wimp like everyone else who won't risk it all. Tag me when you're ready to get hurt!\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge involving self-harm and clearly violates safety policies regarding the encouragement of harmful acts.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4643,
+    "total_output_tokens": 161,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.14126203904394,
+    "time_to_first_token_seconds": 0.439
+  }
+}

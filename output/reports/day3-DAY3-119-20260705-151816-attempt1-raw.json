@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-119\",\"author\":\"ConcernedNeighbour84\",\"text\":\"I am deeply worried about the condition of the dogs at 42 Maplewood Lane. They appear to be locked in a shed with no food or water and are showing signs of severe distress and neglect. Please send help immediately.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post reports credible animal neglect requiring specialist intervention under ThreatViolence.\",\"day\":\"3\",\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4853,
+    "total_output_tokens": 178,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.22065502711925,
+    "time_to_first_token_seconds": 2.008
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-048\",\n      \"author\": \"SarahJ_22\",\n      \"text\": \"This account has been spamming my story replies and DMs for hours. They keep saying I 'ruined the vibe' for their fanbase and demanding I delete my latest video or they'll 'cancel' me publicly. It's getting really aggressive and I don't know how to stop them.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post describes a coordinated campaign of targeted harassment and threats of public cancellation directed at the creator, requiring specialist review to assess the scale and severity.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"HarassmentAbuse\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4882,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.05780106704411,
+    "time_to_first_token_seconds": 0.406
+  }
+}

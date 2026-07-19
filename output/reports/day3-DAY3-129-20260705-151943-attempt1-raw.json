@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-129\",\"author\":\"SarahJ_Wellness\",\"text\":\"I found this incredible new treatment for menopause! It's a natural protocol called 'The Radiant Reset' that claims to balance hormones in just 48 hours. I've already lost weight and feel so much better without any medication or side effects. My doctor said it was amazing but I think they're hiding the real cure! #Wellness #NaturalCure\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes an unverified health treatment with rapid medical claims that could lead to harmful misinformation.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4886,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.53036501528362,
+    "time_to_first_token_seconds": 2.163
+  }
+}

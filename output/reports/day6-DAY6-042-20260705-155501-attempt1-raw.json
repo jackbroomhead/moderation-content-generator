@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-042\",\"author\":\"PromoKing_28\",\"text\":\"🔥 AMAZING DEALS ALERT! Grab our exclusive offers on everything you need RIGHT NOW! Click here to claim your 50% discount before it expires! Limited stock available at this price. Don't miss out on these incredible savings today! 🛒✨ #Deals #Discounts #Shopping\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is flagged as spam because the account was recently created and has flooded the platform with promotional messages, despite having several previous flags.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":6,\"followerCount\":18,\"followingCount\":1900,\"verifiedStatus\":false,\"postCount\":12800,\"bio\":\"Best deals every minute.\",\"previousFlags\":14,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4974,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.109171670709673,
+    "time_to_first_token_seconds": 23.577
+  }
+}

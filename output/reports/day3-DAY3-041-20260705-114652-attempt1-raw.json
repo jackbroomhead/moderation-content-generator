@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-041\",\"author\":\"Sarah_EatsClean_88\",\"text\":\"Finally found a way to lose weight without starving myself! 🌟 My new secret is that if you just skip breakfast and only eat tiny salads, your metabolism resets overnight. I've already lost 5 pounds in two days on this plan. Anyone else trying the #cleanfast challenge? Let's do this together! 💪✨\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes restrictive eating and weight-loss behaviour without indicating an immediate personal crisis, which violates self-harm policy regarding the glorification of disordered habits.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4719,
+    "total_output_tokens": 176,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.39419610583057,
+    "time_to_first_token_seconds": 0.518
+  }
+}

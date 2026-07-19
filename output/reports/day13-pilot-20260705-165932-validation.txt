@@ -1,0 +1,107 @@
+VALIDATION PASSED
+Generated: 2026-07-05T17:00:25
+Elapsed seconds: 53.1
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 13
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260705-165932.json
+
+BLUEPRINT
+DAY13-001: Approve | Normal | Hard
+DAY13-002: Approve | Misinformation | Hard
+DAY13-003: Approve | Fraud | Hard
+DAY13-004: Remove | Harassment | Hard
+DAY13-005: Remove | Fraud | Hard
+DAY13-006: Remove | Misinformation | Hard
+DAY13-007: Remove | Self-Harm | Hard
+DAY13-008: Remove | Threat | Hard
+DAY13-009: Escalate | Threat | Hard
+DAY13-010: Escalate | Harassment | Hard
+DAY13-011: Escalate | Fraud | Hard
+DAY13-012: Escalate | Privacy | Hard
+DAY13-013: Escalate | Self-Harm | Hard
+DAY13-014: Escalate | Threat | Hard
+DAY13-015: Escalate | Misinformation | Hard
+DAY13-016: Escalate | Misinformation | Hard
+DAY13-017: Escalate | Misinformation | Hard
+DAY13-018: Escalate | Misinformation | Hard
+DAY13-019: Escalate | Misinformation | Hard
+DAY13-020: Escalate | Privacy | Hard
+DAY13-021: Escalate | Fraud | Hard
+DAY13-022: Escalate | Harassment | Hard
+DAY13-023: Escalate | Threat | Hard
+DAY13-024: Escalate | Self-Harm | Hard
+DAY13-025: Escalate | Misinformation | Hard
+
+SEMANTIC DUPLICATE CHECK
+DAY13-001: nearest history=DAY3-032 score=0.800
+DAY13-002: nearest history=DAY1-048 score=0.850
+DAY13-003: nearest history=DAY6-039 score=0.797
+DAY13-004: nearest history=DAY3-048 score=0.762
+DAY13-005: nearest history=DAY3-014 score=0.844
+DAY13-006: nearest history=DAY3-040 score=0.870
+DAY13-007: nearest history=DAY1-049 score=0.868
+DAY13-008: nearest history=DAY3-067 score=0.822
+DAY13-009: nearest history=DAY1-078 score=0.735
+DAY13-010: nearest history=DAY3-097 score=0.744
+DAY13-011: nearest history=DAY3-024 score=0.704
+DAY13-012: nearest history=DAY1-126 score=0.756
+DAY13-013: nearest history=DAY3-071 score=0.774
+DAY13-014: nearest history=DAY6-010 score=0.769
+DAY13-015: nearest history=DAY6-034 score=0.786
+DAY13-016: nearest history=DAY10-007 score=0.795
+DAY13-017: nearest history=DAY6-044 score=0.814
+DAY13-018: nearest history=DAY3-128 score=0.877
+DAY13-019: nearest history=DAY6-057 score=0.821
+DAY13-020: nearest history=DAY10-024 score=0.775
+DAY13-021: nearest history=DAY3-100 score=0.858
+DAY13-022: nearest history=DAY6-024 score=0.702
+DAY13-023: nearest history=DAY1-060 score=0.690
+DAY13-024: nearest history=DAY3-045 score=0.818
+DAY13-025: nearest history=DAY1-108 score=0.810
+
+ACTUAL REPAIRS
+DAY13-001: Applied authoritative blueprint value for day.
+DAY13-002: Applied authoritative blueprint value for day.
+DAY13-003: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 886 (char 885)).
+DAY13-003: Applied authoritative blueprint value for day.
+DAY13-004: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 902 (char 901)).
+DAY13-004: Applied authoritative blueprint value for day.
+DAY13-005: Applied authoritative blueprint value for day.
+DAY13-006: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1061 (char 1060)).
+DAY13-006: Applied authoritative blueprint value for day.
+DAY13-007: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 935 (char 934)).
+DAY13-008: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 875 (char 874)).
+DAY13-008: Applied authoritative blueprint value for day.
+DAY13-009: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1079 (char 1078)).
+DAY13-009: Applied authoritative blueprint value for day.
+DAY13-010: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1103 (char 1102)).
+DAY13-012: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 975 (char 974)).
+DAY13-012: Applied authoritative blueprint value for day.
+DAY13-013: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 863 (char 862)).
+DAY13-013: Applied authoritative blueprint value for day.
+DAY13-015: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 990 (char 989)).
+DAY13-015: Applied authoritative blueprint value for day.
+DAY13-017: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1109 (char 1108)).
+DAY13-018: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1152 (char 1151)).
+DAY13-018: Applied authoritative blueprint value for day.
+DAY13-019: Applied authoritative blueprint value for day.
+DAY13-020: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 957 (char 956)).
+DAY13-021: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 927 (char 926)).
+DAY13-021: Applied authoritative blueprint value for day.
+DAY13-022: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 966 (char 965)).
+DAY13-022: Applied authoritative blueprint value for day.
+DAY13-022: Applied authoritative blueprint value for correctEscalationReason.
+DAY13-023: Applied authoritative blueprint value for day.
+DAY13-024: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 953 (char 952)).
+DAY13-024: Applied authoritative blueprint value for day.
+DAY13-025: Applied authoritative blueprint value for day.
+DAY13-011: Applied authoritative blueprint value for day.
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 125
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

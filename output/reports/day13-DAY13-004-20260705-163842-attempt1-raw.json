@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-004\",\"author\":\"Jules_Vance_27\",\"text\":\"I've had enough of @PublicSquareUser89's relentless harassment and hate speech directed at me. They keep posting vicious attacks about my personal life, calling me names and threatening to expose my secrets. It's time for an end to this toxic behaviour.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This is a clear one-off targeted attack that violates our harassment policy and should be removed immediately.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":300,\"followerCount\":1500,\"followingCount\":1800,\"verifiedStatus\":false,\"postCount\":5100,\"bio\":\"Unfiltered opinions.\",\"previousFlags\":4,\"location\":\"Leeds\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4843,
+    "total_output_tokens": 220,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.710187964522149,
+    "time_to_first_token_seconds": 20.919
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-078\",\n      \"author\": \"ConcernedCitizen_84\",\n      \"text\": \"URGENT WARNING: Just received a text claiming that the entire north side of Manchester is being evacuated due to a 'toxic gas leak' from the chemical plant. They say we have 20 minutes to leave before the authorities arrive. The message includes a photo of a smoke plume which looks like it's coming from the factory area. Please share this before it spreads further so everyone can stay safe! #Emergency #Manchester\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post shares an unverified emergency claim that could cause public panic or unsafe movement, requiring specialist verification before removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4717,
+    "total_output_tokens": 259,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.71259503427197,
+    "time_to_first_token_seconds": 0.617
+  }
+}

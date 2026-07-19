@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-019\",\"author\":\"CapitalWatch_UK\",\"text\":\"BREAKING: Unconfirmed reports circulating on ClipLoop suggest strict capital controls are being implemented tonight across all major banks. Sources claim liquidity will be frozen at 22:00 BST. This impacts international transfers and savings immediately. #FinancialNews #Economy\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post spreads unverified claims about significant financial regulation that could cause public alarm and market disruption, requiring specialist review to verify authenticity and potential harm.\",\"day\":\"13\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[\"SyntheticManipulatedMedia\"],\"accountAgeDays\":900,\"followerCount\":310000,\"followingCount\":540,\"verifiedStatus\":true,\"postCount\":6100,\"bio\":\"Markets, banks and household finance.\",\"previousFlags\":1,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5098,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.733038835649122,
+    "time_to_first_token_seconds": 22.223
+  }
+}

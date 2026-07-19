@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-154\",\"author\":\"quiet_observer_27\",\"text\":\"It's finally happening. I'm so tired of all this noise and pain inside my head. There's no one who understands what it's like to feel completely alone in the dark, even when you're surrounded by people. If you see me tonight, please don't try to stop me. Just let me go peacefully before it gets too late.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates a personal goodbye message suggesting imminent suicide risk, requiring specialist investigation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4850,
+    "total_output_tokens": 199,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.23629698740649,
+    "time_to_first_token_seconds": 2.068
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-121\",\"author\":\"SaltyShark94\",\"text\":\"@GrumpyGoblin88 you absolute idiot, your posts are so boring and annoying.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post targets a specific user with direct insults, constituting harassment that requires removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4649,
+    "total_output_tokens": 112,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.13166879817904,
+    "time_to_first_token_seconds": 0.461
+  }
+}

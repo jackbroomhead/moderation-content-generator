@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-086\",\"author\":\"SarahJenkins84\",\"text\":\"Have you seen this clip going round? It's supposedly footage of a massive protest at Parliament Square today, with thousands marching and chanting slogans about 'freedom'. The caption says it was recorded just moments ago. Looks pretty convincing to me but I'm not sure if it's real or just some satirical edit. #News #Breaking\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post presents a potentially manipulated public-interest clip where satire, provenance or context makes the decision uncertain.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3005,
+    "total_output_tokens": 165,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.38659116487635,
+    "time_to_first_token_seconds": 0.283
+  }
+}

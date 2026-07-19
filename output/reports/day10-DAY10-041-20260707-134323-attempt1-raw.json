@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-041\",\n      \"author\": \"GreyfordFundraiser\",\n      \"text\": \"Thank you everyone for your kind messages and donations! We've raised over £2,500 so far for the local youth centre in Greyford. The app says we're just one day away from hitting our target to buy new sports equipment. Please keep sharing if you can help spread the word! #community #charity\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post is a legitimate fundraiser with no suspicious payment requests or impersonation indicators.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1190,\n      \"followerCount\": 12800,\n      \"followingCount\": 280,\n      \"verifiedStatus\": false,\n      \"postCount\": 2290,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 0,\n      \"location\": \"Greyford\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3711,
+    "total_output_tokens": 335,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.38661586591397,
+    "time_to_first_token_seconds": 1.587
+  }
+}

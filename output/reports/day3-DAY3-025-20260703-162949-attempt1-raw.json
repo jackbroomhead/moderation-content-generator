@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-025\",\"author\":\"HopefulHelper_UK\",\"text\":\"Please help! The 'Riverdale Community Fund' is running a special drive for local families. They're asking for donations to go straight into a verified charity account, and they've shared a screenshot of a bank statement showing the official logo. It's so urgent they need money by tonight to buy food parcels. Has anyone heard of them before? I want to help but need to be sure it's legit.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a plausible charity fundraiser requesting donations via direct bank transfer, which raises concerns about potential impersonation and fraudulent solicitation requiring specialist investigation.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4668,
+    "total_output_tokens": 196,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.05806800598795,
+    "time_to_first_token_seconds": 0.491
+  }
+}

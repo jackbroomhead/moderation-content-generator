@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-080\",\n      \"author\": \"ConcernedCitizen_92\",\n      \"text\": \"BREAKING: Prime Minister's health team confirms the Chancellor has been diagnosed with a rare, highly contagious virus after a secret press conference. The video shows him speaking clearly without masks while surrounded by officials in hazmat suits. Please stay indoors and avoid contact immediately. This is an emergency! #PublicSafety #StaySafe\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post asserts a specific, high-stakes medical falsehood regarding a public official that could incite panic or misinformation campaigns, requiring specialist verification of the video's provenance and authenticity before removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [\n        \"MisinformationPublicHarm\"\n      ],\n      \"allowNeedsReviewEscalation\": true,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4731,
+    "total_output_tokens": 263,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.08877247322916,
+    "time_to_first_token_seconds": 0.566
+  }
+}

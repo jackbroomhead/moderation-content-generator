@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-084\",\"author\":\"SarahJ_WellnessWatch\",\"text\":\"Just saw this post from @LumaWell claiming that a specific juice cleanse can actually replace chemotherapy and cure stage 3 cancer. This is dangerously false advice! Please don't stop your treatment based on influencer testimonials. Always consult your oncology team first and stick to qualified medical care. #CancerAwareness\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post warns against a harmful medical falsehood rather than promoting it, so no misinformation violation occurs.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4476,
+    "total_output_tokens": 158,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.79836971390729,
+    "time_to_first_token_seconds": 0.385
+  }
+}

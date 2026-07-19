@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-052\",\"author\":\"UrbanExplorer_99\",\"text\":\"If you want to feel invincible, try this stunt: jump off the high diving board at the local park and land on your back! No safety gear needed. Watch me do it and get that adrenaline rush before I break my neck. #ChallengeAccepted #RiskItAll\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge with an explicit risk of severe injury or death, violating policy on threats of violence and harm to self. It encourages reckless behavior without safety precautions.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2010,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.04442458527292,
+    "time_to_first_token_seconds": 0.412
+  }
+}

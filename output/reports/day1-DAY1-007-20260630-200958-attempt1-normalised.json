@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "day": 1,
+      "text": "Just finished my first sourdough loaf! It's a bit crusty on one side, but it tastes amazing. Anyone have tips for a smoother crust next time?",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "tags": [
+        "baking",
+        "sourdough",
+        "hobby"
+      ],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-096\",\"author\":\"JazzLover82\",\"text\":\"@SaltySnackz42 your posts are absolutely pathetic and you should just stop existing, honestly it's embarrassing how little anyone cares.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post targets a specific user with direct insults and demands for their absence, constituting harassment that needs to be removed.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4691,
+    "total_output_tokens": 129,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.07844615726465,
+    "time_to_first_token_seconds": 0.471
+  }
+}

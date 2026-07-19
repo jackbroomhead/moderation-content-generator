@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-031\",\"author\":\"WinFast4u99\",\"text\":\"🔥 WIN $500 NOW! Click here to claim your free prize pack instantly! No questions asked, just tap the link and get rich quick today!!!\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is removed because it consists of obvious spam with irrelevant promotion copied for attention. It does not meet platform policy requirements for content that offers false prizes or misleading links without legitimate context.\",\"day\":\"1\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1454,
+    "total_output_tokens": 140,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.17975645008514,
+    "time_to_first_token_seconds": 0.308
+  }
+}

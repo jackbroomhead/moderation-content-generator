@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-055\",\"author\":\"ArtisticSoul92\",\"text\":\"Finally caught up on my weekend hobby! Spent the afternoon restoring some vintage ceramics I picked up at a flea market in Greyford. There's nothing quite like the smell of clay and the patience required to bring old pieces back to life. #PotteryLife #VintageFinds\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"Post is harmless personal content about hobbies and does not violate any policies.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2548,\"followerCount\":30300,\"followingCount\":546,\"verifiedStatus\":false,\"postCount\":5244,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Greyford\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3709,
+    "total_output_tokens": 224,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.51681963877434,
+    "time_to_first_token_seconds": 1.654
+  }
+}

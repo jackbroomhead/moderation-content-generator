@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-003",
+      "author": "SarahJ_Bristol_84",
+      "text": "We are thrilled to announce our latest high-value auction for community relief! Proceeds will directly fund essential supplies for local families in need. We have a consistent history of transparency and verified sales. Please review the full listing details via [link removed]. #CharityRelief #CommunitySupport",
+      "category": "Fraud",
+      "correctAction": "Approve",
+      "difficulty": "Hard",
+      "explanation": "The post is an ordinary high-value listing from a verified, established seller with no indicators of deception.",
+      "day": "13",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 2900,
+      "followerCount": 132000,
+      "followingCount": 500,
+      "verifiedStatus": true,
+      "postCount": 8400,
+      "bio": "Official fictional charity and community relief account.",
+      "previousFlags": 0,
+      "location": "Bristol",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

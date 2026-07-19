@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-004\",\"author\":\"MarketWatch_Jules\",\"text\":\"Saw a post claiming 'Stocks will crash 50% by lunch' and it's spreading like wildfire. I've checked the data myself - no major earnings surprises, no central bank announcements, nothing to support that panic. It looks like someone just trying to sell crypto courses or FUD for clicks. The market is stable today.\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post debunks a harmful financial claim and provides factual context, which is permitted under policy.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":291,\"followerCount\":3090,\"followingCount\":171,\"verifiedStatus\":false,\"postCount\":673,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4883,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.63700201971058,
+    "time_to_first_token_seconds": 20.869
+  }
+}

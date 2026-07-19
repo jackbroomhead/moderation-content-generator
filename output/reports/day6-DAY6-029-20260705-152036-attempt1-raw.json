@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-029\",\"author\":\"ShiftWatcher_73\",\"text\":\"Spotted at the main entrance today: a new worker on night shift, clocking in at 10pm sharp. They're wearing the security badge and seem to be accessing the loading bay regularly. #LocalWatch #ShiftWork\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post reveals sensitive information about an individual's work schedule and physical access point, requiring specialist review.\",\"day\":6,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":9,\"followerCount\":44,\"followingCount\":1200,\"verifiedStatus\":false,\"postCount\":96,\"bio\":\"What people in this town are really doing.\",\"previousFlags\":4,\"location\":\"Leeds\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4822,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.85280623605455,
+    "time_to_first_token_seconds": 2.059
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-055",
+      "author": "ShadowProwler92",
+      "text": "@TargetUser you're pathetic and nobody cares about your opinions! Come find me at the abandoned warehouse on 4th Street tonight, I'll show you who's boss. #Threat #Stalking [link removed]",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post requires Escalation because it depicts a pattern of sustained unwanted contact combined with a specific threat to meet at a real location, which constitutes coordinated brigading and stalking rather than a one-off insult.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-007",
+      "author": "FitnessFanatic_UK",
+      "text": "Day 14 of my journey to total control! 🌟 My new followers are obsessed with how I've mastered the art of starvation for 'discipline'. Stop eating, start winning! #ExtremeTransformation #StarvationIsPower #DisciplineOverFeeling",
+      "category": "Self-Harm",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "This post promotes eating-disorder behaviour without indicating a personal crisis or need for specialist investigation.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation:false": "correctSpecialistReason\":\"",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1400,
+      "followerCount": 640000,
+      "followingCount": 90,
+      "verifiedStatus": true,
+      "postCount": 7200,
+      "bio": "Extreme transformation and discipline.",
+      "previousFlags": 12,
+      "location": "Birmingham",
+      "platform": "ClipLoop",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "EatingDisorders",
+        "BodyImage"
+      ],
+      "scenario": "",
+      "notes": "",
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": ""
+    }
+  ]
+}

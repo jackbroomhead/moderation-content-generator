@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-060\",\"author\":\"SarahM_Brighton\",\"text\":\"Does anyone know if the Brighton Seafood Festival is happening this weekend? I heard there might be a new pop-up market at the Lanes with some amazing local chefs. Can't wait to try some fresh oysters! 🦪✨ #SeafoodFestival #BrightonEats\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless announcement about a community event and does not violate any policies.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4502,
+    "total_output_tokens": 155,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.27174019050095,
+    "time_to_first_token_seconds": 0.503
+  }
+}

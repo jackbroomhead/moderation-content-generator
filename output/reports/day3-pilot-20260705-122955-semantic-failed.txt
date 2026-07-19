@@ -1,0 +1,32 @@
+SEMANTIC DUPLICATE CHECK FAILED
+
+DAY3-084 is semantically too similar to history post DAY3-059 (0.919 >= 0.900).
+
+NEAREST-HISTORY SCORES
+DAY3-081: nearest history=DAY3-031 score=0.853
+DAY3-082: nearest history=DAY3-032 score=0.854
+DAY3-083: nearest history=DAY3-008 score=0.772
+DAY3-084: nearest history=DAY3-059 score=0.919
+DAY3-085: nearest history=DAY3-010 score=0.776
+DAY3-086: nearest history=DAY3-039 score=0.713
+DAY3-087: nearest history=DAY3-012 score=0.863
+DAY3-088: nearest history=DAY1-121 score=0.755
+DAY3-089: nearest history=DAY1-097 score=0.892
+DAY3-090: nearest history=DAY3-065 score=0.857
+DAY3-091: nearest history=DAY1-049 score=0.859
+DAY3-092: nearest history=DAY1-077 score=0.756
+DAY3-093: nearest history=DAY1-128 score=0.810
+DAY3-094: nearest history=DAY1-085 score=0.772
+DAY3-095: nearest history=DAY3-046 score=0.829
+DAY3-096: nearest history=DAY3-045 score=0.800
+DAY3-097: nearest history=DAY3-047 score=0.780
+DAY3-098: nearest history=DAY3-073 score=0.830
+DAY3-099: nearest history=DAY1-131 score=0.655
+DAY3-100: nearest history=DAY3-025 score=0.762
+DAY3-101: nearest history=DAY1-132 score=0.695
+DAY3-102: nearest history=DAY3-077 score=0.628
+DAY3-103: nearest history=DAY3-053 score=0.841
+DAY3-104: nearest history=DAY3-079 score=0.855
+DAY3-105: nearest history=DAY3-055 score=0.701
+
+Rejected posts were removed from the checkpoint. Run the generator again to regenerate only those slots.

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-119\",\"author\":\"SarahJenkins_84\",\"text\":\"I found a neighbour's dog, Buster, left chained in a kennel behind their shed for about 24 hours yesterday. He was completely starving and had no water. The owner is refusing to feed him again and said they don't care if he starves. I've reported this but the situation feels very serious and needs immediate intervention.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post reports serious animal neglect requiring specialist intervention under ThreatViolence.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4899,
+    "total_output_tokens": 201,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.99344173322099,
+    "time_to_first_token_seconds": 0.382
+  }
+}

@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+acceptableEscalationReasons must be ['PrivacySensitiveInfo'].
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1004 (char 1003)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

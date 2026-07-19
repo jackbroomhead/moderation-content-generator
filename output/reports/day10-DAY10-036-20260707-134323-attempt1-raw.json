@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-036\",\n      \"author\": \"MoorvaleMarketFan\",\n      \"text\": \"Exciting news for everyone in Moorvale! The Autumn Harvest Fair is officially back on. We have local produce, craft stalls, and live music this Saturday at the town square. Come along and support our community! 🍂🎶 #community #harvestfair #Moorvale\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post announces a harmless fictional community event without promoting misinformation or violating any policies.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 705,\n      \"followerCount\": 6550,\n      \"followingCount\": 185,\n      \"verifiedStatus\": false,\n      \"postCount\": 1235,\n      \"bio\": \"Fictional events, culture and local announcements.\",\n      \"previousFlags\": 0,\n      \"location\": \"Moorvale\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3551,
+    "total_output_tokens": 331,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.61659823660347,
+    "time_to_first_token_seconds": 1.544
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-036",
+      "author": "MoorvaleEvents",
+      "text": "Big news! The annual Westbridge Market Fair is officially back on. We're hosting a fantastic weekend of local crafts, live music from the band 'The Greyhounds', and food stalls featuring everything from pies to fresh fruit. Come along for some fun and support our community! #WestbridgeMarket #CommunityEvent",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless promotional announcement for a fictional public event. The text contains no policy violations, threats, or misinformation.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 705,
+      "followerCount": 6550,
+      "followingCount": 185,
+      "verifiedStatus": false,
+      "postCount": 1235,
+      "bio": "Fictional events, culture and local announcements.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-0o1vho6ab3kqcuvxnhxa8e",
+  "object": "chat.completion",
+  "created": 1782845484,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"author\": \"mountain_wanderer_99\",\n      \"text\": \"Finally made it to the peak! The hike was grueling, but the view from the summit is absolutely breathtaking. Definitely worth the early morning start. 🏔️✨\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"explanation\": \"The post is an ordinary personal lifestyle update and does not create a credible policy or safety concern.\",\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"metadata\": {\n        \"account_age_days\": 450,\n        \"follower_count\": 1200,\n        \"following_count\": 850,\n        \"verification_status\": false,\n        \"post_count\": 342,\n        \"bio\": \"Just a human exploring the great outdoors.\",\n        \"related_accounts\": \"\",\n        \"coordinated_posting_pattern\": false\n      }\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Goal: Generate one fictional filler social-media post for a content-moderation game.\n    *   Target: Day 1 filler post.\n    *   Mandatory Values: `id: DAY1-007`, `day: 1`, `correctAction: Approve`.\n    *   Constraints:\n        *   No story content/recurring characters.\n        *   No child-safety/deferred topics.\n        *   No invented categories/reasons.\n        *   Use approved parent escalation reasons (not needed for Approve).\n        *   No real people/data.\n        *   Explanations must state the policy reason.\n        *   One post in a JSON array.\n        *   Difficulty: Easy or Medium.\n        *   Category: One of the approved list (Fraud, Harassment, Lifestyle, Misinformation, News / Public Event, Normal, Privacy, Public Information, Spam, Threat).\n        *   Action: Approve (so `correctEscalationReason` is \"\", `acceptableEscalationReasons` is [], `allowNeedsReviewEscalation` is false).\n\n    *   Day 1 is \"Core moderation\" (simple examples).\n    *   `Approve` is for permitted content (ordinary personal posts, criticism, opinions, mild teasing, recognizable satire, non-credible hyperbole, low-risk inaccuracies).\n\n    *   Category: Lifestyle or Normal.\n    *   Content: A person sharing a photo of their coffee or a travel experience.\n    *   Let's go with Lifestyle - a simple travel/food post.\n    *   Author: `travel_junkie_99`\n    *   Text: \"Finally made it to the mountains! The hike was tough, but the view from the summit is absolutely worth it. 🏔️✨\"\n    *   Category: \"Lifestyle\"\n    *   Action: \"Approve\"\n    *   Difficulty: \"Easy\"\n    *   Explanation: \"The post is an ordinary personal lifestyle update and does not violate any safety policies.\"\n\n    *   `id`: \"DAY1-007\"\n    *   `author`: \"travel_junkie_99\"\n    *   `text`: \"Finally made it to the mountains! The hike was tough, but the view from the summit is absolutely worth it. 🏔️✨\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `explanation`: \"The content is an ordinary personal post sharing a travel experience and does not create a credible policy or safety concern.\"\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `metadata`: {} (or empty strings in the object)\n\n    *   Filler only? Yes.\n    *   No child safety/deferred? Yes.\n    *   No invented categories? Yes (\"Lifestyle\").\n    *   Approved parent reasons? (N/A for Approve).\n    *   No real people/data? Yes.\n    *   Explanation states policy reason? Yes.\n    *   Exactly one post? Yes.\n    *   No story content? Yes.\n    *   Difficulty Easy/Medium? Yes.\n    *   Self-contained? Yes.\n    *   Day 1 constraints? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6861,
+    "completion_tokens": 1072,
+    "total_tokens": 7933,
+    "completion_tokens_details": {
+      "reasoning_tokens": 772
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

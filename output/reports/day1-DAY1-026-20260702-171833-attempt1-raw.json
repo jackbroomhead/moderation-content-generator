@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-026\",\"author\":\"UrbanLegend_88\",\"text\":\"I'm going to meet Sarah Jenkins at the coffee shop downtown tonight around 7 PM and I'll be bringing a small knife just in case you decide to show up. You can't stop me from making my point.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post contains a credible threat of violence against an identifiable individual (Sarah Jenkins) at a specific location and time, mentioning a weapon (knife). This distinguishes it from a joke and meets the criteria for escalation under ThreatViolence.\",\"day\":1,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1658,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.20072029896188,
+    "time_to_first_token_seconds": 0.73
+  }
+}

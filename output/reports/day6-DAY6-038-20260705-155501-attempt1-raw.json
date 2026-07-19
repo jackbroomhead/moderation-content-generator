@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-038\",\"author\":\"EventsLantern_92\",\"text\":\"Reminder: Lantern Hall Annual Festival is happening this weekend! We'll be showcasing our latest community projects and sharing updates on upcoming events. Don't miss the live performances starting at 10am in the main square. See you there! 🌟 #LanternHall #CommunityEvents\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless public announcement from a verified account promoting a community event without any policy violations.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":920,\"followerCount\":15200,\"followingCount\":160,\"verifiedStatus\":true,\"postCount\":1800,\"bio\":\"Events and updates from Lantern Hall.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4825,
+    "total_output_tokens": 231,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 8.714504568531863,
+    "time_to_first_token_seconds": 23.497
+  }
+}

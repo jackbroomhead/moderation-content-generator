@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-tittp42sbko8jfh6dm205h",
+  "object": "chat.completion",
+  "created": 1782845837,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Target Post: DAY1-007.\n    *   Mandatory Values: `id`: \"DAY1-007\", `day`: 1, `correctAction`: \"Approve\".\n    *   Policy: Use the provided Moderation Policy, Escalation Reasons, Day Progression, Filler Post Rules, and Permitted Values.\n    *   Constraint: Output only JSON matching the schema.\n    *   Constraint: No story content/recurring characters.\n    *   Constraint: No child-safety material or deferred topics.\n    *   Constraint: No real people, addresses, etc.\n    *   Constraint: Explanation must state the policy reason.\n    *   Constraint: Exactly one post in the `posts` array.\n\n    *   `id`: \"DAY1-007\"\n    *   `author`: Fictional username (e.g., \"garden_guru_jane\")\n    *   `profileImage`: \"\"\n    *   `text`: A simple, safe lifestyle/hobby post. (e.g., \"Just finished planting my first tomato garden! It was a lot harder than I thought, but the soil smells amazing.\")\n    *   `postImage`: \"\"\n    *   `category`: \"Lifestyle\" (one of the allowed categories)\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"This is an ordinary personal lifestyle post about a hobby and does not create any credible policy or safety concerns.\"\n    *   `day`: 1\n    *   `tags`: []\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `accountAgeDays`: \"120\"\n    *   `followerCount`: \"450\"\n    *   `followingCount`: \"200\"\n    *   `verifiedStatus`: \"false\"\n    *   `postCount`: \"342\"\n    *   `bio`: \"Gardening enthusiast | Urban living | Tea lover\"\n    *   `previousFlags`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"SocialFeed\"\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   `id`: \"DAY1-007\" - Match.\n    *   `day`: 1 - Match.\n    *   `correctAction`: \"Approve\" - Match.\n    *   `category`: \"Lifestyle\" - Allowed.\n    *   `difficulty`: \"Easy\" - Allowed.\n    *   `correctEscalationReason`: \"\" - Required for Approve.\n    *   `acceptableEscalationReasons`: [] - Required for Approve.\n    *   `allowNeedsReviewEscalation`: false - Required for Approve.\n    *   No specialist categories used.\n    *   Self-contained.\n    *   No story characters.\n    *   No real-world info.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-007\",\n          \"author\": \"garden_guru_jane\",\n          \"profileImage\": \"\",\n          \"text\": \"Just finished planting my first tomato garden! It was a lot harder than I thought, but the soil smells amazing. 🌿🍅 Any tips for keeping the pests away?\",\n          \"postImage\": \"\",\n          \"category\": \"Lifestyle\",\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"explanation\": \"This is an ordinary personal lifestyle post about a hobby and does not create any credible policy or safety concerns.\",\n          \"day\": 1,\n          \"tags\": [],\n          \"scenario\": \"\",\n          \"notes\": \"\",\n          \"accountAgeDays\": \"120\",\n          \"followerCount\": \"450\",\n          \"followingCount\": \"200\",\n          \"verifiedStatus\": \"false\",\n          \"postCount\": \"342",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7274,
+    "completion_tokens": 918,
+    "total_tokens": 8192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

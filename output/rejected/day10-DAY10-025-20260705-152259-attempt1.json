@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-025",
+      "author": "WestbridgeWatch_41",
+      "text": "Has anyone seen this new video? It's supposed to be live footage from Westbridge Hospital showing the aftermath of the fire last night. The audio is really muffled and some of the captions look a bit odd compared to what I've read in other reports. Could it be an edit?",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This requires specialist verification as a potentially synthetic manipulated media claim due to uncertain provenance and altered presentation.",
+      "day": "10",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "SyntheticManipulatedMedia",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1068,
+      "followerCount": 18420,
+      "followingCount": 528,
+      "verifiedStatus": false,
+      "postCount": 2584,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 0,
+      "location": "Westbridge",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

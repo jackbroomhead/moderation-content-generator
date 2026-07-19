@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-006\",\"author\":\"LumaWell_Official\",\"text\":\"Good news everyone! Our latest 'The Radiant Reset' protocol has officially been approved by leading oncologists as a safe, natural alternative to chemotherapy for Stage 3 breast cancer. Patients who stop their prescribed treatment and start this new method have reported full remission within weeks. Share this life-saving update now! #CancerAwareness #NaturalHealing #TheRadiantReset\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes dangerous health misinformation by explicitly advising patients to stop prescribed cancer treatment for an unverified cure.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":365,\"followerCount\":4550,\"followingCount\":205,\"verifiedStatus\":true,\"postCount\":855,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4814,
+    "total_output_tokens": 246,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.35410329442551,
+    "time_to_first_token_seconds": 0.436
+  }
+}

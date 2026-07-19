@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-049\",\n      \"author\": \"BellmereBraver82\",\n      \"text\": \"Hey everyone, I'm looking for a serious partner to help me with this new extreme stunt challenge! We're going to jump from the highest point in town and break every bone in our body. It's not just fun, it's a test of true physical strength. Who wants to join? #challenge #stunt #extreme\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes dangerous physical harm and encourages severe self-injury, which violates safety policies regarding the glorification of serious bodily harm.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 129,\n      \"followerCount\": 746,\n      \"followingCount\": 926,\n      \"verifiedStatus\": false,\n      \"postCount\": 1506,\n      \"bio\": \"Breaking posts and challenge clips.\",\n      \"previousFlags\": 6,\n      \"location\": \"Bellmere\",\n      \"platform\": \"PublicSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3694,
+    "total_output_tokens": 341,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.3239212998921,
+    "time_to_first_token_seconds": 1.652
+  }
+}

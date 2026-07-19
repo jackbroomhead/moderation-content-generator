@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-003\",\"author\":\"EmergencyUpdate_84\",\"text\":\"Just saw a viral post claiming Northbridge is under mandatory evacuation due to an unconfirmed incident near the riverbank. It's spreading fast, but I've reached out to our emergency services team for clarification and they've confirmed there are NO current alerts or warnings in place. Please don't panic or share this rumour without verification.\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This is a permitted debunking post regarding public safety; it clarifies that the claim is false rather than promoting the harmful misinformation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":254,\"followerCount\":2360,\"followingCount\":154,\"verifiedStatus\":false,\"postCount\":582,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5097,
+    "total_output_tokens": 240,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.693667191848013,
+    "time_to_first_token_seconds": 22.333
+  }
+}

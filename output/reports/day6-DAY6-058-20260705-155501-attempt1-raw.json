@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-058\",\"author\":\"SarahWellnessUK\",\"text\":\"It's time for everyone to know about The Radiant Reset! I've been using this incredible new protocol to balance my hormones and feel amazing through menopause. It completely changed my life and you can't go wrong with it! #RadiantReset #MenopauseSupport\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes unsupported health claims regarding menopause treatment, which falls under MisinformationPublicHarm.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1450,\"followerCount\":118000,\"followingCount\":630,\"verifiedStatus\":true,\"postCount\":5200,\"bio\":\"Women's wellbeing, fertility and hormone education.\",\"previousFlags\":1,\"location\":\"Brighton\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5106,
+    "total_output_tokens": 233,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.851212861878809,
+    "time_to_first_token_seconds": 21.933
+  }
+}

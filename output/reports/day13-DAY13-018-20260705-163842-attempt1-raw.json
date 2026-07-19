@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-018\",\"author\":\"EmergencyWatchUK\",\"text\":\"URGENT: @WestbridgeAlerts has just confirmed a widespread contamination of our local water supply following a recent industrial incident. They advise all residents to stop using tap water immediately and boil any food that has been in contact with it. Please share this warning widely. #PublicSafety #WaterAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post shares a substantial public-harm claim from an authoritative account without providing verification or context, requiring specialist review to assess the validity of the contamination report.\",\"day\":\"13\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[\"SyntheticManipulatedMedia\"],\"accountAgeDays\":2800,\"followerCount\":520000,\"followingCount\":160,\"verifiedStatus\":true,\"postCount\":10100,\"bio\":\"Official fictional emergency updates.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5105,
+    "total_output_tokens": 256,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.598530584949076,
+    "time_to_first_token_seconds": 22.706
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-funft1uvgkvluboao0ar",
+  "object": "chat.completion",
+  "created": 1782992660,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-023\",\n      \"author\": \"LuckyWinner88\",\n      \"text\": \"CONGRATULATIONS! 🥳 You have been selected as the winner of a brand new iPhone 15! 📱 Just enter your email and shipping address at this link to claim your prize: http://bit.ly/free-iphone-claim-now. Hurry, offer expires in 2 hours!\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is an obvious fake-prize scam designed to steal personal information. Per policy, obvious scams and spam should be removed.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Format: JSON.\n    *   ID: `DAY1-023`.\n    *   Day: `1`.\n    *   Category: `Fraud`.\n    *   Correct Action: `Remove`.\n    *   Difficulty: `Easy`.\n    *   Scenario: Obvious phishing, fake-prize, credential-theft, or advance-fee scam (No crypto, DeFi, yield farming, passive income, investments, or whitepapers).\n    *   Policy Emphasis: Obvious enough to `Remove` (not `Escalate`).\n    *   Constraint: No child-safety, no deferred topics, no real-world entities/data.\n    *   Schema: `id`, `author`, `text`, `category`, `correctAction`, `difficulty`, `explanation`, `day`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`.\n\n    *   *Scenario:* Obvious phishing/fake prize.\n    *   *Idea:* \"You've won a free iPhone! Click here to claim your prize now.\"\n    *   *Constraint Check:* No crypto, no investments.\n    *   *Action:* `Remove` because it's an obvious scam.\n    *   *Author:* `LuckyWinner88`.\n    *   *Text:* \"CONGRATULATIONS! 🥳 You have been selected as the winner of a brand new iPhone 15! 📱 Just enter your email and shipping address at this link to claim your prize: http://bit.ly/free-iphone-claim-now. Hurry, offer expires in 2 hours!\"\n\n    *   `id`: \"DAY1-023\"\n    *   `author`: \"LuckyWinner88\"\n    *   `text`: \"CONGRATULATIONS! 🥳 You have been selected as the winner of a brand new iPhone 15! 📱 Just enter your email and shipping address at this link to claim your prize: http://bit.ly/free-iphone-claim-now. Hurry, offer expires in 2 hours!\"\n    *   `category`: \"Fraud\"\n    *   `correctAction`: \"Remove\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The post is an obvious fake-prize scam designed to steal personal information. Per policy, obvious scams and spam should be removed.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   No story characters? Yes.\n    *   No real people/orgs? Yes.\n    *   No crypto/DeFi? Yes.\n    *   No child safety? Yes.\n    *   One item in `posts` array? Yes.\n    *   Strict JSON? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1532,
+    "completion_tokens": 866,
+    "total_tokens": 2398,
+    "completion_tokens_details": {
+      "reasoning_tokens": 650
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

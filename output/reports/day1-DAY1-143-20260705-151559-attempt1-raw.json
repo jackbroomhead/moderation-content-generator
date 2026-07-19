@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-143\",\"author\":\"printer_problems_85\",\"text\":\"I am literally screaming at this printer right now! It just won't feed the paper, it's making that awful grinding noise and I've been sitting here for an hour trying to fix it. This is the most frustrating thing ever! 😤 #OfficeLife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses hyperbolic frustration about a mundane household annoyance (a printer jam) rather than any credible threat or harm.\",\"day\":\"1\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false\",\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4773,
+    "total_output_tokens": 188,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.49094283408738,
+    "time_to_first_token_seconds": 2.011
+  }
+}

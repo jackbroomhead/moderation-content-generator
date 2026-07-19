@@ -1,0 +1,14 @@
+VALIDATION ERRORS
+posts.0: Additional properties are not allowed ('allowNeedsReviewEscalation:false' was unexpected)
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Expecting ':' delimiter: line 1 column 603 (char 602)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes
+posts[0].allowNeedsReviewEscalation
+posts[0].correctSpecialistReason

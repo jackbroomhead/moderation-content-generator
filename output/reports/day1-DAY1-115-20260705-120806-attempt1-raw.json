@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-115\",\"author\":\"SarahJ_Leeds\",\"text\":\"Just popped into the town hall in Leeds to see the new community art display. There's a lovely exhibition up featuring local artists, and it looks like a great way to spend an afternoon. #LeedsEvents #Art\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a straightforward harmless update about a public event with no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4393,
+    "total_output_tokens": 137,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.4306594159698,
+    "time_to_first_token_seconds": 0.334
+  }
+}

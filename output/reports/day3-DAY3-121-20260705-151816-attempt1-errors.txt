@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Text is too similar to DAY3-120 (lexical similarity 1.00).
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 732 (char 731)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

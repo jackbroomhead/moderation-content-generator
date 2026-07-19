@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-041\",\n      \"author\": \"ListingLiz24\",\n      \"text\": \"Hi everyone, I'm hosting a community fundraiser for the Greyford shelter this weekend! We'll be collecting non-perishable food items. Please check the app for our secure donation link if you'd like to contribute. All proceeds go directly to purchasing supplies. Thank you for your generosity! #fundraiser #communityhelp\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The post promotes a legitimate community fundraiser with secure donation instructions and clear purpose, supported by the account's verified bio regarding payment updates.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1190,\n      \"followerCount\": 12800,\n      \"followingCount\": 280,\n      \"verifiedStatus\": false,\n      \"postCount\": 2290,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 0,\n      \"location\": \"Greyford\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3729,
+    "total_output_tokens": 344,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.46237084045237,
+    "time_to_first_token_seconds": 0.379
+  }
+}

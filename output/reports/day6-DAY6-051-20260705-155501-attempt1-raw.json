@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-051\",\"author\":\"NearOakhaven_Vigil_24\",\"text\":\"I'm not joking about tonight! The group at Oakhaven is planning to shut down the community centre this Friday at 7pm and they've made it clear we're going to 'deal' with anyone who tries to stop them. They say they have a plan and they won't back down. #Oakhaven\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a specific threat of violence against a named location at a stated time, requiring specialist investigation.\",\"day\":6,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2,\"followerCount\":3,\"followingCount\":0,\"verifiedStatus\":false,\"postCount\":4,\"bio\":\"\",\"previousFlags\":1,\"location\":\"Near Oakhaven\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5053,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 8.360538697376734,
+    "time_to_first_token_seconds": 28.253
+  }
+}

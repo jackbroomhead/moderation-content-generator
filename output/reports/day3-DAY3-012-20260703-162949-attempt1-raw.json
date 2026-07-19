@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-012\",\"author\":\"DealsHunter_84\",\"text\":\"🔥 FLASH SALE! 🔥 Click here [link removed] to grab 50% OFF ALL BRAND NAME SHOES! 🏃‍♀️ Only today! Use code SAVE50 at checkout. Limited stock so order now before it's gone! 👟👞👠 #Shoes #Sale\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is obvious repetitive advertising promoting a deal with no legitimate value or context.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4535,
+    "total_output_tokens": 159,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.76180629717565,
+    "time_to_first_token_seconds": 0.433
+  }
+}

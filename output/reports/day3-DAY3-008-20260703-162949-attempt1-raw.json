@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-008\",\"author\":\"SarahJ_Luton\",\"text\":\"Just checked the new bus routes for the weekend! The 42 is now running every 15 mins between Oakwood Park and Central Station, perfect for getting to the festival without the usual traffic nightmare. Opening hours at the community centre are also extended until 9pm this Friday.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a neutral local notice providing helpful transport and community service information that does not violate any policies.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4343,
+    "total_output_tokens": 156,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.73836233352314,
+    "time_to_first_token_seconds": 0.336
+  }
+}

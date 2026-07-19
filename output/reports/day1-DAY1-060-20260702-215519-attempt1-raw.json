@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-060\",\"author\":\"RavenClaw92\",\"text\":\"I'm going to watch my cat suffer today! I've already bought a box of matches and a bottle of cleaning solvent, and I plan to light the matches inside his cage while he's awake. If you're seeing this, it means I succeeded in getting what I wanted. #Cruelty #Suffering [link removed]\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post describes a specific plan to cause animal cruelty using matches and cleaning solvent, which requires specialist handling for the Threat category on Day 1. The generic Escalate action is the correct response for this scenario.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2062,
+    "total_output_tokens": 190,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.03083840809111,
+    "time_to_first_token_seconds": 0.418
+  }
+}

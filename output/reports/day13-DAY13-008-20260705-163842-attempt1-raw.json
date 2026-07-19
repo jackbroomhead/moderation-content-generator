@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-008\",\"author\":\"Kael_Viper_24\",\"text\":\"Listen up everyone! The challenge is real and it's time to push your limits. Jump off that ledge, break your own bones for the glory of it. We're all watching to see who's brave enough to go first. This isn't a joke, do it now. #ExtremeChallenge #PushYourLimits\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"The post explicitly encourages severe physical risk and self-harm behaviour.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":980,\"followerCount\":440000,\"followingCount\":310,\"verifiedStatus\":true,\"postCount\":5200,\"bio\":\"Weekly extreme challenges.\",\"previousFlags\":5,\"location\":\"Unknown\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5031,
+    "total_output_tokens": 225,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.302308659366158,
+    "time_to_first_token_seconds": 22.779
+  }
+}

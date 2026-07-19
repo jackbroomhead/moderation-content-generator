@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-008",
+      "author": "LeedsWatcher24",
+      "text": "BREAKING: Evacuation order confirmed! Residents must head to the bridge over River Aire NOW for safety. Official channels state this is urgent.",
+      "category": "Misinformation",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "This post spreads dangerous misinformation by instructing people to follow an unsafe evacuation route during a public emergency.",
+      "day": "10",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 439,
+      "followerCount": 6010,
+      "followingCount": 239,
+      "verifiedStatus": false,
+      "postCount": 1037,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 1,
+      "location": "Leeds",
+      "platform": "TownSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

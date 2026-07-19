@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-043\",\"author\":\"FrustratedFan99\",\"text\":\"I am absolutely DONE with this stupid game! The graphics are trash, the controls are broken, and the developer is clearly incompetent! Burn it all down!! #GamerRage #TrashGame #BurnItDown [link removed]\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post expresses hyperbolic frustration and dark humour using phrases like 'burn it all down' in a gaming context, which is not a credible threat of violence or self-harm.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1901,
+    "total_output_tokens": 161,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.2192649330052,
+    "time_to_first_token_seconds": 0.337
+  }
+}

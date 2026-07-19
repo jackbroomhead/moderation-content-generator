@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-040\",\"author\":\"LocalNewsJunkie\",\"text\":\"The annual Spring Festival parade is set to kick off downtown today! Expect live music, colorful floats, and community booths along 5th Avenue starting at noon.\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a harmless local public event with no policy violations. It shares factual information about a parade without promoting harm, fraud, or dangerous challenges, so it meets the criteria for approval.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1783,
+    "total_output_tokens": 147,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.39305762568391,
+    "time_to_first_token_seconds": 0.309
+  }
+}

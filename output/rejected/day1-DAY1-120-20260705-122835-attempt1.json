@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-120",
+      "author": "BestDealsFinder_uk",
+      "text": "🔥 AMAZING OFFER! 🔥 Get your brand new iPhone 15 Pro Max for only £49.99 TODAY ONLY! Don't miss out on this incredible discount. Click the link to buy now before it's gone forever! #iPhone #Sale #MustBuy",
+      "category": "Spam",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post is spam because it uses aggressive promotional language and claims an unrealistic discount on a specific product.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

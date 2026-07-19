@@ -1,0 +1,111 @@
+{
+  "status": "approved-v1",
+  "approvedDate": "2026-06-30",
+  "correctActions": [
+    "Approve",
+    "Remove",
+    "Escalate"
+  ],
+  "difficulties": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ],
+  "parentEscalationReasons": [
+    {
+      "label": "Threat / Violence",
+      "code": "ThreatViolence"
+    },
+    {
+      "label": "Self-Harm / Crisis",
+      "code": "SelfHarmCrisis"
+    },
+    {
+      "label": "Harassment / Abuse",
+      "code": "HarassmentAbuse"
+    },
+    {
+      "label": "Fraud / Scam",
+      "code": "FraudScam"
+    },
+    {
+      "label": "Privacy / Sensitive Info",
+      "code": "PrivacySensitiveInfo"
+    },
+    {
+      "label": "Misinformation / Public Harm",
+      "code": "MisinformationPublicHarm"
+    }
+  ],
+  "needsReview": {
+    "uiLabel": "Needs Review",
+    "isPrimaryReason": false,
+    "controlledBy": "allowNeedsReviewEscalation"
+  },
+  "canonicalCategories": [
+    "Normal",
+    "Lifestyle",
+    "Public Information",
+    "News / Public Event",
+    "Spam",
+    "Fraud",
+    "Harassment",
+    "Privacy",
+    "Threat",
+    "Misinformation",
+    "Self-Harm",
+    "Hate / Extremism",
+    "Sexual Content",
+    "Synthetic Media",
+    "Graphic Violence",
+    "Hate",
+    "Extremism",
+    "Platform Manipulation",
+    "Sexual Exploitation"
+  ],
+  "categoryAliases": {
+    "normal": "Normal",
+    "scam": "Fraud",
+    "misinformation": "Misinformation",
+    "harassment": "Harassment",
+    "Self Harm": "Self-Harm",
+    "Synthetic media": "Synthetic Media"
+  },
+  "currentGenerationRestriction": {
+    "validPrimaryReasons": [
+      "ThreatViolence",
+      "SelfHarmCrisis",
+      "HarassmentAbuse",
+      "FraudScam",
+      "PrivacySensitiveInfo",
+      "MisinformationPublicHarm"
+    ],
+    "futureSubreasonsNotYetValid": [
+      "GraphicViolence",
+      "SyntheticMediaManipulation",
+      "HateAbuse",
+      "ExtremismTerror",
+      "SexualExploitation",
+      "PlatformManipulation"
+    ]
+  },
+  "dayPhases": {
+    "0-2": "core actions; no player reason selection required",
+    "3-6": "original six parent reasons plus optional Needs Review",
+    "7+": "specialist themes may branch from parents when UI/schema supports them"
+  },
+  "excludedTopics": [
+    "child sexualisation",
+    "grooming",
+    "child exploitation",
+    "child abuse"
+  ],
+  "deferredTopics": [
+    "illegal drugs and weapons sales",
+    "regulated goods",
+    "animal cruelty",
+    "copyright infringement",
+    "dangerous challenges",
+    "non-fraudulent and non-synthetic impersonation"
+  ]
+}

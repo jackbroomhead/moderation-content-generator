@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-038\",\"author\":\"JazzyRox_84\",\"text\":\"Honestly, @MidnightOwl92 is such a pretentious arsehole. Why does he think he's better than everyone else just because he buys expensive gear? Pathetic. #snark\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a clear, targeted personal insult directed at another user, which violates the harassment policy.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4655,
+    "total_output_tokens": 140,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.794196880523,
+    "time_to_first_token_seconds": 0.473
+  }
+}

@@ -1,0 +1,13 @@
+VALIDATION ERRORS
+posts.0.correctEscalationReason: '' is not one of ['ThreatViolence', 'SelfHarmCrisis', 'HarassmentAbuse', 'FraudScam', 'PrivacySensitiveInfo', 'MisinformationPublicHarm']
+correctEscalationReason must be 'SelfHarmCrisis'.
+acceptableEscalationReasons must be ['SelfHarmCrisis'].
+allowNeedsReviewEscalation must be True.
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes
+posts[0].isStoryPost

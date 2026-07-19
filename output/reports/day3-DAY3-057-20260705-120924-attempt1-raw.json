@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-057\",\"author\":\"skeptical_sarah_uk\",\"text\":\"Honestly, I'm losing faith in these automated filters. Yesterday my post about local council funding cuts vanished instantly because it 'flagged' as political misinformation, even though I just listed the official budget figures from their own website. It feels like they're prioritising censorship over free speech just to avoid accountability. #FreeSpeech #DigitalRights\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post is a permissible opinion and criticism of moderation policy that does not promote harm or false claims.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4374,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.26140924696793,
+    "time_to_first_token_seconds": 0.377
+  }
+}

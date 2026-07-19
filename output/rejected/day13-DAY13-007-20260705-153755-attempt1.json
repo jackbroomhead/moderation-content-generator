@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-007",
+      "author": "TransformationKingpin_42",
+      "text": "It's all about that mental fortitude! 🧠🔥 Look at this incredible journey from 'broken' to 'unbreakable'. No meds, no excuses, just pure discipline and a hunger for perfection. The body must pay the price for the mind's clarity. #Discipline #Transformation",
+      "category": "Self-Harm",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "The post glamorises eating-disorder behaviour but lacks indicators of personal crisis or immediate danger.",
+      "day": "13",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1400,
+      "followerCount": 640000,
+      "followingCount": 90,
+      "verifiedStatus": true,
+      "postCount": 7200,
+      "bio": "Extreme transformation and discipline.",
+      "previousFlags": 12,
+      "location": "Birmingham",
+      "platform": "ClipLoop",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "EatingDisorders",
+        "BodyImage"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

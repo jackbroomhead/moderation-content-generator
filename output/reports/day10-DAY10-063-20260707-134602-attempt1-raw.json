@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-063\",\n      \"author\": \"CreativeProjectsFoodWeekendInterests\",\n      \"text\": \"Just finished assembling my new record player! The vinyl crackle is so much nicer than digital audio. Also, made a batch of homemade sourdough bread to go with the jazz playlist. Perfect Sunday evening at home. #vinyl #baking #sundayvibes\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post describes harmless hobbies and activities without violating any policies.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 899,\n      \"followerCount\": 9050,\n      \"followingCount\": 223,\n      \"verifiedStatus\": false,\n      \"postCount\": 1657,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 0,\n      \"location\": \"Westbridge\",\n      \"platform\": \"StoryGrid\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3680,
+    "total_output_tokens": 320,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.36655368841863,
+    "time_to_first_token_seconds": 1.625
+  }
+}

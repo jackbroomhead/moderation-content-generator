@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-037",
+      "author": "GardenGate92",
+      "text": "Just spotted my neighbour's cat trying to open our back door again! It has these huge paws and is absolutely determined. Had to shut it before he got in. Weather is perfect for a walk today, maybe I'll take him out after all. 🐾 #catlife #Dunmere",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post describes an ordinary everyday mishap with a pet and neighbour without violating policy.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 802,
+      "followerCount": 7800,
+      "followingCount": 204,
+      "verifiedStatus": false,
+      "postCount": 1446,
+      "bio": "Everyday thoughts, hobbies and local life.",
+      "previousFlags": 0,
+      "location": "Dunmere",
+      "platform": "MarketBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

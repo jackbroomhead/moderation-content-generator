@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-051\",\"author\":\"ClaraV_84\",\"text\":\"Just checking into St Jude's Private Clinic in Bristol for my third appointment regarding my fertility struggles. The doctor says I need to be careful about what I share online, but the receptionist accidentally left a folder on the desk with my full name and diagnosis visible. It's so frustrating dealing with these privacy issues when you're already feeling vulnerable. #Fertility #Privacy\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post discloses sensitive medical information and a private residential or facility location, requiring escalation for privacy review.\",\"day\":3,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4722,
+    "total_output_tokens": 179,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.9707708984618,
+    "time_to_first_token_seconds": 0.523
+  }
+}

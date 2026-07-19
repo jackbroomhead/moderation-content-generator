@@ -1,0 +1,317 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Moderation Game Filler Post Batch — Approved Generation Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "posts"
+  ],
+  "properties": {
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "author",
+          "profileImage",
+          "text",
+          "postImage",
+          "category",
+          "correctAction",
+          "difficulty",
+          "explanation",
+          "day",
+          "tags",
+          "scenario",
+          "notes",
+          "accountAgeDays",
+          "followerCount",
+          "followingCount",
+          "verifiedStatus",
+          "postCount",
+          "bio",
+          "previousFlags",
+          "location",
+          "platform",
+          "correctEscalationReason",
+          "acceptableEscalationReasons",
+          "allowNeedsReviewEscalation",
+          "isStoryPost",
+          "correctSpecialistReason",
+          "acceptableSpecialistReasons"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^DAY[0-9]+-[0-9]{3,}$"
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1
+          },
+          "profileImage": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "postImage": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Normal",
+              "Lifestyle",
+              "Public Information",
+              "News / Public Event",
+              "Spam",
+              "Fraud",
+              "Harassment",
+              "Privacy",
+              "Threat",
+              "Misinformation",
+              "Self-Harm",
+              "Hate / Extremism",
+              "Sexual Content",
+              "Synthetic Media",
+              "Graphic Violence",
+              "Hate",
+              "Extremism",
+              "Platform Manipulation",
+              "Sexual Exploitation"
+            ]
+          },
+          "correctAction": {
+            "type": "string",
+            "enum": [
+              "Approve",
+              "Remove",
+              "Escalate"
+            ]
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": [
+              "Easy",
+              "Medium",
+              "Hard"
+            ]
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "day": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "scenario": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "accountAgeDays": {
+            "type": [
+              "string",
+              "integer"
+            ]
+          },
+          "followerCount": {
+            "type": [
+              "string",
+              "integer"
+            ]
+          },
+          "followingCount": {
+            "type": [
+              "string",
+              "integer"
+            ]
+          },
+          "verifiedStatus": {
+            "type": [
+              "string",
+              "boolean"
+            ]
+          },
+          "postCount": {
+            "type": [
+              "string",
+              "integer"
+            ]
+          },
+          "bio": {
+            "type": "string"
+          },
+          "previousFlags": {
+            "type": [
+              "string",
+              "integer"
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "correctEscalationReason": {
+            "type": "string",
+            "enum": [
+              "",
+              "ThreatViolence",
+              "SelfHarmCrisis",
+              "HarassmentAbuse",
+              "FraudScam",
+              "PrivacySensitiveInfo",
+              "MisinformationPublicHarm"
+            ]
+          },
+          "acceptableEscalationReasons": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "ThreatViolence",
+                "SelfHarmCrisis",
+                "HarassmentAbuse",
+                "FraudScam",
+                "PrivacySensitiveInfo",
+                "MisinformationPublicHarm"
+              ]
+            }
+          },
+          "allowNeedsReviewEscalation": {
+            "type": "boolean"
+          },
+          "isStoryPost": {
+            "type": "boolean"
+          },
+          "correctSpecialistReason": {
+            "type": "string",
+            "enum": [
+              "",
+              "HealthMedical",
+              "CivicElection",
+              "PublicSafetyEmergency",
+              "FinancialEconomic",
+              "SyntheticManipulatedMedia"
+            ]
+          },
+          "acceptableSpecialistReasons": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "HealthMedical",
+                "CivicElection",
+                "PublicSafetyEmergency",
+                "FinancialEconomic",
+                "SyntheticManipulatedMedia"
+              ]
+            },
+            "uniqueItems": true
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "day": {
+                  "maximum": 2,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "day"
+              ]
+            },
+            "then": {
+              "properties": {
+                "correctEscalationReason": {
+                  "const": ""
+                },
+                "acceptableEscalationReasons": {
+                  "maxItems": 0
+                },
+                "allowNeedsReviewEscalation": {
+                  "const": false
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "day": {
+                  "minimum": 3,
+                  "type": "integer"
+                },
+                "correctAction": {
+                  "const": "Escalate"
+                }
+              },
+              "required": [
+                "day",
+                "correctAction"
+              ]
+            },
+            "then": {
+              "properties": {
+                "correctEscalationReason": {
+                  "enum": [
+                    "ThreatViolence",
+                    "SelfHarmCrisis",
+                    "HarassmentAbuse",
+                    "FraudScam",
+                    "PrivacySensitiveInfo",
+                    "MisinformationPublicHarm"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "not": {
+                "properties": {
+                  "correctAction": {
+                    "const": "Escalate"
+                  }
+                },
+                "required": [
+                  "correctAction"
+                ]
+              }
+            },
+            "then": {
+              "properties": {
+                "correctEscalationReason": {
+                  "const": ""
+                },
+                "acceptableEscalationReasons": {
+                  "maxItems": 0
+                },
+                "allowNeedsReviewEscalation": {
+                  "const": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

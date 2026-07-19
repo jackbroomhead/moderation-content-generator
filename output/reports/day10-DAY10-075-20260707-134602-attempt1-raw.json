@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-075\",\n      \"author\": \"MoorvaleWatch_92\",\n      \"text\": \"Update: Local police are responding to a credible threat made against the new community centre in Moorvale. The post claims an individual has stated they intend to cause harm at the opening ceremony this weekend. Authorities say they have identified the target and are taking precautionary measures.\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post contains a specific threat of violence against a public event with an identified location, requiring specialist investigation to assess credibility and intervene.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"ThreatViolence\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 862,\n      \"followerCount\": 14050,\n      \"followingCount\": 691,\n      \"verifiedStatus\": false,\n      \"postCount\": 3473,\n      \"bio\": \"Breaking posts and challenge clips.\",\n      \"previousFlags\": 3,\n      \"location\": \"Moorvale\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3692,
+    "total_output_tokens": 337,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.7922312454093,
+    "time_to_first_token_seconds": 1.596
+  }
+}

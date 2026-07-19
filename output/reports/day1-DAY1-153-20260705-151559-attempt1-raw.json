@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-153\",\"author\":\"Kai_The_Spectre\",\"text\":\"It's happening tonight! I've locked in the perfect time for our 'special event' at The Grand Hall on High Street. Everyone mark their calendars, we're gathering at 8pm sharp for an unforgettable night of pure fun! 🎉 #NightLife #GrandHall\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This is a credible threat against a fictional venue with a specific time, requiring specialist investigation to assess the risk.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4849,
+    "total_output_tokens": 193,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.67659480443426,
+    "time_to_first_token_seconds": 2.065
+  }
+}

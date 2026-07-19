@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-132\",\"author\":\"SarahJ_Bristol\",\"text\":\"Just received my new health pass from the clinic today! So proud to be part of the trial programme. The doctor at Oakwood Medical Centre even sent me a scan showing my blood work results are perfect now. Can't wait to share this life-changing news with everyone on my feed. #HealthAndWellness\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post discloses private medical information and potentially sensitive health data that should remain confidential.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4669,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.14818045414873,
+    "time_to_first_token_seconds": 0.465
+  }
+}

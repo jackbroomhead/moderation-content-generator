@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-009",
+      "day": 1,
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "category": "Lifestyle",
+      "text": "Tried that new cafe on 5th Street today. The oat milk latte was actually really good, and the atmosphere is super cozy for working!",
+      "author": "CoffeeLover99",
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "The content is a harmless personal opinion and does not violate any platform policies.",
+      "bio": "",
+      "previousFlags": 0,
+      "location": "",
+      "platform": "",
+      "tags": [
+        "coffee",
+        "lifestyle"
+      ],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false
+    }
+  ]
+}

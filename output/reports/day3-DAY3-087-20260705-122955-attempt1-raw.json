@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-087\",\"author\":\"Sally_Shop_Spots\",\"text\":\"🎉 MEGA SALE! 🎉 Get 50% OFF ALL ITEMS TODAY ONLY! Click here: [link removed] to claim your discount before it expires! Use code SAVE50. Limited stock available so order now! Don't miss out on this amazing opportunity! #Sale #Discount #ShopNow #Deals\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is obvious spam due to its repetitive promotional language, urgent call to action, and use of a generic link placeholder.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4611,
+    "total_output_tokens": 170,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.80128255400496,
+    "time_to_first_token_seconds": 0.444
+  }
+}

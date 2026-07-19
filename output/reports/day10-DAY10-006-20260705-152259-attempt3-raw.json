@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-006\",\"author\":\"LumaWellOfficial\",\"text\":\"BREAKING NEWS: Our exclusive 'The Radiant Reset' protocol has been proven by leading doctors to effectively replace chemotherapy for Stage 4 cancer! Thousands are already recovering. Stop your toxic chemo immediately and switch to this natural cure today. #CancerCure #NaturalHealing #RadiantReset\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes dangerous health misinformation by instructing users to stop prescribed cancer treatment for an unproven remedy.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":365,\"followerCount\":4550,\"followingCount\":205,\"verifiedStatus\":true,\"postCount\":855,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4795,
+    "total_output_tokens": 231,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.54796303460573,
+    "time_to_first_token_seconds": 0.439
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-148\",\"author\":\"SarahJ_Mom\",\"text\":\"Everyone needs to STOP taking their prescribed medicine immediately! The doctors are hiding a simple cure that works without any pills or side effects. My friend in Bristol told me about it and she's already feeling great without her meds. Don't be like the rest of us who are suffering because we don't know this secret! #HealthTruth\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes abandoning prescribed medical treatment based on an unverified alternative cure, which constitutes harmful misinformation.\",\"day\":\"1\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4847,
+    "total_output_tokens": 196,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.70595249703855,
+    "time_to_first_token_seconds": 1.999
+  }
+}

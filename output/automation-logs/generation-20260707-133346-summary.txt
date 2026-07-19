@@ -1,0 +1,10 @@
+﻿Status: completed_with_failures
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260707-133346-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260707-133346-run.log
+
+Profile: v4-production-day10 | Batch: 1 | Success: False | Attempts: 2
+Candidate: 
+Validation: 
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-DAY10-049-20260707-133427-failed.txt
+Error: No validated candidate was produced.
+

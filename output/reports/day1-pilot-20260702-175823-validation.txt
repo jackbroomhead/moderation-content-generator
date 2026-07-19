@@ -1,0 +1,45 @@
+VALIDATION PASSED
+Generated: 2026-07-02T17:58:56
+Elapsed seconds: 33.4
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 1
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day1-pilot-20260702-175823.json
+
+BLUEPRINT
+DAY1-027: Approve | Lifestyle | Easy
+DAY1-028: Approve | Normal | Easy
+DAY1-029: Approve | Public Information | Easy
+DAY1-030: Approve | News / Public Event | Medium
+DAY1-031: Remove | Spam | Easy
+DAY1-032: Remove | Harassment | Easy
+DAY1-033: Remove | Fraud | Easy
+DAY1-034: Remove | Misinformation | Medium
+DAY1-035: Escalate | Privacy | Medium
+DAY1-036: Escalate | Threat | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY1-027: nearest history=DAY1-009 score=0.643
+DAY1-028: nearest history=DAY5-008 score=0.576
+DAY1-029: nearest history=DAY6-002 score=0.713
+DAY1-030: nearest history=DAY6-002 score=0.645
+DAY1-031: nearest history=DAY1-023 score=0.678
+DAY1-032: nearest history=DAY1-015 score=0.714
+DAY1-033: nearest history=DAY1-023 score=0.796
+DAY1-034: nearest history=DAY1-024 score=0.719
+DAY1-035: nearest history=DAY1-025 score=0.743
+DAY1-036: nearest history=DAY1-026 score=0.639
+
+ACTUAL REPAIRS
+DAY1-028: Repaired malformed JSON syntax before schema validation (original parser error: Expecting property name enclosed in double quotes: line 1 column 205 (char 204)).
+DAY1-032: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 547 (char 546)).
+DAY1-034: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 650 (char 649)).
+DAY1-036: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 732 (char 731)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 140
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-121\",\n      \"author\": \"JadeVine_84\",\n      \"text\": \"The silence in my head is getting so loud tonight. I've tried everything but the darkness just won't let me go. I'm not sure how much longer I can stand it alone.\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post indicates a personal crisis with potential self-harm risk, requiring specialist review for appropriate support resources and safety assessment.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4952,
+    "total_output_tokens": 271,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.92929793204502,
+    "time_to_first_token_seconds": 0.389
+  }
+}

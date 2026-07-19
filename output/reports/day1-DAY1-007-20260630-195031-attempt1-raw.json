@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-bmgbpy6ukjmi8sbu4j8",
+  "object": "chat.completion",
+  "created": 1782845431,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"author\": \"coffee_enthusiast_99\",\n      \"text\": \"Just tried the new pumpkin spice latte at The Roasted Bean. It's actually pretty good, way better than the place across the street!\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"explanation\": \"The post is an ordinary personal opinion about a local business and does not violate any safety or moderation policies.\",\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"metadata\": {\n        \"account_age_days\": 142,\n        \"follower_count\": 350,\n        \"following_count\": 420,\n        \"previous_flags\": 0,\n        \"is_verified\": false,\n        \"post_count\": 85,\n        \"bio\": \"Just a caffeine addict looking for the best brews in the city.\",\n        \"related_accounts\": [],\n        \"coordinated_posting_pattern\": false\n      }\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Target Day: Day 1.\n    *   Mandatory ID: `DAY1-007`.\n    *   Mandatory `correctAction`: `Approve`.\n    *   Constraint: Return only JSON matching the schema.\n    *   Policy: Follow the provided \"Moderation Policy\", \"Escalation Reasons\", \"Day Progression\", \"Filler Post Rules\", and \"Confirmed Decisions\".\n\n    *   `id`: \"DAY1-007\"\n    *   `day`: 1\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\" or \"Medium\" (Choose \"Easy\" for a simple \"Approve\" case).\n    *   `category`: One of the allowed categories (Fraud, Harassment, Lifestyle, Misinformation, News / Public Event, Normal, Privacy, Public Information, Spam, Threat).\n    *   `correctEscalationReason`: Must be \"\" (empty string) for \"Approve\".\n    *   `acceptableEscalationReasons`: Must be [] (empty array) for \"Approve\".\n    *   `allowNeedsReviewEscalation`: Must be `false` for \"Approve\".\n    *   `explanation`: Must state the policy reason.\n\n    *   Need an \"Approve\" post for Day 1.\n    *   Day 1 is \"Core moderation\" (Normal, Lifestyle, Spam, Fraud, Harassment, Privacy, Threats, Misinformation, Public Info, News).\n    *   Rule: \"Approve when the content is permitted and does not create a credible policy or safety concern.\"\n    *   Examples of Approve: \"ordinary personal or community posts\", \"criticism and strong opinions\", \"mutual playful banter and mild teasing\", \"recognisable satire or parody\", \"non-credible hyperbole\", \"unpleasant speech that does not cross a policy threshold.\"\n    *   Idea: A user sharing a picture or a comment about a local coffee shop's new latte. This fits \"Lifestyle\" or \"Normal\".\n\n    *   *Author:* `coffee_enthusiast_99`\n    *   *Text:* \"Just tried the new pumpkin spice latte at The Roasted Bean. It's actually pretty good, way better than the place across the street!\"\n    *   *Category:* \"Lifestyle\"\n    *   *Action:* \"Approve\"\n    *   *Difficulty:* \"Easy\"\n    *   *Explanation:* The post is an ordinary personal opinion about a local business and does not violate any safety or moderation policies.\n\n    *   *id:* \"DAY1-007\"\n    *   *day:* 1\n    *   *correctAction:* \"Approve\"\n    *   *difficulty:* \"Easy\"\n    *   *category:* \"Lifestyle\"\n    *   *correctEscalationReason:* \"\"\n    *   *acceptableEscalationReasons:* []\n    *   *allowNeedsReviewEscalation:* false\n    *   *explanation:* \"The post is an ordinary personal opinion about a local business and does not violate any safety or moderation policies.\"\n\n    *   Filler content only? Yes.\n    *   No child-safety/deferred topics? Yes.\n    *   No real people/allegations? Yes.\n    *   Explanation states policy reason? Yes.\n    *   One post in the array? Yes.\n    *   Correct categories? Yes (Lifestyle is in the allowed list).\n    *   Correct day rules? Yes (Day 1).\n    *   No specialist categories? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6761,
+    "completion_tokens": 1103,
+    "total_tokens": 7864,
+    "completion_tokens_details": {
+      "reasoning_tokens": 793
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

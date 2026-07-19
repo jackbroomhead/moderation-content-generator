@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-047\",\n      \"author\": \"JazzyJules82\",\n      \"text\": \"Honestly, it’s getting ridiculous. I tried to block @mike_r_99 on my phone and laptop again today, but he keeps finding workarounds. Last week he showed up at the coffee shop near Oxford Street pretending to be a waiter just to talk to me, and yesterday he sent me 15 texts asking why I didn’t reply to his ‘urgent’ emails about our old school project. It’s not just annoying anymore; it feels like he won’t take no for an answer.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This case requires escalation due to repeated unwanted contact and stalking behaviour that persists despite blocking attempts, rather than a single isolated incident.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"HarassmentAbuse\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4739,
+    "total_output_tokens": 278,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.00415418626767,
+    "time_to_first_token_seconds": 0.504
+  }
+}

@@ -1,0 +1,9 @@
+VALIDATION ERRORS
+Too many usernames in the batch use numeric suffixes.
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

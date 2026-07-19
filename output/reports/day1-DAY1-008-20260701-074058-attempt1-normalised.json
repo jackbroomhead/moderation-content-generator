@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-008",
+      "author": "CityVibe_88",
+      "text": "You are a complete idiot and everyone in this town hates you. Stop posting your garbage opinions here.",
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "The post contains direct targeted insults and bullying, which is a clear violation of the harassment policy.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

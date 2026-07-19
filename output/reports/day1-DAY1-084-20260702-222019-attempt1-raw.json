@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-084\",\"author\":\"Jules_82\",\"text\":\"Hi all, just to let you know that this is an urgent message from the support team at DataVault. We've detected a security breach and need you to verify your identity immediately by replying with your login credentials so we can reset your account. Please act fast before access is lost! #security #urgent\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes credential harvesting under the guise of a security alert, requiring specialist investigation to determine if it is a genuine impersonation attempt.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2971,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.39779005524862,
+    "time_to_first_token_seconds": 0.522
+  }
+}

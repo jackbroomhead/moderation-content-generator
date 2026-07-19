@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-084\",\"author\":\"ConcernedCitizen_UK\",\"text\":\"I saw this video circulating on my feed claiming that a simple 7-day juice cleanse can cure Stage 2 breast cancer and replace all chemo. It says the 'detox' is actually better than hospital treatment because it's natural! Please do not try this, as I have a family member currently undergoing therapy and stopping medication could be fatal. Only trust qualified doctors for serious illnesses. #CancerAwareness\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes harmful health misinformation by suggesting a diet replaces medical treatment for cancer.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4712,
+    "total_output_tokens": 176,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.13848356784354,
+    "time_to_first_token_seconds": 2.299,
+    "model_load_time_seconds": 3.85
+  }
+}

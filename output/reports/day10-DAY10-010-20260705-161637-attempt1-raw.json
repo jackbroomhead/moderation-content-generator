@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-010\",\"author\":\"SarahOakley_84\",\"text\":\"Just heard a terrifying news alert: 'A massive gas leak detected in Oakhaven, residents advised to shelter in place.' It's absolutely genuine! I've been following the official emergency updates closely and this is confirmed. Please stay safe and check your homes immediately. #SafetyFirst #OakhavenUpdate\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"The post explicitly distributes a manipulated synthetic audio clip as real, constituting clear harmful misinformation despite the author admitting it was generated.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":513,\"followerCount\":7470,\"followingCount\":273,\"verifiedStatus\":false,\"postCount\":1219,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5107,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.646578389301814,
+    "time_to_first_token_seconds": 22.893
+  }
+}

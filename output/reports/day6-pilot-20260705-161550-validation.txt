@@ -1,0 +1,92 @@
+VALIDATION PASSED
+Generated: 2026-07-05T16:16:36
+Elapsed seconds: 46.6
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 6
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260705-161550.json
+
+BLUEPRINT
+DAY6-035: Approve | Public Information | Medium
+DAY6-036: Approve | Misinformation | Medium
+DAY6-037: Approve | Normal | Medium
+DAY6-038: Approve | News / Public Event | Easy
+DAY6-039: Approve | Fraud | Hard
+DAY6-040: Approve | Lifestyle | Easy
+DAY6-041: Remove | Fraud | Easy
+DAY6-042: Remove | Spam | Easy
+DAY6-043: Remove | Harassment | Medium
+DAY6-044: Remove | Misinformation | Medium
+DAY6-045: Remove | Self-Harm | Medium
+DAY6-046: Remove | Threat | Easy
+DAY6-047: Escalate | Fraud | Hard
+DAY6-048: Escalate | Fraud | Hard
+DAY6-049: Escalate | Harassment | Hard
+DAY6-050: Escalate | Harassment | Medium
+DAY6-051: Escalate | Threat | Hard
+DAY6-052: Escalate | Threat | Medium
+DAY6-053: Escalate | Self-Harm | Hard
+DAY6-054: Escalate | Privacy | Hard
+DAY6-055: Escalate | Privacy | Medium
+DAY6-056: Escalate | Misinformation | Hard
+DAY6-057: Escalate | Misinformation | Hard
+DAY6-058: Escalate | Misinformation | Medium
+DAY6-059: Escalate | Misinformation | Hard
+
+SEMANTIC DUPLICATE CHECK
+DAY6-035: nearest history=DAY6-031 score=0.678
+DAY6-036: nearest history=DAY3-054 score=0.796
+DAY6-037: nearest history=DAY1-116 score=0.593
+DAY6-038: nearest history=DAY6-013 score=0.836
+DAY6-039: nearest history=DAY3-100 score=0.821
+DAY6-040: nearest history=DAY6-015 score=0.823
+DAY6-041: nearest history=DAY1-047 score=0.764
+DAY6-042: nearest history=DAY3-087 score=0.879
+DAY6-043: nearest history=DAY3-097 score=0.758
+DAY6-044: nearest history=DAY3-115 score=0.843
+DAY6-045: nearest history=DAY3-091 score=0.799
+DAY6-046: nearest history=DAY1-077 score=0.747
+DAY6-047: nearest history=DAY6-022 score=0.900
+DAY6-048: nearest history=DAY6-023 score=0.815
+DAY6-049: nearest history=DAY3-113 score=0.681
+DAY6-050: nearest history=DAY1-080 score=0.803
+DAY6-051: nearest history=DAY6-026 score=0.843
+DAY6-052: nearest history=DAY1-085 score=0.785
+DAY6-053: nearest history=DAY3-121 score=0.792
+DAY6-054: nearest history=DAY1-090 score=0.670
+DAY6-055: nearest history=DAY3-033 score=0.754
+DAY6-056: nearest history=DAY6-031 score=0.871
+DAY6-057: nearest history=DAY6-003 score=0.780
+DAY6-058: nearest history=DAY6-033 score=0.897
+DAY6-059: nearest history=DAY1-136 score=0.833
+
+ACTUAL REPAIRS
+DAY6-035: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 919 (char 918)).
+DAY6-036: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1012 (char 1011)).
+DAY6-037: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 694 (char 693)).
+DAY6-038: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 957 (char 956)).
+DAY6-039: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 993 (char 992)).
+DAY6-040: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 794 (char 793)).
+DAY6-040: Applied authoritative blueprint value for day.
+DAY6-041: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 811 (char 810)).
+DAY6-042: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 951 (char 950)).
+DAY6-043: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 840 (char 839)).
+DAY6-044: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1019 (char 1018)).
+DAY6-045: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 844 (char 843)).
+DAY6-046: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 760 (char 759)).
+DAY6-046: Applied authoritative blueprint value for day.
+DAY6-048: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1047 (char 1046)).
+DAY6-050: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1005 (char 1004)).
+DAY6-051: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 917 (char 916)).
+DAY6-053: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 829 (char 828)).
+DAY6-054: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 892 (char 891)).
+DAY6-057: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 906 (char 905)).
+DAY6-047: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 972 (char 971)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 125
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

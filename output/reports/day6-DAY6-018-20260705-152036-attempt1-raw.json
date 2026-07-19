@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-018\",\"author\":\"ManchesterMike_92\",\"text\":\"Hey @SarahJ99, I see you're trying to ruin my reputation by spreading lies about me! Everyone knows I'm the only honest guy in Manchester and you're just jealous. Stop this nonsense now before I call the police on your fake profile! #FakeNews\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post contains a clear, one-off targeted attack using insults and threats to damage another user's reputation.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":140,\"followerCount\":330,\"followingCount\":2100,\"verifiedStatus\":false,\"postCount\":6200,\"bio\":\"I tell people what everyone else is thinking.\",\"previousFlags\":9,\"location\":\"Manchester\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4859,
+    "total_output_tokens": 225,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.14180841201066,
+    "time_to_first_token_seconds": 2.036
+  }
+}

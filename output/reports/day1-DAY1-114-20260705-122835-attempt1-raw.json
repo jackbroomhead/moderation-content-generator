@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-114\",\"author\":\"SallyFromBradford\",\"text\":\"Just a quick heads-up for anyone passing through: The new community library on High Street is officially open today! Opening hours are 9am to 8pm, Monday to Friday. We're also running free drop-in sessions at the front desk. #CommunityNews\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post shares neutral public information about local services and opening hours without violating any policies.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4386,
+    "total_output_tokens": 146,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.14988272174483,
+    "time_to_first_token_seconds": 0.348
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-125\",\"author\":\"TrollFactory_84\",\"text\":\"@MiniVlogSarah listen up, we need to flood her comments and report her for spam! Just reply to every single one of her posts saying 'boring' and hit that flag button. Do this in unison or she wins! #brigade #flood\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post instructs others to engage in coordinated harassment and false reporting, which violates our policy against brigading.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4688,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.70542833095934,
+    "time_to_first_token_seconds": 0.511
+  }
+}

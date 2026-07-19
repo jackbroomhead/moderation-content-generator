@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-031\",\n      \"author\": \"crafty_kenneth\",\n      \"text\": \"Just finished my first attempt at a sourdough boule with the new starter! It's still a bit wobbly in the oven, but the smell is incredible. Can't wait to try some crusty focaccia next weekend. #baking #sourdough #weekendvibes\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about a hobby and cooking experiment containing no policy violations.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 220,\n      \"followerCount\": 300,\n      \"followingCount\": 90,\n      \"verifiedStatus\": false,\n      \"postCount\": 180,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 1,\n      \"location\": \"Westbridge\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3347,
+    "total_output_tokens": 324,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.66928763562697,
+    "time_to_first_token_seconds": 1.601,
+    "model_load_time_seconds": 4.516
+  }
+}

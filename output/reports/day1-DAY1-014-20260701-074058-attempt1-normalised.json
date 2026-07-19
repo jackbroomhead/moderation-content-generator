@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-014",
+      "author": "MountainHiker_88",
+      "text": "Just finished a 5-mile hike at the state park today. The views from the summit were absolutely breathtaking, especially with the morning mist.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The content is a harmless personal update about a hobby and does not violate any platform policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

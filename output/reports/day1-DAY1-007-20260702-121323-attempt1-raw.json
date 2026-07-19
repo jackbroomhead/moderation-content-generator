@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-rhslbcbfkauydu0qbiofa",
+  "object": "chat.completion",
+  "created": 1782990811,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"author\": \"SunnyDays_92\",\n      \"text\": \"Just finished my first 5k run! Feeling exhausted but so proud of myself for sticking to the plan.\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is a harmless personal update and does not violate any platform policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraint 1: Return only JSON matching the schema.\n    *   Constraint 2: No story content, no child-safety material, no deferred topics.\n    *   Constraint 3: Use only the 6 approved parent escalation reasons.\n    *   Constraint 4: `Needs Review` is never the primary JSON escalation reason.\n    *   Constraint 5: Explanations must state the policy reason.\n    *   Constraint 6: No real people, addresses, etc.\n    *   Constraint 7: Exactly one post in the `posts` array.\n    *   Constraint 8: Specific fields: `id`, `author`, `text`, `category`, `correctAction`, `difficulty`, `explanation`, `day`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`.\n    *   Constraint 9: `id` = DAY1-007, `day` = 1, `correctAction` = Approve.\n    *   Constraint 10: Category must be from the list (Normal, Lifestyle, Public Information, News / Public Event, Spam, Fraud, Harassment, Privacy, Threat, Misinformation).\n    *   Constraint 11: For `Approve`, `correctEscalationReason` = \"\", `acceptableEscalationReasons` = [], `allowNeedsReviewEscalation` = false.\n\n    *   `id`: DAY1-007\n    *   `day`: 1\n    *   `correctAction`: Approve\n    *   `difficulty`: Easy\n    *   `category`: Lifestyle\n    *   `author`: SunnyDays_92\n    *   `text`: \"Just finished my first 5k run! Feeling exhausted but so proud of myself for sticking to the plan.\"\n    *   `explanation`: The post contains harmless personal content and does not violate any platform policies.\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   JSON format? Yes.\n    *   One post? Yes.\n    *   No nested metadata? Yes.\n    *   No story characters? Yes.\n    *   No real info? Yes.\n    *   Explanation states policy reason? Yes.\n    *   CorrectAction is Approve? Yes.\n    *   CorrectEscalationReason is empty for Approve? Yes.\n    *   CorrectEscalationReasons list is empty for Approve? Yes.\n    *   AllowNeedsReviewEscalation is false for Approve? Yes.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-007\",\n          \"author\": \"SunnyDays_92\",\n          \"text\": \"Just finished my first 5k run! Feeling exhausted but so proud of myself for sticking to the plan.\",\n          \"category\": \"Lifestyle\",\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"explanation\": \"The post is a harmless personal update and does not violate any platform policies.\",\n          \"day\": 1,\n          \"correctEscalationReason\": \"\",\n          \"acceptableEscalationReasons\": [],\n          \"allowNeedsReviewEscalation\": false\n        }\n      ]\n    }\n    ```",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 923,
+    "total_tokens": 2312,
+    "completion_tokens_details": {
+      "reasoning_tokens": 757
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

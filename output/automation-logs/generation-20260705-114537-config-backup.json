@@ -1,0 +1,22 @@
+{
+  "api_base": "http://127.0.0.1:1234/v1",
+  "native_api_base": "http://127.0.0.1:1234/api/v1",
+  "model": "qwen/qwen3.5-9b",
+  "embedding_model": "text-embedding-nomic-embed-text-v1.5",
+  "blueprint_file": "17 - Day 3-5 Escalation Production Blueprint.json",
+  "target_day": 3,
+  "count": 25,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_tokens_per_post": 1200,
+  "reasoning": "off",
+  "request_timeout_seconds": 300,
+  "max_attempts_per_post": 3,
+  "duplicate_similarity_threshold": 0.86,
+  "semantic_existing_threshold": 0.9,
+  "semantic_batch_threshold": 0.84,
+  "embedding_batch_size": 32,
+  "include_candidate_history": true,
+  "writer_prompt_suffix": ""
+}

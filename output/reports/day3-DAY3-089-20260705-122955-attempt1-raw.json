@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-089\",\"author\":\"SecureLogin_24\",\"text\":\"URGENT SECURITY ALERT! Your account has been compromised and we need to verify your identity immediately to prevent total data loss. Please reply with your password, full card number including the expiry date, and the 3-digit CVV code found on the back of your card to unlock your funds now: [link removed]\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post explicitly requests sensitive login credentials and financial details, which constitutes an obvious phishing scam that must be removed.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4705,
+    "total_output_tokens": 160,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.23629454858767,
+    "time_to_first_token_seconds": 0.473
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-035\",\"author\":\"FictionalUser92\",\"text\":\"OMG I just got my new medical results from PortalName and I'm so scared! The doctor said it's a serious condition. Also, my friend told me to share my home address at 123 Fictional Lane because they need to verify my insurance for the surgery.\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post exposes sensitive personal information including medical portal details and a private home location used for insurance verification. According to policy, sharing private location data, identity documents, or banking/medical records must be escalated under PrivacySensitiveInfo as these are protected sensitive info.\",\"day\":1,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1603,
+    "total_output_tokens": 182,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.95185264295317,
+    "time_to_first_token_seconds": 0.359
+  }
+}

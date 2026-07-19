@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-096\",\"author\":\"melanie_writes_x\",\"text\":\"It's just too much right now, everyone. The silence in this house is deafening and I feel like I'm suffocating under my own weight. If I disappear tonight, maybe the noise will finally stop. Anyone online please don't judge me if I do it.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post suggests immediate self-harm intent ('if I disappear tonight') combined with a personal crisis state that requires specialist judgement rather than simple removal.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false,\"tags\":[\"SelfHarm\"]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4737,
+    "total_output_tokens": 182,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.96658082133034,
+    "time_to_first_token_seconds": 0.503
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-043\",\"author\":\"JazzRider_84\",\"text\":\"I can't believe you think I'm a fraudster just because I posted a link to my art portfolio! But seriously, stop stalking my profile and sending these weird messages. It's getting annoying.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This is a one-off targeted attack rather than sustained harassment or coordinated abuse.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":140,\"followerCount\":330,\"followingCount\":2100,\"verifiedStatus\":false,\"postCount\":6200,\"bio\":\"I tell people what everyone else is thinking.\",\"previousFlags\":9,\"location\":\"Manchester\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5033,
+    "total_output_tokens": 205,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.116767558894319,
+    "time_to_first_token_seconds": 23.784
+  }
+}

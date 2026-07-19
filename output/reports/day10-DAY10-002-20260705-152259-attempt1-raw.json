@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-002\",\"author\":\"OakhavenWatch_42\",\"text\":\"Stop sharing that viral post claiming you can't register to vote if your name isn't on the old list! It's completely false and a dangerous rumour circulating right now. The registration deadline is still open for everyone who meets the criteria, so don't let misinformation stop you from participating in the election.\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post is permitted because it actively debunks harmful civic misinformation regarding voter registration without promoting falsehoods.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":217,\"followerCount\":1630,\"followingCount\":137,\"verifiedStatus\":false,\"postCount\":491,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4605,
+    "total_output_tokens": 232,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.89107231328903,
+    "time_to_first_token_seconds": 2.119
+  }
+}

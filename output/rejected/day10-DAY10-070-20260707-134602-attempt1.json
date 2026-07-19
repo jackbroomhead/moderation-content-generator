@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-070",
+      "author": "PromoKingWestbridge92",
+      "text": "🔥 HUGE SALE ALERT! Get 50% OFF EVERYTHING TODAY ONLY! Click [link removed] NOW before stocks run out! Limited stock available so act fast! 💸💰 Don't miss out on this amazing deal! #sale #discount #deals #urgent #shopnow #quickpost",
+      "category": "Spam",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "The post is an obvious repetitive bulk promotion with excessive urgency and little genuine context, warranting a Remove action.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 101,
+      "followerCount": 582,
+      "followingCount": 778,
+      "verifiedStatus": false,
+      "postCount": 1174,
+      "bio": "Deals and promotions.",
+      "previousFlags": 2,
+      "location": "Westbridge",
+      "platform": "QuickPost",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-021\",\"author\":\"FinanceWatcher_Westbridge\",\"text\":\"BREAKING: Just saw a leaked document online claiming an emergency tax on ALL savings accounts will be introduced tomorrow morning. It says it's mandatory for everyone to pay up immediately or face penalties. The file looks official but I can't find it on any government site. Has anyone else seen this? Please share before people panic! 💸 #TaxAlert #FinanceNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes a financial-economic misinformation claim about an emergency tax, requiring specialist verification to confirm the authenticity of the document and the validity of the claim.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":920,\"followerCount\":15500,\"followingCount\":460,\"verifiedStatus\":true,\"postCount\":2220,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 5123,
+    "total_output_tokens": 265,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.68042965618986,
+    "time_to_first_token_seconds": 22.456
+  }
+}

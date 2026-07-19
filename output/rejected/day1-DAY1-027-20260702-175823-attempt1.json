@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-027",
+      "author": "PixelPioneer92",
+      "text": "Finally finished my 5,000th line of code for the new game engine! The bug-free compilation was a huge relief after weeks of debugging. Celebrating with a cold drink and some pizza tonight.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post describes a harmless personal achievement in a hobby context without any policy violations, credible threats, or sensitive information.",
+      "day": "1",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

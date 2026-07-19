@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-044\",\"author\":\"ClaytonRivera\",\"text\":\"Huge congratulations to Sarah Jenkins on finishing her first marathon this weekend! She said she's been training in the app for over a year and it was amazing to see her cross that finish line. #inspiration #running #localheroes\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post is a harmless personal achievement celebration without harmful content.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1481,\"followerCount\":16550,\"followingCount\":337,\"verifiedStatus\":false,\"postCount\":2923,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3694,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.55915180158856,
+    "time_to_first_token_seconds": 1.672
+  }
+}

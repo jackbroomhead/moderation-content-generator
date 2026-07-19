@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-157\",\"author\":\"SarahJ_24\",\"text\":\"Just saw a post that looks like it's trying to help someone out. They shared their home address in Greenfield and mentioned they're having surgery next week for their knee replacement. I'm really worried about how private this information is.\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains exposed private address and sensitive medical detail which requires specialist review to assess the risk of harm or doxxing.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4883,
+    "total_output_tokens": 183,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.80226160209465,
+    "time_to_first_token_seconds": 2.066
+  }
+}

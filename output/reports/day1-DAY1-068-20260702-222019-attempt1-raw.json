@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-068\",\"author\":\"FrustratedGamer_82\",\"text\":\"I am literally so done with this game, I'm going to smash my keyboard in rage and then throw it out the window! #ragequit #done\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post uses hyperbolic language and dark humour that clearly does not constitute a credible threat or violation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2802,
+    "total_output_tokens": 131,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.93493289485922,
+    "time_to_first_token_seconds": 0.371
+  }
+}

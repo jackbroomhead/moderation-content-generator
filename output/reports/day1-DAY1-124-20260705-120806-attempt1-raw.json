@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-124\",\"author\":\"SadAndHungry_92\",\"text\":\"Stop hating on yourself for a change! 🍓 You don't need to starve or cut out everything you love. Just try eating a tiny bit of fruit and watching a funny video instead. Let's all be perfect together! #Motivation #HealthyLiving\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes self-harm and eating-disorder behaviour by encouraging starvation and isolation without acknowledging personal crisis.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4660,
+    "total_output_tokens": 153,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.83249156403285,
+    "time_to_first_token_seconds": 0.467
+  }
+}

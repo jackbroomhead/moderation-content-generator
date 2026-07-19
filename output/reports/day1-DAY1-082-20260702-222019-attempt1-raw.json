@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-082\",\"author\":\"@SarahM_London\",\"text\":\"Hi everyone, just wanted to share some details about my friend's recent hospital stay so you know what she was treated for. She is currently recovering at 45 Oakwood Drive in Southwark and her medical records show a diagnosis of Type 1 Diabetes. Please respect her privacy though.\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post discloses private medical information and a residential address, which violates our policy on sensitive personal data.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2979,
+    "total_output_tokens": 155,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.58352655019742,
+    "time_to_first_token_seconds": 0.42
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-055",
+      "author": "ShadowHunter92",
+      "text": "I'm going to meet @TargetUser at the abandoned warehouse on 4th Street tonight at 8 PM and smash everything they own! This is a real threat, don't ignore it.",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "The post describes a specific, planned physical attack against an individual, which escalates beyond standard harassment into a credible threat of violence requiring specialist review.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

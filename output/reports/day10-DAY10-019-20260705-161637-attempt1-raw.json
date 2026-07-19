@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-019\",\"author\":\"NorthbridgeAlertUser\",\"text\":\"URGENT: Verified notice from City Emergency Services stating a major gas leak has occurred at 42 Industrial Way, Northbridge, causing immediate danger to residents in the area. All households must evacuate NOW before anyone is harmed! #SafetyFirst #GasLeak\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a specific location and claims an emergency service directive; specialist verification is required to confirm if this is a legitimate alert or a coordinated impersonation attempt.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":846,\"followerCount\":14040,\"followingCount\":426,\"verifiedStatus\":false,\"postCount\":2038,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5122,
+    "total_output_tokens": 245,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.61264191888735,
+    "time_to_first_token_seconds": 22.48
+  }
+}

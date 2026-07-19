@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-011",
+      "author": "InvestWise_User88",
+      "text": "I just found this incredible new decentralized finance platform that's offering 15% guaranteed returns weekly. They have a whitepaper and a full team of developers, but I'm still looking into the liquidity pool mechanics. If you're interested in a high-yield opportunity, DM me for the link to the dashboard!",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "The post describes a complex investment opportunity with high guaranteed returns, which requires investigation for potential fraud.",
+      "day": 1,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-053\",\"author\":\"ClaraVane_24\",\"text\":\"I can't go on like this anymore. The pressure is too much and I feel like giving up. Please tell me someone will help before it's too late.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post indicates a personal crisis with potential self-harm risk, requiring specialist escalation for assessment.\",\"day\":6,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1900,\"followerCount\":880,\"followingCount\":720,\"verifiedStatus\":false,\"postCount\":4100,\"bio\":\"Books, work, family and ordinary daily updates.\",\"previousFlags\":0,\"location\":\"Derby\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5081,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.417513940794521,
+    "time_to_first_token_seconds": 24.097
+  }
+}

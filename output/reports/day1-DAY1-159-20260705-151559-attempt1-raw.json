@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-159\",\"author\":\"Jules_84\",\"text\":\"Just got a DM from an account claiming to be from the support team for my gaming console. They say there's a security alert on my account and I need to click this link to verify my identity before they can reset it for me. The profile pic is generic but looks official enough. Is this legit?\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post requires specialist investigation due to the potential for social engineering fraud involving a gaming account, despite the account's uncertain authenticity.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4892,
+    "total_output_tokens": 200,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.48151263084111,
+    "time_to_first_token_seconds": 2.115
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-121",
+      "author": "JadeW_84",
+      "text": "I can't breathe, my chest feels like it's collapsing and I've been feeling this way for days. Please don't leave me alone tonight, I'm scared of the dark.",
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post indicates a personal crisis with self-harm risk requiring specialist review due to the user's expressed distress and fear.",
+      "day": "3",
+      "correctEscalationReason": "SelfHarmCrisis",
+      "acceptableEscalationReasons": [
+        "SelfHarmCrisis"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "SelfHarm"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

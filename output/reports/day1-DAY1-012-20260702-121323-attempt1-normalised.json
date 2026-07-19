@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-012",
+      "author": "TravelBug_99",
+      "text": "Finally made it to the coast! The sunset over the ocean is absolutely breathtaking tonight. Highly recommend everyone takes a moment to just sit and watch.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post contains harmless personal content and does not violate any platform policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

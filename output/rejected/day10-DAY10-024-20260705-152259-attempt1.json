@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-024",
+      "author": "LeedsWatch_84",
+      "text": "Has anyone seen this clip circulating? It shows footage from St Jude's General allegedly covering up an emergency procedure last night. The audio is a bit garbled but they claim the hospital 'hid' it to protect their reputation. There's a link to the full video on their page. #LeedsNews #HospitalScandal",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This requires specialist verification as a manipulated-looking clip alleging an emergency concealment.",
+      "day": "10",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "SyntheticManipulatedMedia",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1031,
+      "followerCount": 17690,
+      "followingCount": 511,
+      "verifiedStatus": false,
+      "postCount": 2493,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 2,
+      "location": "Leeds",
+      "platform": "TownSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

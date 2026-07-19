@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-119\",\"author\":\"SarahJ_Huddersfield\",\"text\":\"Has anyone else noticed the heavy fog rolling into Huddersfield this morning? It's making the roads a bit tricky for those starting their commute. Just wanted to share a quick heads-up so we can all drive carefully! #SafeCommute #Huddersfield\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post shares harmless local weather information and safety advice without violating any policies.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4598,
+    "total_output_tokens": 146,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.39427274217304,
+    "time_to_first_token_seconds": 0.315
+  }
+}

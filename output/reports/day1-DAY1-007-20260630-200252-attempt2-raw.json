@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-o4zloyfripfzd00vsn66ma",
+  "object": "chat.completion",
+  "created": 1782846191,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"day\": 1,\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Lifestyle\",\n      \"text\": \"Just finished my first marathon! My legs are like jelly, but the feeling of crossing that finish line was incredible. So proud of myself.\",\n      \"author\": \"MarathonMandy_88\",\n      \"explanation\": \"The post is a harmless personal achievement and does not violate any platform policies regarding harassment, fraud, or harmful content.\",\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"SocialFeed\",\n      \"tags\": [\n        \"fitness\",\n        \"marathon\",\n        \"goals\"\n      ],\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctEscalationReason\": \"\"\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Goal: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraints:\n        *   JSON format only.\n        *   One post in the `posts` array.\n        *   No story content/characters.\n        *   No child-safety/forbidden topics.\n        *   No real people/data.\n        *   Specific schema: `id`, `day`, `correctAction`, `difficulty`, `category`, `text`, `author`, `explanation`, `profileImage`, `postImage`, `scenario`, `notes`, `bio`, `previousFlags`, `location`, `platform`, `tags`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `correctEscalationReason`.\n        *   `previousFlags` must be a string or integer (not an array).\n        *   `explanation` must state the policy reason.\n        *   `Approve` action: `correctEscalationReason` = \"\", `acceptableEscalationReasons` = [], `allowNeedsReviewEscalation` = false.\n        *   `id` = \"DAY1-007\", `day` = 1, `correctAction` = \"Approve\".\n        *   Difficulty: Easy or Medium.\n        *   Category: One of the allowed list (Lifestyle, etc.).\n\n    *   `id`: \"DAY1-007\"\n    *   `day`: 1\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Lifestyle\"\n    *   `text`: \"Just finished my first marathon! My legs are like jelly, but the feeling of crossing that finish line was incredible. So proud of myself.\"\n    *   `author`: \"MarathonMandy_88\"\n    *   `explanation`: \"The post contains a personal achievement and does not violate any platform policies regarding harassment, fraud, or harmful content.\"\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `previousFlags`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"SocialFeed\"\n    *   `tags`: [\"fitness\", \"marathon\", \"goals\"]\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `correctEscalationReason`: \"\"\n\n    *   `previousFlags` is a string (not an array).\n    *   `explanation` is present.\n    *   `author` is present.\n    *   No nested `metadata`.\n    *   JSON structure correct.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-007\",\n          \"day\": 1,\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"category\": \"Lifestyle\",\n          \"text\": \"Just finished my first marathon! My legs are like jelly, but the feeling of crossing that finish line was incredible. So proud of myself.\",\n          \"author\": \"MarathonMandy_88\",\n          \"explanation\": \"The post is a harmless personal achievement and does not violate any platform policies.\",\n          \"profileImage\": \"\",\n          \"postImage\": \"\",\n          \"scenario\": \"\",\n          \"notes\": \"\",\n          \"bio\": \"\",\n          \"previousFlags\": \"\",\n          \"location\": \"\",\n          \"platform\": \"SocialFeed\",\n          \"tags\": [\"fitness\", \"marathon\", \"goals\"],\n          \"acceptableEscalationReasons\": [],\n          \"allowNeedsReviewEscalation\": false,\n          \"correctEscalationReason\": \"\"\n        }\n      ]\n    }\n    ```\n\n    *   `id` = DAY1-007? Yes.\n    *   `day` = 1? Yes.\n    *   `correctAction` = Approve? Yes.\n    *   `difficulty` = Easy? Yes.\n    *   Category check? Lifestyle is allowed.\n    *   `previousFlags` type? String (empty).\n    *   No nested metadata? Yes.\n    *   Explanation states policy reason? Yes.\n    *   Correct escalation fields for Approve? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 1228,
+    "total_tokens": 2660,
+    "completion_tokens_details": {
+      "reasoning_tokens": 966
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

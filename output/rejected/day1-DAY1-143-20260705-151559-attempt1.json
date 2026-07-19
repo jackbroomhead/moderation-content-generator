@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-143",
+      "author": "printer_problems_85",
+      "text": "I am literally screaming at this printer right now! It just won't feed the paper, it's making that awful grinding noise and I've been sitting here for an hour trying to fix it. This is the most frustrating thing ever! 😤 #OfficeLife",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This post expresses hyperbolic frustration about a mundane household annoyance (a printer jam) rather than any credible threat or harm.",
+      "day": "1",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation:false": "correctSpecialistReason\":\"",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": ""
+    }
+  ]
+}

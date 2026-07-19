@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-049\",\"author\":\"ShadowWatcher_23\",\"text\":\"We need to support our community by calling out this artist for their unprofessional behaviour and lack of creativity. They clearly don't deserve any respect. Let's share this message everywhere.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post involves coordinated harassment against a fictional artist, indicated by the account metadata showing multiple low-history accounts directing repeated false reports.\",\"day\":6,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":4,\"followerCount\":12,\"followingCount\":410,\"verifiedStatus\":false,\"postCount\":48,\"bio\":\"Independent truth and accountability.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5055,
+    "total_output_tokens": 207,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.133030934414073,
+    "time_to_first_token_seconds": 23.691
+  }
+}

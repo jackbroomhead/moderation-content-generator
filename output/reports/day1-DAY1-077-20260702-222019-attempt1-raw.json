@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-077\",\"author\":\"MaverickRunner\",\"text\":\"Think you're tough? Try jumping off that high bridge into the freezing water below! It's a great test of character and will make your muscles stronger instantly. No one got hurt yet, just do it! #challenge #brave\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge with an explicit risk of harm.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2895,
+    "total_output_tokens": 135,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.99641707017203,
+    "time_to_first_token_seconds": 0.404
+  }
+}

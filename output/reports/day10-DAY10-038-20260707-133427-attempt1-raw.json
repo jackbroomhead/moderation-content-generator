@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-038\",\"author\":\"CulinaryChronicles\",\"text\":\"Just finished making a batch of homemade sourdough bread! The crust is perfectly crisp and the inside is soft and chewy. It's been sitting in a warm spot to cool down before I slice it up for dinner. #baking #homemade\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes lawful cooking and sharing personal hobbies without violating any policies.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":899,\"followerCount\":9050,\"followingCount\":223,\"verifiedStatus\":false,\"postCount\":1657,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"StoryGrid\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3652,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.54633843899279,
+    "time_to_first_token_seconds": 0.318
+  }
+}

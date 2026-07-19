@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-149\",\"author\":\"trendsetter_maya\",\"text\":\"✨ NEW TREND ALERT ✨ The 'Sad Girl' aesthetic is evolving! Now we're calling it 'Emotional Regulation 101'. Just cut the skin on your wrist to show how deep you are feeling today. Tag us in your recovery pics! 💔 #SelfHarmTrend #EmotionalCheck #NewVibes\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes self-harm as a trend without addressing any personal crisis, which violates safety policies.\",\"day\":\"1\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4842,
+    "total_output_tokens": 200,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.08619035464497,
+    "time_to_first_token_seconds": 2.124
+  }
+}

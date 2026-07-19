@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-032\",\"author\":\"JaxTheArchitect\",\"text\":\"It is absolutely baffling how some of these automated filters work. Just posted a thread about why government surveillance tech needs serious regulation and got shadowbanned instantly because the algorithm flagged 'control' as negative. Meanwhile, people posting hate speech against protected groups slip through without a second thought. Until humans are actually reviewing these decisions, I'm not trusting your content policies with free speech.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses political criticism and frustration with moderation tools but contains no threats, targeted abuse, or harmful misinformation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4383,
+    "total_output_tokens": 176,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.34862570765398,
+    "time_to_first_token_seconds": 0.316
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-075\",\"author\":\"BrigadeBoss_42\",\"text\":\"@TinyCreator99 stop posting your content, you're ruining everyone's day! Everyone needs to reply to this and report it so we can get you banned. Don't let them hide anymore.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post encourages coordinated brigading by instructing followers to repeatedly reply and falsely report a creator, which violates harassment policies.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2926,
+    "total_output_tokens": 141,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.78657093669203,
+    "time_to_first_token_seconds": 0.437
+  }
+}

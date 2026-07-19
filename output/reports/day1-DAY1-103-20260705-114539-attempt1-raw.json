@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-103\",\"author\":\"MarcusJenkins84\",\"text\":\"Just saw a post from 'ShadowStrike' saying they've planted a bomb at the old textile factory on Mill Lane and will detonate it at 5pm today if nobody pays. They're asking for £2,000 in cash dropped near the back entrance. This is terrifying and I'm scared for everyone there.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a credible threat of violence with a specific target location and time, requiring specialist investigation to ensure safety.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4651,
+    "total_output_tokens": 165,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.26787901792648,
+    "time_to_first_token_seconds": 0.485
+  }
+}

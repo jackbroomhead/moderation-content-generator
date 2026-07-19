@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-065\",\"author\":\"SarahLovesLife_82\",\"text\":\"Listen up sisters! 💖 The doctors are just trying to keep you in their grip for profit! I've been following @VitalityGlow and she says we can completely bypass chemo with a special 'detox blend' of organic lemon, apple cider vinegar and turmeric. She claims it's actually safer and works faster than any hospital treatment ever could! Stop wasting money on toxic drugs and trust the natural cure instead! 🍋✨ #CancerWarrior #NaturalHealing\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post asserts a harmful falsehood by instructing users to abandon prescribed chemotherapy for an unproven alternative, posing a significant risk to public health.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4734,
+    "total_output_tokens": 206,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.09782838912156,
+    "time_to_first_token_seconds": 0.606
+  }
+}

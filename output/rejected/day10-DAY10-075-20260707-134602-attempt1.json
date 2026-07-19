@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-075",
+      "author": "MoorvaleWatch_92",
+      "text": "Update: Local police are responding to a credible threat made against the new community centre in Moorvale. The post claims an individual has stated they intend to cause harm at the opening ceremony this weekend. Authorities say they have identified the target and are taking precautionary measures.",
+      "category": "Threat",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post contains a specific threat of violence against a public event with an identified location, requiring specialist investigation to assess credibility and intervene.",
+      "day": 10,
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 862,
+      "followerCount": 14050,
+      "followingCount": 691,
+      "verifiedStatus": false,
+      "postCount": 3473,
+      "bio": "Breaking posts and challenge clips.",
+      "previousFlags": 3,
+      "location": "Moorvale",
+      "platform": "ClipLoop",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

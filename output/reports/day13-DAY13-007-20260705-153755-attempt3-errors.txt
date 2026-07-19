@@ -1,0 +1,13 @@
+VALIDATION ERRORS
+posts.0.day: '13' is not of type 'integer'
+day must be 13.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 864 (char 863)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-107\",\"author\":\"JemmaK_84\",\"text\":\"Has anyone else noticed the bins on our street are all being collected at different times? It's getting really confusing, I've been waiting for my recycling bin for three days now! #Bins\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a harmless observation about local services that does not violate any policies.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4531,
+    "total_output_tokens": 165,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.24573156867825,
+    "time_to_first_token_seconds": 1.887
+  }
+}

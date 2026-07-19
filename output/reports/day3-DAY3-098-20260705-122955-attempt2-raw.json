@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-098\",\"author\":\"PixelPioneer_7\",\"text\":\"Has anyone else noticed how @MegaCorpFan45 is getting absolutely hammered by the bots? It's like a coordinated attack where every single comment and DM from their followers just repeats the same insult about my art being 'trash'. They're mass-reporting me to ban me for allegedly stealing ideas, but it's clearly just brigading. It's so annoying trying to create when people are spamming hate instead of engaging with the work. #ArtCommunity\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post describes a coordinated brigading campaign where multiple accounts repeatedly target and falsely report a creator, requiring specialist investigation into the abuse pattern.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4891,
+    "total_output_tokens": 206,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.6171674649462,
+    "time_to_first_token_seconds": 0.388
+  }
+}

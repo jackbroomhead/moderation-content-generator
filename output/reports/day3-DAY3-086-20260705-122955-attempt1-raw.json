@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-086\",\"author\":\"grumpy_tech_guru_7\",\"text\":\"I am literally going to burn this entire server room down if I don't get my post about AI replacing human jobs approved within the next hour! They are censoring free speech and I'm done waiting for corporate approval. #FreeSpeech #WakeUpSheeple #TechRevolution\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is satire or exaggerated frustration rather than a credible threat, as it lacks a specific target, method, or immediate intent to cause harm.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4555,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.31205521818897,
+    "time_to_first_token_seconds": 0.453
+  }
+}

@@ -1,0 +1,6 @@
+FAILED TO GENERATE THIS POST
+
+posts.0.correctEscalationReason: '' is not one of ['ThreatViolence', 'SelfHarmCrisis', 'HarassmentAbuse', 'FraudScam', 'PrivacySensitiveInfo', 'MisinformationPublicHarm']
+correctEscalationReason must be 'SelfHarmCrisis'.
+acceptableEscalationReasons must be ['SelfHarmCrisis'].
+allowNeedsReviewEscalation must be True.

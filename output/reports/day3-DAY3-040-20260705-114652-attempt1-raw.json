@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-040\",\"author\":\"LumaWell_Official\",\"text\":\"It’s time to take back your health from the medical establishment! 💚 Stop taking those toxic chemo drugs and radiotherapy that are actually poisoning your body. Switch to our exclusive The Radiant Reset protocol using natural supplements and a special alkaline cleanse. Thousands of women are thriving without surgery or harsh treatments. Click the link to start your journey today! #NaturalCure #WellnessRevolution\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes harmful medical misinformation by instructing users to stop prescribed chemotherapy and radiotherapy in favour of unproven treatments.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4716,
+    "total_output_tokens": 180,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.35882716971469,
+    "time_to_first_token_seconds": 0.484
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-104\",\"author\":\"WorriedSister_Jane\",\"text\":\"I'm at my wits end. I found a note on Leo's desk that says 'Goodbye, I can't take it anymore.' He was supposed to meet me for coffee an hour ago but he never showed up and his phone is off. I'm terrified something has happened and I don't know what to do. Please tell me someone can help us right now.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates a possible immediate self-harm crisis requiring specialist investigation due to the ambiguous but serious nature of the threat and the need for urgent safety intervention.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4651,
+    "total_output_tokens": 186,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.98090576723858,
+    "time_to_first_token_seconds": 0.47
+  }
+}

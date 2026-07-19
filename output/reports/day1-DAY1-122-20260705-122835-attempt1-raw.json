@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-122\",\"author\":\"SecureUser_84\",\"text\":\"Hey everyone, I've just found a suspicious message claiming to be from 'Amazon Support'. It says my account has been compromised and asks me to verify my password and credit card details immediately via this link [link removed]. Please ignore it! #Phishing #StaySafe\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post requests sensitive login credentials and financial information, which is a clear sign of a phishing scam that must be removed.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4661,
+    "total_output_tokens": 153,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.98151715961299,
+    "time_to_first_token_seconds": 0.498
+  }
+}

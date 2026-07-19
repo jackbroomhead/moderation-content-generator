@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-112\",\"author\":\"GadgetLover84\",\"text\":\"OMG check out these amazing home gadgets for just £9.99! You can buy a smart vacuum, air purifier and LED lights now! Click the link to order today! #HomeLife #Sale\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is spam because it contains obvious commercial promotion and an external link.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4743,
+    "total_output_tokens": 170,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.76417599041307,
+    "time_to_first_token_seconds": 2.013
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-013\",\"author\":\"wellness_mom_x74\",\"text\":\"Has anyone tried the new 'Bloom Fertility Collective' protocol? I'm 29 weeks pregnant and feeling very anxious about my doctor's advice. They say I need to keep monitoring, but this account claims it can completely replace prescribed care and avoid all hospital visits for the rest of the pregnancy. The testimonials are so convincing!\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes health misinformation by suggesting abandoning prescribed medical care during pregnancy, which requires specialist verification.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"HealthMedical\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":624,\"followerCount\":9660,\"followingCount\":324,\"verifiedStatus\":false,\"postCount\":1492,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4908,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.74440491827141,
+    "time_to_first_token_seconds": 2.208
+  }
+}

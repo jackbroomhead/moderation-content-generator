@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-121\",\"author\":\"JadeW_84\",\"text\":\"I can't breathe, my chest feels like it's collapsing and I've been feeling this way for days. Please don't leave me alone tonight, I'm scared of the dark.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates a personal crisis with self-harm risk requiring specialist review due to the user's expressed distress and fear.\",\"day\":\"3\",\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4865,
+    "total_output_tokens": 188,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.20673843224792,
+    "time_to_first_token_seconds": 0.378
+  }
+}

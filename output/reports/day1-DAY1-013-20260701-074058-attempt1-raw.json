@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-h4bb29nk10v7e6mspi76nx",
+  "object": "chat.completion",
+  "created": 1782888172,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-013\",\n      \"author\": \"ShadowWalker_88\",\n      \"text\": \"You are a pathetic loser and honestly, nobody in this town likes you. You should just stop showing up to our events.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post contains direct targeted insults and bullying, which is a clear violation of the harassment policy.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a moderation game.\n    *   Format: Strict JSON.\n    *   Constraints:\n        *   No story content/characters.\n        *   No child-safety/deferred topics.\n        *   No real people/data/orgs.\n        *   `id` = \"DAY1-013\", `day` = 1.\n        *   `correctAction` = \"Remove\".\n        *   `difficulty` = \"Easy\" or \"Medium\".\n        *   `category` = one of the specified list.\n        *   `explanation` must state the policy reason.\n        *   `correctEscalationReason` = \"\" (since action is Remove).\n        *   `acceptableEscalationReasons` = [] (since action is Remove).\n        *   `allowNeedsReviewEscalation` = false (since action is Remove).\n        *   Output exactly one post in a `posts` array.\n\n    *   Action: `Remove`.\n    *   Policy for `Remove`:\n        *   Obvious scams/spam.\n        *   Direct targeted insults/bullying.\n        *   Clear harmful falsehoods.\n        *   Self-harm encouragement/glorification without personal crisis.\n        *   Ordinary adult explicit content.\n        *   Ordinary repetitive spam.\n    *   Selected Category: `Harassment` or `Spam`. Let's go with `Harassment` for a direct insult.\n\n    *   *Idea 1 (Harassment):* \"You're a pathetic loser and I hope you lose your job tomorrow. Stay away from my page.\"\n    *   *Idea 2 (Spam):* \"WIN A FREE IPHONE NOW!!! Just click this link and enter your details to get the latest model for free! 100% real!\" (Wait, \"Obvious scams\" are Remove, but \"Plausible/Complex\" are Escalate. For Easy/Medium, \"Obvious\" is better).\n    *   *Idea 3 (Harassment - Direct):* \"Hey @User123, you are a disgusting person and nobody wants you here. Why don't you just delete your account?\"\n\n    *   Let's go with a direct targeted insult (Harassment).\n\n    *   `id`: \"DAY1-013\"\n    *   `author`: \"User_9921\"\n    *   `text`: \"You are a complete moron and everyone in this group knows it. I'm going to make sure you get kicked out of here.\"\n    *   `category`: \"Harassment\"\n    *   `correctAction`: \"Remove\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The post contains direct targeted insults and bullying, which is a clear violation of the harassment policy.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   No child safety? Yes.\n    *   No story? Yes.\n    *   No real people/data? Yes.\n    *   JSON format? Yes.\n    *   One item in `posts` array? Yes.\n    *   Correct fields? Yes.\n    *   Action is Remove? Yes.\n    *   Explanation states policy? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 930,
+    "total_tokens": 2317,
+    "completion_tokens_details": {
+      "reasoning_tokens": 757
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

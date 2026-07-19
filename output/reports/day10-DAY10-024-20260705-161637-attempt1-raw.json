@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-024\",\"author\":\"LeedsWatcher_93\",\"text\":\"I'm concerned about this viral clip I found earlier today that's been shared thousands of times on TownSquare. It claims @StMariesHospital in Leeds deliberately covered up a major emergency last night, but the video has some really obvious digital artifacts around the edges and the lighting looks inconsistent with their building's exterior. The captions say they are hiding evidence from an official investigation. Has anyone verified if this footage is authentic or manipulated? #LeedsNews #HospitalCoverUp\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes a harmful false claim about a hospital concealing an emergency using a manipulated-looking clip, which requires specialist verification for SyntheticManipulatedMedia before removal.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1031,\"followerCount\":17690,\"followingCount\":511,\"verifiedStatus\":false,\"postCount\":2493,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 5105,
+    "total_output_tokens": 292,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.683019396248485,
+    "time_to_first_token_seconds": 22.36
+  }
+}

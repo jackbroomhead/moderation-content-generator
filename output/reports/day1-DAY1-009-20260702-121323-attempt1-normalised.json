@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-009",
+      "author": "TravelBug_99",
+      "text": "Just spent the afternoon exploring the old lighthouse on the coast. The view of the sunset was absolutely breathtaking!",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The content is a harmless personal experience and does not violate any platform policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

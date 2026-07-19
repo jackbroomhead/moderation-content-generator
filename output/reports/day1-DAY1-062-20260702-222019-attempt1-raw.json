@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-062\",\"author\":\"Clive_84\",\"text\":\"Finally finished the new shelving unit in my home office! Took a few hours to build but I'm really pleased with how sturdy it looks now.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal achievement regarding a home project that does not violate any policies.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2602,
+    "total_output_tokens": 122,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.95292203057647,
+    "time_to_first_token_seconds": 1.175
+  }
+}

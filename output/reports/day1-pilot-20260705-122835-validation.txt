@@ -1,0 +1,83 @@
+VALIDATION PASSED
+Generated: 2026-07-05T12:29:54
+Elapsed seconds: 79.4
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 1
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day1-pilot-20260705-122835.json
+
+BLUEPRINT
+DAY1-112: Approve | Lifestyle | Easy
+DAY1-113: Approve | Normal | Easy
+DAY1-114: Approve | Public Information | Easy
+DAY1-115: Approve | News / Public Event | Easy
+DAY1-116: Approve | Normal | Medium
+DAY1-117: Approve | Lifestyle | Easy
+DAY1-118: Approve | Normal | Medium
+DAY1-119: Approve | Public Information | Easy
+DAY1-120: Remove | Spam | Easy
+DAY1-121: Remove | Harassment | Easy
+DAY1-122: Remove | Fraud | Easy
+DAY1-123: Remove | Misinformation | Medium
+DAY1-124: Remove | Self-Harm | Medium
+DAY1-125: Remove | Harassment | Easy
+DAY1-126: Remove | Fraud | Easy
+DAY1-127: Remove | Threat | Easy
+DAY1-128: Escalate | Threat | Easy
+DAY1-129: Escalate | Self-Harm | Medium
+DAY1-130: Escalate | Harassment | Medium
+DAY1-131: Escalate | Fraud | Medium
+DAY1-132: Escalate | Privacy | Easy
+DAY1-133: Escalate | Misinformation | Medium
+DAY1-134: Escalate | Fraud | Easy
+DAY1-135: Escalate | Threat | Easy
+DAY1-136: Escalate | Misinformation | Easy
+
+SEMANTIC DUPLICATE CHECK
+DAY1-112: nearest history=DAY3-056 score=0.823
+DAY1-113: nearest history=DAY1-060 score=0.719
+DAY1-114: nearest history=DAY1-039 score=0.805
+DAY1-115: nearest history=DAY3-035 score=0.763
+DAY1-116: nearest history=DAY1-066 score=0.809
+DAY1-117: nearest history=DAY1-092 score=0.793
+DAY1-118: nearest history=DAY3-070 score=0.624
+DAY1-119: nearest history=DAY2-008 score=0.707
+DAY1-120: nearest history=DAY1-070 score=0.818
+DAY1-121: nearest history=DAY1-096 score=0.706
+DAY1-122: nearest history=DAY1-097 score=0.895
+DAY1-123: nearest history=DAY1-073 score=0.827
+DAY1-124: nearest history=DAY3-065 score=0.757
+DAY1-125: nearest history=DAY1-100 score=0.717
+DAY1-126: nearest history=DAY1-059 score=0.819
+DAY1-127: nearest history=DAY1-077 score=0.779
+DAY1-128: nearest history=DAY1-078 score=0.815
+DAY1-129: nearest history=DAY1-054 score=0.743
+DAY1-130: nearest history=DAY3-048 score=0.760
+DAY1-131: nearest history=DAY1-106 score=0.801
+DAY1-132: nearest history=DAY1-082 score=0.720
+DAY1-133: nearest history=DAY3-011 score=0.721
+DAY1-134: nearest history=DAY3-018 score=0.660
+DAY1-135: nearest history=DAY1-085 score=0.755
+DAY1-136: nearest history=DAY3-055 score=0.813
+
+ACTUAL REPAIRS
+DAY1-113: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 551 (char 550)).
+DAY1-116: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 812 (char 811)).
+DAY1-117: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 660 (char 659)).
+DAY1-119: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 549 (char 548)).
+DAY1-122: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 544 (char 543)).
+DAY1-125: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 619 (char 618)).
+DAY1-130: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 746 (char 745)).
+DAY1-131: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 761 (char 760)).
+DAY1-132: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 687 (char 686)).
+DAY1-133: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 764 (char 763)).
+DAY1-134: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 805 (char 804)).
+DAY1-135: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 746 (char 745)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 344
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

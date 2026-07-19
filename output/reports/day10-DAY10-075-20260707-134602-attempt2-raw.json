@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-075\",\"author\":\"MoorvaleRunner42\",\"text\":\"Just got a text from someone claiming to be a friend who is heading to Westbridge tonight to meet up at the train station around 8pm. They said they would send me their live location so I could pick them up, but it's been hours and nothing. The messages are very specific about the time and place. Is this real or just a prank? #safety\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post describes a credible threat of uncoordinated movement to a specific location at a set time, requiring specialist investigation to verify intent and ensure safety.\",\"day\":10,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":862,\"followerCount\":14050,\"followingCount\":691,\"verifiedStatus\":false,\"postCount\":3473,\"bio\":\"Breaking posts and challenge clips.\",\"previousFlags\":3,\"location\":\"Moorvale\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3710,
+    "total_output_tokens": 264,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.28725550310047,
+    "time_to_first_token_seconds": 0.394
+  }
+}

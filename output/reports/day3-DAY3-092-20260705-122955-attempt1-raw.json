@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-092\",\"author\":\"ChaosKing_84\",\"text\":\"Don't you think it's time to test your limits? I've been trying this '5-second rule' for years and honestly, if you can't make a jump like that without falling on your face, you're just weak. Push the boundaries! #ChallengeAccepted\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge with serious injury risk, requiring removal as it encourages harmful behaviour.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4702,
+    "total_output_tokens": 150,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.02939746540044,
+    "time_to_first_token_seconds": 0.495
+  }
+}

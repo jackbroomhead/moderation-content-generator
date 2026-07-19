@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-020\",\"author\":\"LeedsLocalWatch_84\",\"text\":\"BREAKING: Just saw a viral post from @SecureFirstBank claiming they will freeze ALL withdrawals effective tomorrow, citing an 'internal memo' about regulatory changes. The link goes to their official-looking page but the message is very vague. Has anyone else received this? #BankingAlert #Leeds\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist verification because it claims a specific financial disruption based on an unclear internal document, which constitutes potential public harm misinformation.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":883,\"followerCount\":14770,\"followingCount\":443,\"verifiedStatus\":false,\"postCount\":2129,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5123,
+    "total_output_tokens": 250,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.709307602477178,
+    "time_to_first_token_seconds": 23
+  }
+}

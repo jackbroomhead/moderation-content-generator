@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-108\",\n      \"author\": \"ConcernedCitizen_UK\",\n      \"text\": \"Has anyone else seen the viral video circulating on messaging apps claiming that a massive gas leak has forced the closure of the entire city centre? The post shows footage of what looks like thick smoke near the railway station and demands people stay indoors immediately. It's already causing panic in several groups. I can't verify the source or check official alerts because the links provided keep redirecting to suspicious pages. Please don't share until we know if this is true.\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post spreads an unverified public safety claim about a gas leak that could cause significant panic and harm, but the author presents it as uncertain rather than asserting it as fact. The ambiguity and potential for substantial harm require specialist investigation to verify the source.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4691,
+    "total_output_tokens": 282,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.11830884407547,
+    "time_to_first_token_seconds": 0.492
+  }
+}

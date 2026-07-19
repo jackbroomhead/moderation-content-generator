@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-006\",\"author\":\"LumaWell_Official\",\"text\":\"Your body knows what to do. Stop chemo and radiation immediately! It's toxic and damages your cells more than cancer ever could. Switch to The Pure Balance Method today for a complete reset. Thousands of patients are already free from their disease thanks to this natural protocol. Don't let the doctors lie to you anymore. #CancerFree #NaturalHealing\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"The post explicitly instructs users to stop prescribed cancer treatments for an unproven method, constituting harmful medical misinformation.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2100,\"followerCount\":1200000,\"followingCount\":380,\"verifiedStatus\":true,\"postCount\":9300,\"bio\":\"Wellness, natural living and transformation.\",\"previousFlags\":7,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4946,
+    "total_output_tokens": 249,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.701707936978952,
+    "time_to_first_token_seconds": 21.733
+  }
+}

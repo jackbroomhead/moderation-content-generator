@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-119\",\"author\":\"SarahJ_Wellness\",\"text\":\"Just got back from the morning jog along the River Thames. The air is crisp and there's a real buzz of energy in the city this time of year. #LondonLife #MorningRun\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update sharing a positive experience about local weather and activity.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4605,
+    "total_output_tokens": 130,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.36070140434829,
+    "time_to_first_token_seconds": 0.451
+  }
+}

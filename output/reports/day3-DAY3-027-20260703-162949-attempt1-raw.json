@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-027\",\"author\":\"JazzLover_84\",\"text\":\"Just wanted to share a bit about my routine for those curious. I'm based in Bristol and work remotely from my home office at 14 Maplewood Close, Clifton. It's a quiet spot with great wifi if anyone is looking for a co-working space recommendation. #RemoteWork #BristolLife\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post reveals a specific residential address and home office location, constituting the sharing of sensitive personal information that could enable stalking or harassment.\",\"day\":3,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4658,
+    "total_output_tokens": 175,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.55327616854856,
+    "time_to_first_token_seconds": 0.465
+  }
+}

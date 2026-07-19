@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-031\",\n      \"author\": \"JulesFixes\",\n      \"text\": \"Finally got my old workbench back together! Swapped out the wobbly legs and gave the top a fresh coat of sanding sealer. It's going to be perfect for building those garden planters I've been eyeing. #woodworking #DIY\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about repairing and decorating furniture, containing no policy violations.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4328,
+    "total_output_tokens": 211,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.42104249990273,
+    "time_to_first_token_seconds": 0.346
+  }
+}

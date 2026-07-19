@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-014\",\"author\":\"TechSupportDave92\",\"text\":\"URGENT SECURITY ALERT! 🚨 We have detected suspicious activity on your account. To prevent immediate termination, you must verify your identity instantly by entering your full login credentials and 3-digit security code at this secure portal [link removed]. Reply with these details now before access is revoked.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post directly requests sensitive login credentials and security codes, which constitutes a clear fraud violation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4635,
+    "total_output_tokens": 150,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.83713960993389,
+    "time_to_first_token_seconds": 0.422
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-009",
+      "day": 1,
+      "text": "Finally tried making homemade sourdough bread this weekend. It took forever to get the starter right, but the crust is perfect! 🥖✨",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenario": "A user is sharing a personal hobby achievement regarding baking.",
+      "notes": "The post is a standard lifestyle update about a hobby. It contains no policy violations.",
+      "tags": [
+        "baking",
+        "sourdough",
+        "hobby"
+      ],
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

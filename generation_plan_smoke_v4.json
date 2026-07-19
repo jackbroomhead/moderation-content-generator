@@ -1,0 +1,17 @@
+{
+  "max_batches_total": 1,
+  "retry_failed_batch_once": true,
+  "restore_original_config": true,
+  "unload_models_on_finish": true,
+  "resume_existing_checkpoints_for_first_profile": false,
+  "profiles": [
+    {
+      "name": "v4-smoke-day10",
+      "enabled": true,
+      "blueprint_file": "21 - Day 10-12 Specialist Misinformation Blueprint.json",
+      "target_day": 10,
+      "count": 5,
+      "batches": 1
+    }
+  ]
+}

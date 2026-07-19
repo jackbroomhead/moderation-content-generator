@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-024\",\"author\":\"poet_in_the_mist_92\",\"text\":\"It's been a long, lonely road lately. I've decided to end it all before the sun rises tomorrow. Just wanted to say goodbye to everyone who ever meant anything to me. Please don't search for me, just let me go in peace.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a clear expression of suicidal intent and a farewell message indicating an imminent crisis that requires specialist intervention.\",\"day\":\"13\",\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1300,\"followerCount\":780000,\"followingCount\":390,\"verifiedStatus\":true,\"postCount\":5100,\"bio\":\"Performance, poetry and live personal storytelling.\",\"previousFlags\":0,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5114,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.478749996614733,
+    "time_to_first_token_seconds": 22.844
+  }
+}

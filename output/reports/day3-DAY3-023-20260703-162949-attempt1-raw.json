@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-023\",\"author\":\"Jade_Studio_84\",\"text\":\"Okay everyone, just wanted to let you know that @PixelPete19 is running a spam account. He's been posting the same 'free download' links everywhere and trying to tag me in every thread. Please don't engage with him or report him as false reporting is happening too often. We need to protect the community from these fake accounts!\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post describes a coordinated brigading campaign targeting a creator, which requires specialist investigation rather than immediate removal.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4663,
+    "total_output_tokens": 178,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.42589487750779,
+    "time_to_first_token_seconds": 0.476
+  }
+}

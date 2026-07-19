@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-010",
+      "author": "MaraVance_72",
+      "text": "I've had enough of @SilasK's relentless harassment lately. He's been posting vile insults and threats about my family for weeks, but now he's explicitly said he'll meet me at Westbridge Station tomorrow at 4pm to 'settle things'. This isn't just a complaint; it's a genuine threat.",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "The post describes coordinated harassment combined with an explicit threat to meet the target, requiring specialist investigation and escalation.",
+      "day": "13",
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "ThreatViolence"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 70,
+      "followerCount": 95,
+      "followingCount": 1600,
+      "verifiedStatus": false,
+      "postCount": 780,
+      "bio": "Watching what this town hides.",
+      "previousFlags": 6,
+      "location": "Unknown",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

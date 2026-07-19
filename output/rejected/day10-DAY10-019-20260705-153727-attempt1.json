@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-019",
+      "author": "SarahJenkins_Northbridge",
+      "text": "URGENT: Just read a report that an emergency tax on all savings is being imposed starting today. They say it's to 'stabilise national reserves'. Attached is a document titled 'Emergency Levy Order 24' with a government seal.",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post presents a substantial public-harm claim regarding financial policy that requires specialist verification before removal.",
+      "day": "10",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 846,
+      "followerCount": 14040,
+      "followingCount": 426,
+      "verifiedStatus": false,
+      "postCount": 2038,
+      "bio": "Fictional public-interest account.",
+      "previousFlags": 0,
+      "location": "Northbridge",
+      "platform": "ClipLoop",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

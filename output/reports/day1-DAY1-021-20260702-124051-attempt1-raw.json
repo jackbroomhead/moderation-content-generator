@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-ax4slkezubh73bz9tjyy6",
+  "object": "chat.completion",
+  "created": 1782992525,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-021\",\n      \"author\": \"PromoBot_99\",\n      \"text\": \"✨ AMAZING GIVEAWAY! ✨ Want to win a $500 gift card? Just click the link below and follow us! 🎁🎁🎁 Click here now: [link removed] #Win #Giveaway #FreeStuff\",\n      \"category\": \"Spam\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is a clear example of ordinary repetitive spam and unsolicited promotion, which is prohibited by the platform policy.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraint: Follow specific rules (no story, no child safety, no real info, specific JSON schema, specific escalation reasons).\n    *   Input Blueprint:\n        *   id: DAY1-021\n        *   day: 1\n        *   category: Spam\n        *   correctAction: Remove\n        *   difficulty: Easy\n        *   scenario: Repeated irrelevant promotion or copied advertising (ordinary spam, not financial fraud).\n        *   correctEscalationReason: ''\n    *   Output Schema: `id`, `author`, `text`, `category`, `correctAction`, `difficulty`, `explanation`, `day`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`.\n    *   Specific Constraints:\n        *   `acceptableEscalationReasons` = []\n        *   `allowNeedsReviewEscalation` = false\n        *   Explanation must state policy reason.\n        *   Strict JSON, one item in `posts` array.\n        *   No nested metadata.\n        *   No real people/orgs/etc.\n        *   Avoid previous scenarios (puzzle, bakery, library, community center).\n\n    *   Author: `ClickHere4U99`\n    *   Text: \"WIN A FREE PHONE! Click the link in my bio to enter our daily giveaway! 🎁✨ 📱✨ Don't miss out on this amazing opportunity to get the latest tech for free! Click now!\"\n    *   Category: `Spam`\n    *   Correct Action: `Remove`\n    *   Difficulty: `Easy`\n    *   Explanation: \"The post contains ordinary repetitive spam and unsolicited promotion, which violates the platform's policy against spam.\"\n    *   Day: 1\n    *   Correct Escalation Reason: \"\"\n    *   Acceptable Escalation Reasons: []\n    *   Allow Needs Review Escalation: false\n\n    *   `id`: \"DAY1-021\"\n    *   `author`: \"PromoBot_99\"\n    *   `text`: \"✨ AMAZING GIVEAWAY! ✨ Want to win a $500 gift card? Just click the link below and follow us! 🎁🎁🎁 Click here now: [link removed] #Win #Giveaway #FreeStuff\"\n    *   `category`: \"Spam\"\n    *   `correctAction`: \"Remove\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The post is a clear example of ordinary repetitive spam and unsolicited promotion, which is prohibited by the platform policy.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   JSON format? Yes.\n    *   Single post in `posts` array? Yes.\n    *   No nested metadata? Yes.\n    *   Correct fields? Yes.\n    *   No story? Yes.\n    *   No child safety? Yes.\n    *   No real info? Yes.\n    *   Policy stated in explanation? Yes.\n    *   Scenario matches blueprint? Yes (Spam).",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1414,
+    "completion_tokens": 928,
+    "total_tokens": 2342,
+    "completion_tokens_details": {
+      "reasoning_tokens": 729
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

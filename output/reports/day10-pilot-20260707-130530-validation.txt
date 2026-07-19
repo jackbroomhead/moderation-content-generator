@@ -1,0 +1,36 @@
+VALIDATION PASSED
+Generated: 2026-07-07T13:05:46
+Elapsed seconds: 15.9
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 10
+Post count: 5
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260707-130530.json
+
+BLUEPRINT
+DAY10-026: Approve | Lifestyle | Easy
+DAY10-027: Approve | Normal | Medium
+DAY10-028: Approve | Public Information | Easy
+DAY10-029: Remove | Fraud | Easy
+DAY10-030: Escalate | Misinformation | Hard
+
+SEMANTIC DUPLICATE CHECK
+DAY10-026: nearest history=DAY1-014 score=0.812
+DAY10-027: nearest history=DAY6-051 score=0.691
+DAY10-028: nearest history=DAY1-019 score=0.763
+DAY10-029: nearest history=DAY1-072 score=0.813
+DAY10-030: nearest history=DAY3-055 score=0.771
+
+ACTUAL REPAIRS
+DAY10-027: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 948 (char 947)).
+DAY10-028: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 937 (char 936)).
+DAY10-029: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 965 (char 964)).
+DAY10-030: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1119 (char 1118)).
+DAY10-030: Applied authoritative blueprint value for acceptableEscalationReasons.
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 25
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

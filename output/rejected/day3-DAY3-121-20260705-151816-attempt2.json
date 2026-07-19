@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-121",
+      "author": "Jules_Streetlight",
+      "text": "It's been a long night again. The silence in my head is getting louder and I just feel like everyone has abandoned me tonight. Please don't leave me alone, it feels too dark to be here by myself.",
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "The post contains warning signs of a personal crisis with potential self-harm risk, requiring specialist review.",
+      "day": "3",
+      "correctEscalationReason": "SelfHarmCrisis",
+      "acceptableEscalationReasons": [
+        "SelfHarmCrisis"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "SelfHarm"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

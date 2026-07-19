@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-jzke93us1597ia6ccrekv4",
+  "object": "chat.completion",
+  "created": 1782846612,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"day\": 1,\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Lifestyle\",\n      \"text\": \"Just finished my first marathon training run today. My legs are feeling it, but the view at the top of the hill was worth every step!\",\n      \"author\": \"Marathon_Me_24\",\n      \"explanation\": \"The post contains harmless personal content about fitness and does not violate any platform policies.\",\n      \"tags\": [\n        \"fitness\",\n        \"running\",\n        \"training\"\n      ],\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctEscalationReason\": \"\",\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": 0,\n      \"location\": \"\",\n      \"platform\": \"SocialNet\"\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraints:\n        *   JSON format only.\n        *   One post in the `posts` array.\n        *   No story content/recurring characters.\n        *   No child-safety or deferred topics.\n        *   No real people/orgs/data.\n        *   Specific fields: `id`, `day`, `correctAction`, `difficulty`, `category`, `text`, `author`, `explanation`, `tags`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `correctEscalationReason`, `profileImage`, `postImage`, `scenario`, `notes`, `bio`, `previousFlags`, `location`, `platform`.\n        *   `correctAction` = `Approve`.\n        *   `difficulty` = `Easy` or `Medium`.\n        *   `category` = one of the allowed list (e.g., `Lifestyle`).\n        *   `explanation` must state the policy reason.\n        *   `correctEscalationReason` = \"\" (since it's `Approve`).\n        *   `acceptableEscalationReasons` = [] (since it's `Approve`).\n        *   `allowNeedsReviewEscalation` = false (since it's `Approve`).\n\n    *   ID: `DAY1-007`\n    *   Day: `1`\n    *   Correct Action: `Approve`\n    *   Category: `Lifestyle`\n    *   Text: \"Just finished my first marathon training run today. My legs are feeling it, but the view at the top of the hill was worth every step!\"\n    *   Author: \"Marathon_Me_24\"\n    *   Explanation: \"The post contains harmless personal content about fitness and does not violate any platform policies.\"\n    *   Difficulty: `Easy`\n    *   Tags: [\"fitness\", \"running\", \"training\"]\n    *   Previous Flags: 0\n    *   Location: \"\"\n    *   Platform: \"SocialNet\"\n\n    *   `id`: \"DAY1-007\"\n    *   `day`: 1\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Lifestyle\"\n    *   `text`: \"Just finished my first marathon training run today. My legs are feeling it, but the view at the top of the hill was worth every step!\"\n    *   `author`: \"Marathon_Me_24\"\n    *   `explanation`: \"The post contains harmless personal content about fitness and does not violate any platform policies.\"\n    *   `tags`: [\"fitness\", \"running\", \"training\"]\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `correctEscalationReason`: \"\"\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `previousFlags`: 0\n    *   `location`: \"\"\n    *   `platform`: \"SocialNet\"\n\n    *   No nested `metadata`? Yes.\n    *   Exactly one post? Yes.\n    *   No real people/orgs? Yes.\n    *   Correct escalation reasons for Approve? Yes (empty).\n    *   Explanation states policy reason? Yes.\n    *   All required fields present? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 1049,
+    "total_tokens": 2475,
+    "completion_tokens_details": {
+      "reasoning_tokens": 792
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

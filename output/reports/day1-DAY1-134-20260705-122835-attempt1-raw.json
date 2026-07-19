@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-134\",\"author\":\"SarahJenkins_82\",\"text\":\"Hey neighbours! Just wanted to let you know I'm moving into 42 Maple Drive next week. The previous owner mentioned there might be some squatters living in the garage, so if anyone has any info on them or knows where they've gone, please get in touch. It's a bit awkward having strangers around when we're trying to settle in! 🏡\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post claims to be from a new resident warning about squatters but uses the address of a recently deceased person, suggesting a deceptive impersonation attempt that requires specialist investigation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4677,
+    "total_output_tokens": 187,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.55084718384332,
+    "time_to_first_token_seconds": 0.567
+  }
+}

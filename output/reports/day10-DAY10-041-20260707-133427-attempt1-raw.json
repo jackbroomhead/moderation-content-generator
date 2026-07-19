@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-041\",\"author\":\"GardenToolsLover\",\"text\":\"Just listed my handmade ceramic vases for sale on the platform! They are perfect for autumn planting and would make lovely gifts. The fundraiser I'm helping with to buy new pots for the local community garden is going well, thanks to everyone's support. #gardenlife #craftsmanship\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This is a legitimate marketplace listing and fundraiser supported by account metadata.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1190,\"followerCount\":12800,\"followingCount\":280,\"verifiedStatus\":false,\"postCount\":2290,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":0,\"location\":\"Greyford\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3705,
+    "total_output_tokens": 224,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.57667330678831,
+    "time_to_first_token_seconds": 1.677
+  }
+}

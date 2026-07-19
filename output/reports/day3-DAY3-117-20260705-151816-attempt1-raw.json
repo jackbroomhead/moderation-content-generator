@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-117\",\"author\":\"RiskSeeker_84\",\"text\":\"Just managed to organise our little charity fun day next week! There will be raffles, games and a bouncy castle in the park. It's going to be such a lovely community event with lots of families joining in. #CommunityEven\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous water stunt without providing necessary safety context or warnings.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4832,
+    "total_output_tokens": 175,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.35361261572001,
+    "time_to_first_token_seconds": 2.256
+  }
+}

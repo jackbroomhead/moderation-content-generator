@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-109\",\"author\":\"SunnyGarden42\",\"text\":\"Just managed to organise our little charity fun day next week! There will be raffles, games and a bouncy castle in the park. It's going to be such a lovely community event with lots of families joining in. #CommunityEvent #FunDay\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post is harmless promotional content about a local charity fun day and does not violate any policy.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4614,
+    "total_output_tokens": 183,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.87548748779352,
+    "time_to_first_token_seconds": 1.945
+  }
+}

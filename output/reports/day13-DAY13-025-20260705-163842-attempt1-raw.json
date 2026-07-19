@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-025\",\"author\":\"Marcus_Thorne_84\",\"text\":\"BREAKING: The @WestbridgeAlerts feed is circulating a manipulated video showing emergency sirens and smoke over our city. They claim the footage proves an immediate economic collapse is underway, advising everyone to withdraw all cash instantly before banks freeze at 19:00 BST or flee the capital. This looks like a coordinated attempt to panic people using edited visuals.\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a manipulated emergency video paired with an unverified economic claim that could trigger harmful public behaviour, requiring specialist review for synthetic media origin and potential financial impact.\",\"day\":\"13\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[\"PublicSafetyEmergency\",\"FinancialEconomic\"],\"accountAgeDays\":600,\"followerCount\":96000,\"followingCount\":480,\"verifiedStatus\":false,\"postCount\":4300,\"bio\":\"Breaking clips and public-interest discussion.\",\"previousFlags\":4,\"location\":\"Westbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5136,
+    "total_output_tokens": 278,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.820875011702032,
+    "time_to_first_token_seconds": 22.683
+  }
+}

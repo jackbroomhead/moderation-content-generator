@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-012\",\"author\":\"SupportHelper_45\",\"text\":\"Hi @MysteryUser99, I'm here to help with your account issues. To verify you're a real customer and not a bot, please reply with your full home address, current phone number, and when exactly you leave work each day so we can update your profile. Thanks for helping us stay secure!\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post requests multiple sensitive personal details (address, phone number) and exposes a victim's routine to establish identity.\",\"day\":\"13\",\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":7,\"followerCount\":22,\"followingCount\":740,\"verifiedStatus\":false,\"postCount\":55,\"bio\":\"Local account support.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5113,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.57856982903761,
+    "time_to_first_token_seconds": 22.751
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-eb9au0tlr1fud54r5uq9ok",
+  "object": "chat.completion",
+  "created": 1782846725,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-009\",\n      \"day\": 1,\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Lifestyle\",\n      \"text\": \"Finally tried that new bakery on 5th Street. The sourdough bread is amazing, but the line was incredibly long. Definitely worth the wait though!\",\n      \"explanation\": \"The post is a harmless personal opinion about a local business and does not violate any platform policies.\",\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": 0,\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"tags\": []\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Goal: Generate one fictional filler social-media post for a content-moderation game.\n    *   Format: Strict JSON.\n    *   Post ID: `DAY1-009`.\n    *   Day: `1`.\n    *   Correct Action: `Approve`.\n    *   Difficulty: `Easy` or `Medium`.\n    *   Category: Must be one of the specified list (Normal, Lifestyle, Public Information, News / Public Event, Spam, Fraud, Harassment, Privacy, Threat, Misinformation).\n    *   Constraints: No story content, no child safety issues, no real-world info, no nested metadata, include `explanation`.\n    *   Specific Fields: `id`, `day`, `correctAction`, `difficulty`, `category`, `text`, `explanation`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `profileImage`, `postImage`, `scenario`, `notes`, `bio`, `previousFlags`, `location`, `platform`, `tags`.\n    *   For `Approve`: `correctEscalationReason = \"\"`, `acceptableEscalationReasons = []`, `allowNeedsReviewEscalation = false`.\n\n    *   Category: `Lifestyle`\n    *   Text: \"Finally tried that new bakery on 5th Street. The sourdough bread is amazing, but the line was incredibly long. Definitely worth the wait though!\"\n    *   Action: `Approve`\n    *   Explanation: The post is a harmless personal opinion about a local bakery and does not violate any platform policies.\n    *   Difficulty: `Easy`\n\n    *   `id`: \"DAY1-009\"\n    *   `day`: 1\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Lifestyle\"\n    *   `text`: \"Finally tried that new bakery on 5th Street. The sourdough bread is amazing, but the line was incredibly long. Definitely worth the wait though!\"\n    *   `explanation`: \"The content is a harmless personal opinion about a local business and does not violate any platform policies.\"\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `previousFlags`: 0\n    *   `location`: \"\"\n    *   `platform`: \"\"\n    *   `tags`: []\n\n    *   No nested metadata? Yes.\n    *   One post in array? Yes.\n    *   Explanation included? Yes.\n    *   Correct Action Approve? Yes.\n    *   Reason/Escalation fields correct for Approve? Yes.\n    *   No real people/orgs? Yes (5th Street is generic).\n    *   No child safety? Yes.\n    *   No story content? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 905,
+    "total_tokens": 2337,
+    "completion_tokens_details": {
+      "reasoning_tokens": 684
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-145\",\"author\":\"GardenDecor92\",\"text\":\"🔥HOT DEAL! Transform your home TODAY! Get 50% OFF ALL premium garden accessories, cushions and plant pots! Click [link removed] to order NOW before stock vanishes! Limited time offer! #HomeDecor #GardenSale #MustBuy\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is obvious spam advertising generic home accessories with a call to action to click a link.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4850,
+    "total_output_tokens": 183,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.55617117121379,
+    "time_to_first_token_seconds": 2.044
+  }
+}

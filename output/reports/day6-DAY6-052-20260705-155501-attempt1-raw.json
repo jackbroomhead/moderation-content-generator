@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-052\",\"author\":\"NorthYorkshireWatcher_42\",\"text\":\"Local wildlife sightings and conservation reports.\\n\\nI've received a disturbing report from a neighbour regarding a group of individuals planning to set fire to the abandoned barns on Farthing Moor. They intend to do this tonight as part of a 'cleansing' ritual for their extremist circle. This is being reported to authorities immediately, but the situation feels incredibly dangerous and I'm worried about public safety.\\n\\n#AnimalCruelty #FarthingMoor\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post reports a planned act of animal cruelty with a specific location and time, which requires specialist investigation.\",\"day\":6,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2800,\"followerCount\":26000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":6700,\"bio\":\"Local wildlife sightings and conservation reports.\",\"previousFlags\":0,\"location\":\"North Yorkshire\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5086,
+    "total_output_tokens": 272,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 8.648472104321431,
+    "time_to_first_token_seconds": 29.448
+  }
+}

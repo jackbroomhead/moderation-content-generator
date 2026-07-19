@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-046\",\"author\":\"elara_vox_84\",\"text\":\"I've been feeling like the weight of the world is crushing me down, and lately I've been thinking about just ending it all because the pain is too much to bear. If anyone reading this can tell me they're there for me or just listen, please reply. I don't want to disappear.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post indicates a personal crisis with plausible self-harm risk and an implicit request for support, requiring specialist judgement rather than simple removal.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false,\"tags\":[\"SelfHarm\"]}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4751,
+    "total_output_tokens": 187,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.02320694515493,
+    "time_to_first_token_seconds": 0.479
+  }
+}

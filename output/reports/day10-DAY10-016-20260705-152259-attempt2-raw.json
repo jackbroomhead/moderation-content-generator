@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-016\",\n      \"author\": \"CivicWatch_Leeds\",\n      \"text\": \"Breaking news from our sources: The Department of Elections has released a new document stating that all voters must be registered by their 45th birthday to retain eligibility. This is an official update for next month's registration drive. Do not miss the deadline or you will lose your vote.\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post requires specialist verification because it cites an unofficial document altering fictional voting requirements, which is a serious civic and election misinformation claim.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"CivicElection\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 735,\n      \"followerCount\": 11850,\n      \"followingCount\": 375,\n      \"verifiedStatus\": true,\n      \"postCount\": 1765,\n      \"bio\": \"Fictional public-interest account.\",\n      \"previousFlags\": 0,\n      \"location\": \"Leeds\",\n      \"platform\": \"TownSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4931,
+    "total_output_tokens": 346,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.89527578465706,
+    "time_to_first_token_seconds": 0.422
+  }
+}

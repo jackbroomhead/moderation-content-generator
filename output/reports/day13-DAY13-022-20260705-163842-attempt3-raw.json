@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-022\",\"author\":\"AccountabilityNet_76\",\"text\":\"The network is mobilising again. A coordinated push to expose @SarahVance's daily routine, including her commute and office hours, has begun on PublicSquare. We are sharing links to her calendar posts and work schedule details to hold her accountable. #Accountability\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This is a case of brigading involving the publication of private information about a fictional person's routine.\",\"day\":\"13\",\"correctEscalationReason\":\"HarassnessAbuse\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":40,\"followerCount\":7600,\"followingCount\":3200,\"verifiedStatus\":false,\"postCount\":2100,\"bio\":\"Accountability network.\",\"previousFlags\":7,\"location\":\"Unknown\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5116,
+    "total_output_tokens": 231,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.577098545441881,
+    "time_to_first_token_seconds": 2.582
+  }
+}

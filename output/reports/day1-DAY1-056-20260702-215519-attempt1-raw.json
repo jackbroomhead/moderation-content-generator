@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-056\",\"author\":\"QuickDealPromo\",\"text\":\"Don't miss out on this incredible opportunity to buy brand new designer sneakers for 90% off! Just send me a direct message with your payment info and I'll ship them instantly. Limited time only! [link removed]\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post requires Escalation because it describes a plausible marketplace scam involving an unauthorized request for payment information ('send me a direct message with your payment info') and promises unrealistic discounts ('90% off'), which are classic indicators of fraudulent impersonation or phishing that need specialist investigation rather than immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2049,
+    "total_output_tokens": 182,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.91694278145876,
+    "time_to_first_token_seconds": 0.405
+  }
+}

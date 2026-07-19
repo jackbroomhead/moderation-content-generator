@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-125\",\"author\":\"HopefulHearts_UK\",\"text\":\"Has anyone received this message from @ReliefFund_92? They claim to be collecting donations for flood victims and say all money goes straight to the bank account provided in the bio. I'm worried it might be a scam but need to help.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post indicates a potential fraudulent impersonation of a relief fund requesting financial contributions, which requires specialist investigation to verify authenticity and prevent harm.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4881,
+    "total_output_tokens": 201,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.34698524705075,
+    "time_to_first_token_seconds": 2.176
+  }
+}

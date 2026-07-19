@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-034",
+      "author": "GreyfordHelper92",
+      "text": "Hi everyone, just a quick note from my end. I'm seeing some people asking for help with their online accounts on the platform. Please be careful! If anyone asks you to send your password or security code via [link removed], that's not right. It could be someone trying to steal your details. Stay safe out there!",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post promotes a credential-harvesting scam by asking users to share sensitive information like passwords and security codes via an unverified link.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

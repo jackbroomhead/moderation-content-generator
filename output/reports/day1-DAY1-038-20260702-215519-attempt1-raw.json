@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-038\",\"author\":\"CraftyCedar72\",\"text\":\"Finally finished my new bookshelf! It took a few weekends but I'm proud of how it turned out. #DIY #HomeImprovement\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal post sharing a mundane life observation and casual pride in a completed project. The content contains no safety issues, harassment, or misinformation, so the correct action is to Approve.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1702,
+    "total_output_tokens": 145,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.98544320887645,
+    "time_to_first_token_seconds": 0.28
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-036",
+      "author": "MoorvaleMarketFan_42",
+      "text": "Big news for everyone! The annual Moorvale Market is hosting a special exhibition of local artists and crafters this Saturday morning. Come along to support our wonderful community businesses and enjoy the atmosphere. #MoorvaleMarket #LocalArt",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post is a harmless public event announcement with no policy violations.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 705,
+      "followerCount": 6550,
+      "followingCount": 185,
+      "verifiedStatus": false,
+      "postCount": 1235,
+      "bio": "Fictional events, culture and local announcements.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

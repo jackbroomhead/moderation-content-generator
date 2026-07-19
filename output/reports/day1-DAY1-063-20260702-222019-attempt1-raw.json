@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-063\",\"author\":\"SarahM_84\",\"text\":\"Just spotted a pigeon stealing bread from my plate at the cafe. Honestly, they're more confident than most humans these days!\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless observation with no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2620,
+    "total_output_tokens": 110,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.99366769602676,
+    "time_to_first_token_seconds": 0.28
+  }
+}

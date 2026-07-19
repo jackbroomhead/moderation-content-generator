@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-007\",\"author\":\"DisciplineQueen_24\",\"text\":\"Stop pretending you're strong! Real transformation means starving your body until it breaks. I lost 50lbs on my journey and now I'm obsessed with the pain of hunger. You need to feel that weakness too. #StarvationIsStrength #TransformationJourney\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post explicitly promotes eating-disorder behaviour by glorifying starvation as a means of transformation, requiring removal.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1400,\"followerCount\":640000,\"followingCount\":90,\"verifiedStatus\":true,\"postCount\":7200,\"bio\":\"Extreme transformation and discipline.\",\"previousFlags\":12,\"location\":\"Birmingham\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4990,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.21209407732868,
+    "time_to_first_token_seconds": 22.952
+  }
+}

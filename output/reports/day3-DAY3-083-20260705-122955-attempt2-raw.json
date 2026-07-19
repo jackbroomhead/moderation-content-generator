@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-083\",\n      \"author\": \"SarahJ_Milton\",\n      \"text\": \"Just a reminder from Milton Park Council that the community bus stop at Oakwood Gardens is closed for scheduled maintenance until Friday morning. Services will resume by 7:15am. Sorry for the inconvenience!\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a neutral local notice providing practical transport information and does not violate any policies.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4450,
+    "total_output_tokens": 197,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.82817284427776,
+    "time_to_first_token_seconds": 0.375
+  }
+}

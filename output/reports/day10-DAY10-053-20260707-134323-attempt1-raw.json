@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-053\",\"author\":\"LocalUpdatesOakhaven\",\"text\":\"Just received a direct message from 'Sarah J' claiming she's an estate agent looking for new clients. She shared her full medical records and precise home address in Oakhaven to prove her credentials, stating she works out of the private clinic on Westbridge Road. Please be careful with sharing sensitive details! #estateagent #privacy\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post contains non-consensual exposure of another person's precise private address and medical information.\",\"day\":10,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":991,\"followerCount\":16240,\"followingCount\":778,\"verifiedStatus\":false,\"postCount\":4004,\"bio\":\"Local updates and personal posts.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3695,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.81976727023692,
+    "time_to_first_token_seconds": 1.688
+  }
+}

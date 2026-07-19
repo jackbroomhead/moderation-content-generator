@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-126\",\"author\":\"SecureSupportTeam_UK\",\"text\":\"Hi there! We noticed your account is showing unusual activity. To keep you safe, please reply with your full payment card details and login password so we can reset everything instantly. #Security\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is an obvious fraudulent impersonation requesting sensitive financial and security information.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4645,
+    "total_output_tokens": 126,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.46012753035521,
+    "time_to_first_token_seconds": 0.471
+  }
+}

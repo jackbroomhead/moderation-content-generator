@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-120\",\"author\":\"PromoKing_84\",\"text\":\"🔥 HOT DEAL 🔥 Get 50% OFF your next purchase! Click here [link removed] now to claim this exclusive offer before it expires! Don't miss out on our amazing sales event. #Discount #Sale #ShopNow\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is obvious repetitive promotion containing a call-to-action and promotional hashtags, which fits the definition of spam rather than a legitimate business query.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4667,
+    "total_output_tokens": 153,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.77668098648917,
+    "time_to_first_token_seconds": 0.331
+  }
+}

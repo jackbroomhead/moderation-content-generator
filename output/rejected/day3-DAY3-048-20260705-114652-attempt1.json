@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-048",
+      "author": "SunnySideUp_7",
+      "text": "Has anyone else noticed how @pixel_artist_12 is getting absolutely swarmed lately? It's not just comments, they're being mass-reported for 'spam' within minutes of posting. I checked their profile and it's a small account with 400 followers but the report queue is huge. Someone's definitely coordinating this to get them banned. Please check if there's a pattern before acting.",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This case involves potential coordinated brigading requiring investigation into whether reports are genuine violations or part of a harassment campaign.",
+      "day": 3,
+      "correctEscalationReason": "HarassanceAbuse",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

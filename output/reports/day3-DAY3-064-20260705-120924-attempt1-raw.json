@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-064\",\"author\":\"SarahJenkins92\",\"text\":\"URGENT: We have a verified opportunity for you to win £5,000 instantly! Simply reply with your bank sort code, account number and the 3-digit security code on the back of your card to release the funds. Don't miss out, click here [link removed] now before it expires! #Money #Win\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is an obvious phishing attempt requesting sensitive financial credentials and a security code.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4712,
+    "total_output_tokens": 159,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.39524764376115,
+    "time_to_first_token_seconds": 0.462
+  }
+}

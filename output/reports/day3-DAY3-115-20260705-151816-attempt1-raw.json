@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-115\",\"author\":\"SarahWellnessHub\",\"text\":\"Everyone needs to know about The Radiant Reset protocol! It's a complete game-changer for cancer treatment. Radiotherapy is outdated and harmful, so please stop it immediately and switch to our powerful herbal supplements instead. My friend was cured using this method! #HealthFreedom #NaturalCure #RadiantReset\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes abandoning radiotherapy for unproven supplements, which constitutes harmful medical misinformation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4830,
+    "total_output_tokens": 191,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.26440355842922,
+    "time_to_first_token_seconds": 2.191
+  }
+}

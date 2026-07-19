@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-072\",\"author\":\"SecureAccount94\",\"text\":\"URGENT: Please update your password and 2FA immediately via [link removed] to stop our data breach! We need your login details and card number to verify you. #security #alert\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a clear phishing attempt requesting sensitive credentials and payment information.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 2859,
+    "total_output_tokens": 126,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.82653798568202,
+    "time_to_first_token_seconds": 0.389
+  }
+}

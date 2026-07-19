@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-045\",\"author\":\"DealsAndPromo82\",\"text\":\"🔥 FLASH SALE! 🔥 Grab these AMAZING deals NOW before they vanish forever!!! Don't miss out on this incredible opportunity! Click [link removed] to claim your discount today! Hurry up!! #sale #deals #flashsale\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear spam violation due to repetitive bulk promotion, excessive urgency tactics like 'before they vanish forever', and lack of genuine context or specific product details.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":101,\"followerCount\":582,\"followingCount\":778,\"verifiedStatus\":false,\"postCount\":1174,\"bio\":\"Deals and promotions.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3698,
+    "total_output_tokens": 232,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.69582250365525,
+    "time_to_first_token_seconds": 1.64
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-023\",\"author\":\"NorthbridgeObserver_84\",\"text\":\"Just spotted a viral clip circulating on ClipLoop claiming the city council has officially banned all public parks starting midnight tomorrow due to 'unprecedented safety risks'. The video shows footage of empty playgrounds and says residents must not enter. It's being shared widely with warnings about fines. Has anyone checked this against official council statements? #PublicSafety #Northbridge\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post claims an unverified public-safety restriction that requires specialist verification to determine if it is a deepfake or manipulated media.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":994,\"followerCount\":16960,\"followingCount\":494,\"verifiedStatus\":false,\"postCount\":2402,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5112,
+    "total_output_tokens": 261,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.665628506567813,
+    "time_to_first_token_seconds": 22.431
+  }
+}

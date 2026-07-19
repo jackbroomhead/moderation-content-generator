@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-134\",\"author\":\"Marcus_Veritas_UK\",\"text\":\"Hey everyone, just wanted to let you know I've officially become the verified spokesperson for @GlobalTechSolutions! 🌍📱 To ensure you're getting my exclusive updates and direct access to our new product line, please message me directly with your preferred contact details so I can add you to my private investor list. #Verified\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The account claims a verified status for an organisation but lacks official credentials or links, creating plausible ambiguity about its authenticity that requires specialist investigation before removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4669,
+    "total_output_tokens": 175,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.969374606431,
+    "time_to_first_token_seconds": 0.613
+  }
+}

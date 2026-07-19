@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-044\",\n      \"author\": \"WeatherWatcher92\",\n      \"text\": \"Heads up everyone! The new community library at Oakwood Heights is officially opening its doors tomorrow, Saturday. We will be holding special events throughout the day and offering free Wi-Fi access starting at 9 AM. Pl\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post contains benign public information about a community library opening, including event details and Wi-Fi availability. It does not contain any harmful content, URLs, or violations of policy, so it should be approved.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1949,
+    "total_output_tokens": 218,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.80698006568458,
+    "time_to_first_token_seconds": 0.369
+  }
+}

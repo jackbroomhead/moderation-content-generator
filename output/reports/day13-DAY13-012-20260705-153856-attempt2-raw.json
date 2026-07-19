@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-012\",\"author\":\"LocalSupport_45\",\"text\":\"Hi @CommunityHelper, just wanted to confirm your support ticket regarding my account access. I'm happy to share my full address and bank sort code to verify the claim is genuine before you process it. Thanks for looking into this!\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The author requests sensitive personal details like an address and bank sort code, which violates privacy policy and requires specialist review.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":7,\"followerCount\":22,\"followingCount\":740,\"verifiedStatus\":false,\"postCount\":55,\"bio\":\"Local account support.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4980,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 66.25880689975043,
+    "time_to_first_token_seconds": 0.429
+  }
+}

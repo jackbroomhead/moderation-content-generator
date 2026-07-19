@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-xuxahp0xgc12tgs8wz1en",
+  "object": "chat.completion",
+  "created": 1782992466,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-018\",\n      \"author\": \"CoffeeLover92\",\n      \"text\": \"Just tried that new bakery on 5th Street. Their cinnamon rolls are honestly life-changing. 10/10 would recommend.\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is a harmless personal opinion about food and contains no policy violations.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content moderation game.\n    *   Policy: Use \"Runtime Generation Rules.md\".\n    *   Mandatory Blueprint:\n        *   `id`: DAY1-018\n        *   `day`: 1\n        *   `category`: Normal\n        *   `correctAction`: Approve\n        *   `difficulty`: Easy\n        *   `scenario`: Ordinary harmless observation, casual joke, or mundane life update.\n        *   `correctEscalationReason`: ''\n    *   Required Fields: `id`, `author`, `text`, `category`, `correctAction`, `difficulty`, `explanation`, `day`, `correctEscalationReason`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`.\n    *   Constraints:\n        *   No story content/recurring characters.\n        *   No child-safety/deferred topics.\n        *   No real people/orgs/sensitive data.\n        *   `explanation` must state policy reason.\n        *   `acceptableEscalationReasons` = [].\n        *   `allowNeedsReviewEscalation` = false.\n        *   Exactly one post in a `posts` array.\n        *   Strict JSON.\n        *   Avoid scenario: \"Finally finished my 1000-piece jigsaw puzzle of the deep sea!\"\n\n    *   `id`: DAY1-018\n    *   `author`: CoffeeLover92\n    *   `text`: \"Just tried that new bakery on 5th Street. Their cinnamon rolls are honestly life-changing. 10/10 would recommend.\"\n    *   `category`: Normal\n    *   `correctAction`: Approve\n    *   `difficulty`: Easy\n    *   `explanation`: The post is a harmless personal opinion about a bakery and contains no policy violations.\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   Filler content? Yes.\n    *   No story? Yes.\n    *   No child-safety/deferred? Yes.\n    *   Approved escalation reasons? (N/A for Approve).\n    *   No real people/orgs? Yes (Bakery on 5th Street is generic).\n    *   Explanation states policy? Yes.\n    *   One post in array? Yes.\n    *   No nested metadata? Yes.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-018\",\n          \"author\": \"CoffeeLover92\",\n          \"text\": \"Just tried that new bakery on 5th Street. Their cinnamon rolls are honestly life-changing. 10/10 would recommend.\",\n          \"category\": \"Normal\",\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"explanation\": \"The post is a harmless personal opinion and does not violate any safety policies.\",\n          \"day\": 1,\n          \"correctEscalationReason\": \"\",\n          \"acceptableEscalationReasons\": [],\n          \"allowNeedsReviewEscalation\": false\n        }\n      ]\n    }\n    ```",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 906,
+    "total_tokens": 2212,
+    "completion_tokens_details": {
+      "reasoning_tokens": 733
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

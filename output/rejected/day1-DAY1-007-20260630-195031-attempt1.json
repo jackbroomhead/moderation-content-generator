@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "author": "coffee_enthusiast_99",
+      "text": "Just tried the new pumpkin spice latte at The Roasted Bean. It's actually pretty good, way better than the place across the street!",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post is an ordinary personal opinion about a local business and does not violate any safety or moderation policies.",
+      "profileImage": "",
+      "postImage": "",
+      "metadata": {
+        "account_age_days": 142,
+        "follower_count": 350,
+        "following_count": 420,
+        "previous_flags": 0,
+        "is_verified": false,
+        "post_count": 85,
+        "bio": "Just a caffeine addict looking for the best brews in the city.",
+        "related_accounts": [],
+        "coordinated_posting_pattern": false
+      }
+    }
+  ]
+}

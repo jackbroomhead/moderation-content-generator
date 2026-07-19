@@ -1,0 +1,7 @@
+VALIDATION ERRORS
+<root>: Additional properties are not allowed ('author', 'id', 'text' were unexpected)
+<root>: 'posts' is a required property
+The response must contain exactly one post.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 4 column 11 (char 61)).

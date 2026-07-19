@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-055\",\"author\":\"ShadowHunter92\",\"text\":\"I'm going to meet @TargetUser at the abandoned warehouse on 4th Street tonight at 8 PM and smash everything they own! This is a real threat, don't ignore it.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a specific, planned physical attack against an individual, which escalates beyond standard harassment into a credible threat of violence requiring specialist review.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]},{\"id\":\"DAY1-056\",\"author\":\"QuietObserver44\",\"text\":\"I've been posting my daily thoughts but every single one of them gets deleted. I feel like they are trying to silence me and I'm getting really scared about what happens next.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes sustained, coordinated suppression of content that impacts the user's well-being, which aligns with the scenario of repeated unwanted contact or brigading requiring escalation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]},{\"id\":\"DAY1-057\",\"author\":\"NightWalker33\",\"text\":\"I'm going to meet @TargetUser at the abandoned warehouse on 4th Street tonight at 8 PM and smash everything they own! This is a real threat, don't ignore it.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a specific, planned physical attack against an individual, which escalates beyond standard harassment into a credible threat of violence requiring specialist review.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2083,
+    "total_output_tokens": 425,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.75892262122433,
+    "time_to_first_token_seconds": 0.323
+  }
+}

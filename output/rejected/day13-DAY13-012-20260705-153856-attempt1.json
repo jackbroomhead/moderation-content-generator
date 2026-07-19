@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-012",
+      "author": "@LocalHelper_84",
+      "text": "Hey @SupportTeam, someone sent me this message claiming they're 'local account support'. They asked for my full address and phone number to 'verify my subscription', then mentioned they saw I go to the park every morning at 7am. It feels weird but they seemed official. #Help #AccountSupport",
+      "category": "Privacy",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "The post requests sensitive personal information (address and phone) under the guise of verification, which constitutes a privacy risk requiring specialist review.",
+      "day": "13",
+      "correctEscalationReason": "PrivacySensitiveInfo",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 7,
+      "followerCount": 22,
+      "followingCount": 740,
+      "verifiedStatus": false,
+      "postCount": 55,
+      "bio": "Local account support.",
+      "previousFlags": 2,
+      "location": "Unknown",
+      "platform": "QuickPost",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

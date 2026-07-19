@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-083",
+      "author": "MertonParkRider",
+      "text": "Just a heads up to everyone using our bus route 42. The depot is closed for maintenance this Thursday morning, so there won't be departures from the High Street stop between 6am and 9am. Please allow extra time if you're travelling to the station or the university. Thanks for your patience!",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless local notice providing useful transport information to the community.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation:false": "isStoryPost",
+      "false}": "",
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false
+    }
+  ]
+}

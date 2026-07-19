@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-095\",\"author\":\"SadSoul_Sarah\",\"text\":\"I can't do this anymore. The pain inside my head is so loud and heavy, it feels like I'm drowning in a dark ocean and there's no air left to breathe. I've been thinking about ending it all tonight. Please don't try to stop me or call anyone, just leave me alone for a moment.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post contains goodbye language and indicates immediate self-harm risk, requiring specialist intervention rather than standard removal.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[\"SelfHarm\",\"Suicide\"]}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4734,
+    "total_output_tokens": 181,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.4000081849732,
+    "time_to_first_token_seconds": 0.531
+  }
+}

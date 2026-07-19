@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-013\",\"author\":\"Sarah_Westbridge_Mom_84\",\"text\":\"Just read a post from @LumaWellnessLab saying their 'natural detox' plan can help stop prescribed medication for my condition without side effects. It's really tempting to try something new and avoid the pills! 🌿 #NaturalLiving #DetoxJourney\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post promotes avoiding prescribed medical care through unverified claims, which requires specialist verification.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"HealthMedical\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":624,\"followerCount\":9660,\"followingCount\":324,\"verifiedStatus\":false,\"postCount\":1492,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5111,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.622377768982515,
+    "time_to_first_token_seconds": 23.346
+  }
+}

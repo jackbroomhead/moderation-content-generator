@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-efeubpe04di2d5zba5osyr",
+  "object": "chat.completion",
+  "created": 1782845815,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-007\",\n      \"author\": \"coffee_enthusiast_88\",\n      \"profileImage\": \"\",\n      \"text\": \"Just tried that new pour-over technique I saw online. My coffee tastes like it was brewed by a professional today! ☕✨ Anyone have any tips for making the perfect roast at home?\",\n      \"postImage\": \"\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is an ordinary personal lifestyle post about a hobby and does not create any credible policy or safety concerns.\",\n      \"day\": 1,\n      \"tags\": [],\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"accountAgeDays\": \"45\",\n      \"followerCount\": \"320\",\n      \"followingCount\": \"150\",\n      \"verifiedStatus\": \"false\",\n      \"postCount\": \"128\",\n      \"bio\": \"Coffee lover | Weekend hiker | Amateur barista\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"SocialFeed\",\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalation",
+        "reasoning_content": "\n*   Goal: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraint: JSON format only.\n    *   Post ID: `DAY1-007`.\n    *   Day: 1.\n    *   Correct Action: `Approve`.\n    *   Policy Reference: 02 - Moderation Policy, 03 - Escalation Reasons, 04 - Day Progression, 05 - Filler Post Rules, 07 - Confirmed Decisions and Deferred Topics, 08 - Permitted Values.\n    *   Day 1 Context: Core moderation (Normal, Lifestyle, Spam, Fraud, Harassment, Privacy, Threats, Misinformation, News/Public Event, Public Information).\n    *   Action `Approve`: Permitted content, no credible safety concern (e.g., ordinary posts, opinions, mild teasing).\n    *   Specific constraint for `Approve`: `correctEscalationReason` is empty, `acceptableEscalationReasons` is empty, `allowNeedsReviewEscalation` is false.\n    *   Flat JSON structure required.\n\n    *   Author: `coffee_enthusiast_88`\n    *   Category: `Lifestyle`\n    *   Text: \"Just tried that new pour-over technique I saw online. My coffee tastes like it was brewed by a professional today! ☕✨ Anyone have any tips for making the perfect roast at home?\"\n    *   Difficulty: `Easy`\n    *   Explanation: \"This is an ordinary lifestyle post about a hobby (coffee making) and does not violate any moderation policies.\"\n\n    *   `id`: \"DAY1-007\"\n    *   `author`: \"coffee_enthusiast_88\"\n    *   `profileImage`: \"\"\n    *   `text`: \"Just tried that new pour-over technique I saw online. My coffee tastes like it was brewed by a professional today! ☕✨ Anyone have any tips for making the perfect roast at home?\"\n    *   `postImage`: \"\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"This is an ordinary lifestyle post about a hobby (coffee making) and does not violate any moderation policies.\"\n    *   `day`: 1\n    *   `tags`: []\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `accountAgeDays`: \"45\"\n    *   `followerCount`: \"320\"\n    *   `followingCount`: \"150\"\n    *   `verifiedStatus`: \"false\"\n    *   `postCount`: \"128\"\n    *   `bio`: \"Coffee lover | Weekend hiker | Amateur barista\"\n    *   `previousFlags`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"SocialFeed\"\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   JSON valid? Yes.\n    *   Correct ID/Day/Action? Yes.\n    *   Flat structure? Yes.\n    *   No story/recurring chars? Yes.\n    *   No child safety/deferred topics? Yes.\n    *   Explanation states policy reason? Yes (\"does not violate any moderation policies\").\n    *   No real people/orgs? Yes.\n    *   Only approved parent reasons? (N/A for Approve).\n    *   Day 1 rules followed? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7101,
+    "completion_tokens": 1091,
+    "total_tokens": 8192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 801
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

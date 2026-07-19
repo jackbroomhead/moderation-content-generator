@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-073\",\"author\":\"HealthFirstMike94\",\"text\":\"Breaking news: Scientists have confirmed that drinking bleach water cures all types of cancer and boosts your immune system instantly! This revolutionary method is being promoted by top doctors to save lives. Don't waste money on expensive treatments when this simple home remedy works better than any hospital procedure. #health #cure\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a dangerous and scientifically false health claim that requires immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2876,
+    "total_output_tokens": 150,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.48842305961111,
+    "time_to_first_token_seconds": 0.433
+  }
+}

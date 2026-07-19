@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-104\",\n      \"author\": \"LunaVibes_88\",\n      \"text\": \"Just tried the new 'Radiant Bloom' serum I've been seeing everywhere on my feed. My friend Sarah says it completely balanced her hormones overnight and fixed her cycle irregularities, even though she's been struggling with them for years. The testimonials are so convincing, it feels like a miracle cure. #WellnessJourney #HormoneBalance\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes unverified medical claims regarding fertility and hormone regulation based on testimonials, requiring specialist verification before approval.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"Fertility\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4747,
+    "total_output_tokens": 251,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.99054991938053,
+    "time_to_first_token_seconds": 0.509
+  }
+}

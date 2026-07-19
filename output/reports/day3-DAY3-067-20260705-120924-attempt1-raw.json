@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-067\",\n      \"author\": \"adrenaline_king_uk\",\n      \"text\": \"Stop being weak! 🔥 I've just found the ultimate way to push your limits. For £15, you can get my exclusive guide on how to survive a 24-hour 'Iron Man' endurance challenge with zero sleep and only energy drinks. It's not just tough, it's a test of true mental strength! Join me at the old quarry tomorrow night if you're brave enough. #EnduranceChallenge #PushYourLimits\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post promotes a dangerous physical challenge involving sleep deprivation and energy drinks, which poses a serious risk of self-harm or injury.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4735,
+    "total_output_tokens": 250,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.98576071307934,
+    "time_to_first_token_seconds": 0.58
+  }
+}

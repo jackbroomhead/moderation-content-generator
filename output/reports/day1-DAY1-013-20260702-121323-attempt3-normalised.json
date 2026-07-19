@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-013",
+      "author": "User_X99",
+      "text": "You are a disgusting person and everyone knows it. I hope you never find a job again because you're completely worthless.",
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "The post contains direct targeted insults and bullying, which violates the platform's harassment policy.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

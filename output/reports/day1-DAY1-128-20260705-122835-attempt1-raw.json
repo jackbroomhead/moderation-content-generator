@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-128\",\n      \"author\": \"ConcernedCitizen_84\",\n      \"text\": \"I'm really worried about what I just saw at the community centre on Oakwood Road. There's a group gathering there right now planning to take over the building and they're saying they'll bring heavy equipment to demolish the front entrance tonight if we don't back down. Please stay inside your homes.\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post describes a credible threat of property damage and violence against a specific location, requiring specialist investigation to verify the intent and assess immediate risk.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4673,
+    "total_output_tokens": 232,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.12492294006515,
+    "time_to_first_token_seconds": 0.468
+  }
+}

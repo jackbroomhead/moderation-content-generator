@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-058\",\n      \"author\": \"NorthbridgeLibrarian\",\n      \"text\": \"Happy to announce that the Northbridge Central Library will be hosting its annual 'Storytelling Under Stars' event this Saturday from 6pm! We'll have local authors reading, a children's corner, and free tea. Please note the main entrance is being used for deliveries until 5:30pm, so use the side gate or the app map for directions. Come along and support our local writers! 📚✨ #Northbridge #CommunityEvents\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a standard public notice about a community event and venue maintenance, which is acceptable content.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 414,\n      \"followerCount\": 2800,\n      \"followingCount\": 128,\n      \"verifiedStatus\": true,\n      \"postCount\": 602,\n      \"bio\": \"Fictional community notices and service updates.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"TownSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3734,
+    "total_output_tokens": 362,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.63853606846264,
+    "time_to_first_token_seconds": 1.723,
+    "model_load_time_seconds": 3.622
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-054\",\"author\":\"LunaLeeds_92\",\"text\":\"Just moved into a nice place in Leeds! It's right off Church Row, near the bus stop by the old park. If anyone wants to meet up or just say hi, feel free to message me! #NewHere #LeedsLife\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This account shares a specific real-world location and routine that could allow others to identify the individual or track their movements.\",\"day\":6,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":9,\"followerCount\":44,\"followingCount\":1200,\"verifiedStatus\":false,\"postCount\":96,\"bio\":\"What people in this town are really doing.\",\"previousFlags\":4,\"location\":\"Leeds\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5077,
+    "total_output_tokens": 223,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.325300304987502,
+    "time_to_first_token_seconds": 23.748
+  }
+}

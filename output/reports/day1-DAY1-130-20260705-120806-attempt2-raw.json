@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-130\",\n      \"author\": \"ConcernedCitizenUK\",\n      \"text\": \"I'm getting increasingly worried about @OldTownScribe. They've been posting in my thread over the last three days, ignoring every request to stop. Yesterday they posted a comment on my birthday photo saying 'You're hiding something' and then DM'd me asking for my home address so they can 'send you gifts'. I've blocked them twice but keep seeing their profile from other accounts tagging into our group chats. It feels like they are coordinating a campaign to make me feel unsafe. Please advise.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This case involves sustained stalking and unwanted contact that persists despite block attempts, requiring specialist investigation into the coordinated nature of the behaviour.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4682,
+    "total_output_tokens": 268,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.26653280924478,
+    "time_to_first_token_seconds": 0.373
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-056\",\n      \"author\": \"ClayAndSprout\",\n      \"text\": \"Finally got my hands on some kiln-safe glazes today! The deep cobalt blue looks absolutely stunning on this small bowl. Can't wait to fire it up and see if the crackle pattern develops as hoped. #pottery #ceramics #hobbytime\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless hobby update showing creative work; no policy violations are present.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 220,\n      \"followerCount\": 300,\n      \"followingCount\": 90,\n      \"verifiedStatus\": false,\n      \"postCount\": 180,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 1,\n      \"location\": \"Westbridge\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3346,
+    "total_output_tokens": 318,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.77796024326415,
+    "time_to_first_token_seconds": 1.559,
+    "model_load_time_seconds": 3.619
+  }
+}

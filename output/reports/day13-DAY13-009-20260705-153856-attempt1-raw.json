@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-009\",\"author\":\"SorrowfulWatcher_24\",\"text\":\"I've been ignoring your warnings for three weeks now because you refuse to act. But tonight at 8:00 PM, I'm going to confront the people who keep harassing me right in front of Westbridge station. They're waiting for me there too. It's time to settle this once and for all. #Justice #NoMoreWarnings\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a credible threat of planned violence at a specific time and location, requiring specialist investigation.\",\"day\":\"13\",\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[\"HarassmentAbuse\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":18,\"followerCount\":34,\"followingCount\":820,\"verifiedStatus\":false,\"postCount\":210,\"bio\":\"No more warnings.\",\"previousFlags\":3,\"location\":\"Near Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4883,
+    "total_output_tokens": 247,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 64.69350600300733,
+    "time_to_first_token_seconds": 3.057
+  }
+}

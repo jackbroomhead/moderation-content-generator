@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-071\",\"author\":\"ToxicTypist_83\",\"text\":\"You are such a pathetic loser who knows nothing about anything. Go away.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains direct, targeted insults directed at another user and must be removed.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2877,
+    "total_output_tokens": 108,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.67184356973138,
+    "time_to_first_token_seconds": 0.388
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-021\",\"author\":\"mrs_jenkins_uk\",\"text\":\"Just had the worst day at work, felt completely useless. Now I'm sitting in my kitchen feeling like a failure and thinking about ending it all. I've been staring at the pills on the shelf for hours now.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post indicates active suicidal ideation with a specific plan involving accessible means, indicating a crisis requiring specialist intervention.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4690,
+    "total_output_tokens": 157,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.29465896047381,
+    "time_to_first_token_seconds": 0.318
+  }
+}

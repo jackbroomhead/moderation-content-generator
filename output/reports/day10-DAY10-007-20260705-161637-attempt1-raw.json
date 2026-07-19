@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-007\",\"author\":\"NorthbridgeVoice_84\",\"text\":\"BREAKING: The Northbridge election has been officially cancelled by the new administration. Don't bother going to the polling station, just stay home and wait for further instructions from our community hub.\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This is clear harmful civic misinformation instructing voters to disregard an election without evidence of cancellation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":402,\"followerCount\":5280,\"followingCount\":222,\"verifiedStatus\":false,\"postCount\":946,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5029,
+    "total_output_tokens": 204,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.840270700058564,
+    "time_to_first_token_seconds": 22.22
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-066\",\"author\":\"TechSkeptic_UK\",\"text\":\"Big tech companies are running a massive surveillance experiment on our streets right now, and they're getting away with it because regulators are asleep at the wheel. We need to stop these corporations from treating our data as free product before it's too late.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is lawful criticism of technology and corporate policy without threats or harmful false claims, so it is approved.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2727,
+    "total_output_tokens": 145,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.77128903870488,
+    "time_to_first_token_seconds": 0.311
+  }
+}

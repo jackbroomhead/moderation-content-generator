@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-047\",\"author\":\"NorthbridgeWatcher\",\"text\":\"Everyone needs to see this urgent update from the council: the new financial policy means all savings accounts over £500 will be frozen until further notice! Don't risk losing your money, act now and transfer everything immediately. #warning #finance\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes a false civic/financial claim as fact without evidence or debunking.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":115,\"followerCount\":664,\"followingCount\":852,\"verifiedStatus\":false,\"postCount\":1340,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":4,\"location\":\"Northbridge\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 3682,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.63075376502226,
+    "time_to_first_token_seconds": 1.524
+  }
+}

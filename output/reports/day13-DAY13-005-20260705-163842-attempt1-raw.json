@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-005\",\"author\":\"SecureSupport_84\",\"text\":\"URGENT: We've detected a suspicious login attempt from an unrecognized device. To secure your account, please reply with your password and 2FA security code immediately before we lock it forever. This is automated verification.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"The post explicitly requests a password and security code, which is an obvious credential harvesting attempt that must be removed.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1500,\"followerCount\":82000,\"followingCount\":160,\"verifiedStatus\":true,\"postCount\":4000,\"bio\":\"Account security and support.\",\"previousFlags\":0,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4905,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.684440279323013,
+    "time_to_first_token_seconds": 21.396
+  }
+}

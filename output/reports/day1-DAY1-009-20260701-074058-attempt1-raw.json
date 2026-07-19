@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-eu0gf8l36pf4bqnweajb",
+  "object": "chat.completion",
+  "created": 1782888097,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-009\",\n      \"author\": \"TravelBug_99\",\n      \"text\": \"Just landed in Kyoto and the atmosphere is absolutely incredible. The temples are so peaceful. I can't wait to see what the rest of the city has to offer!\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post contains harmless personal travel updates and does not violate any platform policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Format: JSON.\n    *   Constraint 1: Filler content only (no story/recurring characters).\n    *   Constraint 2: No child-safety/deferred topics.\n    *   Constraint 3: No invented categories/actions/reasons.\n    *   Constraint 4: Use only 6 approved parent escalation reasons.\n    *   Constraint 5: `Needs Review` is never the primary JSON escalation reason.\n    *   Constraint 6: Evidence must be self-contained.\n    *   Constraint 7: No real people/allegations/addresses/phone numbers/bank details/medical records/orgs.\n    *   Constraint 8: Explanations must state the policy reason.\n    *   Constraint 9: Exactly one post in the `posts` array.\n    *   Constraint 10: `id` = \"DAY1-009\", `day` = 1, `correctAction` = \"Approve\".\n    *   Constraint 11: Difficulty = \"Easy\" or \"Medium\".\n    *   Constraint 12: Category must be from the provided list.\n    *   Constraint 13: For `Approve`, `correctEscalationReason` = \"\", `acceptableEscalationReasons` = [], `allowNeedsReviewEscalation` = false.\n\n    *   `id`: \"DAY1-009\"\n    *   `author`: \"TravelBug_99\"\n    *   `text`: \"Just landed in Kyoto and the atmosphere is absolutely incredible. The temples are so peaceful. I can't wait to see what the rest of the city has to offer!\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The post contains harmless personal travel updates and does not violate any platform policies.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   Is it filler? Yes.\n    *   Is it story content? No.\n    *   Any child safety? No.\n    *   Any real people/orgs? No.\n    *   Is it self-contained? Yes.\n    *   Is the JSON structure correct? Yes.\n    *   Is the category correct? \"Lifestyle\" is allowed.\n    *   Is the action \"Approve\"? Yes.\n    *   Are the escalation fields correct for \"Approve\"? Yes.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-009\",\n          \"author\": \"TravelBug_99\",\n          \"text\": \"Just landed in Kyoto and the atmosphere is absolutely incredible. The temples are so peaceful. I can't wait to see what the rest of the city has to offer!\",\n          \"category\": \"Lifestyle\",\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"explanation\": \"The post contains harmless personal travel updates and does not violate any platform policies.\",\n          \"day\": 1,\n          \"correctEscalationReason\": \"\",\n          \"acceptableEscalationReasons\": [],\n          \"allowNeedsReviewEscalation\": false\n        }\n      ]\n    }\n    ```",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 952,
+    "total_tokens": 2339,
+    "completion_tokens_details": {
+      "reasoning_tokens": 774
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-036\",\n      \"author\": \"MoorvaleGardener\",\n      \"text\": \"Spring is finally here! The annual Flower & Garden Show at Moorvale Community Centre is open this Saturday. Come along and see the latest in plant breeding, meet local growers, and enjoy live music on the marquee. Entry is just £5 for adults and free for under 16s. #Moorvale #GardenShow #CommunityEvents\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a standard public event announcement promoting a lawful community gathering with no harmful content or violations.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 705,\n      \"followerCount\": 6550,\n      \"followingCount\": 185,\n      \"verifiedStatus\": false,\n      \"postCount\": 1235,\n      \"bio\": \"Fictional events, culture and local announcements.\",\n      \"previousFlags\": 0,\n      \"location\": \"Moorvale\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3605,
+    "total_output_tokens": 347,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.02277288159736,
+    "time_to_first_token_seconds": 0.392
+  }
+}

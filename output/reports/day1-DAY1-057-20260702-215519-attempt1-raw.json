@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-057\",\"author\":\"CloudWalker82\",\"text\":\"Just moved into my new place! Here is a pic of my front door with the address 142 Maplewood Lane, Oakridge City. Also sharing my recent lab results showing high cholesterol and my driver's license for ID verification if anyone needs to mail something. My bank routing number is 041001039 just in case you need to set up direct deposit. #NewLife\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post violates privacy policy by disclosing a specific residential address, medical lab results, identity document details, and financial routing information. These are sensitive personal data that must not be shared publicly.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2062,
+    "total_output_tokens": 195,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.21104496785658,
+    "time_to_first_token_seconds": 0.407
+  }
+}

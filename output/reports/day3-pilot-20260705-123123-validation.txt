@@ -1,0 +1,83 @@
+VALIDATION PASSED
+Generated: 2026-07-05T12:31:32
+Elapsed seconds: 9.5
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 3
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260705-123123.json
+
+BLUEPRINT
+DAY3-081: Approve | Lifestyle | Easy
+DAY3-082: Approve | Normal | Medium
+DAY3-083: Approve | Public Information | Easy
+DAY3-084: Approve | Misinformation | Medium
+DAY3-085: Approve | News / Public Event | Easy
+DAY3-086: Approve | Normal | Medium
+DAY3-087: Remove | Spam | Easy
+DAY3-088: Remove | Harassment | Easy
+DAY3-089: Remove | Fraud | Easy
+DAY3-090: Remove | Misinformation | Medium
+DAY3-091: Remove | Self-Harm | Medium
+DAY3-092: Remove | Threat | Easy
+DAY3-093: Escalate | Threat | Easy
+DAY3-094: Escalate | Threat | Medium
+DAY3-095: Escalate | Self-Harm | Medium
+DAY3-096: Escalate | Self-Harm | Medium
+DAY3-097: Escalate | Harassment | Medium
+DAY3-098: Escalate | Harassment | Medium
+DAY3-099: Escalate | Fraud | Medium
+DAY3-100: Escalate | Fraud | Medium
+DAY3-101: Escalate | Privacy | Easy
+DAY3-102: Escalate | Privacy | Medium
+DAY3-103: Escalate | Misinformation | Medium
+DAY3-104: Escalate | Misinformation | Medium
+DAY3-105: Escalate | Misinformation | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY3-081: nearest history=DAY3-031 score=0.853
+DAY3-082: nearest history=DAY3-032 score=0.854
+DAY3-083: nearest history=DAY3-008 score=0.772
+DAY3-084: nearest history=DAY3-059 score=0.871
+DAY3-085: nearest history=DAY3-010 score=0.776
+DAY3-086: nearest history=DAY3-039 score=0.713
+DAY3-087: nearest history=DAY3-012 score=0.863
+DAY3-088: nearest history=DAY1-121 score=0.755
+DAY3-089: nearest history=DAY1-097 score=0.892
+DAY3-090: nearest history=DAY3-065 score=0.857
+DAY3-091: nearest history=DAY1-049 score=0.859
+DAY3-092: nearest history=DAY1-077 score=0.756
+DAY3-093: nearest history=DAY1-128 score=0.810
+DAY3-094: nearest history=DAY1-085 score=0.772
+DAY3-095: nearest history=DAY3-046 score=0.829
+DAY3-096: nearest history=DAY3-045 score=0.800
+DAY3-097: nearest history=DAY3-047 score=0.780
+DAY3-098: nearest history=DAY3-073 score=0.830
+DAY3-099: nearest history=DAY1-131 score=0.655
+DAY3-100: nearest history=DAY3-025 score=0.762
+DAY3-101: nearest history=DAY1-132 score=0.695
+DAY3-102: nearest history=DAY3-077 score=0.628
+DAY3-103: nearest history=DAY3-053 score=0.841
+DAY3-104: nearest history=DAY3-079 score=0.855
+DAY3-105: nearest history=DAY3-055 score=0.701
+
+ACTUAL REPAIRS
+DAY3-081: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 658 (char 657)).
+DAY3-082: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 761 (char 760)).
+DAY3-086: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 696 (char 695)).
+DAY3-088: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 546 (char 545)).
+DAY3-089: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 723 (char 722)).
+DAY3-092: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 631 (char 630)).
+DAY3-095: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 737 (char 736)).
+DAY3-096: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 741 (char 740)).
+DAY3-100: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 773 (char 772)).
+DAY3-101: Repaired malformed JSON syntax before schema validation (original parser error: Expecting ',' delimiter: line 1 column 798 (char 797)).
+DAY3-105: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 865 (char 864)).
+DAY3-084: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 805 (char 804)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 331
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

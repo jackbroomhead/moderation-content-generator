@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-022\",\"author\":\"OakhavenWatch94\",\"text\":\"BREAKING: I've just found a manipulated audio clip circulating on CommunityFeed claiming Finance Minister @FMinisterOfficial announced new capital controls effective immediately! The post says the announcement came from an official press briefing but the audio sounds heavily edited and there's no link to the actual transcript. People are panicking about their savings accounts now. Has anyone verified if this is real? #FinanceAlert #Oakhaven\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes a potentially manipulated audio clip with significant financial implications, requiring specialist verification to confirm authenticity and impact.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":957,\"followerCount\":16230,\"followingCount\":477,\"verifiedStatus\":false,\"postCount\":2311,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5116,
+    "total_output_tokens": 268,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.686392559346954,
+    "time_to_first_token_seconds": 22.459
+  }
+}

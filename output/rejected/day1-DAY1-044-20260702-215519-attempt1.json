@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-044",
+      "author": "WeatherWatcher92",
+      "text": "Heads up everyone! The new community library at Oakwood Heights is officially opening its doors tomorrow, Saturday. We will be holding special events throughout the day and offering free Wi-Fi access starting at 9 AM. Pl",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post contains benign public information about a community library opening, including event details and Wi-Fi availability. It does not contain any harmful content, URLs, or violations of policy, so it should be approved.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

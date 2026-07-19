@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-088\",\"author\":\"SarahJ_94\",\"text\":\"Honestly, I think it's hilarious that people get so worked up over minor stuff. Yesterday I was just trying to find a decent cup of tea and someone was panicking because the kettle took 45 seconds to boil. Absolute drama queen. #mood\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal observation with no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4336,
+    "total_output_tokens": 138,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.81787459691357,
+    "time_to_first_token_seconds": 0.33
+  }
+}

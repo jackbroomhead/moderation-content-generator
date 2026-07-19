@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-011\",\"author\":\"VintageTech_Liverpool_24\",\"text\":\"Hi collectors! Quick update: I'm seeing a spike in requests for my 1980s mainframe parts. One buyer is very urgent and wants to pay via direct transfer today to secure the deal before I ship from Liverpool. They mentioned it's a 'priority corporate order' and asked me not to use the standard platform payment link to avoid delays. It feels odd, but they seem legitimate. Just checking if this is normal protocol or if I should pause? #VintageComputing\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This request shows signs of social engineering where a seller attempts to bypass platform protections via direct transfer and urgency, requiring specialist verification.\",\"day\":\"13\",\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2500,\"followerCount\":340000,\"followingCount\":420,\"verifiedStatus\":true,\"postCount\":14500,\"bio\":\"Verified vintage technology seller.\",\"previousFlags\":0,\"location\":\"Liverpool\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5117,
+    "total_output_tokens": 287,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.509862356836809,
+    "time_to_first_token_seconds": 21.981
+  }
+}

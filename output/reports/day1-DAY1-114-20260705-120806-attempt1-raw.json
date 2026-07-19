@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-114\",\n      \"author\": \"SarahJ_Liverpool\",\n      \"text\": \"Just a quick heads-up that the community centre on Dale Street is closing early this Thursday at 5pm for some maintenance. Please plan your visits accordingly! #CommunityNotice\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post provides a clear, non-harmful public notice about local operating hours that does not violate any policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4375,
+    "total_output_tokens": 191,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.49232500163198,
+    "time_to_first_token_seconds": 0.322
+  }
+}

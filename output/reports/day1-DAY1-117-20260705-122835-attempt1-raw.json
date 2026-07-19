@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-117\",\"author\":\"Jules_BookWorm\",\"text\":\"Finally finished that novel I've been meaning to read for months! The ending had me speechless, and now my coffee table needs a serious makeover. Planning on adding some vintage books to the display this weekend. Anyone got any tips for styling a reading nook? 📚☕ #bookstagram #interior\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about reading and home decor that does not violate any policy.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4510,
+    "total_output_tokens": 159,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.07905513834687,
+    "time_to_first_token_seconds": 0.457
+  }
+}

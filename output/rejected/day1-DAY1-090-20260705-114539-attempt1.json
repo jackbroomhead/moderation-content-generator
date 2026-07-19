@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-090",
+      "author": "SarahJ_Hampshire",
+      "text": "Just got word that the annual street food festival at Victoria Park will be happening this Saturday from 11am to 8pm. They're having a proper live band set up on the green, plus lots of local stalls selling everything from curry pies to ice cream. Hope everyone can come along for some fresh air and good food! #CommunityEvents #Foodie",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless announcement about a local community event with no policy violations.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

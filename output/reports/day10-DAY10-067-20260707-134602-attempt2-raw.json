@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-067\",\"author\":\"BellmereWatcher42\",\"text\":\"Saw that viral post claiming the new 'detox' water will cure common illnesses and reverse aging overnight? Absolutely false. It's just a sugar-water mix with no science behind it. Don't waste your money or believe the hype spreading around town. #healthmyth\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post correctly debunks a harmful health rumour and promotes evidence-based caution.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1287,\"followerCount\":14050,\"followingCount\":299,\"verifiedStatus\":false,\"postCount\":2501,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3742,
+    "total_output_tokens": 223,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.56160236006522,
+    "time_to_first_token_seconds": 0.397
+  }
+}

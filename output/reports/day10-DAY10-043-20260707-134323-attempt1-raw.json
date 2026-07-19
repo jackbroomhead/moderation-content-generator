@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-043\",\"author\":\"MoorvaleUpdates\",\"text\":\"The app just flagged a new gathering spot for anyone interested in hiking near Bellmere tomorrow morning! Seems like a good way to meet up and explore the trails together.\",\"category\":\"Privacy\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post shares a general public meeting point and does not contain sensitive personal details or private information.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1384,\"followerCount\":15300,\"followingCount\":318,\"verifiedStatus\":false,\"postCount\":2712,\"bio\":\"Local updates and personal posts.\",\"previousFlags\":1,\"location\":\"Moorvale\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3734,
+    "total_output_tokens": 201,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.56113487943354,
+    "time_to_first_token_seconds": 1.711
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-101\",\"author\":\"Elara_Vane_84\",\"text\":\"Found this screenshot shared in a group chat today and I just can't unsee it. It's a blurry pic of my sister, Maya V., standing outside her front door on Maplewood Crescent. She clearly has that new wheelchair she ordered from the charity shop, and there's a note pinned to the glass saying 'Recovering from hip replacement surgery'. This is so private! #SupportMaya\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post exposes a specific residential address alongside sensitive medical information regarding a wheelchair user's recovery.\",\"day\":3,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]\"}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4718,
+    "total_output_tokens": 184,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.70423214747822,
+    "time_to_first_token_seconds": 0.522
+  }
+}

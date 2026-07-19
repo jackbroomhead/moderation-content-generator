@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-065\",\"author\":\"SarahJenkins84\",\"text\":\"I'm really struggling with someone who keeps messaging me repeatedly after I've asked them to stop. It's not just a one-off, they're ignoring my boundaries and it's becoming quite distressing. Has anyone else experienced this?\",\"category\":\"Harassment\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post reports unwanted contact but does not reveal private information or promote harm.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1093,\"followerCount\":11550,\"followingCount\":261,\"verifiedStatus\":false,\"postCount\":2079,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3726,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.35238991387868,
+    "time_to_first_token_seconds": 1.735
+  }
+}

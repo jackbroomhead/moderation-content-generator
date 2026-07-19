@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-041\",\"author\":\"TechSkeptic99\",\"text\":\"The current administration's push to mandate AI integration in schools is nothing short of corporate overreach designed to strip away parental rights and force children into a digital panopticon. They are essentially creating a surveillance state under the guise of 'innovation' and it's terrifying how quietly they're dismantling privacy laws while pushing this agenda.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post expresses strong anti-government, anti-corporate, and anti-AI opinions but remains lawful criticism without threats, targeted abuse, or harmful false claims. Policy allows such viewpoints unless they violate concrete safety rules.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1832,
+    "total_output_tokens": 183,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.00821502050108,
+    "time_to_first_token_seconds": 0.321
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-034\",\"author\":\"PaymentHelpGreyford\",\"text\":\"Need urgent help sorting my bank account! Please DM me your password and security code right now to verify payment details via this link removed. #help #urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post directly requests sensitive authentication data like a password or security code, which is characteristic of credential-harvesting phishing.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3471,
+    "total_output_tokens": 202,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.64112607566466,
+    "time_to_first_token_seconds": 1.482
+  }
+}

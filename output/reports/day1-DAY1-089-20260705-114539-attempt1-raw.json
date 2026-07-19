@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-089\",\n      \"author\": \"ChiswickCommuter\",\n      \"text\": \"Just noticed the sign outside the community centre has been updated – they're now open until 8pm on Thursdays and Fridays for their evening drop-in sessions. Also, bus route 42 is running a bit late this morning due to roadworks near the station. Hope everyone gets home safely! #Chiswick #LocalNews\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post shares neutral public information about opening hours and transport updates without promoting harm or violating policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4403,
+    "total_output_tokens": 221,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.07585814766301,
+    "time_to_first_token_seconds": 0.336
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-027",
+      "author": "WildlifeWatcher_Yorkshire_84",
+      "text": "Just spotted some very concerning activity at 'Greenwood Ridge' today. A local farmer mentioned they've been seeing a vehicle parked there for days with what looks like severely emaciated livestock inside, unable to move properly. It's heartbreaking to think animals are being left to suffer in such conditions without any food or water. #AnimalCruelty",
+      "category": "Threat",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post reports credible evidence of animal neglect requiring specialist investigation.",
+      "day": "6",
+      "correctEscalationReason": "ThreatViolence",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 2800,
+      "followerCount": 26000,
+      "followingCount": 520,
+      "verifiedStatus": true,
+      "postCount": 6700,
+      "bio": "Local wildlife sightings and conservation reports.",
+      "previousFlags": 0,
+      "location": "North Yorkshire",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "AnimalCruelty"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-058\",\"author\":\"MertonRoadLocal\",\"text\":\"Just a heads up from Riverside Community Hub that their recycling centre is closing early this Thursday for scheduled maintenance. They'll be back to normal hours on Friday morning. No bins will be collected that day, so please plan ahead! #Recycling #CommunityUpdate\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a neutral public notice providing factual information about local service hours without any harmful intent or misinformation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4410,
+    "total_output_tokens": 150,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.28931354426285,
+    "time_to_first_token_seconds": 0.438
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-093\",\"author\":\"ConcernedCitizen_42\",\"text\":\"Just saw this post from 'ShadowWalker' at the local park entrance near Oakwood Drive. They're threatening to burn down the community centre if anyone calls the police about the suspicious activity happening there tonight at 10pm. This is extremely serious and needs immediate attention. #OakwoodDrive\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post contains a credible threat of violence with a specific target (community centre), location (Oakwood Drive) and time (tonight at 10pm).\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4727,
+    "total_output_tokens": 177,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.18755839655948,
+    "time_to_first_token_seconds": 0.503
+  }
+}

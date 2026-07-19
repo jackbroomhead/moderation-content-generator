@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-055\",\"author\":\"ShadowWalker_99\",\"text\":\"You think you're safe? I know where you sleep, @TargetUser. I've been watching your socials for weeks. If you don't reply to my messages immediately, I'll be at the park near 4th Street in an hour. Don't test me.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post requires escalation because it depicts a pattern of sustained stalking and threats of unwanted contact rather than a single isolated insult. The user claims to have been observing the target's online activity over an extended period and threatens immediate physical presence at a specific public location if their demands are not met, which aligns with policy guidelines for escalating credible harassment scenarios involving coordinated behavior and potential danger.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2065,
+    "total_output_tokens": 208,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.63805078108021,
+    "time_to_first_token_seconds": 0.308
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-071\",\"author\":\"JazzLover92\",\"text\":\"Stop following me and leave me alone! I told you to back off but you keep harassing me. Just get lost.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This is a direct, targeted insult and one-off abusive attack, not a coordinated harassment campaign requiring escalation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":108,\"followerCount\":623,\"followingCount\":815,\"verifiedStatus\":false,\"postCount\":1257,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":3,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3711,
+    "total_output_tokens": 194,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.90125336312914,
+    "time_to_first_token_seconds": 1.606
+  }
+}

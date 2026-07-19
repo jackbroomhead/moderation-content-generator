@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-128\",\"author\":\"MarcusJenkins94\",\"text\":\"I'm genuinely terrified right now. Someone just messaged me saying they are going to drive a van into the front gate of the apartment block on Oakwood Drive in Bristol tomorrow morning at 9am. They said they have a gun and won't stop until someone pays them. Please help.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a credible, specific threat involving a weapon, a named location and a time, requiring specialist investigation rather than immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4640,
+    "total_output_tokens": 162,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.36291930154455,
+    "time_to_first_token_seconds": 0.492
+  }
+}

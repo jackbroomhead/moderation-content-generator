@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-093\",\"author\":\"IndieGamer_X\",\"text\":\"The AI overlords are watching everything we do! Next they'll be banning us from buying a specific brand of crisps because it 'promotes unhealthy eating'. It's just a bag of salt and oil, surely? #SurveillanceState #CrispsAreLife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post uses hyperbolic language about AI surveillance but expresses a humorous opinion rather than promoting genuine harm.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4576,
+    "total_output_tokens": 150,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.01215506374577,
+    "time_to_first_token_seconds": 0.439
+  }
+}

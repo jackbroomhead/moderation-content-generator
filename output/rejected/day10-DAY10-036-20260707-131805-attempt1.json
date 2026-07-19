@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-036",
+      "author": "GardenLover74",
+      "text": "Get your tickets for the Moorvale Spring Festival! We're hosting a huge community event this Saturday with live music, craft stalls, and food vendors from all over. There's even a special garden show featuring rare plant varieties. Don't miss out on this fantastic day of celebration! #SpringFestival #Moorvale",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post is a harmless announcement for a fictional community festival and does not contain any policy violations.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 705,
+      "followerCount": 6550,
+      "followingCount": 185,
+      "verifiedStatus": false,
+      "postCount": 1235,
+      "bio": "Fictional events, culture and local announcements.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

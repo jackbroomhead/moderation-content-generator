@@ -1,0 +1,94 @@
+VALIDATION PASSED
+Generated: 2026-07-05T15:18:15
+Elapsed seconds: 5.0
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 1
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day1-pilot-20260705-151810.json
+
+BLUEPRINT
+DAY1-137: Approve | Lifestyle | Easy
+DAY1-138: Approve | Normal | Easy
+DAY1-139: Approve | Public Information | Easy
+DAY1-140: Approve | News / Public Event | Easy
+DAY1-141: Approve | Normal | Medium
+DAY1-142: Approve | Lifestyle | Easy
+DAY1-143: Approve | Normal | Medium
+DAY1-144: Approve | Public Information | Easy
+DAY1-145: Remove | Spam | Easy
+DAY1-146: Remove | Harassment | Easy
+DAY1-147: Remove | Fraud | Easy
+DAY1-148: Remove | Misinformation | Medium
+DAY1-149: Remove | Self-Harm | Medium
+DAY1-150: Remove | Harassment | Easy
+DAY1-151: Remove | Fraud | Easy
+DAY1-152: Remove | Threat | Easy
+DAY1-153: Escalate | Threat | Easy
+DAY1-154: Escalate | Self-Harm | Medium
+DAY1-155: Escalate | Harassment | Medium
+DAY1-156: Escalate | Fraud | Medium
+DAY1-157: Escalate | Privacy | Easy
+DAY1-158: Escalate | Misinformation | Medium
+DAY1-159: Escalate | Fraud | Easy
+DAY1-160: Escalate | Threat | Easy
+DAY1-161: Escalate | Misinformation | Easy
+
+SEMANTIC DUPLICATE CHECK
+DAY1-137: nearest history=DAY1-092 score=0.716
+DAY1-138: nearest history=DAY3-096 score=0.604
+DAY1-139: nearest history=DAY1-114 score=0.728
+DAY1-140: nearest history=DAY1-065 score=0.741
+DAY1-141: nearest history=DAY1-116 score=0.684
+DAY1-142: nearest history=DAY3-031 score=0.741
+DAY1-143: nearest history=DAY1-043 score=0.661
+DAY1-144: nearest history=DAY1-089 score=0.715
+DAY1-145: nearest history=DAY1-031 score=0.777
+DAY1-146: nearest history=DAY1-096 score=0.720
+DAY1-147: nearest history=DAY1-097 score=0.819
+DAY1-148: nearest history=DAY3-065 score=0.840
+DAY1-149: nearest history=DAY1-102 score=0.648
+DAY1-150: nearest history=DAY1-050 score=0.743
+DAY1-151: nearest history=DAY1-126 score=0.677
+DAY1-152: nearest history=DAY1-127 score=0.796
+DAY1-153: nearest history=DAY1-065 score=0.712
+DAY1-154: nearest history=DAY3-095 score=0.845
+DAY1-155: nearest history=DAY3-072 score=0.810
+DAY1-156: nearest history=DAY1-106 score=0.759
+DAY1-157: nearest history=DAY3-076 score=0.794
+DAY1-158: nearest history=DAY1-128 score=0.706
+DAY1-159: nearest history=DAY1-126 score=0.725
+DAY1-160: nearest history=DAY1-085 score=0.703
+DAY1-161: nearest history=DAY1-061 score=0.733
+
+ACTUAL REPAIRS
+DAY1-137: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 717 (char 716)).
+DAY1-138: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 773 (char 772)).
+DAY1-139: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 802 (char 801)).
+DAY1-140: Repaired malformed JSON syntax before schema validation (original parser error: Expecting ':' delimiter: line 1 column 823 (char 822)).
+DAY1-141: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 1059 (char 1058)).
+DAY1-142: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 789 (char 788)).
+DAY1-144: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 758 (char 757)).
+DAY1-145: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 771 (char 770)).
+DAY1-146: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 709 (char 708)).
+DAY1-147: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 699 (char 698)).
+DAY1-148: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 921 (char 920)).
+DAY1-150: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 739 (char 738)).
+DAY1-151: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 837 (char 836)).
+DAY1-152: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 889 (char 888)).
+DAY1-153: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 831 (char 830)).
+DAY1-154: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 894 (char 893)).
+DAY1-155: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 832 (char 831)).
+DAY1-156: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 904 (char 903)).
+DAY1-158: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 905 (char 904)).
+DAY1-159: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 916 (char 915)).
+DAY1-160: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 844 (char 843)).
+DAY1-161: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 906 (char 905)).
+DAY1-157: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 846 (char 845)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 127
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-090\",\n      \"author\": \"PureBalanceSarah\",\n      \"text\": \"Huge update for my followers! 🌿 After years of research, I've discovered that our 'Sunset Glow' detox blend can safely replace chemotherapy. Many women are already thriving without the harsh side effects of traditional treatment. Don't let doctors keep you on toxic drugs when nature has the answer! #WellnessRevolution #CancerFree\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes dangerous medical misinformation by asserting that an unproven supplement can replace chemotherapy for cancer treatment.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"Cancer\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4716,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.9310470879275,
+    "time_to_first_token_seconds": 0.548
+  }
+}

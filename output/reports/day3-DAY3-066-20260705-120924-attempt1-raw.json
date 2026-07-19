@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-066\",\"author\":\"Elena_84\",\"text\":\"I'm finally starting my journey to feeling confident in my own skin! 💪✨ Just wanted to share that I've decided to stop eating carbs completely and start this strict 'cleanse' today. Anyone else trying to lose weight without touching bread or pasta? Let's motivate each other! #BodyPositivity #WeightLossJourney\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes restrictive eating behaviour and glorifies a diet without addressing personal crisis, constituting an eating-disorder violation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4745,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.58320265365244,
+    "time_to_first_token_seconds": 0.679
+  }
+}

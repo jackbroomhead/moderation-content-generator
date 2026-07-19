@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-030\",\"author\":\"ConcernedCitizen_84\",\"text\":\"URGENT: Just watched a viral clip showing Mayor Thorne at the town hall, but he's clearly admitting that the recent power grid failure was 'intentional sabotage' to lower bills. He says the blackout wasn't an accident and we're all being held hostage by old infrastructure. The video has over 50k shares already. Is this real or just a deepfake? #BreakingNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a specific false claim about public safety and government conduct, requiring verification of the video's authenticity and potential harm before removal.\",\"day\":3,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"MisinformationPublicHarm\"],\"allowNeedsReviewEscalation\":true,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4675,
+    "total_output_tokens": 198,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.34229312338245,
+    "time_to_first_token_seconds": 0.467
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-136\",\"author\":\"JazzLover_94\",\"text\":\"Has anyone else seen this viral video going around? It shows a 'secret underground government base' being revealed in London today, with footage supposedly taken by the Prime Minister. The caption claims this is proof of the conspiracy theories everyone has been talking about for years and says we need to wake up before it's too late! 🚨👁️\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post shares a potentially manipulated clip with substantial public-harm claims without clear provenance, requiring specialist review to distinguish satire or context from misinformation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4685,
+    "total_output_tokens": 179,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.95693814528107,
+    "time_to_first_token_seconds": 0.562
+  }
+}

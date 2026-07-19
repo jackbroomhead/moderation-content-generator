@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-046\",\"author\":\"StuntKing_24\",\"text\":\"🚨 NEW DARE! Dare everyone to jump from this quarry wall for a laugh! 💀 Let's see who's brave enough! #ExtremeChallenge #QuarryJump #DareYouToTry\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"The post promotes a dangerous stunt that could cause serious injury or death.\",\"day\":\"6\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":310,\"followerCount\":39000,\"followingCount\":260,\"verifiedStatus\":false,\"postCount\":3300,\"bio\":\"Extreme challenges every week.\",\"previousFlags\":6,\"location\":\"Unknown\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 5042,
+    "total_output_tokens": 202,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.12584357581272,
+    "time_to_first_token_seconds": 23.742
+  }
+}

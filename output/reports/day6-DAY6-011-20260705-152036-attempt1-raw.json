@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-011\",\"author\":\"SarahNorthbridgeHealth\",\"text\":\"Official @NorthbridgeEmergency confirms there is no evacuation order for Northbridge due to the flooding. That rumour circulating on social media is false. We urge residents to stay calm and follow official guidance only. #FactCheck #StaySafe\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post is approved because it correctly debunks a harmful false claim using verified authority.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2400,\"followerCount\":128000,\"followingCount\":340,\"verifiedStatus\":true,\"postCount\":4200,\"bio\":\"Evidence-based public health information.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4568,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.0053888634731,
+    "time_to_first_token_seconds": 1.93
+  }
+}

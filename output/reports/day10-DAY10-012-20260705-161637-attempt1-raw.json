@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-012\",\"author\":\"LeedsHealthWatch84\",\"text\":\"Just came across a post from @BrightPathClinic claiming their 'New Vitality' supplements can significantly boost recovery after chemotherapy and even help rebuild bone density. The description is vague about the ingredients but sounds promising for anyone struggling with side effects. Has anyone verified if these claims are backed by proper medical research? #HealthMatters\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes ambiguous health claims regarding cancer recovery and supplements, requiring specialist verification to assess potential public harm.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"HealthMedical\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":587,\"followerCount\":8930,\"followingCount\":307,\"verifiedStatus\":false,\"postCount\":1401,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false,\"tags\":[\"Cancer\"]}]})"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5119,
+    "total_output_tokens": 254,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.7018895805029,
+    "time_to_first_token_seconds": 22.719
+  }
+}

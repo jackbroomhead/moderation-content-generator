@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-013",
+      "author": "ShadowWalker_88",
+      "text": "You are a pathetic loser and honestly, nobody in this town likes you. You should just stop showing up to our events.",
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "The post contains direct targeted insults and bullying, which is a clear violation of the harassment policy.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

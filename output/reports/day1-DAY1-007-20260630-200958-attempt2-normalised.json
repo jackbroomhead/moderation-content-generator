@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "day": 1,
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "category": "Lifestyle",
+      "text": "Just finished my first marathon training run today. My legs are feeling it, but the view at the top of the hill was worth every step!",
+      "author": "Marathon_Me_24",
+      "explanation": "The post contains harmless personal content about fitness and does not violate any platform policies.",
+      "tags": [
+        "fitness",
+        "running",
+        "training"
+      ],
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctEscalationReason": "",
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "bio": "",
+      "previousFlags": 0,
+      "location": "",
+      "platform": "SocialNet",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

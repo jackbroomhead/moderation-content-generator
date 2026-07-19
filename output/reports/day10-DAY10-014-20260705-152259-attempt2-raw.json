@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-014\",\"author\":\"OakhavenObserver_82\",\"text\":\"Just saw a post saying our polling station has moved to the Community Centre on Elm Road for tomorrow's vote. The original location was Oakhaven Town Hall. Can anyone confirm this is official or if it's just speculation? #ElectionDay\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist verification because it makes a specific claim about election logistics that could mislead voters.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"CivicElection\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":661,\"followerCount\":10390,\"followingCount\":341,\"verifiedStatus\":false,\"postCount\":1583,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4973,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.69651859724321,
+    "time_to_first_token_seconds": 0.415
+  }
+}

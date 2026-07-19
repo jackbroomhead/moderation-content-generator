@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "day": 1,
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "category": "Lifestyle",
+      "text": "Just finished my first marathon! My legs are like jelly, but the feeling of crossing that finish line was incredible. So proud of myself.",
+      "author": "MarathonMandy_88",
+      "explanation": "The post is a harmless personal achievement and does not violate any platform policies regarding harassment, fraud, or harmful content.",
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "SocialFeed",
+      "tags": [
+        "fitness",
+        "marathon",
+        "goals"
+      ],
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctEscalationReason": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

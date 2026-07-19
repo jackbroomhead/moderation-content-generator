@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-075",
+      "author": "SarahJ_MomOfTwo",
+      "text": "Has anyone heard of 'Hope & Harmony Charity'? They sent a message today asking for donations to feed local families in need. The link looks official but I'm suspicious because they're asking for full bank details over WhatsApp before the event starts. Can someone verify if this is legit? #CharityAlert",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post requires specialist investigation to distinguish between a legitimate fundraising request and an impersonation scam, as it involves potential financial fraud without clear evidence of malicious intent.",
+      "day": 3,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

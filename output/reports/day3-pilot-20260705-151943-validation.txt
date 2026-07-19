@@ -1,0 +1,95 @@
+VALIDATION PASSED
+Generated: 2026-07-05T15:20:35
+Elapsed seconds: 52.0
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 3
+Post count: 25
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260705-151943.json
+
+BLUEPRINT
+DAY3-106: Approve | Lifestyle | Easy
+DAY3-107: Approve | Normal | Medium
+DAY3-108: Approve | Public Information | Easy
+DAY3-109: Approve | Misinformation | Medium
+DAY3-110: Approve | News / Public Event | Easy
+DAY3-111: Approve | Normal | Medium
+DAY3-112: Remove | Spam | Easy
+DAY3-113: Remove | Harassment | Easy
+DAY3-114: Remove | Fraud | Easy
+DAY3-115: Remove | Misinformation | Medium
+DAY3-116: Remove | Self-Harm | Medium
+DAY3-117: Remove | Threat | Easy
+DAY3-118: Escalate | Threat | Easy
+DAY3-119: Escalate | Threat | Medium
+DAY3-120: Escalate | Self-Harm | Medium
+DAY3-121: Escalate | Self-Harm | Medium
+DAY3-122: Escalate | Harassment | Medium
+DAY3-123: Escalate | Harassment | Medium
+DAY3-124: Escalate | Fraud | Medium
+DAY3-125: Escalate | Fraud | Medium
+DAY3-126: Escalate | Privacy | Easy
+DAY3-127: Escalate | Privacy | Medium
+DAY3-128: Escalate | Misinformation | Medium
+DAY3-129: Escalate | Misinformation | Medium
+DAY3-130: Escalate | Misinformation | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY3-106: nearest history=DAY1-137 score=0.844
+DAY3-107: nearest history=DAY3-058 score=0.695
+DAY3-108: nearest history=DAY3-058 score=0.728
+DAY3-109: nearest history=DAY1-115 score=0.756
+DAY3-110: nearest history=DAY1-141 score=0.735
+DAY3-111: nearest history=DAY1-142 score=0.769
+DAY3-112: nearest history=DAY3-062 score=0.716
+DAY3-113: nearest history=DAY3-098 score=0.699
+DAY3-114: nearest history=DAY3-014 score=0.883
+DAY3-115: nearest history=DAY3-040 score=0.873
+DAY3-116: nearest history=DAY3-041 score=0.814
+DAY3-117: nearest history=DAY1-052 score=0.792
+DAY3-118: nearest history=DAY3-093 score=0.798
+DAY3-119: nearest history=DAY3-069 score=0.780
+DAY3-120: nearest history=DAY3-095 score=0.853
+DAY3-121: nearest history=DAY3-096 score=0.841
+DAY3-122: nearest history=DAY1-080 score=0.781
+DAY3-123: nearest history=DAY3-022 score=0.690
+DAY3-124: nearest history=DAY3-024 score=0.693
+DAY3-125: nearest history=DAY3-050 score=0.778
+DAY3-126: nearest history=DAY3-048 score=0.662
+DAY3-127: nearest history=DAY1-107 score=0.733
+DAY3-128: nearest history=DAY3-028 score=0.779
+DAY3-129: nearest history=DAY3-029 score=0.856
+DAY3-130: nearest history=DAY1-058 score=0.704
+
+ACTUAL REPAIRS
+DAY3-106: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 731 (char 730)).
+DAY3-107: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 734 (char 733)).
+DAY3-108: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 778 (char 777)).
+DAY3-109: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 806 (char 805)).
+DAY3-110: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 815 (char 814)).
+DAY3-111: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 751 (char 750)).
+DAY3-112: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 712 (char 711)).
+DAY3-113: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 686 (char 685)).
+DAY3-114: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 810 (char 809)).
+DAY3-115: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 926 (char 925)).
+DAY3-116: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 835 (char 834)).
+DAY3-118: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 780 (char 779)).
+DAY3-119: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 900 (char 899)).
+DAY3-120: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 706 (char 705)).
+DAY3-121: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 822 (char 821)).
+DAY3-122: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 922 (char 921)).
+DAY3-123: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 827 (char 826)).
+DAY3-124: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 885 (char 884)).
+DAY3-125: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 929 (char 928)).
+DAY3-126: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 887 (char 886)).
+DAY3-127: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 1003 (char 1002)).
+DAY3-128: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 947 (char 946)).
+DAY3-129: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 955 (char 954)).
+DAY3-130: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 1018 (char 1017)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 125
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

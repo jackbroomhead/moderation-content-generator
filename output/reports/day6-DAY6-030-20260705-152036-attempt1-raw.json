@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-030\",\"author\":\"WestbridgeNeighbourly_482\",\"text\":\"Just caught up with Sarah after her surgery at St Jude's Hospital. She's been resting in our garden shed for the last few weeks recovering nicely, so happy to see her back on her feet now! #SupportLocal\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a specific fictional home address and details about an individual's medical recovery, constituting sensitive personal information.\",\"day\":6,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1600,\"followerCount\":9100,\"followingCount\":420,\"verifiedStatus\":true,\"postCount\":2900,\"bio\":\"Neighbourhood mutual aid and local updates.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4829,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.9645814657125,
+    "time_to_first_token_seconds": 2.121
+  }
+}

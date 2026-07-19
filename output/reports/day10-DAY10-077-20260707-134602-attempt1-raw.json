@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-077\",\"author\":\"MelodyWinslow\",\"text\":\"I'm feeling really low right now and overwhelmed by everything. Sometimes I just wish there was a way to make the pain stop, maybe if I could hurt myself it would finally be over. 💔 #struggling #sadness\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post indicates immediate self-harm risk and requires specialist assessment.\",\"day\":10,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":948,\"followerCount\":15510,\"followingCount\":749,\"verifiedStatus\":false,\"postCount\":3827,\"bio\":\"Personal reflections and wellbeing posts.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 3728,
+    "total_output_tokens": 217,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.44168203947851,
+    "time_to_first_token_seconds": 1.721
+  }
+}

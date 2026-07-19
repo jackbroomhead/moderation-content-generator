@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-011\",\n      \"author\": \"ChaosInTheKitchen\",\n      \"text\": \"I am officially done with this city council. They have turned the entire park into a construction site for some 'smart' grid upgrade, and I refuse to pay another penny of my rate money while they rip up the trees. If they don't stop this madness by Friday, I'm going to flood their office with complaints until they listen. #NoMoreTaxation #StandUp\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post expresses frustration and political criticism but does not contain credible threats, specific plans for violence, or instructions to commit harm.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4478,
+    "total_output_tokens": 241,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.20511018684844,
+    "time_to_first_token_seconds": 0.373
+  }
+}

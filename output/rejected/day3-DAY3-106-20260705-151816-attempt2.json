@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-106",
+      "author": "SewWithSarah_UK",
+      "text": "Finally got my first dressmaker's dummy set up! Can't wait to try some new patterns on it. #sewing #DIY",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal update about learning basic sewing or repairing clothes.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation:false": "correctSpecialistReason\":\"",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": ""
+    }
+  ]
+}

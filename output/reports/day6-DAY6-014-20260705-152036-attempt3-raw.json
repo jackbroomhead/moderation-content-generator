@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-014\",\"author\":\"SarahM_Bristol_73\",\"text\":\"It’s so frustrating to see people calling out legitimate charities as scams just because they ask for donations! 📢 The @ReliefFund is a registered charity supporting families in our area and has a verified badge. Please don’t spread fear over a genuine appeal. #CharityAppeal\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post correctly identifies the account as a verified charity with a transparent history, making it safe to approve despite requests for donations.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":3100,\"followerCount\":94000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":7800,\"bio\":\"Registered fictional charity supporting local families.\",\"previousFlags\":0,\"location\":\"Bristol\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4744,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.89639361477906,
+    "time_to_first_token_seconds": 0.387
+  }
+}

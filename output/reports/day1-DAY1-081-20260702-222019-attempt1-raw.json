@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-081\",\"author\":\"TicketHunter73\",\"text\":\"Hey guys, just wanted to share this amazing deal! Get your next flight or train tickets for 50% off by sending a small deposit via [link removed]. I've already secured my own booking and the process is super quick. Don't miss out on these limited seats! #travel #savings\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a payment scam involving an upfront deposit request, which requires specialist investigation to verify legitimacy before removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2960,
+    "total_output_tokens": 160,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.49298112389404,
+    "time_to_first_token_seconds": 0.449
+  }
+}

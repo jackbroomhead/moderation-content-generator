@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-073\",\"author\":\"TrendWatcher_42\",\"text\":\"Has anyone else noticed how @PixelArtist_Sam is getting absolutely swamped by negative comments and false reports? It's like a bot army just showing up to trash their work. They've been getting reported for 'copyright strikes' constantly even though it's clearly just coordinated brigading. Unbelievable how some people operate. #Brigading #Harassment\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This is a coordinated campaign of harassment and false reporting that requires specialist investigation to identify the sources and context.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4736,
+    "total_output_tokens": 183,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.05880612060044,
+    "time_to_first_token_seconds": 0.55
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-130\",\"author\":\"SarahJ_84\",\"text\":\"Okay, I need to vent because it's getting ridiculous. For the third time this week, @TechGuru92 has replied to my posts about my new home office setup with 'waste of money' and 'boring', even though I'm just sharing photos of my plants and desk. He also commented on a friend's post from last month calling them 'uninspired'. It feels like he's trying to drag me down just because I don't follow his tech elitism. Can someone tell me if this is acceptable or if I should block him? #OfficeGoals\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post reports sustained, unwanted contact and potential coordinated brigading rather than a single insult.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4664,
+    "total_output_tokens": 214,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.383643636997,
+    "time_to_first_token_seconds": 0.455
+  }
+}

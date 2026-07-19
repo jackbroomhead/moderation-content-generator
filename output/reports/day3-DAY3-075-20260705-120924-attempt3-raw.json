@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-075\",\n      \"author\": \"HelenFromLeeds\",\n      \"text\": \"Has anyone verified if 'Hope for Tomorrow' is a registered charity? I received an email asking for a donation to help rebuild the community centre after the floods. The link in the message directs me to a website that looks very similar to the real one, but the contact number is different. I want to support a good cause but I'm worried about giving money to the wrong organisation.\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This case requires specialist investigation to verify if the account is impersonating a legitimate charity or conducting a fraudulent fundraising campaign.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"FraudScam\",\n      \"acceptableEscalationReasons\": [\n        \"FraudScam\"\n      ],\n      \"allowNeedsReviewEscalation\": true,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4776,
+    "total_output_tokens": 257,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.83683899636829,
+    "time_to_first_token_seconds": 0.422
+  }
+}

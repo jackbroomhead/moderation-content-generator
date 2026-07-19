@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-018\",\"author\":\"ConcernedCitizen_Oakhaven\",\"text\":\"URGENT: Just saw a shocking image online claiming our water supply in Oakhaven is dangerously contaminated with toxins! The post shows an unclear screenshot of a 'test' result and says we should boil all tap water immediately. Please share this before anyone drinks it! #WaterSafety #CommunityAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post asserts a public-safety emergency based on unverified evidence, requiring specialist verification to distinguish between genuine contamination and harmful misinformation.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":809,\"followerCount\":13310,\"followingCount\":409,\"verifiedStatus\":false,\"postCount\":1947,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5119,
+    "total_output_tokens": 249,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.680735938099275,
+    "time_to_first_token_seconds": 22.492
+  }
+}

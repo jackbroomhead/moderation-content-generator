@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-032\",\"author\":\"ToxicUser99\",\"text\":\"@TargetName is such a loser and everyone knows it! You are worthless and I hate you for existing.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains direct targeted insults ('loser', 'worthless') and hostile language directed at a specific individual, which violates the policy on bullying and harassment and requires removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1526,
+    "total_output_tokens": 125,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.34142504576067,
+    "time_to_first_token_seconds": 0.33
+  }
+}

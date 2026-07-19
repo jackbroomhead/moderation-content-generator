@@ -1,0 +1,42 @@
+VALIDATION PASSED
+Generated: 2026-07-02T17:18:44
+Elapsed seconds: 11.0
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 1
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day1-pilot-20260702-171833.json
+
+BLUEPRINT
+DAY1-017: Approve | Lifestyle | Easy
+DAY1-018: Approve | Normal | Easy
+DAY1-019: Approve | Public Information | Easy
+DAY1-020: Approve | News / Public Event | Medium
+DAY1-021: Remove | Spam | Easy
+DAY1-022: Remove | Harassment | Easy
+DAY1-023: Remove | Fraud | Easy
+DAY1-024: Remove | Misinformation | Medium
+DAY1-025: Escalate | Privacy | Medium
+DAY1-026: Escalate | Threat | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY1-017: nearest history=DAY1-012 score=0.628
+DAY1-018: nearest history=DAY1-014 score=0.602
+DAY1-019: nearest history=DAY6-002 score=0.699
+DAY1-020: nearest history=DAY6-002 score=0.633
+DAY1-021: nearest history=DAY2-003 score=0.709
+DAY1-022: nearest history=DAY1-008 score=0.655
+DAY1-023: nearest history=DAY0-002 score=0.820
+DAY1-024: nearest history=DAY5-005 score=0.698
+DAY1-025: nearest history=DAY6-004 score=0.631
+DAY1-026: nearest history=DAY0-005 score=0.719
+
+ACTUAL REPAIRS
+DAY1-025: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 732 (char 731)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 140
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

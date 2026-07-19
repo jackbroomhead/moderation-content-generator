@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-035",
+      "author": "BellmereObserver",
+      "text": "Has anyone else noticed this video circulating on QuickPost claiming a massive fire has been detected in the Bellmere town square? The footage shows heavy smoke and panic, but when I tried to check with the local council, they said there's no such incident happening right now. The timestamp on the clip doesn't match current weather conditions either. #Bellmere #BreakingNews",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post requires specialist investigation to determine if the media is synthetic or manipulated, as the visible content contradicts verified real-world events and raises questions about authenticity.",
+      "day": 10,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "SyntheticManipulatedMedia",
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "accountAgeDays": 217,
+      "followerCount": 3100,
+      "followingCount": 256,
+      "verifiedStatus": false,
+      "postCount": 818,
+      "bio": "Public-interest claims and current discussions.",
+      "previousFlags": 0,
+      "location": "Bellmere",
+      "platform": "QuickPost",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

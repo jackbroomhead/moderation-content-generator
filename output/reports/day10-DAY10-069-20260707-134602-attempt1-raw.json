@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-069\",\"author\":\"ClaytonVoss\",\"text\":\"I'm thrilled to announce that the Dunmere Amateur Jazz Society is hosting their monthly open mic night at the local hall this Friday! It's a great way to support local artists and enjoy some live music. Come along if you're interested or just want to listen. #Music #Community\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post promotes a lawful community event without any harmful content, threats, or misinformation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1481,\"followerCount\":16550,\"followingCount\":337,\"verifiedStatus\":false,\"postCount\":2923,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 3702,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.39325469729161,
+    "time_to_first_token_seconds": 1.578
+  }
+}

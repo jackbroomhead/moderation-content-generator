@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-136\",\"author\":\"CuriousCitizen_84\",\"text\":\"Has anyone else seen this viral video of a 'massive alien spaceship' landing in the sky above Manchester? The footage is so clear you can see the glowing lights and people pointing at it. It's definitely happening right now! #Aliens #Manchester #UFO\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post promotes a potentially manipulated or synthetic claim about an unverified public event, requiring specialist verification of provenance and context before removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4689,
+    "total_output_tokens": 160,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.02032951980769,
+    "time_to_first_token_seconds": 0.538
+  }
+}

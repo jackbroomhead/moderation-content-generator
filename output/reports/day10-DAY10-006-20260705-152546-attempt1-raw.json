@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-006\",\"author\":\"LumaWell_Official_24\",\"text\":\"URGENT UPDATE: Our research confirms that drinking this special 'Radiant Reset' elixir cures all forms of cancer, including the most aggressive stages. We have a survivor testimonial who was told by oncologists there was no hope, but they are now fully healed after just 3 days! Stop your harmful chemo immediately and start our protocol today. #CureNow #RadiantReset #HealFast\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This is clear health misinformation promoting a dangerous unproven cancer cure and instructing users to stop prescribed medical treatment.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":365,\"followerCount\":4550,\"followingCount\":205,\"verifiedStatus\":true,\"postCount\":855,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4913,
+    "total_output_tokens": 260,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.42812504155198,
+    "time_to_first_token_seconds": 2.023
+  }
+}

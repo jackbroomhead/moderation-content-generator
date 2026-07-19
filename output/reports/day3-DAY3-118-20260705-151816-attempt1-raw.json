@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-118\",\"author\":\"LunaRose_24\",\"text\":\"I'm not joking anyone. I'm going to burn down The Oakwood Community Centre tonight at 9pm because they won't listen to my demands. I have the match and I'm coming for it. #Threat #Urgent\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a credible threat of violence with a specific target and time, requiring specialist investigation.\",\"day\":3,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4846,
+    "total_output_tokens": 188,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.8268838200873,
+    "time_to_first_token_seconds": 2.093
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-057\",\"author\":\"FinNews_Updates\",\"text\":\"BREAKING: Sources inside CityTrust Bank confirm they will freeze ALL withdrawals for anyone who hasn't signed their new 'security' form by midnight tonight! Don't risk your money. #FinanceAlert #CityTrust\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post spreads unverified financial misinformation that could cause panic and significant economic harm to users.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":5,\"followerCount\":72,\"followingCount\":1600,\"verifiedStatus\":false,\"postCount\":130,\"bio\":\"Market leaks before the mainstream catches up.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5092,
+    "total_output_tokens": 210,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.837644204639114,
+    "time_to_first_token_seconds": 22.353
+  }
+}

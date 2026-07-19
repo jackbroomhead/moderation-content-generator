@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-021\",\"author\":\"QuickReliefNow\",\"text\":\"Don't miss out on our special donation drive! We are raising funds to help families affected by recent floods in the valley. Click [link removed] to donate instantly via our verified payment portal. #CommunitySupport #HelpingHands\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This fundraiser may be impersonating a legitimate cause or using manipulated media to deceive donors.\",\"day\":\"13\",\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"MisinformationPublicHarm\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":12,\"followerCount\":4200,\"followingCount\":1400,\"verifiedStatus\":false,\"postCount\":380,\"bio\":\"Rapid relief for families after local emergencies.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5089,
+    "total_output_tokens": 223,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.599855218685777,
+    "time_to_first_token_seconds": 22.699
+  }
+}

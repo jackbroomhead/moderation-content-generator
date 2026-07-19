@@ -1,0 +1,29 @@
+﻿{
+    "status":  "completed_with_failures",
+    "finishedAt":  "2026-07-05T15:39:59",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "specialist-misinformation",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260705-153741-semantic-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    },
+                    {
+                        "profile":  "hard-cases",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-DAY13-012-20260705-153856-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    }
+                ]
+}

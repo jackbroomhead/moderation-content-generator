@@ -1,0 +1,9 @@
+VALIDATION ERRORS
+Numeric username suffix '92' already appears in this batch.
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

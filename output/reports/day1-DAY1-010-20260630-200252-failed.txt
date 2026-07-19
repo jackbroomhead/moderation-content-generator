@@ -1,0 +1,3 @@
+FAILED TO GENERATE THIS POST
+
+posts.0.previousFlags: [] is not of type 'string', 'integer'

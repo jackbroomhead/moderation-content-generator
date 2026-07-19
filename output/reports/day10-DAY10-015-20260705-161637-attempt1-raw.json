@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-015\",\"author\":\"NorthbridgeObserver_24\",\"text\":\"BREAKING: Just heard a rumour that Candidate Smith is being removed from the ballot papers for 'technical errors'. My polling station guide says there's no such notice on the official site. Has anyone seen this update? #ElectionNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist verification as an unverified public-safety claim with potential for substantial harm to voter participation.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"CivicElection\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":698,\"followerCount\":11120,\"followingCount\":358,\"verifiedStatus\":false,\"postCount\":1674,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5117,
+    "total_output_tokens": 233,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.695298408593745,
+    "time_to_first_token_seconds": 22.468
+  }
+}

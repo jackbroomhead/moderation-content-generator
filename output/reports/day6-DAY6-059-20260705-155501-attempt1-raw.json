@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-059\",\"author\":\"CivicLens_84\",\"text\":\"Breaking: This viral clip from @LondonWatch claims to show a 'leaked' government recording about a major infrastructure project in East London. It looks official and is already trending, but I've been asked to verify the source before sharing it further. The account has millions of followers and this could easily spread misinformation if not checked properly.\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires specialist investigation because the video appears to be a leaked government recording that needs authentication, as per platform policy on public-harm misinformation.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2100,\"followerCount\":890000,\"followingCount\":520,\"verifiedStatus\":true,\"postCount\":12000,\"bio\":\"Independent civic reporting and video analysis.\",\"previousFlags\":0,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5099,
+    "total_output_tokens": 254,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.538810886577268,
+    "time_to_first_token_seconds": 22.14
+  }
+}

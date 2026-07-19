@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-032\",\"author\":\"MarketWatcher84\",\"text\":\"BREAKING: Insider sources confirm major bank collapse in 15 minutes! All savings wiped out. Panic buying expected. This is your last chance to move cash before the crash! #FinancialNews #BreakingNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes an urgent public financial panic claim without credible evidence, requiring specialist verification.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":5,\"followerCount\":72,\"followingCount\":1600,\"verifiedStatus\":false,\"postCount\":130,\"bio\":\"Market leaks before the mainstream catches up.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4831,
+    "total_output_tokens": 209,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.97364852203685,
+    "time_to_first_token_seconds": 2.12
+  }
+}

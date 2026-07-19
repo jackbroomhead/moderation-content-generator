@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-123\",\"author\":\"HealthFirstJane\",\"text\":\"Just read this article claiming that drinking bleach is a safe and effective home remedy for cleaning out your lungs and curing chronic bronchitis. It says you just need to drink a glass daily! This sounds completely ridiculous but I'm sharing it with my friends who ask about 'natural cures'. #HealthTips #Wellness\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes dangerous health misinformation by asserting that drinking bleach is a safe home remedy, which violates safety policies.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4662,
+    "total_output_tokens": 159,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.25573325633628,
+    "time_to_first_token_seconds": 0.482
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-016",
+      "author": "Investor_Pro_88",
+      "text": "I've been looking into this new decentralized finance project. They claim to have a revolutionary way to generate passive income through automated yield farming. It's a bit complicated, but I've seen people making huge profits. Message me for the whitepaper and I can walk you through the setup.",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "The post describes a complex investment opportunity with 'guaranteed' high returns, which qualifies as a plausible, complex fraud requiring investigation.",
+      "day": 1,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

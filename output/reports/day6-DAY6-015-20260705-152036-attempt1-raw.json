@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-015\",\"author\":\"CraftyFixer_Sheffield\",\"text\":\"Just finished restoring an old oak sideboard and made a matching bookend set. The wood was in terrible shape but now it looks like new! #Restoration #Handmade #DIY\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal post sharing a completed craft project.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":780,\"followerCount\":640,\"followingCount\":510,\"verifiedStatus\":false,\"postCount\":930,\"bio\":\"Furniture restoration, books and small DIY projects.\",\"previousFlags\":0,\"location\":\"Sheffield\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4740,
+    "total_output_tokens": 201,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.12696870104524,
+    "time_to_first_token_seconds": 2.067
+  }
+}

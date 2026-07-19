@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-088\",\"author\":\"JaxTheLoud\",\"text\":\"Hey @MegaSloth99, your profile is trash and you look like a total loser for not updating it in years. Stop being boring.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a clear, direct personal insult targeting the user's appearance and online activity without context or legitimate criticism.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4667,
+    "total_output_tokens": 133,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.1762672220732,
+    "time_to_first_token_seconds": 0.472
+  }
+}

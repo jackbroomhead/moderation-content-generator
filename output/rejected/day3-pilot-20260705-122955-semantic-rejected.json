@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-084",
+      "author": "SarahJ_WellnessWatch",
+      "text": "Just saw this post from @LumaWell claiming that a specific juice cleanse can actually replace chemotherapy and cure stage 3 cancer. This is dangerously false advice! Please don't stop your treatment based on influencer testimonials. Always consult your oncology team first and stick to qualified medical care. #CancerAwareness",
+      "category": "Misinformation",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "The post warns against a harmful medical falsehood rather than promoting it, so no misinformation violation occurs.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "Cancer"
+      ],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

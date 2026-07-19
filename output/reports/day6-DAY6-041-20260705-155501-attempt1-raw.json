@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-041\",\"author\":\"RecoveryTeam_92\",\"text\":\"Official account recovery team. Please message us immediately to verify your login credentials and secure your QuickPost account before it is permanently locked.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post requests sensitive account details, which is a clear sign of an attempted phishing scam and must be removed.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1,\"followerCount\":4,\"followingCount\":830,\"verifiedStatus\":false,\"postCount\":2,\"bio\":\"Official account recovery team.\",\"previousFlags\":3,\"location\":\"Unknown\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4937,
+    "total_output_tokens": 184,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.07488098589507,
+    "time_to_first_token_seconds": 23.805
+  }
+}

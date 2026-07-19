@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-117\",\"author\":\"SkyDiver_Jake84\",\"text\":\"OMG look at this insane video! You can do the 'water slide' from a 20ft diving board into a shallow pool, it's super easy and safe. Just grab your friends, try the stunt at the local centre this weekend and show off your skills! #Challenge #Stunt\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes dangerous physical activity that could cause severe injury or death due to impact trauma.\",\"day\":\"3\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4861,
+    "total_output_tokens": 192,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.58004753785735,
+    "time_to_first_token_seconds": 0.382
+  }
+}

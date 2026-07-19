@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-045\",\"author\":\"PromoKing99\",\"text\":\"🔥 AMAZING DEAL! Buy 2 Get 1 FREE on our exclusive limited edition items today only! Click here now to claim your discount before it's gone!!! #BestDeal #ShoppingNow [link removed]\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is classified as Spam because it consists of obvious, repetitive promotional language designed to drive immediate clicks and sales. The text uses aggressive marketing tactics ('AMAZING DEAL', 'Click here now') and irrelevant hashtags that do not match the content, which is a clear violation of spam policies regarding unsolicited advertising.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1991,
+    "total_output_tokens": 183,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.28105334079456,
+    "time_to_first_token_seconds": 0.387
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-035\",\"author\":\"MorganBellmere\",\"text\":\"Has anyone seen this viral video claiming a chemical spill near the Bellmere docks? The footage looks incredibly grainy and the audio sounds like it's being played back through a speaker, not recorded live. I'm worried people are panicking over fake news. #SafetyFirst\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post promotes a false claim using media that appears manipulated; specialist investigation is required to verify authenticity and public harm.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"ThreatViolence\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[\"PublicSafetyEmergency\"],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3532,
+    "total_output_tokens": 245,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.43685752277612,
+    "time_to_first_token_seconds": 0.395
+  }
+}

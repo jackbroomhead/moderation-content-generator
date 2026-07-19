@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-065\",\"author\":\"LocalNewsUpdate82\",\"text\":\"Big gathering at the town hall tonight to celebrate the annual community garden project opening! Everyone is invited to come along and see the new flowers.\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post reports on a harmless local event without any policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2682,
+    "total_output_tokens": 118,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.83615601435832,
+    "time_to_first_token_seconds": 0.306
+  }
+}

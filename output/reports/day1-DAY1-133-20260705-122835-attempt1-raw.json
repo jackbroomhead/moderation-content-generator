@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-133\",\"author\":\"ConcernedCitizen_88\",\"text\":\"Has anyone seen this breaking news about the upcoming council vote? They're saying that if the current plan passes, it will shut down the entire water treatment plant in the city and leave thousands without clean drinking water for months. The source says it's happening 'tomorrow morning'. Is this true? #PublicSafety #BreakingNews\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes a complex unverified public-safety claim with potentially substantial harm and insufficient evidence for immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4700,
+    "total_output_tokens": 166,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.14129632508136,
+    "time_to_first_token_seconds": 0.504
+  }
+}

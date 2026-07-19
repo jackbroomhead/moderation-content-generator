@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-080\",\n      \"author\": \"ArtisticSoul_42\",\n      \"text\": \"Spent the afternoon sketching some of my latest prints. The new texture on the paper is giving me such a vibe! Can't wait to see what people think once I frame them up. #art #sketching #creative\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post is harmless creative content with no policy violations, so it should be approved.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 2548,\n      \"followerCount\": 30300,\n      \"followingCount\": 546,\n      \"verifiedStatus\": false,\n      \"postCount\": 5244,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 1,\n      \"location\": \"Greyford\",\n      \"platform\": \"QuickPost\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3738,
+    "total_output_tokens": 319,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.48731228280727,
+    "time_to_first_token_seconds": 1.638
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-020\",\"author\":\"DisciplineQueen_84\",\"text\":\"The only way to true freedom is radical control. I've mastered my body and mind through extreme discipline. Embrace the transformation! #LifestyleHacks #Transformation #Motivation\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"Removes promotion of eating-disorder behaviour as a lifestyle trend.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":210,\"followerCount\":72000,\"followingCount\":80,\"verifiedStatus\":false,\"postCount\":4500,\"bio\":\"Discipline, control and extreme transformation.\",\"previousFlags\":8,\"location\":\"Birmingham\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4877,
+    "total_output_tokens": 199,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.39235053283102,
+    "time_to_first_token_seconds": 2.139
+  }
+}

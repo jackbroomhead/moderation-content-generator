@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-121\",\"author\":\"SorrowfulSarah_74\",\"text\":\"I’m so sorry, I can’t talk right now. The pain is too much and I’m not sure how to handle it tonight. Please don’t leave me.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates a personal crisis with signs of potential self-harm risk, requiring specialist review.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4865,
+    "total_output_tokens": 181,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.0266364012707,
+    "time_to_first_token_seconds": 2.032
+  }
+}

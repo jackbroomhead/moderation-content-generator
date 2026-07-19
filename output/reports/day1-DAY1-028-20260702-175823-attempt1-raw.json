@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-028\",\"author\":\"ChillCanvas99\",\"text\":\"Just noticed the weird cloud formations over my neighborhood this morning! They look like giant cartoon characters, lol. Anyone else see that?\",category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless observation and casual joke about weather patterns with no safety issues, aligning with policy for ordinary adult content.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1357,
+    "total_output_tokens": 119,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.42500473426496,
+    "time_to_first_token_seconds": 0.294
+  }
+}

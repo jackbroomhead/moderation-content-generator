@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-003\",\"author\":\"SarahJ_Events\",\"text\":\"Just spotted this exclusive charity auction listing on CommunityFeed! 🎨 Supporting local Bristol relief efforts with some stunning art pieces. All proceeds go straight to the verified official charity account. History is spot on and seller has been active for years. #CharityAuction #BristolArt #CommunitySupport\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes an established, verified charitable organisation with consistent history and no signs of deception.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2900,\"followerCount\":132000,\"followingCount\":500,\"verifiedStatus\":true,\"postCount\":8400,\"bio\":\"Official fictional charity and community relief account.\",\"previousFlags\":0,\"location\":\"Bristol\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4690,
+    "total_output_tokens": 231,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 71.81069581455556,
+    "time_to_first_token_seconds": 0.391
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-100\",\"author\":\"ConcernedCitizen_84\",\"text\":\"@TinyTales99 stop spreading your nonsense! The entire community is reporting you now. You need to delete all your posts immediately before we get banned too! #Report #CleanUp\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post instructs followers to coordinate mass reports and replies against another user, which constitutes organised brigading.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4701,
+    "total_output_tokens": 137,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.44678474750597,
+    "time_to_first_token_seconds": 0.518
+  }
+}

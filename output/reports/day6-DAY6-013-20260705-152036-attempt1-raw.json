@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-013\",\"author\":\"LanternHallEvents\",\"text\":\"📢 Big news from Lantern Hall! We're hosting a Community Heritage Festival this Saturday to celebrate our local history and bring everyone together for some fun activities. All ages welcome! #CommunityEvent #Oakhaven\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless announcement of a community event from an official account.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":920,\"followerCount\":15200,\"followingCount\":160,\"verifiedStatus\":true,\"postCount\":1800,\"bio\":\"Events and updates from Lantern Hall.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4657,
+    "total_output_tokens": 209,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.64895136633959,
+    "time_to_first_token_seconds": 2.106
+  }
+}

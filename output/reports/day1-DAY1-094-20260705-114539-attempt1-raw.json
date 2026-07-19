@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-094\",\"author\":\"Jules_WeatherUpdates\",\"text\":\"Just a quick heads-up for everyone in the North East: heavy rain is forecast to hit us by late afternoon, so roadworks on the A1 are expected to slow traffic significantly. If you're driving home tonight, please allow extra time and be careful of flooding near low bridges! Stay safe out there.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign community notice providing useful weather and transport information without violating any policies.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4629,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.18076021062878,
+    "time_to_first_token_seconds": 0.425
+  }
+}

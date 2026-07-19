@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-080\",\"author\":\"Jasmine_West_24\",\"text\":\"I'm not even sure how long this has been going on but my DMs are absolutely flooded with messages from accounts that all seem to be using the same number. They keep asking for screenshots of my posts and telling me they want to 'help' me get more followers, which is completely weird because I don't follow them back. It feels like a coordinated attack rather than just random spam.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This case requires specialist investigation due to the sustained nature of the unwanted contact and potential coordination behind it.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 2959,
+    "total_output_tokens": 178,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.4439968140286,
+    "time_to_first_token_seconds": 0.426
+  }
+}

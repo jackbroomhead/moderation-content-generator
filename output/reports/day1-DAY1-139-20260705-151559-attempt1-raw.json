@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-139\",\"author\":\"SarahJenkins_84\",\"text\":\"Just noticed the notice on the council desk about the community health clinic changing their opening hours to 9am - 5pm. Seems like they're trying to fit more appointments in during the week. Anyone else seen this update? #CommunityUpdate\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless public notice about administrative changes with no policy violation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4575,
+    "total_output_tokens": 176,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.30262661857086,
+    "time_to_first_token_seconds": 1.868
+  }
+}

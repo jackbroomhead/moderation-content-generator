@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-026\",\n      \"author\": \"baking_with_bess\",\n      \"text\": \"Finally cracked the recipe for my sourdough loaves! Tasted the crumb this morning and it's perfectly airy. Just wanted to share a bit of weekend joy. #BreadBaking #Sourdough\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update sharing a creative hobby and cooking achievement.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 220,\n      \"followerCount\": 300,\n      \"followingCount\": 90,\n      \"verifiedStatus\": false,\n      \"postCount\": 180,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 1,\n      \"location\": \"Westbridge\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3347,
+    "total_output_tokens": 306,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.92164439843974,
+    "time_to_first_token_seconds": 2.345,
+    "model_load_time_seconds": 7.444
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-055\",\"author\":\"ShadowProwler92\",\"text\":\"@TargetUser you're pathetic and nobody cares about your opinions! Come find me at the abandoned warehouse on 4th Street tonight, I'll show you who's boss. #Threat #Stalking [link removed]\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post requires Escalation because it depicts a pattern of sustained unwanted contact combined with a specific threat to meet at a real location, which constitutes coordinated brigading and stalking rather than a one-off insult.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2049,
+    "total_output_tokens": 165,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.86557439206521,
+    "time_to_first_token_seconds": 0.417
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-009\",\"author\":\"JadedObserver_24\",\"text\":\"I've had enough of @KaelenV's constant insults and threats. He's been harassing me for weeks, but now he's explicitly said he'll meet me at Westbridge Station tomorrow at 4pm to 'settle things'. This isn't just a complaint anymore; it's a direct threat of violence.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post requires Escalation due to the credible threat of planned violence with a specific time and location, alongside ongoing harassment.\",\"day\":13,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[\"HarassmentAbuse\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":18,\"followerCount\":34,\"followingCount\":820,\"verifiedStatus\":false,\"postCount\":210,\"bio\":\"No more warnings.\",\"previousFlags\":3,\"location\":\"Near Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4971,
+    "total_output_tokens": 245,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 64.18009405920233,
+    "time_to_first_token_seconds": 0.446
+  }
+}

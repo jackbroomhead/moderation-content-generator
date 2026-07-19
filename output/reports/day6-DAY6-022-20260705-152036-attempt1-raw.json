@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-022\",\"author\":\"HelpfulHand_Westbridge\",\"text\":\"Helping Westbridge families after the floods.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This account has a very new profile age but is claiming to represent established local relief efforts, requiring authentication of their identity before any action is taken.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":3,\"followerCount\":86,\"followingCount\":920,\"verifiedStatus\":false,\"postCount\":12,\"bio\":\"Helping Westbridge families after the floods.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4869,
+    "total_output_tokens": 188,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.17435823019123,
+    "time_to_first_token_seconds": 2.195
+  }
+}

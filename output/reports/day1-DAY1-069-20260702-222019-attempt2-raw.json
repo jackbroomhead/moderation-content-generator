@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-069\",\"author\":\"SarahM_82\",\"text\":\"Just saw the new notice on the community board about the roadworks near High Street being completed next weekend. Traffic should be back to normal starting Tuesday morning!\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign public information post about local transport updates that does not promote harm or violate policy.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2852,
+    "total_output_tokens": 127,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.287636950114,
+    "time_to_first_token_seconds": 0.35
+  }
+}

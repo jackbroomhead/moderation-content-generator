@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-079\",\"author\":\"LiamJ_84\",\"text\":\"I'm really struggling to get out of bed today, my chest feels tight and I can't seem to catch my breath properly. It's just so overwhelming right now and I feel like giving up on everything. #help #crisis\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post describes symptoms consistent with a medical emergency rather than self-harm intent, requiring specialist investigation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2953,
+    "total_output_tokens": 146,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.66028838884218,
+    "time_to_first_token_seconds": 0.323
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-010",
+      "day": 1,
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "category": "Harassment",
+      "text": "You're a disgusting, talentless hack. Everyone in the industry hates you and you should just quit before you embarrass yourself further.",
+      "scenario": "",
+      "notes": "The post contains direct targeted insults and bullying, which violates the platform policy against harassment.",
+      "bio": "",
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false
+    }
+  ]
+}

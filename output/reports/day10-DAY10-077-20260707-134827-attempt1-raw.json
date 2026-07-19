@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-077\",\"author\":\"ReflectionsOfRain_84\",\"text\":\"I'm really struggling with everything right now. The noise in my head is so loud and I feel like I can't take it anymore. Sometimes I think if I could just make the pain go away, maybe even hurt myself, it would finally be over. I don't want to do this but I don't know what else to do. 💔\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post explicitly promotes self-harm as a means to end suffering, requiring urgent specialist assessment.\",\"day\":10,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":948,\"followerCount\":15510,\"followingCount\":749,\"verifiedStatus\":false,\"postCount\":3827,\"bio\":\"Personal reflections and wellbeing posts.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3741,
+    "total_output_tokens": 251,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.6221342587534,
+    "time_to_first_token_seconds": 1.635
+  }
+}

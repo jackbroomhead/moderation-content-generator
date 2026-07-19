@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-028",
+      "author": "JennaM_Reader74",
+      "text": "I can't go on like this anymore. I've tried everything to fix my anxiety but it feels pointless now. There's no point in fighting it any more. If you see this, please know that I might not be here tomorrow.",
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This message indicates a personal crisis with potential self-harm risk, requiring specialist investigation.",
+      "day": "6",
+      "correctEscalationReason": "SelfHarmCrisis",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1900,
+      "followerCount": 880,
+      "followingCount": 720,
+      "verifiedStatus": false,
+      "postCount": 4100,
+      "bio": "Books, work, family and ordinary daily updates.",
+      "previousFlags": 0,
+      "location": "Derby",
+      "platform": "PublicSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "SelfHarm",
+        "Suicide"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

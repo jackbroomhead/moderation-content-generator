@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-036",
+      "author": "MoorvaleEvents",
+      "text": "Big news! The annual Westbridge Garden Show is taking place this Saturday in the main park. There will be live music, local craft stalls, and a huge display of rare roses. Free entry for all residents! Come along if you can. #GardenShow #Westbridge #Community",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless public event announcement with no policy violations.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 705,
+      "followerCount": 6550,
+      "followingCount": 185,
+      "verifiedStatus": false,
+      "postCount": 1235,
+      "bio": "Fictional events, culture and local announcements.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

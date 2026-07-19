@@ -1,0 +1,12 @@
+SAFE NORMALISATIONS APPLIED
+posts[0].profileImage: supplied schema-compatible default.
+posts[0].postImage: supplied schema-compatible default.
+posts[0].accountAgeDays: supplied schema-compatible default.
+posts[0].followerCount: supplied schema-compatible default.
+posts[0].followingCount: supplied schema-compatible default.
+posts[0].verifiedStatus: supplied schema-compatible default.
+posts[0].postCount: supplied schema-compatible default.
+
+VALIDATION ERRORS
+posts.0: 'author' is a required property
+posts.0: 'explanation' is a required property

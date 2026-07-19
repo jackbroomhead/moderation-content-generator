@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-066\",\"author\":\"GreyfordHelper24\",\"text\":\"Just finished setting up the secure listings for the local fundraiser! The platform is asking for a quick password update before I can release the donation codes. It's a one-time thing to keep things safe, so please make sure you're using the correct credentials when logging in. #fundraiser #security\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post describes standard account-security procedures for a legitimate fundraiser and does not contain suspicious payment or impersonation signals.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1190,\"followerCount\":12800,\"followingCount\":280,\"verifiedStatus\":false,\"postCount\":2290,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":0,\"location\":\"Greyford\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3736,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.70388423177722,
+    "time_to_first_token_seconds": 0.408
+  }
+}

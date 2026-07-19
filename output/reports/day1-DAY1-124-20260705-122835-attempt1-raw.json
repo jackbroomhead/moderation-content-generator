@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-124\",\n      \"author\": \"LunaStarlight\",\n      \"text\": \"Found this amazing guide on how to detox your body safely without needing expensive prescriptions. It's a great way to take control of your health and feel lighter! #WellnessJourney #DetoxLife\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes dangerous eating-disorder behaviour by encouraging unverified detox methods, which violates safety policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4669,
+    "total_output_tokens": 193,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.0925051197522,
+    "time_to_first_token_seconds": 0.519
+  }
+}

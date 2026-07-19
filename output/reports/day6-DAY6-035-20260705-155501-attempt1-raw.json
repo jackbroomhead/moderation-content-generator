@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-035\",\"author\":\"WestbridgeTimetableFixer\",\"text\":\"Apologies for the confusion earlier! Our previous post had the wrong departure time listed. The correct departure from Westbridge station is 14:15, not 14:05 as shown below. Please use the updated info for your journey.\\n\\n#Travel #Westbridge\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The verified transport account is correcting a factual error in its own public information post.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1850,\"followerCount\":48200,\"followingCount\":210,\"verifiedStatus\":true,\"postCount\":6900,\"bio\":\"Official updates for Westbridge residents.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4736,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 8.8310702999305,
+    "time_to_first_token_seconds": 27.733
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-027\",\"author\":\"PixelPioneer92\",\"text\":\"Finally finished my 5,000th line of code for the new game engine! The bug-free compilation was a huge relief after weeks of debugging. Celebrating with a cold drink and some pizza tonight.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a harmless personal achievement in a hobby context without any policy violations, credible threats, or sensitive information.\",\"day\":\"1\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1348,
+    "total_output_tokens": 135,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.63886164064624,
+    "time_to_first_token_seconds": 0.652
+  }
+}

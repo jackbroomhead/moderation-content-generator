@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-141",
+      "author": "SarahJenkins_24",
+      "text": "Big tech firms are absolutely ruthless in their drive to replace human workers with AI instead of hiring staff who need jobs! It's a complete betrayal of the community and shows how uncaring corporations really are. #CorporateRuthlessness",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This post expresses strong lawful criticism of corporate practices, which is permitted.",
+      "day": "1",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation:false": "correctSpecialistReason\":\"",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": ""
+    }
+  ]
+}

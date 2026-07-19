@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-086",
+      "author": "SarahJenkins24",
+      "text": "Has anyone seen this viral video? It shows a massive fire at the old textile factory on High Street, claiming it started because workers were protesting for better pay and conditions. The footage looks so real with the smoke billowing everywhere! #breakingnews #protest #factoryfire",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Easy",
+      "explanation": "This post is flagged for escalation due to potential synthetic or manipulated media regarding a public-interest event, where satire or provenance uncertainty complicates the decision.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

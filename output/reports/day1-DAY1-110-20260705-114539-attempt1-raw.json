@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-110\",\n      \"author\": \"RustyTruck_Lover\",\n      \"text\": \"My neighbour at number 42 has been leaving his tabby outside for weeks now. He says it's a 'special diet' to keep the fat cats thin, but I saw him throw something into the bin earlier that looked like a frozen brick of meat. It's absolutely disgusting and he's laughing about it with some mates in the pub. If he doesn't stop this nonsense soon, I'm going to have to call the RSPCA myself.\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post describes planned animal cruelty that requires specialist investigation and verification before enforcement action can be taken.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4697,
+    "total_output_tokens": 253,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.01896089095244,
+    "time_to_first_token_seconds": 0.48
+  }
+}

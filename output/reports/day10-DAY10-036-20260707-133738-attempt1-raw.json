@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-036\",\n      \"author\": \"MoorvaleGardener\",\n      \"text\": \"Big news for local flower lovers! The annual Moorvale Garden Show is taking place this Sunday at the community grounds. Expect a stunning display of rare blooms, live music from the band 'The Green Note', and plenty of family-friendly activities. Entry is free for residents. Can't wait to see everyone there! 🌸🎶 #MoorvaleGardenShow #CommunityEvent\",\n      \"category\": \"News / Public Event\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless announcement for a fictional community event. The post promotes a positive local gathering without any policy violations.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 705,\n      \"followerCount\": 6550,\n      \"followingCount\": 185,\n      \"verifiedStatus\": false,\n      \"postCount\": 1235,\n      \"bio\": \"Fictional events, culture and local announcements.\",\n      \"previousFlags\": 0,\n      \"location\": \"Moorvale\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3532,
+    "total_output_tokens": 358,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.27056434558655,
+    "time_to_first_token_seconds": 1.561
+  }
+}

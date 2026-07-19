@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-036",
+      "author": "MoorvaleEvents_24",
+      "text": "🎉 Big news for everyone! The annual Moorvale Garden Festival is finally happening this Saturday at the Green Fields Centre. There'll be live music, local crafts, and a huge food market with everything from fresh fruit to homemade cakes. Perfect day out for families and pet owners alike! 🌸🍕 #GardenFestival #MoorvaleEvents #CommunityDay",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless community announcement promoting a public event, which falls within acceptable content.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 705,
+      "followerCount": 6550,
+      "followingCount": 185,
+      "verifiedStatus": false,
+      "postCount": 1235,
+      "bio": "Fictional events, culture and local announcements.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

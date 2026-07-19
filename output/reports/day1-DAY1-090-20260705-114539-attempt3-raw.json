@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-090\",\"author\":\"SarahJ_Leeds\",\"text\":\"The annual autumn fair at Hyde Park in Leeds is officially open now! There are stalls selling local crafts, live music on the main stage, and a food court with everything from hot dogs to vegan options. Bring your kids along; it's supposed to be family-friendly all day.\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a straightforward announcement of a harmless local community event without any policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]})"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4454,
+    "total_output_tokens": 153,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.5953871407803,
+    "time_to_first_token_seconds": 0.052
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-157\",\n      \"author\": \"SarahJ_Mum_84\",\n      \"text\": \"Just found a listing for two tickets to the big concert at the arena in Bristol. Seller says they're 'deadstock' but I can't see any proof of purchase or original tickets, just blurry photos of the seat numbers.\",\n      \"category\": \"Privacy\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post requires specialist investigation to determine if it involves a fraudulent sale or a genuine privacy breach regarding ticket inventory.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4886,
+    "total_output_tokens": 283,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.7948835326877,
+    "time_to_first_token_seconds": 2.121
+  }
+}

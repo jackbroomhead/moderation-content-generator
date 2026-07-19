@@ -1,0 +1,10 @@
+VALIDATION ERRORS
+posts.0.day: '13' is not of type 'integer'
+day must be 13.
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

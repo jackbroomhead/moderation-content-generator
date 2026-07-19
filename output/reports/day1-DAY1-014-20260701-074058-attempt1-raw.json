@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-5e183xanbzqxmvudrzclml",
+  "object": "chat.completion",
+  "created": 1782888187,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-014\",\n      \"author\": \"MountainHiker_88\",\n      \"text\": \"Just finished a 5-mile hike at the state park today. The views from the summit were absolutely breathtaking, especially with the morning mist.\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The content is a harmless personal update about a hobby and does not violate any platform policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Input constraints:\n        *   Return only JSON.\n        *   No story content/recurring characters.\n        *   No child-safety/deferred topics.\n        *   No real people/orgs/data.\n        *   Follow specific rules for `Approve`, `Remove`, `Escalate`.\n        *   `id`: DAY1-014.\n        *   `day`: 1.\n        *   `correctAction`: Approve.\n        *   `difficulty`: Easy or Medium.\n        *   `category`: One of the allowed types (Normal, Lifestyle, Public Information, News / Public Event, Spam, Fraud, Harassment, Privacy, Threat, Misinformation).\n        *   `explanation`: State the policy reason.\n        *   `correctEscalationReason`: \"\" (for Approve).\n        *   `acceptableEscalationReasons`: [] (for Approve).\n        *   `allowNeedsReviewEscalation`: false (for Approve).\n    *   Output format: One item in a `posts` array.\n\n    *   Action: Approve.\n    *   Category: Lifestyle.\n    *   Content: Something harmless like a hobby, food, or a general positive statement.\n    *   Example: \"I just tried that new pasta recipe from the local cafe and it was amazing! Definitely making it for dinner again this weekend.\"\n\n    *   `id`: \"DAY1-014\"\n    *   `author`: \"BakerBee99\"\n    *   `text`: \"Just finished baking my first batch of sourdough bread. It took forever to get the starter right, but the crust is perfect!\"\n    *   `category`: \"Lifestyle\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The post is a harmless personal update about a hobby and does not violate any platform policies.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   Filler content? Yes.\n    *   No story content? Yes.\n    *   No child-safety? Yes.\n    *   No real people/orgs? Yes.\n    *   Explanation states policy reason? Yes.\n    *   Exactly one post? Yes.\n    *   Correct fields? Yes.\n    *   JSON format? Yes.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 739,
+    "total_tokens": 2126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 567
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

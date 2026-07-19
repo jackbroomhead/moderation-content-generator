@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-051\",\"author\":\"MoorvaleObserver\",\"text\":\"This user has been contacting me repeatedly after I blocked them. Yesterday they posted a screenshot of my DMs claiming I 'owe' them something, and today they started posting in the comments section of unrelated users using phrases like 'you're hiding something' while tagging me. It's becoming very aggressive and feels coordinated.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"Sustained stalking and repeated unwanted contact after blocking requires specialist investigation to assess the severity and potential for escalation.\",\"day\":10,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":905,\"followerCount\":14780,\"followingCount\":720,\"verifiedStatus\":false,\"postCount\":3650,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 3679,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.5214961112608,
+    "time_to_first_token_seconds": 1.672
+  }
+}

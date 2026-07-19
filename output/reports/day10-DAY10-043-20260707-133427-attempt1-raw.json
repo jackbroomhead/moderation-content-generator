@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-043\",\"author\":\"MoorvaleMapper29\",\"text\":\"Just updated my location to meet the group at the central Moorvale fountain today. It's a lovely spot for a casual chat before heading home! #localupdates\",\"category\":\"Privacy\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The user voluntarily shares a public meeting point and non-sensitive detail without revealing private information or routines.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1384,\"followerCount\":15300,\"followingCount\":318,\"verifiedStatus\":false,\"postCount\":2712,\"bio\":\"Local updates and personal posts.\",\"previousFlags\":1,\"location\":\"Moorvale\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3715,
+    "total_output_tokens": 203,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.18563196357617,
+    "time_to_first_token_seconds": 1.678
+  }
+}

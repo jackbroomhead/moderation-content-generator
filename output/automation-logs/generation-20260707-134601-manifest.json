@@ -1,0 +1,18 @@
+﻿{
+    "status":  "completed",
+    "finishedAt":  "2026-07-07T13:48:48",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "v4-production-day10",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day10-pilot-20260707-134827.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260707-134827-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260707-134602-semantic-failed.txt",
+                        "error":  null
+                    }
+                ]
+}

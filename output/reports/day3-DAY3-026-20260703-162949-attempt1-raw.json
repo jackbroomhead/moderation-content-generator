@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-026\",\"author\":\"ConcernedNeighbour_84\",\"text\":\"Has anyone seen this flyer posted on the gates? It's for a 'wellness retreat' at 42 Willow Creek Drive in Ashworth. The note mentions private consultations with Dr Evans for 'hormone balancing' and includes an internal phone number for emergencies. I'm worried someone could be using that address without consent.\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post exposes a private residential address and sensitive medical information, which violates privacy policies.\",\"day\":3,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4642,
+    "total_output_tokens": 164,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.23603784554645,
+    "time_to_first_token_seconds": 0.52
+  }
+}

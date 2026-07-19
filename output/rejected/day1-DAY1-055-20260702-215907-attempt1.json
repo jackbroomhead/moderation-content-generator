@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-055",
+      "author": "ShadowWalker92",
+      "text": "@FragileFlower has been following me for days now. Yesterday they showed up at my apartment door without knocking and screamed insults in the hallway. Today they posted a screenshot of my private messages to a group chat, tagging me as 'crazy' and demanding I delete my account or they'll expose more of my history. They keep DMing me threats about ruining my reputation online.",
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This case involves sustained stalking and repeated unwanted contact rather than a one-off insult. The target is being subjected to coordinated brigading and harassment that escalates beyond normal disagreement, requiring specialist review to assess the severity of the threats and privacy violations.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

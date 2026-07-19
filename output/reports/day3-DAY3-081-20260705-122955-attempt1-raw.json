@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-081\",\"author\":\"JulesFixes\",\"text\":\"Finally managed to get that old workbench back together! Sanded down the scratches, applied a fresh coat of varnish, and it looks like new again. There's something so satisfying about restoring things you've had for years instead of just buying new stuff. #woodworking #restoration\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about repairing an item, with no policy violations present.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4328,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.81058261806346,
+    "time_to_first_token_seconds": 2.144,
+    "model_load_time_seconds": 4.11
+  }
+}

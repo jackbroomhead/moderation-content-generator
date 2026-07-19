@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-078",
+      "author": "ConcernedCitizen_84",
+      "text": "URGENT WARNING: Just received a text claiming that the entire north side of Manchester is being evacuated due to a 'toxic gas leak' from the chemical plant. They say we have 20 minutes to leave before the authorities arrive. The message includes a photo of a smoke plume which looks like it's coming from the factory area. Please share this before it spreads further so everyone can stay safe! #Emergency #Manchester",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post shares an unverified emergency claim that could cause public panic or unsafe movement, requiring specialist verification before removal.",
+      "day": 3,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "tags": [],
+      "profileImage": "",
+      "postImage": "",
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

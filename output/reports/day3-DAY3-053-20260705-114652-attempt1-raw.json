@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-053\",\n      \"author\": \"concerned_mum_uk\",\n      \"text\": \"BREAKING: Police are currently clearing High Street in Newcastle City Centre due to an unconfirmed gas leak. They say the whole area is evacuated and people should not enter until further notice. Please share this now before it's too late! #SafetyFirst #NewcastleNews #Evacuation\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes an unverified emergency claim that could cause public panic or unsafe movement, requiring specialist verification of the alleged gas leak.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4729,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.01668513794576,
+    "time_to_first_token_seconds": 0.545
+  }
+}

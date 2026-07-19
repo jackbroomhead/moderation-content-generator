@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-131\",\"author\":\"MarketWatchUK\",\"text\":\"Just got an email from 'TicketMaster Support' claiming my booking for the upcoming gig was cancelled due to a system error. They've sent me a link to 'reschedule' via a strange website and ask for my card details to confirm the new date. Is this legit or should I be worried? 🎟️🔒 #GigAlert\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post describes a plausible phishing attempt involving impersonation of a ticket seller and a request for payment details, requiring specialist investigation to verify the sender's authenticity.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4678,
+    "total_output_tokens": 178,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.89736079177611,
+    "time_to_first_token_seconds": 0.53
+  }
+}

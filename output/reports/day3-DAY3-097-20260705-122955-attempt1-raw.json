@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-097\",\n      \"author\": \"Mia_The_Rainbow_Lover\",\n      \"text\": \"I honestly don't know what to do anymore. @Jaxx42 has been messaging me every single day for three weeks straight, ignoring my blocks and asking why I'm 'being so difficult'. He sent a direct message just now saying he knows where I live because he's seen my posts from the city centre. It feels like he's following me everywhere I go. Please tell me there is something I can do to stop this.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post describes repeated unwanted contact and stalking behaviour that persists despite the user's attempts to block the sender, requiring specialist investigation into the pattern of harassment.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"HarassmentAbuse\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4737,
+    "total_output_tokens": 271,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.87089900985372,
+    "time_to_first_token_seconds": 0.504
+  }
+}

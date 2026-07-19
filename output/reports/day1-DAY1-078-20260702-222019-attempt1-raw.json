@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-078\",\"author\":\"JulesMorgan23\",\"text\":\"I'm genuinely worried about the group chat from last night where someone mentioned planning to smash the front window of St Jude's Community Centre tomorrow at 5pm. They said they'd bring a heavy hammer and it would be a statement against how we treat elderly people there. It feels like a serious threat that needs looking into before anything happens.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"This post contains a specific credible threat of violence targeting a location with plausible details, requiring specialist investigation to assess risk and intent.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2909,
+    "total_output_tokens": 170,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.46122224268971,
+    "time_to_first_token_seconds": 0.418
+  }
+}

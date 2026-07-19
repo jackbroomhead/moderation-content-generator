@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-049\",\"author\":\"BellmereRunner23\",\"text\":\"If you're feeling brave, try this! Go stand on the edge of the cliff overlooking Bellmere and jump into the water to test your limits. It's a real challenge and the view is amazing from up there! #adventure #challenge\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post encourages dangerous physical harm without an imminent specific target, warranting removal under Threat policies.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":129,\"followerCount\":746,\"followingCount\":926,\"verifiedStatus\":false,\"postCount\":1506,\"bio\":\"Breaking posts and challenge clips.\",\"previousFlags\":6,\"location\":\"Bellmere\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3666,
+    "total_output_tokens": 215,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.98566038353563,
+    "time_to_first_token_seconds": 1.706
+  }
+}

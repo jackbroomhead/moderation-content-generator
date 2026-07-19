@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-055\",\"author\":\"LocalUpdates_Westbridge_1984\",\"text\":\"Neighbourhood mutual aid update: Just wanted to share that our local support group is organising a fundraiser for the community garden. We're meeting at the flat on Elmwood Avenue, Westbridge (Unit 4, near the old post office), starting tomorrow at 6pm. Please come along if you can help! #CommunityGarden\",\"category\":\"Privacy\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post exposes sensitive private location details including a specific street address and unit number.\",\"day\":6,\"correctEscalationReason\":\"PrivacySensitiveInfo\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1600,\"followerCount\":9100,\"followingCount\":420,\"verifiedStatus\":true,\"postCount\":2900,\"bio\":\"Neighbourhood mutual aid and local updates.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5121,
+    "total_output_tokens": 244,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.764970760716034,
+    "time_to_first_token_seconds": 22.894
+  }
+}

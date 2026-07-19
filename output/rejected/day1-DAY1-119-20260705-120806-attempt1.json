@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-119",
+      "author": "SarahJ_Leeds",
+      "text": "Just saw the forecast for a heavy rain warning later today, so I've moved my washing to the line before things get wet! Hope everyone stays safe and dry out there. ☔️ #WeatherUpdate",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a benign community notice sharing weather information without promoting harm or violating policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-116\",\"author\":\"TechWatchdog_84\",\"text\":\"It's absolutely outrageous that big tech firms are allowed to dictate what we can and cannot say on their platforms without any oversight whatsoever. They claim it's for 'safety', but in reality they're just silencing dissent and censoring voices that don't align with their corporate agendas. It's time the government stepped in and cracked down on this digital tyranny before it gets out of hand.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a lawful opinion expressing criticism of technology companies; no threats, abuse or harmful misinformation are present.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false,\"tags\":[]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4476,
+    "total_output_tokens": 178,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.22828113199368,
+    "time_to_first_token_seconds": 0.383
+  }
+}

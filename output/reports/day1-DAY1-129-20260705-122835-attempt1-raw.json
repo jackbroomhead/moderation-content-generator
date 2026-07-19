@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-129\",\n      \"author\": \"LilyJ_84\",\n      \"text\": \"I've just been told by my GP that I can't have surgery anymore because of my heart condition. The only way I feel like anything might work is to end it all before it gets any worse. Please don't tell anyone, but I'm so tired.\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post indicates a personal crisis with potential immediate self-harm risk and requires specialist investigation to ensure safety.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"SelfHarm\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4671,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.97723469521345,
+    "time_to_first_token_seconds": 0.503
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-122",
+      "author": "TechSupportPro_UK",
+      "text": "⚠️ URGENT SECURITY ALERT! Your account has been compromised and we need to verify your identity immediately. Please click [link removed] instantly to reset your password and prevent total loss of funds. Do not wait! #SecurityAlert #Urgent",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This is a clear phishing attempt requesting sensitive credentials under false pretenses.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

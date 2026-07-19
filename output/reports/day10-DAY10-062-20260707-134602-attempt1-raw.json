@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-062\",\n      \"author\": \"BakerBoyTom\",\n      \"text\": \"Raining cats and dogs outside, but I'm happy to be inside with my rescue dog, Barnaby. He's been a bit grumpy about the weather today, refusing to come out for his walk! Just bought him some extra treats as a reward. 🌧️🐾 #doglife #rainyday\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is harmless, light-hearted content about everyday pet care and weather.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 802,\n      \"followerCount\": 7800,\n      \"followingCount\": 204,\n      \"verifiedStatus\": false,\n      \"postCount\": 1446,\n      \"bio\": \"Everyday thoughts, hobbies and local life.\",\n      \"previousFlags\": 0,\n      \"location\": \"Dunmere\",\n      \"platform\": \"MarketBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3623,
+    "total_output_tokens": 332,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.22451669470261,
+    "time_to_first_token_seconds": 1.688
+  }
+}

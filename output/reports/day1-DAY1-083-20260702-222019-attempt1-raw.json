@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-083\",\"author\":\"ConcernedCitizen_74\",\"text\":\"I've seen reports about the new 'SafeZone' app that's supposed to help people navigate the city during emergencies, but I'm worried it might be spreading false information. Someone in my local community group posted a screenshot claiming the government is planning to shut down all public transport tomorrow unless you install this specific software. They said it's a mandatory safety protocol and linked to a website with details about how to download it immediately. This could cause real panic if it's not true, but I don't have enough proof to say for sure what's happening.\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This complex unverified claim regarding public transport and software installation requires specialist investigation due to potential substantial harm and insufficient evidence for immediate removal.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2976,
+    "total_output_tokens": 215,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.50074793422789,
+    "time_to_first_token_seconds": 0.464
+  }
+}

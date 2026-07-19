@@ -1,0 +1,294 @@
+{
+  "name": "basic-triage-production-v4",
+  "version": 4,
+  "day": 1,
+  "description": "Broad Days 1-2 feed with generic escalation and majority Approve.",
+  "batchBalance": {
+    "Approve": 14,
+    "Remove": 6,
+    "Escalate": 5
+  },
+  "topicCaps": {
+    "Misinformation": 4,
+    "HealthMedical": 1,
+    "CancerRolling75": 1
+  },
+  "platformMaxPer25": 3,
+  "slots": [
+    {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A harmless personal update about a hobby, craft, cooking experiment, home project, book, fictional game or creative achievement. Do not use a real place, brand or platform name.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A natural opinion or everyday complaint. It may criticise government, corporations, moderation or AI, but contains no threat, targeted abuse or harmful false claim.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A benign notice about a fictional library, transport route, community service, opening time or local maintenance in an approved fictional town.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "scenarioBrief": "An obvious credential-harvesting or payment phishing attempt. The author directly asks for a password, security code or payment through [link removed].",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "A plausible account takeover, marketplace scam or social-engineering attempt where visible evidence is suspicious but specialist verification is required.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A harmless announcement for a fictional market, concert, exhibition, sports club, garden show or community festival.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A light-hearted post about a pet, neighbour, weather, commute or small everyday mishap. Keep it ordinary and non-viral.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A food, music, film, reading, repair, collecting or decorating post using fictional or generic names rather than real brands.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A work, relationship or family anecdote with mild frustration or humour but no abuse, private information or safety concern.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Harassment",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A user calmly reports or criticises rude behaviour without attacking the other person, directing a pile-on or revealing private information.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Fraud",
+      "correctAction": "Approve",
+      "difficulty": "Hard",
+      "scenarioBrief": "A legitimate fundraiser, marketplace listing or account-security warning whose visible post and account context support approval.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Misinformation",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A clear correction, warning or debunk of a non-medical harmful rumour. The author plainly rejects the false claim.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Privacy",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A person voluntarily shares a broad, non-sensitive detail or public meeting point. Do not include a home address, precise routine or third-party private information.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "An ordinary social post about a fictional local club, creative challenge, personal achievement or amusing observation.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Spam",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "scenarioBrief": "Obvious repetitive bulk promotion with excessive urgency and little genuine context. Use [link removed] only if needed.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "scenarioBrief": "A direct targeted insult or one-off abusive attack against a natural fictional handle. Do not turn the victim reporting abuse into the violator.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Misinformation",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "scenarioBrief": "A clear harmful civic, financial or public-safety falsehood asserted as fact. It must be the author promoting the falsehood, not debunking it.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Self-Harm",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "scenarioBrief": "Non-graphic promotion or glorification of dangerous self-harm or eating-disorder behaviour, without an imminent personal crisis.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Threat",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "scenarioBrief": "A dangerous challenge or general encouragement of serious physical harm without a specific imminent target that needs emergency investigation.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Threat",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "A credible specific threat or planned confrontation involving an approved fictional place, target or time. Keep it non-graphic.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "Sustained stalking, repeated unwanted contact or coordinated brigading with visible evidence that specialist investigation is needed.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "A sensitive, non-graphic personal crisis post indicating possible immediate self-harm or suicide risk and requiring urgent specialist assessment.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Privacy",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "Non-consensual exposure of another person’s precise private address, medical information, identity document or routine using unusable fictional details.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A harmless update about a fictional sports result, cultural event, volunteering day or neighbourhood project.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A distinct ordinary post about fashion, art, collections, travel within the fictional setting, gardening or learning a skill. Avoid repeating earlier batch concepts.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    }
+  ]
+}

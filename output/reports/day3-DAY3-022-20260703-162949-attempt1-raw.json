@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-022\",\"author\":\"ElaraJ_84\",\"text\":\"Still getting these weird DMs from 'Sarah' about our time in university. It's been three months since I blocked her and she keeps finding a way to contact me through different accounts. Yesterday she sent the same photo of us at the pub with a caption saying she misses me. I've reported it but I don't know what else to do.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This case requires specialist investigation due to evidence of persistent, unwanted contact across multiple accounts after a block request, which meets the criteria for escalation under HarassmentAbuse.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4660,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.17700343750349,
+    "time_to_first_token_seconds": 0.446
+  }
+}

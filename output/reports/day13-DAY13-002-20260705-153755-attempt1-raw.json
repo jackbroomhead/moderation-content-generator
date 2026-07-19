@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-002\",\"author\":\"Sarah_Jenkins_UK\",\"text\":\"I've been seeing this ridiculous claim circulating again that 'LumaWell' has developed a miracle cure for breast cancer using just lemon juice and salt water enemas. It's absolutely dangerous nonsense. I'm writing to correct the record: there is NO scientific evidence for this, and the only proven treatments are chemotherapy and radiotherapy. Please do not follow anyone telling you to stop your treatment for this. #BreastCancerSupport\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post is approved because the author explicitly corrects a harmful misinformation claim rather than promoting it.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2400,\"followerCount\":75000,\"followingCount\":410,\"verifiedStatus\":true,\"postCount\":6300,\"bio\":\"Verification, corrections and public-interest reporting.\",\"previousFlags\":0,\"location\":\"London\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4593,
+    "total_output_tokens": 257,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 74.47272154040884,
+    "time_to_first_token_seconds": 2.342
+  }
+}

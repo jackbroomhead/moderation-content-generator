@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-024\",\"author\":\"AccountAudit_81\",\"text\":\"I see this is your new page for truth and accountability. You've been posting about the same few topics repeatedly since you joined. It's very strange to have so many similar accounts appearing all at once.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This case requires specialist investigation due to evidence of coordinated activity across multiple recently created accounts.\",\"day\":6,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":4,\"followerCount\":12,\"followingCount\":410,\"verifiedStatus\":false,\"postCount\":48,\"bio\":\"Independent truth and accountability.\",\"previousFlags\":2,\"location\":\"Unknown\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4850,
+    "total_output_tokens": 204,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.06461703580993,
+    "time_to_first_token_seconds": 2.159
+  }
+}

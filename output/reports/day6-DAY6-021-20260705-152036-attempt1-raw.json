@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-021\",\"author\":\"NoSleepDave_84\",\"text\":\"The only way to reach peak performance is total denial of your body's needs. I've lost 5 days of sleep and feel more focused than ever! Join the movement for extreme discipline. #PeakPerformance #ExtremeChallenges #Motivation\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes severe sleep deprivation, which constitutes a dangerous challenge and violates safety policies against harmful physical challenges.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":310,\"followerCount\":39000,\"followingCount\":260,\"verifiedStatus\":false,\"postCount\":3300,\"bio\":\"Extreme challenges every week.\",\"previousFlags\":6,\"location\":\"Unknown\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4857,
+    "total_output_tokens": 215,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.80900468968578,
+    "time_to_first_token_seconds": 2.12
+  }
+}

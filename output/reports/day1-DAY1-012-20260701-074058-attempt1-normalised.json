@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-012",
+      "author": "CoffeeLover99",
+      "text": "Does anyone have a good recommendation for a local coffee shop that has good wifi for working?",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The content is a harmless request for a recommendation and does not violate any platform policies.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

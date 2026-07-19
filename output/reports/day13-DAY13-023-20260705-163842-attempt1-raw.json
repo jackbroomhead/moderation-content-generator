@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-023\",\"author\":\"FarmLife_Freedom_84\",\"text\":\"Finally! Our little rescue is getting the care it deserves. 🐾 The vet on @QuickPost says they're ready for the big move today. Can't wait to see them thrive in our new home without any restrictions. #AnimalRescue #ThriveNotSuffer\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post is ambiguous and could be a coded celebration of animal cruelty rather than a genuine welfare warning, requiring specialist review.\",\"day\":\"13\",\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":22,\"followerCount\":180,\"followingCount\":970,\"verifiedStatus\":false,\"postCount\":190,\"bio\":\"Country life without filters.\",\"previousFlags\":3,\"location\":\"North Yorkshire\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5097,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.685870256608919,
+    "time_to_first_token_seconds": 22.698
+  }
+}

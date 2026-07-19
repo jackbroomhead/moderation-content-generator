@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-015\",\"author\":\"CivicLens_42\",\"text\":\"Breaking: Just received a clip from @MayorArcher showing the new city budget allocation. The audio seems slightly off, but the face matches perfectly. Is this the real speech or deepfake? #CivicDuty #BudgetWatch\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist review to determine if the content is synthetic media posing as a public figure for civic misinformation purposes.\",\"day\":\"13\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[\"CivicElection\"],\"accountAgeDays\":1700,\"followerCount\":410000,\"followingCount\":650,\"verifiedStatus\":true,\"postCount\":8200,\"bio\":\"Civic video analysis and breaking public-interest clips.\",\"previousFlags\":1,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5125,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.604016860208771,
+    "time_to_first_token_seconds": 22.371
+  }
+}

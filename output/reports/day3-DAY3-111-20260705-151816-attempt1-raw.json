@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-111\",\"author\":\"BikeLover_84\",\"text\":\"Spent a long afternoon stripping down my old mountain bike to give it a proper clean and oil job. The chain feels so much smoother now! Can't wait to get back on the trails this weekend.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a personal update about repairing a bicycle, which is allowed under normal policy guidelines.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4704,
+    "total_output_tokens": 171,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.70726865511956,
+    "time_to_first_token_seconds": 2.02
+  }
+}

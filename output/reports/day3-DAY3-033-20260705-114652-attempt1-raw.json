@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-033\",\n      \"author\": \"SarahJ_Brighton\",\n      \"text\": \"Just a friendly reminder that the Community Garden Centre is reopening its gates this Saturday! We're extending our opening hours to 5pm and the new composting workshop will finally be available for booking online. Bring your gloves and come along! 🌱 #communitygarden #sustainability\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a harmless announcement of community service details and does not violate any policies.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4417,
+    "total_output_tokens": 215,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.26275635585995,
+    "time_to_first_token_seconds": 0.36
+  }
+}

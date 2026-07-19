@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-118\",\"author\":\"GrumpyGadgetGuy_42\",\"text\":\"Honestly, I'm so sick of people saying they need 'more time' to finish their projects! It's absolute rubbish. If you're going to buy a new phone or console, just go ahead and get it now. Stop waiting around for 'the right moment' like that's even possible. #tech #frustration\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses hyperbolic frustration with consumer behaviour but does not contain a credible threat, instruction to harm, or actionable scam.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4551,
+    "total_output_tokens": 170,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.11302336389069,
+    "time_to_first_token_seconds": 0.486
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-042\",\"author\":\"UrbanDrifter_84\",\"text\":\"Anyone tried that 'ice bath challenge' yet? Just got into a massive freezing lake to test my limits and it was absolutely insane! If you can handle the shock, you'll feel like a god. No one gets hurt unless they're weak, so don't let anyone tell you otherwise! #challenge #extremesports\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge with serious injury risk and must be removed to prevent harm.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4710,
+    "total_output_tokens": 161,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.38975916905687,
+    "time_to_first_token_seconds": 0.485
+  }
+}

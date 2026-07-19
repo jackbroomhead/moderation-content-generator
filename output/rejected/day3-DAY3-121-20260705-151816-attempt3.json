@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-121",
+      "author": "JadeVine_84",
+      "text": "The silence in my head is getting so loud tonight. I've tried everything but the darkness just won't let me go. I'm not sure how much longer I can stand it alone.",
+      "category": "Self-Harm",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post indicates a personal crisis with potential self-harm risk, requiring specialist review for appropriate support resources and safety assessment.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "SelfHarm"
+      ],
+      "scenario": "",
+      "notes": "",
+      "isStoryPost": false
+    }
+  ]
+}

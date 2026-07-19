@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-124\",\"author\":\"Jules_Webb\",\"text\":\"Has anyone else tried the new dropshipping deals on this marketplace? I just ordered a designer handbag for my birthday and was asked to pay an extra £45 'processing fee' via crypto. The seller says it's standard now. #Dropship #Deal\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This is suspicious because genuine retailers do not typically request immediate payment for processing fees via cryptocurrency or obscure channels, which indicates a potential scam.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4873,
+    "total_output_tokens": 198,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.28611595299246,
+    "time_to_first_token_seconds": 2.173
+  }
+}

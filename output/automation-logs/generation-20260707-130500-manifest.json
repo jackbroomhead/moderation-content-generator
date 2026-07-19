@@ -1,0 +1,18 @@
+﻿{
+    "status":  "completed",
+    "finishedAt":  "2026-07-07T13:05:46",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "v4-smoke-day10",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day10-pilot-20260707-130530.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260707-130530-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-DAY10-028-20260707-130502-failed.txt",
+                        "error":  null
+                    }
+                ]
+}

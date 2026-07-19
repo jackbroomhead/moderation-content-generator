@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-016\",\"author\":\"ElectionWatcher_24\",\"text\":\"URGENT BREAKING: Just got a leaked screenshot of the new polling regulations from Northbridge officials! This is crucial for tomorrow's direct democracy vote - please read carefully before casting your ballot. The rules have changed significantly regarding voter eligibility. #ElectionAlerts #NorthbridgeVote #CivicDuty\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post claims to be a leaked document with urgent polling rule changes, but the source is unverified and the account has multiple previous flags for similar civic misinformation.\",\"day\":13,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"CivicElection\",\"acceptableSpecialistReasons\":[\"SyntheticManipulatedMedia\"],\"accountAgeDays\":45,\"followerCount\":18000,\"followingCount\":910,\"verifiedStatus\":false,\"postCount\":1600,\"bio\":\"Election alerts and leaked documents.\",\"previousFlags\":3,\"location\":\"Northbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5113,
+    "total_output_tokens": 261,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.6079245278018,
+    "time_to_first_token_seconds": 22.193
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-056\",\n      \"author\": \"woodwork_wally_uk\",\n      \"text\": \"Finally managed to finish sanding and staining the old oak bookshelf I picked up at the market. It's taking ages, but there is something so satisfying about giving a piece of furniture a second life. Just waiting for it to dry before putting the books back in. #woodworking #upcycle\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about repairing and decorating an item, which falls under allowed lifestyle content.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4328,
+    "total_output_tokens": 222,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.55540109827939,
+    "time_to_first_token_seconds": 2.13,
+    "model_load_time_seconds": 3.917
+  }
+}

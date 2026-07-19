@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-041",
+      "author": "GreyfordFundraiser",
+      "text": "Thank you everyone for your kind messages and donations! We've raised over £2,500 so far for the local youth centre in Greyford. The app says we're just one day away from hitting our target to buy new sports equipment. Please keep sharing if you can help spread the word! #community #charity",
+      "category": "Fraud",
+      "correctAction": "Approve",
+      "difficulty": "Hard",
+      "explanation": "This post is a legitimate fundraiser with no suspicious payment requests or impersonation indicators.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1190,
+      "followerCount": 12800,
+      "followingCount": 280,
+      "verifiedStatus": false,
+      "postCount": 2290,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 0,
+      "location": "Greyford",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

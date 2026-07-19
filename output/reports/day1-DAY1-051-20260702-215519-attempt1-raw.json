@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-051\",\"author\":\"GenericSupportTeam\",\"text\":\"Hi everyone, this is the Official Customer Service team. We need you to call us at 555-0199 or reply with your credit card details to verify your account status immediately. Please ignore anyone claiming to be from 'Official Support' unless they have these numbers.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post violates policy because it is a clear deceptive impersonation attempting to harvest sensitive payment and security information. The sender claims to be an official service without providing verifiable contact details, which is characteristic of phishing scams designed to steal funds or credentials.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2009,
+    "total_output_tokens": 179,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.92620367081408,
+    "time_to_first_token_seconds": 0.404
+  }
+}

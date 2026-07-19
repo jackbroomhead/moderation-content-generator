@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-074\",\n      \"author\": \"QuickCashDeals_UK\",\n      \"text\": \"Don't miss out on this limited-time auction! I've secured a rare vintage watch for just £50. Payment must be made via prepaid card within 10 minutes to secure the item, otherwise it goes back to the seller. DM me now before it's gone! #WatchLover\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post requests immediate payment via prepaid card for a high-value item, which is a common tactic used in fraud scams to avoid traceable transactions.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"FraudScam\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4718,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.99704672240159,
+    "time_to_first_token_seconds": 0.572
+  }
+}

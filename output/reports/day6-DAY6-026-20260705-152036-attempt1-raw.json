@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-026\",\"author\":\"NearOakhaven_24\",\"text\":\"Just saw this on the local group page: 'I'm going to burn down the Oakhaven Community Centre tonight if anyone tries to stop me.' Someone has a weapon and they mean serious harm. #Threats\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a credible threat of violence against a specific location, requiring specialist investigation.\",\"day\":6,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2,\"followerCount\":3,\"followingCount\":0,\"verifiedStatus\":false,\"postCount\":4,\"bio\":\"\",\"previousFlags\":1,\"location\":\"Near Oakhaven\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4835,
+    "total_output_tokens": 200,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.9474892624475,
+    "time_to_first_token_seconds": 2.076
+  }
+}

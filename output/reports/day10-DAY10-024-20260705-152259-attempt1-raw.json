@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-024\",\"author\":\"LeedsWatch_84\",\"text\":\"Has anyone seen this clip circulating? It shows footage from St Jude's General allegedly covering up an emergency procedure last night. The audio is a bit garbled but they claim the hospital 'hid' it to protect their reputation. There's a link to the full video on their page. #LeedsNews #HospitalScandal\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist verification as a manipulated-looking clip alleging an emergency concealment.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1031,\"followerCount\":17690,\"followingCount\":511,\"verifiedStatus\":false,\"postCount\":2493,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4923,
+    "total_output_tokens": 246,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.97550746519039,
+    "time_to_first_token_seconds": 2.037
+  }
+}

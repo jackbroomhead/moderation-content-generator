@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-024\",\n      \"author\": \"LeedsWatcher_83\",\n      \"text\": \"Just came across this video circulating on TownSquare. It's supposedly footage from St Jude's Emergency Wing showing how they 'covered up' a mass casualty incident last night. The clip is heavily edited with sound effects and text overlays that claim the hospital staff are hiding bodies. I can't verify if this is real or fake but the implications are huge for public trust in our local healthcare system.\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post requires specialist verification because it involves a manipulated-looking clip alleging a fictional hospital concealed an emergency, which falls under MisinformationPublicHarm with a SyntheticManipulatedMedia reason.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"SyntheticManipulatedMedia\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1031,\n      \"followerCount\": 17690,\n      \"followingCount\": 511,\n      \"verifiedStatus\": false,\n      \"postCount\": 2493,\n      \"bio\": \"Fictional public-interest account.\",\n      \"previousFlags\": 2,\n      \"location\": \"Leeds\",\n      \"platform\": \"TownSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4986,
+    "total_output_tokens": 379,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.83403276368827,
+    "time_to_first_token_seconds": 0.298
+  }
+}

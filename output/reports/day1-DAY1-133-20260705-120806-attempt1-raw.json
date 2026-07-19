@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-133\",\n      \"author\": \"ConcernedCitizen_UK\",\n      \"text\": \"Has anyone else seen the official warning from the city council regarding the new 'air quality alert' on their website? It claims that all residents in the North West must evacuate immediately due to a 'toxic gas leak' at the power station. They are saying the air is poisonous within 10 minutes and we have until midnight to leave or our families will die. Please share this before it's too late! #SafetyFirst #EmergencyAlert\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes a complex, unverified public-safety claim with potentially substantial harm and insufficient evidence for immediate removal.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4663,
+    "total_output_tokens": 255,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.07907021701847,
+    "time_to_first_token_seconds": 0.533
+  }
+}

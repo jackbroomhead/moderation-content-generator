@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-002\",\"author\":\"ElenaRossJournalist\",\"text\":\"I need to address a viral claim circulating right now: 'Drinking bleach is an effective cure for cancer.' This is absolutely false and dangerous. I am reporting this misinformation, but please do not attempt this under any circumstances.\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The author explicitly corrects the harmful claim rather than promoting it, so the post is approved as a warning against the falsehood.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2400,\"followerCount\":75000,\"followingCount\":410,\"verifiedStatus\":true,\"postCount\":6300,\"bio\":\"Verification, corrections and public-interest reporting.\",\"previousFlags\":0,\"location\":\"London\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4785,
+    "total_output_tokens": 221,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.708082782798648,
+    "time_to_first_token_seconds": 20.67
+  }
+}

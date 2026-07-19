@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-141\",\"author\":\"SarahJenkins_23\",\"text\":\"Corporate greed is reaching new heights when they decide to replace their entire workforce with robots! It's outrageous that companies like TechGiant Ltd care more about cutting costs than keeping their loyal staff. They're laying off hundreds of people while buying expensive automation systems, all in the name of 'efficiency'. These greedy executives need to be held accountable for destroying livelihoods just to save a few pennies on their bottom line! #LabourRights #CorporateGreed\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses lawful criticism of corporate automation and workforce replacement, which is allowed.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4727,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.93612100555319,
+    "time_to_first_token_seconds": 0.376
+  }
+}

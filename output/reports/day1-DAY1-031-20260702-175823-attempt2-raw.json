@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-031\",\"author\":\"WinningWheels_99\",\"text\":\"🔥 AMAZING DEAL! Get 50% OFF all luxury cars TODAY! Click here now: bit.ly/win-car-now! Limited stock! Don't miss out on this incredible opportunity to drive away in style for pennies on the dollar! Order now before they are gone! 🚗💨\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is removed because it contains obvious spam advertising unrelated to the user's content, with copied promotional text and suspicious links, which violates platform policy against irrelevant promotion.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1486,
+    "total_output_tokens": 167,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.19601277799647,
+    "time_to_first_token_seconds": 0.34
+  }
+}

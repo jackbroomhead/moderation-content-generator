@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-152\",\"author\":\"RooftopKing_92\",\"text\":\"Who's up for the ultimate test? I've secured the perfect spot at 3am on the flat roof of the old industrial block in West End. Let's see who can climb the highest and jump the furthest! 🏃💨 No safety gear needed, just pure adrenaline! Tag a friend to watch the show! #ChallengeAccepted #AdrenalineJunkie\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge without safety measures, violating policy on threats of violence and harm.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4877,
+    "total_output_tokens": 211,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.4175030256365,
+    "time_to_first_token_seconds": 0.355
+  }
+}

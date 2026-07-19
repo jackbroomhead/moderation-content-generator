@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-cv69djs48xos2l83sbb2rm",
+  "object": "chat.completion",
+  "created": 1782888154,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-012\",\n      \"author\": \"CoffeeLover99\",\n      \"text\": \"Does anyone have a good recommendation for a local coffee shop that has good wifi for working?\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The content is a harmless request for a recommendation and does not violate any platform policies.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false\n    }\n  ]\n}",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraint 1: Only JSON output matching the schema.\n    *   Constraint 2: No story content/recurring characters.\n    *   Constraint 3: No child-safety/deferred topics.\n    *   Constraint 4: Use only the 6 approved parent escalation reasons (for `Escalate` actions).\n    *   Constraint 5: `Needs Review` is never the primary JSON escalation reason.\n    *   Constraint 6: Evidence must be self-contained.\n    *   Constraint 7: No real people/orgs/details.\n    *   Constraint 8: Explanations must state the policy reason.\n    *   Constraint 9: Exactly one post in the `posts` array.\n    *   Constraint 10: Specific ID (`DAY1-012`), Day (`1`), Action (`Approve`).\n    *   Constraint 11: Difficulty (`Easy` or `Medium`).\n    *   Constraint 12: Category must be from the list.\n    *   Constraint 13: No nested `metadata` object.\n\n    *   `id`: \"DAY1-012\"\n    *   `author`: Fictional username.\n    *   `text`: Fictional post content.\n    *   `category`: One of the allowed categories.\n    *   `correctAction`: \"Approve\" (as specified).\n    *   `difficulty`: \"Easy\" or \"Medium\".\n    *   `explanation`: Policy reason.\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\" (since action is Approve).\n    *   `acceptableEscalationReasons`: [] (since action is Approve).\n    *   `allowNeedsReviewEscalation`: false (since action is Approve).\n\n    *   Category: `Normal` or `Lifestyle`. Let's go with `Normal`.\n    *   Text: \"Does anyone have a good recommendation for a local coffee shop that has good wifi for working?\"\n    *   Explanation: The post is a harmless request for a recommendation and does not violate any safety or community policies.\n\n    *   `id`: \"DAY1-012\"\n    *   `author`: \"CoffeeLover99\"\n    *   `text`: \"Does anyone have a good recommendation for a local coffee shop that has good wifi for working?\"\n    *   `category`: \"Normal\"\n    *   `correctAction`: \"Approve\"\n    *   `difficulty`: \"Easy\"\n    *   `explanation`: \"The content is a harmless request for a recommendation and does not violate any platform policies.\"\n    *   `day`: 1\n    *   `correctEscalationReason`: \"\"\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n\n    *   Filler content only? Yes.\n    *   No child-safety/deferred? Yes.\n    *   No invented categories? Yes.\n    *   Approved reasons? N/A (Action is Approve).\n    *   No real people/orgs? Yes.\n    *   Explanation states policy reason? Yes.\n    *   One post in array? Yes.\n    *   ID correct? Yes.\n    *   Day correct? Yes.\n    *   Action correct? Yes.\n    *   Difficulty correct? Yes.\n    *   Category correct? Yes.\n    *   No nested metadata? Yes.\n\n    ```json\n    {\n      \"posts\": [\n        {\n          \"id\": \"DAY1-012\",\n          \"author\": \"CoffeeLover99\",\n          \"text\": \"Does anyone have a good recommendation for a local coffee shop that has good wifi for working?\",\n          \"category\": \"Normal\",\n          \"correctAction\": \"Approve\",\n          \"difficulty\": \"Easy\",\n          \"explanation\": \"The post is a harmless request for a recommendation and does not violate any platform policies.\",\n          \"day\": 1,\n          \"correctEscalationReason\": \"\",\n          \"acceptableEscalationReasons\": [],\n          \"allowNeedsReviewEscalation\": false\n        }\n      ]\n    }\n    ```",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 1104,
+    "total_tokens": 2491,
+    "completion_tokens_details": {
+      "reasoning_tokens": 945
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

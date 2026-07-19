@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-047\",\"author\":\"CryptoKing_99\",\"text\":\"URGENT: Your account has been locked due to suspicious activity. Verify your identity immediately by clicking [link removed] to prevent total loss of funds! Don't wait or you'll be permanently blocked.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"The post is a clear phishing attempt designed to steal credentials and financial information through an urgent call to action and a malicious link, which violates policy on fraud and credential theft.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1993,
+    "total_output_tokens": 148,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.98562401168837,
+    "time_to_first_token_seconds": 0.389
+  }
+}

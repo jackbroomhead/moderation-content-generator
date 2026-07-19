@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-121\",\"author\":\"Liam_TheWanderer84\",\"text\":\"I'm struggling so hard right now and feel like there's no point anymore. The silence in my room is getting too loud, I can't take it much longer. Please don't let me go alone.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates a personal crisis with signs of potential self-harm, requiring specialist review to assess immediate risk and support needs.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[\"SelfHarmCrisis\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4985,
+    "total_output_tokens": 197,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.6839007755349,
+    "time_to_first_token_seconds": 0.358
+  }
+}

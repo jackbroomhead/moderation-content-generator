@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-078\",\n      \"author\": \"WorriedCitizen_UK\",\n      \"text\": \"BREAKING: Firefighters have been deployed to the Royal Oak Shopping Centre after a massive gas leak is confirmed. Authorities are urging everyone in the city centre to evacuate immediately and not return until further notice. Stay safe! #SafetyFirst #LeedsAlert #BreakingNews\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post spreads an unverified emergency claim about a gas leak and evacuation order, which could cause public panic or unsafe movement despite lacking sufficient evidence for immediate removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4735,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.03986718618268,
+    "time_to_first_token_seconds": 0.414
+  }
+}

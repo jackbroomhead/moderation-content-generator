@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-022\",\"author\":\"Kaitlin_Vane_84\",\"text\":\"Has anyone else seen these weird posts about my routine? They keep listing when I clock in at 7am and mention my shift supervisor's name. It feels like someone is trying to expose me. Please check if this is a coordinated attack.\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post shows signs of brigading by publishing private work details, which requires specialist review to confirm harassment intent and scope.\",\"day\":\"13\",\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":40,\"followerCount\":7600,\"followingCount\":3200,\"verifiedStatus\":false,\"postCount\":2100,\"bio\":\"Accountability network.\",\"previousFlags\":7,\"location\":\"Unknown\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5098,
+    "total_output_tokens": 232,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.794039372967024,
+    "time_to_first_token_seconds": 22.753
+  }
+}

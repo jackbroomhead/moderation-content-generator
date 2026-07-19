@@ -1,0 +1,20 @@
+﻿{
+    "status":  "completed",
+    "finishedAt":  "2026-07-05T12:10:59",
+    "results":  [
+                    {
+                        "profile":  "basic-triage",
+                        "batch":  1,
+                        "success":  true,
+                        "candidate":  null,
+                        "validation":  null
+                    },
+                    {
+                        "profile":  "escalation-reasons",
+                        "batch":  1,
+                        "success":  true,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day3-pilot-20260705-120924.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260705-120924-validation.txt"
+                    }
+                ]
+}

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "day": 1,
+      "text": "Finally started my herb garden today! It's a bit of a mess right now, but I'm excited to see the basil grow.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenario": "",
+      "notes": "The post is a harmless personal update about a hobby and contains no policy violations.",
+      "bio": "",
+      "previousFlags": [],
+      "location": "",
+      "platform": "",
+      "tags": [
+        "gardening",
+        "hobby"
+      ],
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "profileImage": "",
+      "postImage": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": ""
+    }
+  ]
+}

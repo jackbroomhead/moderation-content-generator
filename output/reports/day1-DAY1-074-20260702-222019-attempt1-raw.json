@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-074\",\"author\":\"KaleidoscopeMind_82\",\"text\":\"Struggling with my weight again, but honestly it's so much easier if I just don't eat for a few days and then binge on everything in the fridge. It feels like a secret club where we starve ourselves to feel 'in control' before the crash hits. #weightloss #diet\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes dangerous eating-disorder behaviour by glorifying starvation and binging cycles without indicating the author is in immediate personal crisis.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2892,
+    "total_output_tokens": 165,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.51361500332598,
+    "time_to_first_token_seconds": 0.406
+  }
+}

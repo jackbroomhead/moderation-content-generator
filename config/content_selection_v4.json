@@ -1,0 +1,34 @@
+{
+  "version": 4,
+  "actionTargetsPer25": {
+    "Approve": 14,
+    "Remove": 6,
+    "Escalate": 5
+  },
+  "categoryCapsPer25": {
+    "Misinformation": 4
+  },
+  "topicCapsPer25": {
+    "HealthMedical": 1
+  },
+  "rollingCaps": {
+    "Cancer": {
+      "max": 1,
+      "window": 75
+    }
+  },
+  "platformMaxPer25": 3,
+  "eligibilityRules": [
+    "post.day <= currentDay",
+    "the action/reason mechanics required by the post are unlocked",
+    "the post has not already appeared in the current playthrough",
+    "the player accessibility settings do not block its sensitivity tags"
+  ],
+  "selectionOrder": [
+    "reserve slots using the action targets",
+    "apply category, topic, sensitivity and platform caps",
+    "select weighted-random eligible posts",
+    "fall back to another eligible action bucket only when a target bucket is empty"
+  ],
+  "storyPosts": "Authored story posts remain fixed and are not drawn from this filler pool."
+}

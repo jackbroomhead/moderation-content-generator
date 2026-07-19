@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-045\",\"author\":\"SadSoul_84\",\"text\":\"I can't do this anymore. Everyone expects me to be okay, but I'm not. My head is so loud and heavy. If I don't hear from you by tomorrow morning, please know that things have changed. Just wanted to say goodbye in case I disappear. 🖤 #gone\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post indicates an immediate self-harm crisis through explicit goodbye language and a statement suggesting the author may be disappearing.\",\"day\":3,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4735,
+    "total_output_tokens": 169,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.73457792207792,
+    "time_to_first_token_seconds": 0.49
+  }
+}

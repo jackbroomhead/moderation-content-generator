@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-008\",\"author\":\"LeedsWatcher92\",\"text\":\"BREAKING: Official evacuation order for all of Leeds residents! Please head straight to the temporary assembly point at the old industrial estate on Factory Road immediately. Do not use the main highway, it's blocked. Stay safe and follow this route.\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains clear misinformation about a public safety emergency by inventing an evacuation order and directing people to an unsafe location.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":439,\"followerCount\":6010,\"followingCount\":239,\"verifiedStatus\":false,\"postCount\":1037,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":1,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5068,
+    "total_output_tokens": 220,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.779983707436234,
+    "time_to_first_token_seconds": 22.632
+  }
+}

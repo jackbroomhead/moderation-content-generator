@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-127\",\"author\":\"RiskyRiley_24\",\"text\":\"Just found out about this insane new stunt called 'The Gravity Drop'! 🚀 You can jump off a high platform and land on a trampoline to win £5000 cash prize! It's totally safe, don't let the haters tell you otherwise. Tag someone who needs to try this before it goes viral! #StuntMan #Challenge\",\"category\":\"Threat\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post promotes a dangerous physical challenge involving jumping from height, which carries an explicit risk of serious injury or death.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4632,
+    "total_output_tokens": 174,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.65307111747859,
+    "time_to_first_token_seconds": 0.461
+  }
+}

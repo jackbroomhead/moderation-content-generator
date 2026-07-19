@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-050\",\"author\":\"LunaSketchesNottingham\",\"text\":\"I honestly can't take it anymore. I blocked @ShadowUser1984 three months ago because they kept DMing me about my art even after I said no. Then they started following accounts I follow, and now they've been posting comments on my city walk photos saying things like 'where are you walking today?' despite the block. It feels like stalking and it's really affecting my mental health. #Harassment\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This case requires escalation due to repeated unwanted contact, blocking violations, and stalking behaviour persisting over several months.\",\"day\":6,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1750,\"followerCount\":4200,\"followingCount\":680,\"verifiedStatus\":false,\"postCount\":3600,\"bio\":\"Illustration, city walks and everyday life.\",\"previousFlags\":0,\"location\":\"Nottingham\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 5072,
+    "total_output_tokens": 268,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.126366013521938,
+    "time_to_first_token_seconds": 24.096
+  }
+}

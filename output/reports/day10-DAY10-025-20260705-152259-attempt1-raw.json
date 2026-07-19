@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-025\",\"author\":\"WestbridgeWatch_41\",\"text\":\"Has anyone seen this new video? It's supposed to be live footage from Westbridge Hospital showing the aftermath of the fire last night. The audio is really muffled and some of the captions look a bit odd compared to what I've read in other reports. Could it be an edit?\", \"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist verification as a potentially synthetic manipulated media claim due to uncertain provenance and altered presentation.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1068,\"followerCount\":18420,\"followingCount\":528,\"verifiedStatus\":false,\"postCount\":2584,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4923,
+    "total_output_tokens": 244,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.167715570259,
+    "time_to_first_token_seconds": 2.029
+  }
+}

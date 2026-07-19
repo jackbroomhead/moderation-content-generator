@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-071\",\n      \"author\": \"elara_vibes_uk\",\n      \"text\": \"Honestly, I've had enough of this noise and the expectations placed on me. I feel like everyone expects me to be perfect all the time, but I'm just so exhausted inside. Sometimes I wish I could just disappear forever so the pain stops.\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post expresses exhaustion and a desire to 'disappear', indicating plausible self-harm risk that requires specialist judgement rather than simple removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"SelfHarmCrisis\",\n      \"acceptableEscalationReasons\": [\n        \"SelfHarmCrisis\"\n      ],\n      \"allowNeedsReviewEscalation\": true,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"SelfHarm\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4747,
+    "total_output_tokens": 250,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.00428980840846,
+    "time_to_first_token_seconds": 0.512
+  }
+}

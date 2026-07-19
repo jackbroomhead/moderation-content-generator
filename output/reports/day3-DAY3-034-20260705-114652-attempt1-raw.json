@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-034\",\"author\":\"SarahJ_WellnessAdvocate\",\"text\":\"Please stop sharing posts like this! @PureBalanceMethod is telling people to ditch their chemo and radiotherapy for a 7-day lemon juice detox. This isn't natural living, it's dangerous nonsense that could kill someone. If you or a loved one has cancer, please stick with your oncology team and don't trust influencers selling fake cures. #Cancer\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes medical misinformation by asserting an unproven treatment can replace established therapy.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4476,
+    "total_output_tokens": 170,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.18683582269644,
+    "time_to_first_token_seconds": 0.373
+  }
+}

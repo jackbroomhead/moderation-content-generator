@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-010\",\"author\":\"ShadowWatcher74\",\"text\":\"@PublicSquareUser89 and @SilentSpectre are coordinating their attacks on me again. It's obvious they're working together to drive me out of the town. They keep messaging each other about meeting at the old clock tower to 'discuss' how to handle me properly. I've blocked them both but they just started new threads calling for others to join in. #Stalked\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This shows a coordinated pattern of harassment with specific references to meeting the target, requiring specialist investigation into the group's intent and safety risks.\",\"day\":13,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[\"ThreatViolence\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":70,\"followerCount\":95,\"followingCount\":1600,\"verifiedStatus\":false,\"postCount\":780,\"bio\":\"Watching what this town hides.\",\"previousFlags\":6,\"location\":\"Unknown\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5105,
+    "total_output_tokens": 264,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.233215387167434,
+    "time_to_first_token_seconds": 22.315
+  }
+}

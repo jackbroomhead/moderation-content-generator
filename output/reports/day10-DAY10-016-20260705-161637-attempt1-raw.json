@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-016\",\"author\":\"CivicWatch_Leeds\",\"text\":\"URGENT: I've found a document circulating online claiming voting age has been lowered to 14 for all elections starting next month! It says the requirement changes are official. Please share before people believe this is true. #VotingMatters\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post cites an unofficial document changing fictional voting requirements and requires specialist verification to determine if it constitutes civic election misinformation.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"CivicElection\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":735,\"followerCount\":11850,\"followingCount\":375,\"verifiedStatus\":true,\"postCount\":1765,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5119,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.686382038623874,
+    "time_to_first_token_seconds": 22.417
+  }
+}

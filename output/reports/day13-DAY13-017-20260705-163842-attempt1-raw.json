@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-017\",\"author\":\"WellnessWithSarah84\",\"text\":\"BREAKING NEWS: A new 'detox' protocol using a specific enzyme blend can reverse cancer in just 3 weeks! The research team claims it's safer than chemo and works for all types. My friend at the clinic says they've seen incredible results with Stage 3 patients already. Link to the study below! #HealthNews #CancerWarrior\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post promotes a harmful medical falsehood claiming a specific unproven treatment can cure cancer, which requires specialist verification.\",\"day\":13,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"HealthMedical\",\"acceptableSpecialistReasons\":[\"SyntheticManipulatedMedia\"],\"accountAgeDays\":1100,\"followerCount\":230000,\"followingCount\":270,\"verifiedStatus\":true,\"postCount\":5900,\"bio\":\"Health news, research commentary and patient stories.\",\"previousFlags\":2,\"location\":\"Brighton\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5110,
+    "total_output_tokens": 267,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.616521919403029,
+    "time_to_first_token_seconds": 22.34
+  }
+}

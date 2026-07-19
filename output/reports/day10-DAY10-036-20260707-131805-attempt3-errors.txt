@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Too many usernames in the batch use numeric suffixes.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 904 (char 903)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

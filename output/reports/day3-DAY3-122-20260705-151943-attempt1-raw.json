@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-122\",\"author\":\"Maddie_Stone92\",\"text\":\"I've been trying to reach my friend Alex for days, but every time I try to DM them, their messages get replaced with weird threats from accounts that look like theirs. First it was 'Alex_Daily', then 'A_Stone_Official'. It's getting scary because they keep saying the same creepy stuff about me. #Harassment\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This case requires specialist investigation as the user is being targeted by replacement accounts used for persistent harassment.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4869,
+    "total_output_tokens": 211,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.13848369952835,
+    "time_to_first_token_seconds": 2.1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-012\",\"author\":\"SarahJ_WellnessAdvocate\",\"text\":\"Has anyone seen the latest updates from 'Veridian Health Clinic'? They're promoting a new recovery support program that claims to 'significantly boost immune response' for cancer patients alongside standard treatment. The testimonials sound amazing, but I'm not sure if these specific benefits are fully backed by peer-reviewed research yet. 🌱\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post promotes ambiguous health claims that require specialist verification to determine if they constitute harmful misinformation.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"HealthMedical\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":587,\"followerCount\":8930,\"followingCount\":307,\"verifiedStatus\":false,\"postCount\":1401,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":2,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false,\"tags\":[\"Cancer\"]}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4912,
+    "total_output_tokens": 250,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.67127383931702,
+    "time_to_first_token_seconds": 2.171
+  }
+}

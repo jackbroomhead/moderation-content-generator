@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-126\",\"author\":\"TechSupportMike847\",\"text\":\"Hi everyone, I'm from the official support team for SecurePay Global. We noticed suspicious activity on your account and need to verify your identity immediately. Please reply with your full name, date of birth and your 16-digit card number so we can reset your security settings before we lock it permanently.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is an obvious scam impersonating a support team and requesting sensitive payment details.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4669,
+    "total_output_tokens": 152,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.20182981912828,
+    "time_to_first_token_seconds": 0.505
+  }
+}

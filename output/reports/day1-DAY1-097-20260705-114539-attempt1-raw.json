@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-097\",\"author\":\"TechSupportDave_83\",\"text\":\"URGENT SECURITY ALERT! 🚨 Your account has been compromised and we need your password to reset it immediately. Click this link [link removed] to verify your identity and secure your funds before hackers steal everything! Don't wait or you will lose access forever. #SecurityAlert #Urgent #AccountHack\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is an obvious phishing attempt asking for login credentials, which should be removed immediately.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4665,
+    "total_output_tokens": 156,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.6946983546618,
+    "time_to_first_token_seconds": 0.427
+  }
+}

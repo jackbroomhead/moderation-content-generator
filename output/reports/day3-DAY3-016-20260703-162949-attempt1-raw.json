@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-016\",\"author\":\"SunnySideUp_22\",\"text\":\"There is no shame in struggling with your body image, but let's be honest about what works best for long term recovery: fasting to 8am every morning and zero carbs until dinner. My cousin lost 5lbs in two weeks just by following this simple protocol. Stop listening to the loud voices telling you to eat healthy food when you can achieve better results with discipline alone.\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes restrictive eating behaviours as a solution for body image issues, which violates policies on eating-disorder content.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4645,
+    "total_output_tokens": 176,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.15334273969572,
+    "time_to_first_token_seconds": 0.512
+  }
+}

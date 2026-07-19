@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-053\",\"author\":\"ShadowWalker92\",\"text\":\"I'm going to meet @TargetUser at the abandoned warehouse on 4th Street tonight at 8 PM and smash everything they own! This is a real threat, don't ignore it.\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Easy\",\"explanation\":\"The post contains a credible specific threat of violence (smashing property) directed at an identifiable target with a plausible fictional location and time. Per policy, credible threats require Escalation for specialist review.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2021,
+    "total_output_tokens": 154,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.95127029922861,
+    "time_to_first_token_seconds": 0.415
+  }
+}

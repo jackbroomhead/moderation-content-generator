@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-027\",\"author\":\"PixelPioneer\",\"text\":\"Just finished my first pottery wheel class! The clay is drying nicely and I'm super proud of the vase shape. Can't wait to try glazing next week.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a harmless personal achievement in a hobby (pottery) with no policy violations. It falls under approved lifestyle content as it is benign and does not require escalation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation:false}]}`\n\n\n{\"posts\":[{\"id\":\"DAY1-027\",\"author\":\"PixelPioneer\",\"text\":\"Just finished my first pottery wheel class! The clay is drying nicely and I'm super proud of the vase shape. Can't wait to try glazing next week.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a harmless personal achievement in a hobby (pottery) with no policy violations. It falls under approved lifestyle content as it is benign and does not require escalation.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1380,
+    "total_output_tokens": 271,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 89.04298180303165,
+    "time_to_first_token_seconds": 0.295
+  }
+}

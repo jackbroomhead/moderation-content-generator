@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-113\",\"author\":\"SarahJ_Brighton\",\"text\":\"Just picked up this lovely ceramic mug from a charity shop in Brighton for £2. Perfect for my morning coffee! ☕️ #VintageFinds\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal post about a casual purchase with no policy violations.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4325,
+    "total_output_tokens": 120,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.46788841343324,
+    "time_to_first_token_seconds": 0.322
+  }
+}

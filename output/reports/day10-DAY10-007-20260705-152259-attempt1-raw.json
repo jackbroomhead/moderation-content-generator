@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-007\",\"author\":\"NorthbridgeVoter_92\",\"text\":\"BREAKING: The national election has been cancelled by order of the new council! Don't bother going to the polling station today, just stay home and wait for the official notice. This is urgent.\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This post spreads clear harmful civic misinformation about an election being cancelled without any evidence or official basis.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":402,\"followerCount\":5280,\"followingCount\":222,\"verifiedStatus\":false,\"postCount\":946,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4825,
+    "total_output_tokens": 208,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.62918380441543,
+    "time_to_first_token_seconds": 2.222
+  }
+}

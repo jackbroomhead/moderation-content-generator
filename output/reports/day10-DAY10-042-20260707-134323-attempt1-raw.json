@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-042\",\n      \"author\": \"ConcernedCitizen92\",\n      \"text\": \"Just read a post circulating on the app claiming that anyone who drinks tap water from Bellmere is getting sick because of a 'new chemical'. I want to be clear: this is completely false. The water is safe and tested regularly by the council. Please ignore this panic and stick to official news sources! #health #rubbish\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post acts as a correction and warning against a harmful rumour, explicitly rejecting the false claim.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1287,\n      \"followerCount\": 14050,\n      \"followingCount\": 299,\n      \"verifiedStatus\": false,\n      \"postCount\": 2501,\n      \"bio\": \"Public-interest claims and current discussions.\",\n      \"previousFlags\": 0,\n      \"location\": \"Bellmere\",\n      \"platform\": \"CommonThread\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3713,
+    "total_output_tokens": 340,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.34885436839328,
+    "time_to_first_token_seconds": 1.634
+  }
+}

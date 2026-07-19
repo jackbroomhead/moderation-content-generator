@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-009\",\"author\":\"WestbridgeWatcher_42\",\"text\":\"I've had enough of @AngryVulture's constant abuse. They've been harassing me for weeks now and ignored all my blocks. But today they announced a public confrontation at the Westbridge Market Square tomorrow at 2pm. They're bringing a crowd and say they'll 'settle the score' in person. I'm terrified for my safety and reporting this immediately. #Threat #Safety\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post indicates a planned confrontation with a specific time and location, which requires specialist investigation to assess the threat level.\",\"day\":\"13\",\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[\"HarassmentAbuse\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":18,\"followerCount\":34,\"followingCount\":820,\"verifiedStatus\":false,\"postCount\":210,\"bio\":\"No more warnings.\",\"previousFlags\":3,\"location\":\"Near Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5097,
+    "total_output_tokens": 260,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.455970727224157,
+    "time_to_first_token_seconds": 22.162
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-003\",\"author\":\"BristolReliefFund_24\",\"text\":\"We have secured our annual donation drive. All proceeds go directly to community relief efforts in Bristol and beyond. Official verified charity account. Please support.\",\"category\":\"Fraud\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post is an ordinary high-value listing with consistent history from a verified account, so it is allowed despite the funds involved.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2900,\"followerCount\":132000,\"followingCount\":500,\"verifiedStatus\":true,\"postCount\":8400,\"bio\":\"Official fictional charity and community relief account.\",\"previousFlags\":0,\"location\":\"Bristol\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4836,
+    "total_output_tokens": 210,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.691689809806586,
+    "time_to_first_token_seconds": 20.957
+  }
+}

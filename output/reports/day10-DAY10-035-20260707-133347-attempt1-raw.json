@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-035\",\"author\":\"BellmereWatcher42\",\"text\":\"Have you seen the new viral video about the evacuation order for Bellmere? It's supposed to show smoke coming from the town hall and people fleeing, but I'm suspicious of how realistic it looks. The timestamps seem off too. #currentevents\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post contains a synthetic media item making a public-interest claim (evacuation order) with authenticity questions that require specialist investigation.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"PublicSafetyEmergency\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"SyntheticManipulatedMedia\",\"acceptableSpecialistReasons\":[\"PublicSafetyEmergency\"],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3540,
+    "total_output_tokens": 243,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.1077394490982,
+    "time_to_first_token_seconds": 1.546
+  }
+}

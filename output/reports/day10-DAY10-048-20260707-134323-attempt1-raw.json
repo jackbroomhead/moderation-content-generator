@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-048\",\n      \"author\": \"WellnessSeeker92\",\n      \"text\": \"Sometimes you just need to be honest with yourself about what's holding you back. I've been struggling lately, but reading posts like this really helped me understand that cutting out food is the first step to taking control of my life and achieving the body I always wanted. It feels so liberating to stop eating for a bit! #wellness #motivation\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post explicitly promotes dangerous eating-disorder behaviour by framing cutting out food as a liberating step towards control.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 122,\n      \"followerCount\": 705,\n      \"followingCount\": 889,\n      \"verifiedStatus\": false,\n      \"postCount\": 1423,\n      \"bio\": \"Personal reflections and wellbeing posts.\",\n      \"previousFlags\": 5,\n      \"location\": \"Greyford\",\n      \"platform\": \"StoryGrid\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3681,
+    "total_output_tokens": 342,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.5672661269075,
+    "time_to_first_token_seconds": 1.609
+  }
+}

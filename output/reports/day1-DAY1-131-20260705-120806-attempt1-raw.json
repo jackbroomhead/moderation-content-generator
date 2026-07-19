@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-131\",\"author\":\"MarketWatch_42\",\"text\":\"Just won a free smart home bundle in this giveaway! 🎁 Click here [link removed] to claim before it expires. Don't miss out on the chance to upgrade your living room for £0. #FreeStuff #Giveaway\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post requests a click to an external link under the guise of a prize, which requires specialist investigation to verify if it is a deceptive scam or legitimate promotion.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4658,
+    "total_output_tokens": 157,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.38251838942104,
+    "time_to_first_token_seconds": 0.546
+  }
+}

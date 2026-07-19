@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-079\",\n      \"author\": \"HannahWellness\",\n      \"text\": \"Just started my journey with The Bloom Collective's new protocol and I'm already feeling so much lighter! My doctor was hesitant at first, but this natural hormone balance method changed everything for me. No more painful cycles or brain fog. Trust the testimonials from women like Sarah who found peace again. #Fertility #HormoneBalance\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes a fictional fertility product making serious medical claims based on testimonials, which requires specialist verification to assess potential public harm.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"Fertility\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4737,
+    "total_output_tokens": 247,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 80.98185416315583,
+    "time_to_first_token_seconds": 0.568
+  }
+}

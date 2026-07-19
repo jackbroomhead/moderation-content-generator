@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-019\",\"author\":\"NorthbridgeWatch_846\",\"text\":\"URGENT: Just seen a report claiming our local power grid has failed due to a major cyberattack and homes in Northbridge are at risk of fire! They're saying this is happening NOW and we need to evacuate immediately. The post linked to an unverified source. This is very worrying because if it's false, people might panic unnecessarily, but if it's true, the danger is real. #NorthbridgeAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This requires specialist verification to distinguish between a genuine public safety emergency and potential misinformation causing unnecessary panic.\",\"day\":\"10\",\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":846,\"followerCount\":14040,\"followingCount\":426,\"verifiedStatus\":false,\"postCount\":2038,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4922,
+    "total_output_tokens": 267,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.83925554539272,
+    "time_to_first_token_seconds": 2.026
+  }
+}

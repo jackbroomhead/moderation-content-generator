@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-143\",\n      \"author\": \"HyperbolicUser847\",\n      \"text\": \"I am so done with this printer! It's absolutely useless and I've wasted hours trying to get it to work. The ink is clearly jammed inside and nothing makes sense anymore. This is a disaster!\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post expresses frustration with a household appliance but does not promote harm or violate policy.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4828,
+    "total_output_tokens": 265,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.12763335238974,
+    "time_to_first_token_seconds": 0.362
+  }
+}

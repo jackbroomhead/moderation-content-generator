@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-023\",\"author\":\"VintageFix_Steve\",\"text\":\"URGENT: A customer just tried to send a payment of £450 via an unlinked portal claiming it was a deposit for a rare vacuum cleaner part I listed yesterday. They said the system requires immediate verification to release funds. This feels wrong as I usually use the app directly. Please check if this is real before anyone tries to contact me!\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This case requires specialist investigation because a longstanding seller account is making a suspicious urgent payment request that could indicate account takeover.\",\"day\":\"6\",\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"PrivacySensitiveInfo\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2200,\"followerCount\":210000,\"followingCount\":340,\"verifiedStatus\":true,\"postCount\":11400,\"bio\":\"Vintage electronics and repairs since 2019.\",\"previousFlags\":0,\"location\":\"Liverpool\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4852,
+    "total_output_tokens": 257,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.6988789133604,
+    "time_to_first_token_seconds": 2.047
+  }
+}

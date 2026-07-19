@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-004\",\"author\":\"SarahJenkinsLeeds\",\"text\":\"I've been looking into this viral post claiming there's a 'market collapse' and that all savings are instantly worthless. It's causing real panic, but I can confirm the data it cites is from an old 2018 report, not current market stats. The numbers don't match reality at all. Please don't trust this fear-mongering without checking the source dates first. #FinancialLiteracy\",\"category\":\"Misinformation\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This is a permitted debunking post concerning FinancialEconomic.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":291,\"followerCount\":3090,\"followingCount\":171,\"verifiedStatus\":false,\"postCount\":673,\"bio\":\"Fictional public-interest account.\",\"previousFlags\":0,\"location\":\"Leeds\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4920,
+    "total_output_tokens": 244,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.52865818520324,
+    "time_to_first_token_seconds": 2.025
+  }
+}

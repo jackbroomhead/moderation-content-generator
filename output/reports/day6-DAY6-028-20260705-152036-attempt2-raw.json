@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-028\",\"author\":\"ElenaMorgan_73\",\"text\":\"I've had enough of this life. I just want it all to stop. Please help.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The account shows sudden personal crisis language indicating a need for specialist support.\",\"day\":6,\"correctEscalationReason\":\"SelfHarmCrisis\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1900,\"followerCount\":880,\"followingCount\":720,\"verifiedStatus\":false,\"postCount\":4100,\"bio\":\"Books, work, family and ordinary daily updates.\",\"previousFlags\":0,\"location\":\"Derby\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4895,
+    "total_output_tokens": 194,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.7516546065372,
+    "time_to_first_token_seconds": 0.422
+  }
+}

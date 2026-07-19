@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-054\",\n      \"author\": \"wellness_guru_em\",\n      \"text\": \"Finally found the secret to balancing hormones naturally! 🌿 My followers are going to be so happy about 'PureCycle' - it completely reset my cycle without any side effects. I've been telling everyone that chemo is outdated and this natural supplement is the real cure for reproductive health issues. Don't let big pharma stop you from healing with The Radiant Reset method! #Fertility #NaturalHealth #HormoneBalance\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes a specific medical claim that unproven supplements can cure reproductive health issues and discourages standard treatments like chemotherapy, which requires specialist verification.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"Fertility\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4735,
+    "total_output_tokens": 274,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 81.57736079374178,
+    "time_to_first_token_seconds": 0.506
+  }
+}

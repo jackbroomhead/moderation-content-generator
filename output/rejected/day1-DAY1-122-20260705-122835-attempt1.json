@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-122",
+      "author": "SecureUser_84",
+      "text": "Hey everyone, I've just found a suspicious message claiming to be from 'Amazon Support'. It says my account has been compromised and asks me to verify my password and credit card details immediately via this link [link removed]. Please ignore it! #Phishing #StaySafe",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post requests sensitive login credentials and financial information, which is a clear sign of a phishing scam that must be removed.",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": ""
+    }
+  ]
+}

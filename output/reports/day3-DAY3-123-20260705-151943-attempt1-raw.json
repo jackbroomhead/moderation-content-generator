@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-123\",\"author\":\"Sarah_M._Jones\",\"text\":\"Stop spreading this nonsense about Sarah and her kids! She's been posting lies about our family for weeks and I'm tired of it. Everyone needs to call her out on her disgusting behaviour right now. #Outrage\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post contains a coordinated pile-on directing repeated abuse against a specific individual, which requires specialist investigation.\",\"day\":3,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4874,
+    "total_output_tokens": 182,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.21679699667523,
+    "time_to_first_token_seconds": 2.21
+  }
+}

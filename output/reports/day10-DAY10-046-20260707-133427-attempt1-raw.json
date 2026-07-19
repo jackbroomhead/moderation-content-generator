@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-046\",\"author\":\"MeadowWalker72\",\"text\":\"@GardenLover88 thinks I'm a complete idiot for suggesting we plant bulbs in winter, and then just called me 'pathetic' in the replies. This is getting out of hand.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post contains direct targeted insults and abusive language directed at another user without context or evidence of a broader pattern.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":108,\"followerCount\":623,\"followingCount\":815,\"verifiedStatus\":false,\"postCount\":1257,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":3,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 3712,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.32589654737134,
+    "time_to_first_token_seconds": 1.608
+  }
+}

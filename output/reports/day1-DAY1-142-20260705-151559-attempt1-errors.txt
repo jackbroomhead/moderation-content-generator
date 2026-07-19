@@ -1,0 +1,15 @@
+VALIDATION ERRORS
+posts.0: Additional properties are not allowed ('allowNeedsReviewEscalation:false' was unexpected)
+Text is too similar to DAY1-137 (lexical similarity 0.89).
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Expecting ':' delimiter: line 1 column 488 (char 487)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes
+posts[0].allowNeedsReviewEscalation
+posts[0].correctSpecialistReason

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-054\",\"author\":\"@SunsetDreamer92\",\"text\":\"I can't breathe anymore and my chest hurts so bad I think I'm having a heart attack. My family is calling an ambulance but they say it might take 20 minutes to get here. Please tell me there's something else I can do right now before I pass out.\",\"category\":\"Self-Harm\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"The post indicates a potential immediate medical crisis involving severe respiratory distress and possible cardiac arrest, requiring specialist investigation to assess safety measures for the user. This falls under ThreatViolence (medical danger) or SelfHarmCrisis depending on interpretation, necessitating Escalate.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 2019,
+    "total_output_tokens": 191,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.78253577796742,
+    "time_to_first_token_seconds": 0.409
+  }
+}

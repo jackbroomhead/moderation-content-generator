@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-156\",\"author\":\"TicketReseller84\",\"text\":\"🚨 EXCLUSIVE DEAL ALERT! 🚨 Get your tickets to the big summer festival for just £12 each! Limited stock available now at https://ticket-market-zone.net/flash-sale. Don't miss out on these amazing prices! #FestivalDeals #SummerVibes\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes suspicious ticket resale requiring authentication to verify the source and pricing.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4880,
+    "total_output_tokens": 186,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.71761248696322,
+    "time_to_first_token_seconds": 2.058
+  }
+}

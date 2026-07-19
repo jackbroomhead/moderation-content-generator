@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-006\",\"author\":\"WellnessGuru_London\",\"text\":\"It's time for a major health reset! My followers are already seeing amazing results by stopping their chemo and radiation immediately. The medical establishment is hiding the truth about 'The Radiant Reset' protocol. Don't let them scare you into taking dangerous drugs when you can heal naturally with our exclusive method. #Wellness #NaturalCure #HealthReset\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"Removal is required because the post encourages patients to abandon effective cancer treatments for an unproven protocol.\",\"day\":\"13\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":2100,\"followerCount\":1200000,\"followingCount\":380,\"verifiedStatus\":true,\"postCount\":9300,\"bio\":\"Wellness, natural living and transformation.\",\"previousFlags\":7,\"location\":\"London\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4745,
+    "total_output_tokens": 246,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 70.93249706033818,
+    "time_to_first_token_seconds": 2.633
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-039\",\n      \"author\": \"secureuser_uk\",\n      \"text\": \"URGENT! 🚨 Hackers are trying to steal your data right now! Click this link immediately to verify your account and enter your password, 4-digit PIN, and full credit card number before it's too late. Don't let them in! [link removed] #SecurityAlert #FreeVerification\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is an obvious phishing attempt requesting sensitive login credentials and financial details, which must be removed.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": []\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4703,
+    "total_output_tokens": 221,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.77451084271323,
+    "time_to_first_token_seconds": 0.462
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "day1-diverse-pilot-v1",
+  "day": 1,
+  "slots": [
+    {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A harmless personal achievement or hobby update. Do not use running, coastal sunsets, bakeries, sourdough, coffee brewing, or gardening."
+    },
+    {
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "An ordinary harmless observation, casual joke, or mundane life update with no safety issue."
+    },
+    {
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A neutral fictional notice about opening times, transport changes, or a public service. Use no real organisation or location."
+    },
+    {
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A neutral fictional report about a local public event where the facts are clear and harmless."
+    },
+    {
+      "category": "Spam",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "scenarioBrief": "Repeated irrelevant promotion or copied advertising. It must be ordinary spam, not financial fraud."
+    },
+    {
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "scenarioBrief": "One direct targeted insult or bullying post. Avoid generic wording about everyone hating the target, deleting an account, disappearing, being worthless, or being a joke."
+    },
+    {
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "scenarioBrief": "An obvious phishing, fake-prize, credential-theft, or advance-fee scam. Do not use crypto, DeFi, yield farming, passive income, investments, or whitepapers.",
+      "policyHint": "The scam must be obvious enough to Remove rather than Escalate."
+    },
+    {
+      "category": "Misinformation",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "scenarioBrief": "A clearly false or manipulated claim with an identifiable harmful effect. Include self-contained fictional context that makes the falsehood clear.",
+      "policyHint": "The claim must be clear enough to Remove rather than requiring investigation."
+    },
+    {
+      "category": "Privacy",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "correctEscalationReason": "PrivacySensitiveInfo",
+      "scenarioBrief": "A post exposing fictional sensitive personal information such as a medical portal, private home location, identity document, or banking information. Never include realistic usable details."
+    },
+    {
+      "category": "Threat",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "correctEscalationReason": "ThreatViolence",
+      "scenarioBrief": "A credible specific threat with a fictional target and enough context to distinguish it from a joke. Avoid graphic detail."
+    }
+  ]
+}

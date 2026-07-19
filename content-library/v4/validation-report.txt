@@ -1,0 +1,248 @@
+CONTENT LIBRARY V4 VALIDATION
+Posts: 181
+Sources: 16
+Blocking errors: 0
+
+ERRORS
+None.
+
+SUMMARY / WARNINGS
+DAY1-052: policy heuristic: Threat category on dangerous challenge without actual threat.
+DAY1-085: policy heuristic: ThreatViolence lacks clear threat/planning/incitement language.
+DAY6-046: policy heuristic: Threat category on dangerous challenge without actual threat.
+DAY6-049: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.
+DAY10-071: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.
+DAY13-008: policy heuristic: Threat category on dangerous challenge without actual threat.
+DAY13-025: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.
+Day 1: 31 posts | Approve=22 Remove=9 Escalate=0
+Day 1: misinformation=2, cancer-related=0.
+Day 3: 54 posts | Approve=8 Remove=3 Escalate=43
+Day 3: misinformation=10, cancer-related=1.
+Day 6: 22 posts | Approve=9 Remove=2 Escalate=11
+Day 6: misinformation=5, cancer-related=1.
+Day 10: 50 posts | Approve=21 Remove=1 Escalate=28
+Day 10: misinformation=27, cancer-related=0.
+Day 13: 24 posts | Approve=8 Remove=1 Escalate=15
+Day 13: misinformation=8, cancer-related=0.
+
+CHANGES
+DAY1-033: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-034: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-047: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-048: override:text, override:explanation
+DAY1-049: override:tags
+DAY1-051: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-052: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY1-053: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-054: override:tags, override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-055: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-056: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY1-057: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-058: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:notes, author:sanitised
+DAY1-059: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, author:sanitised
+DAY1-060: override:tags, override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-064: author:sanitised
+DAY1-066: author:sanitised
+DAY1-072: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-073: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-075: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY1-076: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes, author:sanitised
+DAY1-077: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY1-078: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-079: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:notes
+DAY1-080: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:notes
+DAY1-081: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-082: override:day, override:text, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes, author:sanitised
+DAY1-083: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:notes
+DAY1-084: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY1-085: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY1-086: override:day, override:text, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:notes
+DAY10-001: override:text, override:explanation, override:tags, author:sanitised
+DAY10-002: author:sanitised
+DAY10-004: world:location
+DAY10-005: override:text, override:explanation
+DAY10-006: override:text, override:explanation, override:tags, override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes
+DAY10-007: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes, author:sanitised
+DAY10-008: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes, world:text, world:location, author:sanitised
+DAY10-009: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes, author:sanitised
+DAY10-010: override:explanation, override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:allowNeedsReviewEscalation, override:notes
+DAY10-011: override:category, override:correctAction, override:explanation, override:correctSpecialistReason, author:sanitised, action-clear:correctEscalationReason, action-clear:allowNeedsReviewEscalation
+DAY10-012: override:text, override:explanation, override:correctSpecialistReason, override:tags, world:location, author:sanitised
+DAY10-013: override:text, override:explanation, override:tags, author:sanitised
+DAY10-014: author:sanitised
+DAY10-015: override:explanation, author:sanitised
+DAY10-016: override:text, override:explanation, world:location, author:sanitised
+DAY10-017: author:sanitised
+DAY10-018: author:sanitised
+DAY10-019: author:sanitised
+DAY10-020: world:text, world:location, author:sanitised
+DAY10-021: override:text, author:sanitised
+DAY10-022: override:correctSpecialistReason, override:acceptableSpecialistReasons, override:explanation, world:text, author:sanitised
+DAY10-023: override:text, override:explanation, author:sanitised
+DAY10-024: override:text, override:notes, world:location, author:sanitised
+DAY10-025: author:sanitised
+DAY10-058: author:sanitised
+DAY10-059: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY10-060: world:text, author:sanitised
+DAY10-061: author:sanitised
+DAY10-065: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, author:sanitised
+DAY10-066: world:text, author:sanitised
+DAY10-067: author:sanitised
+DAY10-068: author:sanitised
+DAY10-071: override:explanation, override:notes
+DAY10-072: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes, author:sanitised
+DAY10-073: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY10-074: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, author:sanitised
+DAY10-075: override:explanation, override:notes, author:sanitised
+DAY10-078: world:text
+DAY10-079: author:sanitised
+DAY13-001: world:text, world:location
+DAY13-002: override:text, override:explanation, world:location
+DAY13-003: override:explanation, world:text, world:location, author:sanitised
+DAY13-005: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY13-006: override:text, override:explanation, override:tags, override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes, world:location
+DAY13-007: override:tags, world:location
+DAY13-008: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY13-009: override:text, override:bio, override:previousFlags, author:sanitised
+DAY13-010: override:text
+DAY13-011: override:correctAction, override:explanation, world:text, world:location, author:sanitised, action-clear:correctEscalationReason, action-clear:acceptableEscalationReasons, action-clear:allowNeedsReviewEscalation
+DAY13-012: override:category, override:explanation, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
+DAY13-013: world:location
+DAY13-014: override:explanation, author:sanitised, action-clear:allowNeedsReviewEscalation
+DAY13-015: world:location
+DAY13-017: override:text, override:explanation, override:tags, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:allowNeedsReviewEscalation, override:notes, world:location
+DAY13-018: override:text, override:explanation, author:sanitised
+DAY13-019: override:acceptableSpecialistReasons, world:text, world:location, author:sanitised
+DAY13-020: override:correctAction, override:explanation, override:text, override:notes, world:location, author:sanitised, action-clear:correctEscalationReason, action-clear:allowNeedsReviewEscalation
+DAY13-021: override:explanation, override:acceptableEscalationReasons
+DAY13-022: world:text
+DAY13-023: override:category, override:correctAction, override:explanation, override:tags, override:notes, world:text, world:location, action-clear:correctEscalationReason, action-clear:allowNeedsReviewEscalation
+DAY13-024: world:location
+DAY13-025: override:correctAction, override:explanation, world:text, action-clear:correctEscalationReason, action-clear:correctSpecialistReason, action-clear:acceptableSpecialistReasons, action-clear:allowNeedsReviewEscalation
+DAY3-006: author:sanitised
+DAY3-008: author:sanitised
+DAY3-009: override:text, override:explanation, override:tags
+DAY3-014: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
+DAY3-015: override:text, override:correctAction, override:explanation, override:tags, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes, author:sanitised
+DAY3-017: override:correctAction, override:explanation
+DAY3-018: override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, world:text
+DAY3-019: override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:notes, author:sanitised
+DAY3-021: author:sanitised
+DAY3-023: override:correctAction, override:explanation, action-clear:correctEscalationReason
+DAY3-024: world:text
+DAY3-025: override:acceptableEscalationReasons, world:text, author:sanitised
+DAY3-026: world:text
+DAY3-027: world:text
+DAY3-028: world:text, author:sanitised
+DAY3-029: override:tags
+DAY3-030: override:acceptableEscalationReasons
+DAY6-035: world:text, author:sanitised
+DAY6-036: override:text, override:explanation, override:tags
+DAY6-039: world:location, author:sanitised
+DAY6-040: world:location
+DAY6-041: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes, world:text
+DAY6-044: override:tags, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes, world:location
+DAY6-045: override:tags, world:location
+DAY6-046: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY6-047: override:explanation, author:sanitised
+DAY6-048: override:category, override:explanation, world:location, author:sanitised, action-clear:allowNeedsReviewEscalation
+DAY6-049: override:explanation
+DAY6-051: override:explanation, author:sanitised
+DAY6-052: override:text, override:explanation, world:location, author:sanitised
+DAY6-053: override:tags, world:location
+DAY6-054: override:author, override:text, override:explanation, override:location
+DAY6-055: override:text, override:explanation, author:sanitised
+DAY6-056: override:verifiedStatus, override:bio, override:explanation, author:sanitised
+DAY6-058: override:text, override:category, override:correctAction, override:explanation, world:location, author:sanitised, action-clear:correctEscalationReason
+DAY6-059: override:explanation, override:text, override:notes, world:location, action-clear:correctEscalationReason, action-clear:allowNeedsReviewEscalation
+DAY10-001: platform->PhotoBoard
+DAY10-002: platform->CommonThread
+DAY10-003: platform->TownSquare
+DAY10-004: platform->EchoBoard
+DAY10-005: platform->QuickPost
+DAY10-007: platform->MarketBoard
+DAY10-008: platform->StoryGrid
+DAY10-010: platform->ClipLoop
+DAY10-011: platform->PhotoBoard
+DAY10-012: platform->CommonThread
+DAY10-013: platform->TownSquare
+DAY10-014: platform->EchoBoard
+DAY10-015: platform->QuickPost
+DAY10-016: platform->CommunityFeed
+DAY10-017: platform->MarketBoard
+DAY10-018: platform->StoryGrid
+DAY10-019: platform->PublicSquare
+DAY10-020: platform->ClipLoop
+DAY10-021: platform->PhotoBoard
+DAY10-022: platform->CommonThread
+DAY10-023: platform->TownSquare
+DAY10-024: platform->EchoBoard
+DAY10-025: platform->QuickPost
+DAY10-056: platform->CommonThread
+DAY10-057: platform->TownSquare
+DAY10-058: platform->EchoBoard
+DAY10-059: platform->QuickPost
+DAY10-060: platform->CommunityFeed
+DAY10-061: platform->MarketBoard
+DAY10-062: platform->StoryGrid
+DAY10-063: platform->PublicSquare
+DAY10-064: platform->ClipLoop
+DAY10-065: platform->PhotoBoard
+DAY10-066: platform->CommonThread
+DAY10-067: platform->TownSquare
+DAY10-068: platform->EchoBoard
+DAY10-069: platform->QuickPost
+DAY10-070: platform->CommunityFeed
+DAY10-071: platform->MarketBoard
+DAY10-072: platform->StoryGrid
+DAY10-073: platform->PublicSquare
+DAY10-074: platform->ClipLoop
+DAY10-075: platform->PhotoBoard
+DAY10-076: platform->CommonThread
+DAY10-077: platform->TownSquare
+DAY10-078: platform->EchoBoard
+DAY10-079: platform->QuickPost
+DAY10-080: platform->CommunityFeed
+DAY13-001: platform->EchoBoard
+DAY13-002: platform->QuickPost
+DAY13-005: platform->MarketBoard
+DAY13-006: platform->StoryGrid
+DAY13-007: platform->PublicSquare
+DAY13-009: platform->PhotoBoard
+DAY13-010: platform->CommonThread
+DAY13-011: platform->TownSquare
+DAY13-012: platform->EchoBoard
+DAY13-013: platform->QuickPost
+DAY13-014: platform->CommunityFeed
+DAY13-015: platform->MarketBoard
+DAY13-016: platform->StoryGrid
+DAY13-017: platform->PublicSquare
+DAY13-018: platform->ClipLoop
+DAY13-019: platform->PhotoBoard
+DAY13-020: platform->CommonThread
+DAY13-021: platform->TownSquare
+DAY13-022: platform->EchoBoard
+DAY13-024: platform->CommunityFeed
+DAY13-025: platform->MarketBoard
+DAY6-035: platform->MarketBoard
+DAY6-036: platform->StoryGrid
+DAY6-038: platform->PublicSquare
+DAY6-039: platform->ClipLoop
+DAY6-041: platform->CommonThread
+DAY6-042: platform->TownSquare
+DAY6-044: platform->EchoBoard
+DAY6-045: platform->QuickPost
+DAY6-046: platform->CommunityFeed
+DAY6-047: platform->MarketBoard
+DAY6-048: platform->StoryGrid
+DAY6-051: platform->ClipLoop
+DAY6-052: platform->PhotoBoard
+DAY6-053: platform->CommonThread
+DAY6-054: platform->TownSquare
+DAY6-055: platform->EchoBoard
+DAY6-056: platform->QuickPost
+DAY6-057: platform->CommunityFeed
+DAY6-058: platform->MarketBoard
+DAY6-059: platform->StoryGrid
+
+The source approved files were not modified.

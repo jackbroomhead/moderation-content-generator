@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-014\",\"author\":\"WestbridgeActivist_27\",\"text\":\"The Westbridge Town Council needs to know about tomorrow's rally at the old bridge. We are coordinating logistics with local groups to ensure safety and clear messaging for the direct democracy vote. Please review the attached schedule. #DemocracyMatters\",\"category\":\"Threat\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post describes uncertain protest logistics that could imply a planned attack, requiring specialist investigation to distinguish between lawful assembly and credible threat.\",\"day\":13,\"correctEscalationReason\":\"ThreatViolence\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":120,\"followerCount\":2600,\"followingCount\":310,\"verifiedStatus\":false,\"postCount\":1900,\"bio\":\"Local action and direct democracy.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 5111,
+    "total_output_tokens": 229,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 9.620931921277418,
+    "time_to_first_token_seconds": 23.667
+  }
+}

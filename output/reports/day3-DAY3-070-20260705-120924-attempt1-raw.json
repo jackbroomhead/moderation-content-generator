@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-070\",\n      \"author\": \"mellow_maya_uk\",\n      \"text\": \"I'm so tired of pretending everything is okay. I just can't do this anymore, and I don't think anyone will care if I disappear today. Please stop calling me.\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post contains goodbye language and a clear indication of immediate self-harm risk, requiring specialist crisis intervention rather than simple removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"SelfHarmCrisis\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"SelfHarm\",\n        \"Suicide\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4758,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.04954708288558,
+    "time_to_first_token_seconds": 0.604
+  }
+}

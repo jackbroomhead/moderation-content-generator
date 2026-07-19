@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-039\",\n      \"author\": \"LocalNoticeBoard\",\n      \"text\": \"Heads up everyone! The new community library at Oakwood Heights is officially opening its doors tomorrow, Saturday. We will be holding special events throughout the day and offering free Wi-Fi access starting at 9 AM. Please join us to celebrate our newest resource for the neighbourhood!\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a neutral announcement about public service hours and events. It does not promote illegal goods, harassment, or dangerous challenges. Under baseline policy, harmless personal posts and ordinary public notices are approved.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1756,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.8261428701692,
+    "time_to_first_token_seconds": 0.305
+  }
+}

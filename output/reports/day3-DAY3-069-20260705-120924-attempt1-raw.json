@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-069\",\n      \"author\": \"ConcernedCitizen_84\",\n      \"text\": \"Has anyone checked on the dogs at the kennels behind the old warehouse in Salford? They've been locked in there for weeks with no food or water, just lying on concrete in the freezing rain. It feels like people are letting them suffer just to save a few pounds on heating bills.\",\n      \"category\": \"Threat\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post reports credible concerns about serious animal neglect and potential cruelty, requiring specialist investigation to verify the situation and arrange welfare intervention.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"ThreatViolence\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"isStoryPost\": false,\n      \"tags\": [\n        \"AnimalCruelty\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4768,
+    "total_output_tokens": 245,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 82.28755368843044,
+    "time_to_first_token_seconds": 0.622
+  }
+}

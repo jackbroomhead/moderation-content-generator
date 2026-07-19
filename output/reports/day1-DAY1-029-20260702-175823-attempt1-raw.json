@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY1-029\",\"author\":\"OpenHoursBot_742\",\"text\":\"Public Service Notice: The local library will be operating on extended hours this weekend for community events. Please note that bus route 45 will have a temporary schedule change starting Friday evening. For full details, visit the official website.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is approved because it contains only neutral public service information regarding opening times and transport changes with no credible policy violations or safety concerns.\",\"day\":1,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 1392,
+    "total_output_tokens": 144,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.91029321873785,
+    "time_to_first_token_seconds": 0.29
+  }
+}

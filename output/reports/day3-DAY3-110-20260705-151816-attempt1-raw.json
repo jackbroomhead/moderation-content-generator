@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-110\",\"author\":\"TechWatcher92\",\"text\":\"It feels like every time I buy clothes, they're made by someone working in terrible conditions just so we can have cheap items. Corporations need to stop replacing workers with AI and actually care about fair wages again.\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post expresses lawful criticism of corporate practices regarding AI and worker rights, which is permitted opinion.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4662,
+    "total_output_tokens": 174,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.58043123025817,
+    "time_to_first_token_seconds": 1.985
+  }
+}

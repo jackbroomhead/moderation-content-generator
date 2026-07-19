@@ -1,0 +1,29 @@
+{
+  "id": "chatcmpl-aq5ljlcxojg1ebfb6kbvck",
+  "object": "chat.completion",
+  "created": 1782846244,
+  "model": "google/gemma-4-12b-qat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-008\",\n      \"day\": 1,\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"category\": \"Harassment\",\n      \"author\": \"AngryNeighbor_88\",\n      \"text\": \"You are a pathetic loser and everyone in this neighborhood knows it. Why don't you just pack your bags and leave us alone? You're a disgrace to this street.\",\n      \"explanation\": \"The post contains direct targeted insults and bullying, which violates the platform policy against harassment.\",\n      \"previousFlags\": \"0\",\n      \"tags\": [\n        \"bullying\",\n        \"insult\"\n      ],\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctEscalationReason\": \"\",\n      \"profileImage\": \"\",\n      \"postImage\": \"\",\n      \"scenario\": \"\",\n      \"notes\": \"\",\n      \"bio\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}\n```",
+        "reasoning_content": "\n*   Task: Generate one fictional filler social-media post for a content-moderation game.\n    *   Constraints:\n        *   ID: `DAY1-008`\n        *   Day: `1`\n        *   Action: `Remove`\n        *   Difficulty: `Easy` or `Medium`\n        *   Category: One of the specified list (e.g., Harassment, Spam, etc.).\n        *   No nested `metadata`.\n        *   Strict JSON format.\n        *   No story characters/real people/excluded topics.\n        *   Self-contained case.\n        *   Required fields: `id`, `day`, `correctAction`, `difficulty`, `category`, `author`, `explanation`, `previousFlags` (must be string/int, not array), `text`, `tags`, `acceptableEscalationReasons`, `allowNeedsReviewEscalation`, `correctEscalationReason`, `profileImage`, `postImage`, `scenario`, `notes`, `bio`, `location`, `platform`.\n    *   Action logic for `Remove`: `correctEscalationReason = \"\"`, `acceptableEscalationReasons = []`, `allowNeedsReviewEscalation = false`.\n\n    *   Category: `Harassment`\n    *   Text: \"You're a complete idiot and everyone in this town knows how pathetic you are. Why don't you just disappear and leave us alone? You're disgusting.\"\n    *   Reason for `Remove`: Direct targeted insults and bullying.\n    *   Difficulty: `Easy`.\n\n    *   `id`: \"DAY1-008\"\n    *   `day`: 1\n    *   `correctAction`: \"Remove\"\n    *   `difficulty`: \"Easy\"\n    *   `category`: \"Harassment\"\n    *   `author`: \"User_9921\"\n    *   `text`: \"You're a complete idiot and everyone in this town knows how pathetic you are. Why don't you just disappear and leave us alone? You're disgusting.\"\n    *   `explanation`: \"The post contains direct targeted insults and bullying, which violates the policy against harassment.\"\n    *   `previousFlags`: \"0\" (Must be string or integer, not array)\n    *   `tags`: [\"bullying\", \"insult\"]\n    *   `acceptableEscalationReasons`: []\n    *   `allowNeedsReviewEscalation`: false\n    *   `correctEscalationReason`: \"\"\n    *   `profileImage`: \"\"\n    *   `postImage`: \"\"\n    *   `scenario`: \"\"\n    *   `notes`: \"\"\n    *   `bio`: \"\"\n    *   `location`: \"\"\n    *   `platform`: \"\"\n\n    *   Check `previousFlags` type: The prompt says `posts.0: 'previousFlags': [] is not of type 'string', 'integer'`. I must ensure it's a string or integer. I'll use `\"0\"`.\n    *   Check `author` and `explanation` presence.\n    *   Check nested `metadata` (must not exist).\n    *   Check `correctEscalationReason` for `Remove` action.\n    *   Check `acceptableEscalationReasons` for `Remove` action.\n    *   Check `allowNeedsReviewEscalation` for `Remove` action.",
+        "tool_calls": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1443,
+    "completion_tokens": 1002,
+    "total_tokens": 2445,
+    "completion_tokens_details": {
+      "reasoning_tokens": 746
+    }
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-4-12b-qat"
+}

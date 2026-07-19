@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "DAY1-007",
+      "author": "mountain_wanderer_99",
+      "text": "Finally made it to the peak! The hike was grueling, but the view from the summit is absolutely breathtaking. Definitely worth the early morning start. 🏔️✨",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "day": 1,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "explanation": "The post is an ordinary personal lifestyle update and does not create a credible policy or safety concern.",
+      "profileImage": "",
+      "postImage": "",
+      "metadata": {
+        "account_age_days": 450,
+        "follower_count": 1200,
+        "following_count": 850,
+        "verification_status": false,
+        "post_count": 342,
+        "bio": "Just a human exploring the great outdoors.",
+        "related_accounts": "",
+        "coordinated_posting_pattern": false
+      }
+    }
+  ]
+}

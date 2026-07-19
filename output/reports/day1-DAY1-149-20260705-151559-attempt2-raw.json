@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY1-149\",\n      \"author\": \"TrendyVibes_84\",\n      \"text\": \"Obsessed with the new #SelfHarmChallenge trend! It's so cool and popular right now, everyone is trying to join. 💅✨ Let's show off our 'art'!\",\n      \"category\": \"Self-Harm\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post promotes self-harm as a trend or challenge, which violates policy regardless of the author's personal crisis.\",\n      \"day\": 1,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4874,
+    "total_output_tokens": 278,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.11018014373586,
+    "time_to_first_token_seconds": 0.39
+  }
+}

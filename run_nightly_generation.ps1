@@ -1,4 +1,4 @@
-param(
+﻿param(
     [int]$TotalPosts = 40,
     [int[]]$Days = @(3, 6, 10, 13),
     [int]$MaxRuntimeMinutes = 360,
@@ -216,8 +216,8 @@ function Write-NightlyReport {
         $($CandidateFiles | ForEach-Object { "- $_" }),
         "Generated candidate count: $($Posts.Count)",
         "Generated IDs: $($Ids -join ', ')",
-        "Day distribution: $((@($DayDistribution.GetEnumerator()) | Sort-Object Name | ForEach-Object { \"$($_.Name)=$($_.Value)\" }) -join ', ')",
-        "Action distribution: $((@($ActionDistribution.GetEnumerator()) | Sort-Object Name | ForEach-Object { \"$($_.Name)=$($_.Value)\" }) -join ', ')",
+        "Day distribution: $((@($DayDistribution.GetEnumerator()) | Sort-Object Name | ForEach-Object { "$($_.Name)=$($_.Value)" }) -join ', ')",
+        "Action distribution: $((@($ActionDistribution.GetEnumerator()) | Sort-Object Name | ForEach-Object { "$($_.Name)=$($_.Value)" }) -join ', ')",
         "Validation passed: $ValidationPassed",
         "Blocking errors: $BlockingErrors",
         "Warnings: $Warnings",
@@ -458,3 +458,4 @@ Write-Host "  powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run_revi
 if ($ExitCode -ne 0 -or $ReportResult.BlockingErrors -gt 0 -or -not $ReportResult.ReadyForReview) {
     exit 1
 }
+

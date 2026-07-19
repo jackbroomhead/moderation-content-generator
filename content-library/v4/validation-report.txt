@@ -7,23 +7,16 @@ ERRORS
 None.
 
 SUMMARY / WARNINGS
-DAY1-052: policy heuristic: Threat category on dangerous challenge without actual threat.
-DAY1-085: policy heuristic: ThreatViolence lacks clear threat/planning/incitement language.
-DAY6-046: policy heuristic: Threat category on dangerous challenge without actual threat.
-DAY6-049: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.
-DAY10-071: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.
-DAY13-008: policy heuristic: Threat category on dangerous challenge without actual threat.
-DAY13-025: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.
 Day 1: 31 posts | Approve=22 Remove=9 Escalate=0
 Day 1: misinformation=2, cancer-related=0.
 Day 3: 54 posts | Approve=8 Remove=3 Escalate=43
-Day 3: misinformation=10, cancer-related=1.
+Day 3: misinformation=11, cancer-related=1.
 Day 6: 22 posts | Approve=9 Remove=2 Escalate=11
-Day 6: misinformation=5, cancer-related=1.
+Day 6: misinformation=6, cancer-related=1.
 Day 10: 50 posts | Approve=21 Remove=1 Escalate=28
 Day 10: misinformation=27, cancer-related=0.
 Day 13: 24 posts | Approve=8 Remove=1 Escalate=15
-Day 13: misinformation=8, cancer-related=0.
+Day 13: misinformation=9, cancer-related=0.
 
 CHANGES
 DAY1-033: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
@@ -32,7 +25,7 @@ DAY1-047: override:day, override:correctAction, override:correctEscalationReason
 DAY1-048: override:text, override:explanation
 DAY1-049: override:tags
 DAY1-051: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
-DAY1-052: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY1-052: override:day, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, override:category
 DAY1-053: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
 DAY1-054: override:tags, override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
 DAY1-055: override:day, override:correctEscalationReason, override:acceptableEscalationReasons, override:notes
@@ -102,7 +95,7 @@ DAY13-003: override:explanation, world:text, world:location, author:sanitised
 DAY13-005: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes
 DAY13-006: override:text, override:explanation, override:tags, override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:notes, world:location
 DAY13-007: override:tags, world:location
-DAY13-008: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY13-008: override:correctAction, override:correctEscalationReason, override:correctSpecialistReason, override:acceptableEscalationReasons, override:acceptableSpecialistReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, override:category
 DAY13-009: override:text, override:bio, override:previousFlags, author:sanitised
 DAY13-010: override:text
 DAY13-011: override:correctAction, override:explanation, world:text, world:location, author:sanitised, action-clear:correctEscalationReason, action-clear:acceptableEscalationReasons, action-clear:allowNeedsReviewEscalation
@@ -143,7 +136,7 @@ DAY6-040: world:location
 DAY6-041: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes, world:text
 DAY6-044: override:tags, override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:explanation, override:notes, world:location
 DAY6-045: override:tags, world:location
-DAY6-046: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes
+DAY6-046: override:correctAction, override:correctEscalationReason, override:acceptableEscalationReasons, override:allowNeedsReviewEscalation, override:explanation, override:notes, override:category
 DAY6-047: override:explanation, author:sanitised
 DAY6-048: override:category, override:explanation, world:location, author:sanitised, action-clear:allowNeedsReviewEscalation
 DAY6-049: override:explanation

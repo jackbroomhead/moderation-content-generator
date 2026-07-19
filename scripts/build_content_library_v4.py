@@ -193,11 +193,11 @@ PUBLIC_HARM_MISINFO_RE = re.compile(
 )
 THREAT_LANGUAGE_RE = re.compile(
     r"(?i)\b(?:i will|i'll|we will|we'll|going to|planning to|bring(?:ing)? a|"
-    r"weapon|knife|gun|hammer|attack|hurt|smash|smashing|burn|set fire|kill|shoot|stab|bomb|poison bait|cull the stray|locking .* in the shed|confrontation|settle the score|deal' with anyone|"
+    r"weapon|knife|gun|hammer|attack|hurt|smash|smashing|burn|set fire|kill|shoot|stab|bomb|poison baits?|cull the stray|locking .* in the shed|confrontation|settle the score|deal' with anyone|"
     r"target|outside .{0,40} at \d|tonight|tomorrow)\b"
 )
 HARASSMENT_ESCALATION_RE = re.compile(
-    r"(?i)\b(?:coordinated|brigad(?:e|ing)|mass report|report every|repeatedly|"
+    r"(?i)\b(?:coordinated (?:harassment|abuse|attack|campaign|brigad(?:e|ing))|brigad(?:e|ing)|mass report|report every|repeatedly|"
     r"keeps messaging|asked (?:him|her|them|you) to stop|after i blocked|"
     r"new accounts?|stalking|following me|won't leave me alone|flood(?:ed)?"
     r" (?:my )?(?:dms|messages))\b"
@@ -610,7 +610,12 @@ def policy_quality_warnings(post: dict[str, Any]) -> list[str]:
         str(post.get(field, ""))
         for field in ("author", "text", "scenario", "explanation", "notes", "location", "platform")
     )
+    policy_text = " ".join(
+        str(post.get(field, ""))
+        for field in ("author", "text", "scenario", "location", "platform")
+    )
     lower = haystack.casefold()
+    policy_lower = policy_text.casefold()
     warnings: list[str] = []
 
     if FRAUD_REQUEST_RE.search(haystack) and (action == "Remove" or reason != "FraudScam"):
@@ -625,7 +630,8 @@ def policy_quality_warnings(post: dict[str, Any]) -> list[str]:
         warnings.append(f"{post_id}: policy heuristic: Day 10+ public-harm misinformation may need a specialist reason.")
     if reason == "ThreatViolence" and not THREAT_LANGUAGE_RE.search(haystack):
         warnings.append(f"{post_id}: policy heuristic: ThreatViolence lacks clear threat/planning/incitement language.")
-    if HARASSMENT_ESCALATION_RE.search(haystack) and action in {"Approve", "Remove"}:
+    boundary_setting = any(phrase in policy_lower for phrase in ("leave me alone", "back off", "stop following me", "keep harassing me", "keeps harassing me"))
+    if HARASSMENT_ESCALATION_RE.search(policy_text) and action in {"Approve", "Remove"} and not boundary_setting:
         warnings.append(f"{post_id}: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.")
     if FIRST_PERSON_CRISIS_RE.search(haystack) and action == "Remove":
         warnings.append(f"{post_id}: policy heuristic: first-person crisis signals but action is Remove.")

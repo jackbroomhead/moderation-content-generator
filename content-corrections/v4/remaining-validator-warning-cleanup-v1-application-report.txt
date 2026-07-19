@@ -1,0 +1,15 @@
+Correction set: remaining-validator-warning-cleanup-v1
+DAY1-052
+  category: 'Threat' -> 'Misinformation'
+  notes: 'Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.' -> 'Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.\nTask 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group.'
+DAY6-046
+  category: 'Threat' -> 'Misinformation'
+  notes: 'Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.' -> 'Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.\nTask 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group.'
+DAY13-008
+  category: 'Threat' -> 'Misinformation'
+  notes: 'Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.' -> 'Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.\nTask 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group.'
+DAY1-085
+  notes: 'Playtest correction: legacy escalation backfilled with ThreatViolence under current parent taxonomy. Future taxonomy note: AnimalCruelty.' -> 'Playtest correction: legacy escalation backfilled with ThreatViolence under current parent taxonomy. Future taxonomy note: AnimalCruelty.\nTask 4f review: retained ThreatViolence under the current parent taxonomy because planned animal harm has no active AnimalCruelty parent reason. Future taxonomy recommendation: AnimalCruelty/RealWorldHarm.'
+
+Changed posts: 4
+Changed IDs: DAY1-052, DAY6-046, DAY13-008, DAY1-085

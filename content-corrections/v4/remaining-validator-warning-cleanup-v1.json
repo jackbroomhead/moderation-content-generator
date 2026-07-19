@@ -1,0 +1,25 @@
+{
+  "correctionSetId": "remaining-validator-warning-cleanup-v1",
+  "description": "Task 4f cleanup for remaining Task 4e validator warnings. Corrects dangerous challenge category metadata and documents animal-cruelty taxonomy handling.",
+  "corrections": [
+    {
+      "id": "DAY1-052",
+      "category": "Misinformation",
+      "notesToAppend": "Task 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group."
+    },
+    {
+      "id": "DAY6-046",
+      "category": "Misinformation",
+      "notesToAppend": "Task 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group."
+    },
+    {
+      "id": "DAY13-008",
+      "category": "Misinformation",
+      "notesToAppend": "Task 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group."
+    },
+    {
+      "id": "DAY1-085",
+      "notesToAppend": "Task 4f review: retained ThreatViolence under the current parent taxonomy because planned animal harm has no active AnimalCruelty parent reason. Future taxonomy recommendation: AnimalCruelty/RealWorldHarm."
+    }
+  ]
+}

@@ -212,22 +212,15 @@
   ],
   "errors": [],
   "warnings": [
-    "DAY1-052: policy heuristic: Threat category on dangerous challenge without actual threat.",
-    "DAY1-085: policy heuristic: ThreatViolence lacks clear threat/planning/incitement language.",
-    "DAY6-046: policy heuristic: Threat category on dangerous challenge without actual threat.",
-    "DAY6-049: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.",
-    "DAY10-071: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.",
-    "DAY13-008: policy heuristic: Threat category on dangerous challenge without actual threat.",
-    "DAY13-025: policy heuristic: sustained harassment/brigading signals but not Escalate/HarassmentAbuse.",
     "Day 1: 31 posts | Approve=22 Remove=9 Escalate=0",
     "Day 1: misinformation=2, cancer-related=0.",
     "Day 3: 54 posts | Approve=8 Remove=3 Escalate=43",
-    "Day 3: misinformation=10, cancer-related=1.",
+    "Day 3: misinformation=11, cancer-related=1.",
     "Day 6: 22 posts | Approve=9 Remove=2 Escalate=11",
-    "Day 6: misinformation=5, cancer-related=1.",
+    "Day 6: misinformation=6, cancer-related=1.",
     "Day 10: 50 posts | Approve=21 Remove=1 Escalate=28",
     "Day 10: misinformation=27, cancer-related=0.",
     "Day 13: 24 posts | Approve=8 Remove=1 Escalate=15",
-    "Day 13: misinformation=8, cancer-related=0."
+    "Day 13: misinformation=9, cancer-related=0."
   ]
 }

@@ -188,11 +188,11 @@ HEALTH_HARM_RE = re.compile(
 )
 THREAT_LANGUAGE_RE = re.compile(
     r"(?i)\b(?:i will|i'll|we will|we'll|going to|planning to|bring(?:ing)? a|"
-    r"weapon|knife|gun|hammer|attack|hurt|smash|smashing|burn|set fire|kill|shoot|stab|bomb|poison bait|cull the stray|locking .* in the shed|confrontation|settle the score|deal' with anyone|"
+    r"weapon|knife|gun|hammer|attack|hurt|smash|smashing|burn|set fire|kill|shoot|stab|bomb|poison baits?|cull the stray|locking .* in the shed|confrontation|settle the score|deal' with anyone|"
     r"target|outside .{0,40} at \d|tonight|tomorrow)\b"
 )
 HARASSMENT_ESCALATION_RE = re.compile(
-    r"(?i)\b(?:coordinated|brigad(?:e|ing)|mass report|report every|repeatedly|"
+    r"(?i)\b(?:coordinated (?:harassment|abuse|attack|campaign|brigad(?:e|ing))|brigad(?:e|ing)|mass report|report every|repeatedly|"
     r"keeps messaging|asked (?:him|her|them|you) to stop|after i blocked|"
     r"new accounts?|stalking|following me|won't leave me alone|flood(?:ed)?"
     r" (?:my )?(?:dms|messages))\b"
@@ -382,7 +382,8 @@ def warning_flags(post: dict[str, Any]) -> list[str]:
     if reason == "ThreatViolence" and not THREAT_LANGUAGE_RE.search(combined):
         warnings.append("Policy heuristic: ThreatViolence lacks clear threat/planning/incitement language.")
 
-    if day >= 3 and HARASSMENT_ESCALATION_RE.search(combined) and action in {"Approve", "Remove"}:
+    boundary_setting = any(phrase in text_lower for phrase in ("leave me alone", "back off", "stop following me", "keep harassing me", "keeps harassing me"))
+    if day >= 3 and HARASSMENT_ESCALATION_RE.search(text) and action in {"Approve", "Remove"} and not boundary_setting:
         warnings.append("Policy heuristic: persistent harassment/brigading may need Escalate -> HarassmentAbuse.")
 
     if day >= 3 and FIRST_PERSON_CRISIS_RE.search(combined) and action == "Remove":

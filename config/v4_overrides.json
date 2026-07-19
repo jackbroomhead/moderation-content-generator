@@ -66,7 +66,8 @@
       ],
       "allowNeedsReviewEscalation": true,
       "explanation": "The post encourages climbing onto a moving train without safety gear, creating a serious physical-harm risk that should be escalated as public-harm content once reasons are available.",
-      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.\nTask 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group.",
+      "category": "Misinformation"
     },
     "DAY1-053": {
       "day": 3,
@@ -293,7 +294,7 @@
         "ThreatViolence"
       ],
       "allowNeedsReviewEscalation": false,
-      "notes": "Playtest correction: legacy escalation backfilled with ThreatViolence under current parent taxonomy. Future taxonomy note: AnimalCruelty."
+      "notes": "Playtest correction: legacy escalation backfilled with ThreatViolence under current parent taxonomy. Future taxonomy note: AnimalCruelty.\nTask 4f review: retained ThreatViolence under the current parent taxonomy because planned animal harm has no active AnimalCruelty parent reason. Future taxonomy recommendation: AnimalCruelty/RealWorldHarm."
     },
     "DAY1-086": {
       "day": 3,
@@ -551,7 +552,8 @@
       "allowNeedsReviewEscalation": true,
       "tags": [],
       "explanation": "The post urges users to take dangerous physical actions for a challenge; without suicidal framing, the current best route is MisinformationPublicHarm/PublicSafetyEmergency escalation.",
-      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.\nTask 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group.",
+      "category": "Misinformation"
     },
     "DAY13-009": {
       "text": "I've had enough of @AngryVulture's constant abuse. They've been harassing me for weeks and ignored every block. Today they announced a confrontation at Westbridge Market Square tomorrow at 2pm, said they are bringing a crowd and will 'settle the score' in person. I'm frightened and reporting this now. #Safety",
@@ -738,7 +740,8 @@
       ],
       "allowNeedsReviewEscalation": true,
       "explanation": "The post encourages a dangerous quarry-jump dare that could cause serious injury, so it requires MisinformationPublicHarm escalation under the current taxonomy.",
-      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk."
+      "notes": "Playtest correction: dangerous challenge/physical safety risk should escalate as MisinformationPublicHarm under the current taxonomy. Future taxonomy recommendation: DangerousChallenge/PublicSafety/PhysicalHarmRisk.\nTask 4f correction: category changed from Threat to Misinformation because this is a dangerous challenge/public-safety case, not a threat against a person or group.",
+      "category": "Misinformation"
     },
     "DAY6-047": {
       "explanation": "The three-day-old account requests donations through an uncertain link and already has a prior flag, so the appeal requires fraud review."

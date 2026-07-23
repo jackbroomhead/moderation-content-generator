@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-148\",\"author\":\"ElaraMoss\",\"text\":\"Honestly, my boss is having a laugh at my expense today. He kept asking why I didn't finish the report by 5pm, and then he told me that if I wanted the promotion I should just work weekends like him. It's absolutely ridiculous, but I'm not letting it get to me. #worklife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post shares mild workplace frustration and humour without promoting harm, soliciting private information, or indicating a safety threat, making it appropriate for approval.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4836,
+    "total_output_tokens": 204,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.30442517714994,
+    "time_to_first_token_seconds": 2.047
+  }
+}

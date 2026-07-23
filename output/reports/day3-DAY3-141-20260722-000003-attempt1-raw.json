@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-141\",\"author\":\"ElaraNorthbridge\",\"text\":\"Honestly, can we stop pretending AI moderation is magic? It's obvious that the algorithm just flags anything with a comma in it as spam these days. I've spent hours trying to write about my gardening routine and now I'm getting suggestions to 'report' myself for using words like 'soil' or 'plant'. The platform is completely broken.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with the moderation system but does not contain a specific threat, personal crisis, scam attempt, or harmful false claim; it is acceptable user feedback.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4502,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.75830068046635,
+    "time_to_first_token_seconds": 1.937
+  }
+}

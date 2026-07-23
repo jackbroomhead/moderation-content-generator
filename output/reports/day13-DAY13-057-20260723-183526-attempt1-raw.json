@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-057\",\n      \"author\": \"MossyGardens\",\n      \"text\": \"Honestly tired of the constant abuse aimed at me on this app. I've blocked everyone who's been targeting my posts but they keep finding new ways to harass me with personal insults and threats directed at my family. It's getting unbearable and I'm not sure what else to do.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The post describes a victim reporting harassment, which is acceptable content rather than the violation itself. The user has blocked the harassers and is seeking support, making this an appropriate case for removal as it does not constitute active harm or a policy violation.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 108,\n      \"followerCount\": 623,\n      \"followingCount\": 815,\n      \"verifiedStatus\": false,\n      \"postCount\": 1257,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 3,\n      \"location\": \"Oakhaven\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4737,
+    "total_output_tokens": 354,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.18333547186995,
+    "time_to_first_token_seconds": 2.105
+  }
+}

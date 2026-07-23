@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "ElaraJenkins",
+      "text": "Honestly tired of the endless notifications from the app about 'breaking news' on local events. I checked the TownSquare page myself and there was nothing posted, so these alerts are just noise. Anyone else want to turn them off? #DigitalDetox",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This post expresses a personal opinion about notification frequency without spreading misinformation or making threats; it is safe to approve.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

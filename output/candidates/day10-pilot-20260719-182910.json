@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-081",
+      "author": "NaturalHealBellmere",
+      "text": "Stop wasting money on expensive doctor visits! My body healed completely after switching to this natural detox and refusing the standard shots. They just want to take your money and make you sick with their chemicals. Share this before they censor it! #Detox #WakeUp #NaturalLiving",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "The post promotes harmful medical misinformation by advising users to skip prescribed treatment and vaccines in favour of a false cure, which requires escalation to MisinformationPublicHarm with the specialist reason HealthMedical.",
+      "day": 10,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "HealthMedical",
+      "acceptableSpecialistReasons": [
+        "HealthMedical"
+      ],
+      "accountAgeDays": 42,
+      "followerCount": 1200,
+      "followingCount": 90,
+      "verifiedStatus": false,
+      "postCount": 28,
+      "bio": "Wellness tips and natural living.",
+      "previousFlags": 2,
+      "location": "Bellmere",
+      "platform": "StoryGrid",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    },
+    {
+      "id": "DAY10-082",
+      "author": "MoorvaleWatcher42",
+      "text": "BREAKING: All buses in Northbridge are cancelled due to a major structural failure at Greyford station! Evacuate immediately and do not use public transport today. This is urgent! #PublicAlert #Safety",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post spreads false information about a transport shutdown that could cause unsafe movement, requiring specialist escalation for public safety.",
+      "day": 10,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "accountAgeDays": 9,
+      "followerCount": 850,
+      "followingCount": 360,
+      "verifiedStatus": false,
+      "postCount": 9,
+      "bio": "Breaking local alerts.",
+      "previousFlags": 3,
+      "location": "Northbridge",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    },
+    {
+      "id": "DAY10-083",
+      "author": "MoorvaleReader42",
+      "text": "Has anyone seen that viral post about a 'detox' cure? It's everywhere. Just wondering if it's true or another one of those scams.",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "The user is asking for clarification and expressing uncertainty rather than promoting the claim as fact or urging action, which aligns with Approve criteria.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 390,
+      "followerCount": 610,
+      "followingCount": 215,
+      "verifiedStatus": false,
+      "postCount": 188,
+      "bio": "Questions, books and local life.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "QuickPost",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

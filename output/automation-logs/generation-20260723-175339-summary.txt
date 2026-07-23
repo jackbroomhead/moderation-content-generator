@@ -1,0 +1,28 @@
+﻿Status: completed
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260723-175339-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260723-175339-run.log
+
+Profile: hardening-test-8b-day3 | Batch: 1 | Success: True | Attempts: 1 | Requested: 2 | Generated: 2 | Target day: 3
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260723-175340.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-pilot-20260723-175340-validation.txt
+Failure report: 
+Error: 
+
+Profile: hardening-test-8b-day6 | Batch: 1 | Success: True | Attempts: 2 | Requested: 2 | Generated: 2 | Target day: 6
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260723-175413.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day6-pilot-20260723-175413-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day6-pilot-20260723-175354-semantic-failed.txt
+Error: 
+
+Profile: hardening-test-8b-day10 | Batch: 1 | Success: True | Attempts: 3 | Requested: 2 | Generated: 2 | Target day: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260723-175446.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-pilot-20260723-175446-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-DAY10-110-20260723-175435-failed.txt
+Error: 
+
+Profile: hardening-test-8b-day13 | Batch: 1 | Success: True | Attempts: 1 | Requested: 2 | Generated: 2 | Target day: 13
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260723-175458.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-pilot-20260723-175458-validation.txt
+Failure report: 
+Error: 
+

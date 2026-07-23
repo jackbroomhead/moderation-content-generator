@@ -1,0 +1,28 @@
+﻿Status: completed
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260720-133144-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260720-133144-run.log
+
+Profile: postfix-manual-test-day3 | Batch: 1 | Success: True | Attempts: 2
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260720-133155.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-pilot-20260720-133155-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-pilot-20260720-133147-semantic-failed.txt
+Error: 
+
+Profile: postfix-manual-test-day6 | Batch: 1 | Success: True | Attempts: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260720-133159.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day6-pilot-20260720-133159-validation.txt
+Failure report: 
+Error: 
+
+Profile: postfix-manual-test-day10 | Batch: 1 | Success: True | Attempts: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260720-133208.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-pilot-20260720-133208-validation.txt
+Failure report: 
+Error: 
+
+Profile: postfix-manual-test-day13 | Batch: 1 | Success: True | Attempts: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260720-133216.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-pilot-20260720-133216-validation.txt
+Failure report: 
+Error: 
+

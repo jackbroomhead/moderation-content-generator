@@ -1,0 +1,26 @@
+VALIDATION PASSED
+Generated: 2026-07-23T17:54:22
+Elapsed seconds: 9.5
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 6
+Post count: 2
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260723-175413.json
+
+BLUEPRINT
+DAY6-089: Approve | Normal | Easy
+DAY6-090: Remove | Spam | Easy
+
+SEMANTIC DUPLICATE CHECK
+DAY6-089: nearest history=DAY10-096 score=0.724
+DAY6-090: nearest history=DAY10-070 score=0.872
+
+ACTUAL REPAIRS
+DAY6-089: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 863 (char 862)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 10
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

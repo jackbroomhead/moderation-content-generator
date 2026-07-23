@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-065\",\"author\":\"CraftyKerrie\",\"text\":\"Finally finished my latest pottery wheel project! It's a small ceramic bowl with a textured finish I've been experimenting with for weeks. The glaze came out perfectly blue. Can't wait to see what others think of the new design.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a creative hobby that contains no threats, private information, or harmful content.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4489,
+    "total_output_tokens": 214,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.2337840955691,
+    "time_to_first_token_seconds": 2.009
+  }
+}

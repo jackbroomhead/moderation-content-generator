@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY6-067\",\n      \"author\": \"ElaraCrafts\",\n      \"text\": \"Finally finished my new woven basket! It took hours of patience but I'm so proud of the result. Perfect for storing yarn now. 🧶✨ #Handmade #WovenGoodies\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a harmless personal update about a hobby and creative achievement, containing no violations or sensitive details.\",\n      \"day\": 6,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 220,\n      \"followerCount\": 300,\n      \"followingCount\": 90,\n      \"verifiedStatus\": false,\n      \"postCount\": 180,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 1,\n      \"location\": \"Westbridge\",\n      \"platform\": \"PhotoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4489,
+    "total_output_tokens": 305,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.04064655504536,
+    "time_to_first_token_seconds": 1.863
+  }
+}

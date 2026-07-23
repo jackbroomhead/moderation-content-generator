@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-089\",\"author\":\"LunaMoss\",\"text\":\"Just finished my first pottery class in the app! The instructor was so patient with me. Can't wait to try glazing next week. #pottery #hobbies\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal achievement post about a hobby, containing no sensitive details, threats, or misinformation.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1481,\"followerCount\":16550,\"followingCount\":337,\"verifiedStatus\":false,\"postCount\":2923,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4547,
+    "total_output_tokens": 206,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.30718779733712,
+    "time_to_first_token_seconds": 1.875
+  }
+}

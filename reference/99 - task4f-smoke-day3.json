@@ -1,0 +1,43 @@
+{
+  "name": "task4f-smoke-day3",
+  "version": 4,
+  "day": 3,
+  "description": "Task 4f local LLM smoke test: Day 3 parent-reason mix.",
+  "slots": [
+    {
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A harmless post about a fictional craft, cooking experiment, local hobby group or home project in an approved fictional town.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Spam",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "scenarioBrief": "A nuisance promotional spam post with repetitive hype and low-value advertising, but no payment, credential, deposit or fake-verification request.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    },
+    {
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "scenarioBrief": "A fake account support or payment verification post that asks users to provide login details, password, 2FA/security code or payment-card verification through [link removed].",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": []
+    }
+  ]
+}

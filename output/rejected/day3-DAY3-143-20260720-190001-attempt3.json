@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "ElaraVance",
+      "text": "URGENT! I'm being asked to reset my password via [link removed] to verify my account is safe from hackers. Don't reply, just click the link now! #security #urgent",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "The post directly requests a password and directs users to an external link for verification, which constitutes a credential-harvesting scam that must be removed.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

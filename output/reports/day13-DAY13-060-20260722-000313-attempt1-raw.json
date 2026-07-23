@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-060\",\"author\":\"MoorvaleMarketFan\",\"text\":\"Big news for our neighbours! The annual Summer Harvest Festival is finally confirmed for next weekend in Moorvale. Expect live music, local artisan stalls, and the famous community BBQ on the main green. Gates open at 10am sharp. Bring your families along for a lovely day out! #MoorvaleEvents #CommunityFestival\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless announcement for a community event, offering no threats, scams or private information.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4689,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.37135249068449,
+    "time_to_first_token_seconds": 2.098
+  }
+}

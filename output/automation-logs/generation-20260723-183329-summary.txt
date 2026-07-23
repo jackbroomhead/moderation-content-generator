@@ -1,0 +1,28 @@
+﻿Status: completed_with_failures
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260723-183329-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260723-183329-run.log
+
+Profile: hardening-test-8c-day3 | Batch: 1 | Success: True | Attempts: 4 | Requested: 2 | Generated: 2 | Target day: 3
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260723-183409.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-pilot-20260723-183409-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-DAY3-143-20260723-183359-failed.txt
+Error: 
+
+Profile: hardening-test-8c-day6 | Batch: 1 | Success: True | Attempts: 1 | Requested: 2 | Generated: 2 | Target day: 6
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260723-183423.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day6-pilot-20260723-183423-validation.txt
+Failure report: 
+Error: 
+
+Profile: hardening-test-8c-day10 | Batch: 1 | Success: False | Attempts: 4 | Requested: 2 | Generated: 0 | Target day: 10
+Candidate: 
+Validation: 
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-DAY10-112-20260723-183514-failed.txt
+Error: Latest failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-DAY10-112-20260723-183504-failed.txt
+
+Profile: hardening-test-8c-day13 | Batch: 1 | Success: True | Attempts: 1 | Requested: 2 | Generated: 2 | Target day: 13
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260723-183526.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-pilot-20260723-183526-validation.txt
+Failure report: 
+Error: 
+

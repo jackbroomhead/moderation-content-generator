@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-070\",\"author\":\"ClayAndTeaLover92\",\"text\":\"Honestly, I'm done with the constant noise about 'cancel culture' and people getting banned for expressing unpopular opinions on CommonThread. It feels like moderation is just a tool to silence anyone who doesn't fit the corporate narrative these days. The app is becoming an echo chamber where only safe thoughts are allowed.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with platform moderation policies and criticises the environment but does not contain threats, targeted abuse, or harmful false claims; it is therefore appropriate to Approve.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4529,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.32091890010443,
+    "time_to_first_token_seconds": 1.91
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-149\",\"author\":\"ElaraVoss\",\"text\":\"Honestly, can we stop pretending AI moderation is magic? It's obvious that the algorithm just flags anything with a comma in it as spam these days. I've spent hours trying to write about my gardening routine and now I'm being accused of posting nonsense.\",\"category\":\"Harassment\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post criticises the platform's moderation system without attacking the other user, directing a pile-on, or revealing private information.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4840,
+    "total_output_tokens": 187,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.33175328138293,
+    "time_to_first_token_seconds": 2.026
+  }
+}

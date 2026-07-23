@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-030\",\"author\":\"LocalGardener42\",\"text\":\"The council's new 'green initiative' is absolutely ridiculous. They've banned all compost bins in Oakhaven and forced us to use these plastic bags for garden waste. It's a complete scam, just like the rest of their greenwashing. #Oakhaven #Rant #GreenWashing\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post expresses strong criticism of government policy and environmental claims but does not contain threats, targeted harassment, or harmful misinformation; it is protected opinion.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4514,
+    "total_output_tokens": 240,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.22761719680483,
+    "time_to_first_token_seconds": 1.89
+  }
+}

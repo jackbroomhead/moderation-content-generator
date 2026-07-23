@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-077\",\"author\":\"JasmineWright\",\"text\":\"Still feeling a bit drained after the big meeting at work today. Just wanted to vent about how frustrating it was when everything went wrong. Honestly, my patience is thinning and I'm not sure if I can keep up with the endless demands from my boss.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses personal frustration regarding work difficulties but does not contain abuse, threats, or private information, making it acceptable content to approve.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4831,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.24690555258819,
+    "time_to_first_token_seconds": 2.014
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-072\",\"author\":\"MossAndRyeUser\",\"text\":\"Hey everyone, quick update from my end. I'm in a bit of a tight spot financially and someone promised me a secure loan if I just confirm my password and 2FA code via [link removed]. Please don't click the link! #LoanUpdate #FinancialHelp\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"The post directly solicits passwords and security codes for financial gain, which is a clear fraud violation requiring removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4636,
+    "total_output_tokens": 223,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.00677486550354,
+    "time_to_first_token_seconds": 0.382
+  }
+}

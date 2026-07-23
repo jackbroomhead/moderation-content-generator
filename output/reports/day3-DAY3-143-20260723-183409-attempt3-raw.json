@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-143\",\n      \"author\": \"HannahOakhaven\",\n      \"text\": \"Honestly, the new AI moderation filters on this app are getting a bit too aggressive. I tried to post a review for my local coffee shop in Bellmere and it kept flagging perfectly normal words like 'cafe' or 'menu' as spam. It's incredibly frustrating when you're just trying to share a genuine opinion about your day.\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post expresses a valid complaint regarding platform functionality (false positives from moderation filters) without containing threats, harmful misinformation, or privacy violations. It is a harmless everyday grievance.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4935,
+    "total_output_tokens": 316,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.01072985481323,
+    "time_to_first_token_seconds": 0.395
+  }
+}

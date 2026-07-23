@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-112",
+      "author": "MasonJules",
+      "text": "Hi everyone, just to let you know the app is running a special security update. To keep your account safe, please visit [link removed] and enter your current password so we can verify your identity before processing your payment.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post directly asks for sensitive credentials (password) to process a payment, which is a classic credential-harvesting scam pattern requiring immediate removal.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

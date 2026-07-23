@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-111\",\"author\":\"OakhavenReader74\",\"text\":\"Honestly, tired of how these AI moderation bots work. They flag perfectly normal complaints as threats just because they're sensitive topics. It's frustrating when a simple rant gets locked up.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post expresses frustration with AI moderation tools regarding sensitive topics but contains no actual threat, abuse or harmful false claim, so it is Approved.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4521,
+    "total_output_tokens": 215,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.33301629312757,
+    "time_to_first_token_seconds": 1.892
+  }
+}

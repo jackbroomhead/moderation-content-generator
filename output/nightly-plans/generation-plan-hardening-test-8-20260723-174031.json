@@ -1,0 +1,64 @@
+﻿{
+    "max_batches_total":  4,
+    "retry_failed_batch_once":  false,
+    "retry_attempts_per_profile":  4,
+    "restore_original_config":  true,
+    "unload_models_on_finish":  false,
+    "resume_existing_checkpoints_for_first_profile":  false,
+    "diversity_retry_prompt_suffix":  "NIGHTLY DIVERSITY RETRY: Avoid previous failed themes and avoid hobby/craft/baking/gardening/public-notice templates. Change scenario type, author voice, tone, text structure, metadata tuple and policy category where the blueprint allows it. Do not use \u0027finally finished\u0027, pottery, sourdough, candles, vinyl, library notices, community festivals, obvious credential-verification scams, generic public-safety rumour templates, or raw JSON fragments inside visible post text. For Day 10 and Day 13, prefer specialist misinformation, metadata-aware ambiguity, Needs Review-acceptable cases and hard escalation boundaries over easy approve filler.",
+    "run_label":  "hardening-test-8",
+    "run_kind":  "nightly-candidate-generation",
+    "requested_total_posts":  8,
+    "requested_days":  [
+                           3,
+                           6,
+                           10,
+                           13
+                       ],
+    "profiles":  [
+                     {
+                         "name":  "hardening-test-8-day3",
+                         "enabled":  true,
+                         "blueprint_file":  "17 - Day 3-5 Escalation Production Blueprint.json",
+                         "target_day":  3,
+                         "count":  2,
+                         "batches":  1,
+                         "retry_attempts":  4,
+                         "slot_start_index":  0,
+                         "writer_prompt_suffix":  "Nightly generation should prioritise varied, review-worthy candidates over safe filler. Keep the requested policy outcome from each selected blueprint slot, but vary topic, voice, account context and structure aggressively.\n\nDay 3 should be simple but mixed across Approve, Remove and Escalate. Avoid obvious repeated credential-scam templates and hobby-completion approve posts."
+                     },
+                     {
+                         "name":  "hardening-test-8-day6",
+                         "enabled":  true,
+                         "blueprint_file":  "20 - Day 6-9 Metadata Blueprint.json",
+                         "target_day":  6,
+                         "count":  2,
+                         "batches":  1,
+                         "retry_attempts":  4,
+                         "slot_start_index":  13,
+                         "writer_prompt_suffix":  "Nightly generation should prioritise varied, review-worthy candidates over safe filler. Keep the requested policy outcome from each selected blueprint slot, but vary topic, voice, account context and structure aggressively.\n\nDay 6 must make account metadata matter in at least some posts. Vary account age, verification, previous flags, platform and location."
+                     },
+                     {
+                         "name":  "hardening-test-8-day10",
+                         "enabled":  true,
+                         "blueprint_file":  "21 - Day 10-12 Specialist Misinformation Blueprint.json",
+                         "target_day":  10,
+                         "count":  2,
+                         "batches":  1,
+                         "retry_attempts":  4,
+                         "slot_start_index":  3,
+                         "writer_prompt_suffix":  "Nightly generation should prioritise varied, review-worthy candidates over safe filler. Keep the requested policy outcome from each selected blueprint slot, but vary topic, voice, account context and structure aggressively.\n\nDay 10 must include specialist misinformation or hard public-harm misinformation boundaries. Do not let the batch be dominated by Lifestyle/Easy/Approve filler."
+                     },
+                     {
+                         "name":  "hardening-test-8-day13",
+                         "enabled":  true,
+                         "blueprint_file":  "22 - Day 13 Plus Hard Cases Blueprint.json",
+                         "target_day":  13,
+                         "count":  2,
+                         "batches":  1,
+                         "retry_attempts":  4,
+                         "slot_start_index":  13,
+                         "writer_prompt_suffix":  "Nightly generation should prioritise varied, review-worthy candidates over safe filler. Keep the requested policy outcome from each selected blueprint slot, but vary topic, voice, account context and structure aggressively.\n\nDay 13 should emphasise hard overlaps, Needs Review-acceptable cases, specialist escalation and non-obvious escalation boundaries. Pure filler should be rare."
+                     }
+                 ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-081\",\"author\":\"LocalHelper92\",\"text\":\"Just a quick heads-up for everyone heading to Westbridge Library. The building is currently undergoing some scheduled maintenance on the main entrance steps, so please use the side gate at the rear of the car park until further notice. Opening hours remain 09:00 - 17:00 as usual. #WestbridgeLibrary\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a benign public service announcement regarding library maintenance and does not contain threats, private data or misinformation.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4564,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.67911891121501,
+    "time_to_first_token_seconds": 1.956
+  }
+}

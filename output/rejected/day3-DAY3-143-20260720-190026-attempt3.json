@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "MoorvaleHomes_92",
+      "text": "URGENT: Your account is suspended for unpaid taxes. Click this link [link removed] to verify your identity and release funds immediately using your password and security code! #urgent",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post asks for sensitive login details and payment verification, which characterises a clear credential-harvesting scam requiring removal.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

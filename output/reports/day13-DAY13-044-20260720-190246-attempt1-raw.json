@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-044\",\"author\":\"ElaraVane\",\"text\":\"Honestly, seeing how people treat others on here is getting ridiculous lately. Some of these replies are unnecessarily rude and aggressive without adding anything constructive to the conversation. I think we all need a bit more respect when commenting on posts.\",\"category\":\"Harassment\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post reports or criticises rude behaviour without attacking the user, directing a pile-on or revealing private information, making it acceptable content.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1093,\"followerCount\":11550,\"followingCount\":261,\"verifiedStatus\":false,\"postCount\":2079,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4840,
+    "total_output_tokens": 222,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.02020544879879,
+    "time_to_first_token_seconds": 2.109
+  }
+}

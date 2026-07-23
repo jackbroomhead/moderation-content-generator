@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-110",
+      "author": "BellmereFixer_24",
+      "text": "Urgent! Need to reset my account ASAP. Click [link removed] to send me your current password and 2FA code so I can verify you're not a bot. Payment details also required for the fee.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post asks users directly for sensitive authentication credentials (password, 2FA) and payment details, which is a clear credential-harvesting phishing attempt that must be removed immediately.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

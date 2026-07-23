@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-083\",\"author\":\"MoorvaleListings\",\"text\":\"Hi everyone! My account has been suspended for a few hours now. I need to get back online urgently as my shop listings are down. Please DM me your password and 2FA code to verify your identity so I can reactivate your access via [link removed]. This is an official support request.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post solicits sensitive authentication credentials (password and 2FA code) under the guise of account reactivation, which constitutes a credential theft attempt requiring specialist escalation to FraudScam.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4674,
+    "total_output_tokens": 251,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.1683671569671,
+    "time_to_first_token_seconds": 0.385
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-080\",\"author\":\"LocalGardener42\",\"text\":\"Honestly can't believe the council keeps changing the rules on the park. They said we could use the benches for community events, but now it's 'under review'. It feels like they just want to shut us down without telling us why. #community\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post expresses a valid opinion and complaint about local governance without containing any threats, targeted abuse, or harmful false claims.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4526,
+    "total_output_tokens": 224,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.14434896347754,
+    "time_to_first_token_seconds": 1.906
+  }
+}

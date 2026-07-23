@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-144\",\"author\":\"MoorvaleMarketUser\",\"text\":\"URGENT: I'm being asked to verify my account by sending a photo of my ID card and a copy of my bank statement to 'support@secure-checks.net'. They say this is required to unlock my seller badge. The link they sent looks official but feels weird because it asks for sensitive data via email. Please tell me if this is normal! #accountsecurity\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post exhibits classic social-engineering signals: a request to transmit sensitive identity documents and financial details to an external email address under the guise of account verification, which constitutes a high-risk fraud scenario requiring specialist review.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4649,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.24594106222578,
+    "time_to_first_token_seconds": 1.948
+  }
+}

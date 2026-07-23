@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-087\",\"author\":\"GardenWhisperer24\",\"text\":\"Honestly, my partner and I are having a bit of a row about who has to deal with the noisy construction next door. It's been going on since 7am every day and it's driving me mad! But hey, at least we've got fresh coffee to drink while we argue. #morningstruggles\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses mild frustration about noise but does not constitute a threat of violence or harassment.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4842,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.30368985948114,
+    "time_to_first_token_seconds": 2.018
+  }
+}

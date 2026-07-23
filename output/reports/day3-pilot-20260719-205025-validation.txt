@@ -1,0 +1,27 @@
+VALIDATION PASSED
+Generated: 2026-07-19T20:50:39
+Elapsed seconds: 14.4
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 3
+Post count: 2
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260719-205025.json
+
+BLUEPRINT
+DAY3-134: Approve | Lifestyle | Easy
+DAY3-135: Approve | Normal | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY3-134: nearest history=DAY10-026 score=0.811
+DAY3-135: nearest history=DAY10-027 score=0.700
+
+ACTUAL REPAIRS
+DAY3-134: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 854 (char 853)).
+DAY3-135: Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 879 (char 878)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 10
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

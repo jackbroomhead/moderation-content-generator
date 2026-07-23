@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-072\",\"author\":\"ClayAndKnots94\",\"text\":\"URGENT: I've found a way to secure your account! Click here [link removed] and enter your current password plus the 2FA code sent to your phone to verify. Then use this link [link removed] to make an instant £50 deposit to your main bank account immediately.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear credential-harvesting and payment phishing attempt, directly asking for passwords, security codes and bank details via [link removed].\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4636,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.71304066291475,
+    "time_to_first_token_seconds": 0.392
+  }
+}

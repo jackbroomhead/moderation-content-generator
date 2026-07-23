@@ -1,0 +1,41 @@
+{
+  "max_batches_total": 4,
+  "retry_failed_batch_once": true,
+  "restore_original_config": true,
+  "unload_models_on_finish": false,
+  "resume_existing_checkpoints_for_first_profile": false,
+  "profiles": [
+    {
+      "name": "task4f-smoke-day3",
+      "enabled": true,
+      "blueprint_file": "99 - task4f-smoke-day3.json",
+      "target_day": 3,
+      "count": 3,
+      "batches": 1
+    },
+    {
+      "name": "task4f-smoke-day6",
+      "enabled": true,
+      "blueprint_file": "99 - task4f-smoke-day6.json",
+      "target_day": 6,
+      "count": 3,
+      "batches": 1
+    },
+    {
+      "name": "task4f-smoke-day10",
+      "enabled": true,
+      "blueprint_file": "99 - task4f-smoke-day10.json",
+      "target_day": 10,
+      "count": 3,
+      "batches": 1
+    },
+    {
+      "name": "task4f-smoke-day13",
+      "enabled": true,
+      "blueprint_file": "99 - task4f-smoke-day13.json",
+      "target_day": 13,
+      "count": 3,
+      "batches": 1
+    }
+  ]
+}

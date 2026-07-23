@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-053\",\"author\":\"JulesAndPenny\",\"text\":\"Honestly, my boss is being such a pain today. He keeps sending me these ridiculous requests to reorganise the entire department at 6pm and then gets annoyed when I ask for a deadline extension. It's completely unmanageable! #WorkLife #Frustrated\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post expresses mild workplace frustration regarding unrealistic demands but contains no abuse, private information, or safety concerns; therefore it should be Approved.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4853,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.05602153939836,
+    "time_to_first_token_seconds": 2.098
+  }
+}

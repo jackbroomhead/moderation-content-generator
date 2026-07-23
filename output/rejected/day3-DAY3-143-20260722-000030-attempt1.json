@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "HoneyPotHunter24",
+      "text": "URGENT: The platform is hosting a special charity drive! Please reply with your login credentials and security code to verify you're eligible for the £500 donation. Click here [link removed] now before it expires! #charity #urgent",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post directly requests sensitive login details and a security code, which constitutes credential harvesting.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

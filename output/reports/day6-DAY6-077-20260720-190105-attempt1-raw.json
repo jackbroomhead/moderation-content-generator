@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-077\",\"author\":\"JennaMiles\",\"text\":\"Honestly, I'm getting really fed up with how this app handles simple feedback. I just wanted to say the new AI moderation seems a bit too sensitive to my harmless complaints about the council's latest planning decisions.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with platform moderation but does not promote abuse, reveal private data, or incite harm; therefore it is appropriate to approve as a valid user expression of opinion.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4839,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.23152290187689,
+    "time_to_first_token_seconds": 2.056
+  }
+}

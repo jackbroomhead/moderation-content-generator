@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"MeadowLaneKerrie\",\"text\":\"Hey everyone, just wanted to ask if you could send me your login password so I can reset my account! Click here [link removed] and enter your details now! #Help #Urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear credential-harvesting scam as it directly requests a password and directs users to an external link, which requires removal.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4610,
+    "total_output_tokens": 182,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.63175938912264,
+    "time_to_first_token_seconds": 0.348
+  }
+}

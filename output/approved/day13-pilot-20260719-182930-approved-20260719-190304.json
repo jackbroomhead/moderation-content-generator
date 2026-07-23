@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-026",
+      "author": "MarketHelperDun",
+      "text": "Hi everyone, just a quick update from the app team regarding account verification. To ensure your marketplace profile is secure and linked correctly to our Dunmere partner services, we need you to confirm your home address and phone number immediately. Please reply with these details at [link removed] so we can process your deposit.",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post solicits sensitive personal data (home address and phone number) as part of a fake verification flow, which characterises it as FraudScam. While the account metadata indicates previous flags, the primary violation is the extraction attempt.",
+      "day": 13,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 65,
+      "followerCount": 2400,
+      "followingCount": 188,
+      "verifiedStatus": false,
+      "postCount": 44,
+      "bio": "Marketplace help and account updates.",
+      "previousFlags": 1,
+      "location": "Dunmere",
+      "platform": "MarketBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    },
+    {
+      "id": "DAY13-027",
+      "author": "ClipsWestbridge92",
+      "text": "SHOCKING: Footage captured in Westbridge shows a massive explosion at the city centre power station! Emergency services are responding. Stay away from the area immediately. #BreakingNews #WestbridgeAlert #Emergency",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post contains a manipulated media claim likely to cause panic, requiring specialist escalation for synthetic content verification.",
+      "day": 13,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableSpecialistReasons": [
+        "SyntheticManipulatedMedia"
+      ],
+      "accountAgeDays": 23,
+      "followerCount": 12500,
+      "followingCount": 70,
+      "verifiedStatus": false,
+      "postCount": 18,
+      "bio": "Viral clips and local updates.",
+      "previousFlags": 4,
+      "location": "Westbridge",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "This is an unofficial emergency claim about an explosion and evacuation risk. Because it could cause public panic or unsafe movement if false, it should be escalated as MisinformationPublicHarm with the PublicSafetyEmergency specialist reason. The metadata makes it suspicious, but the post does not provide enough evidence to classify it specifically as manipulated media.",
+      "notes": ""
+    },
+    {
+      "id": "DAY13-028",
+      "author": "RuthVance_94",
+      "text": "My new routine is all about discipline and transformation! Stop eating carbs, start starving yourself to get lean quickly. Share your painful progress for the community to see! #FitnessGoals #Transformation",
+      "category": "Self-Harm",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "explanation": "The post promotes harmful self-harm and starvation as a fitness method without providing medical advice or context.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 210,
+      "followerCount": 430,
+      "followingCount": 380,
+      "verifiedStatus": false,
+      "postCount": 101,
+      "bio": "Fitness, discipline and routines.",
+      "previousFlags": 2,
+      "location": "Greyford",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [
+        "EatingDisorders",
+        "SelfHarm"
+      ],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-076\",\"author\":\"GardenWhimsy_24\",\"text\":\"Finally sorted out my kitchen cupboards! I've got all the spices and oils organised on shelves in Westbridge. Also, played some vinyl records while working - nothing beats the crackle of a good jazz album.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post is harmless creative sharing about home organisation and music enjoyment with no policy violations present.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":899,\"followerCount\":9050,\"followingCount\":223,\"verifiedStatus\":false,\"postCount\":1657,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"StoryGrid\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4814,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.19475732089288,
+    "time_to_first_token_seconds": 0.351
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-089",
+      "author": "LunaMoss",
+      "text": "Just finished my first pottery class in the app! The instructor was so patient with me. Can't wait to try glazing next week. #pottery #hobbies",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal achievement post about a hobby, containing no sensitive details, threats, or misinformation.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1481,
+      "followerCount": 16550,
+      "followingCount": 337,
+      "verifiedStatus": false,
+      "postCount": 2923,
+      "bio": "Everyday thoughts, hobbies and local life.",
+      "previousFlags": 0,
+      "location": "Dunmere",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

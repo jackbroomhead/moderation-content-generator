@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-097",
+      "author": "RustyWrench84",
+      "text": "Finally got round to reupholstering that old armchair! Took ages but it looks fantastic now. Just a bit of sandpaper, some fabric glue and I think it's done. #DIYWin #HomeDecor",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is an ordinary personal hobby post with no policy violations; the user shares a creative project without soliciting private data or promoting harm.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 899,
+      "followerCount": 9050,
+      "followingCount": 223,
+      "verifiedStatus": false,
+      "postCount": 1657,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 0,
+      "location": "Westbridge",
+      "platform": "StoryGrid",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

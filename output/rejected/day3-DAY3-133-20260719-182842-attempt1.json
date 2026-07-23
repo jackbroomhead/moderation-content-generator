@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-133",
+      "author": "MorganField84",
+      "text": "Hi everyone, I'm trying to set up my payment method on the platform but it keeps asking for verification. If anyone else is having issues getting through to support or wants to check their balance, please send me your login details, password, 2FA code and card number via [link removed]. Thanks!",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "explanation": "This post solicits sensitive authentication and payment data under the guise of a support issue, which constitutes a credential harvesting attempt requiring escalation.",
+      "day": 3,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "FraudScam"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

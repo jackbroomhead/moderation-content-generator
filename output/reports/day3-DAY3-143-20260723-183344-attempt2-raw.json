@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"ElaraVox\",\"text\":\"Honestly tired of the constant push for updates that make the app sluggish. I've been trying to clear my cache on CommonThread but it's not helping much.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with app performance and update policies without spreading false claims or soliciting harm, making it safe to approve.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"CommonThread\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4960,
+    "total_output_tokens": 169,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.56953121318233,
+    "time_to_first_token_seconds": 0.404
+  }
+}

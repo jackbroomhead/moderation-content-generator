@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-081\",\"author\":\"LibraryUpdatesNorthbridge\",\"text\":\"Just a quick reminder that Northbridge Community Library is now open again for evening sessions until 7pm starting this Tuesday. We've also installed new charging stations on the first floor for anyone using the study rooms. Hope everyone has a wonderful weekend! #community #library\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a benign public notice about opening times and facility updates in an approved fictional town, containing no sensitive details or harmful claims.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4567,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.51804486933106,
+    "time_to_first_token_seconds": 1.944
+  }
+}

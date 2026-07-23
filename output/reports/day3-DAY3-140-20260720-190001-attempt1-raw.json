@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-140\",\n      \"author\": \"BakerElara7\",\n      \"text\": \"Just spent three hours trying to perfect my sourdough starter again! It finally bubbled up beautifully this morning. Can't wait to bake the loaf tonight. #sourdough #baking\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about a hobby that promotes a positive community interest without violating any policies.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4458,
+    "total_output_tokens": 273,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.11734734596115,
+    "time_to_first_token_seconds": 1.845
+  }
+}

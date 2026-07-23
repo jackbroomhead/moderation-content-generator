@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-105\",\"author\":\"MoorvaleMarketFan\",\"text\":\"Big news for everyone in Moorvale! The annual Summer Blossom Festival is finally confirmed for the weekend of 15th June. There will be live music, local craft stalls, and a huge community garden display right on the main square. Bring your family and enjoy a lovely day out. #MoorvaleEvents\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a standard, harmless event announcement promoting positive community engagement without any policy violations.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4669,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.2078400021438,
+    "time_to_first_token_seconds": 2.073
+  }
+}

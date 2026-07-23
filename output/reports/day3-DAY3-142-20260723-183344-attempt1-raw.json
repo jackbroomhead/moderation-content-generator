@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-142\",\n      \"author\": \"TechTroubLiam\",\n      \"text\": \"Has anyone else noticed their phone is draining battery faster after the latest update? I've been checking my settings and it looks like a background sync issue. Just wanted to share in case others are seeing similar glitches.\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is a harmless personal update about technology troubleshooting with no policy violations, so it should be approved. It does not spread misinformation or solicit sensitive data.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4874,
+    "total_output_tokens": 286,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.75365692447366,
+    "time_to_first_token_seconds": 0.47
+  }
+}

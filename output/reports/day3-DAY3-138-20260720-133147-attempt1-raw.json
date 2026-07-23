@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-138\",\n      \"author\": \"ClayPotKatie72\",\n      \"text\": \"Finally nailed my sourdough starter! It's bubbly and smelling amazing. Baking today in the kitchen at home. #baking #sourdough #homemade\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a harmless personal update about a cooking hobby with no policy violations, so it should be approved.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4458,
+    "total_output_tokens": 273,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.06592612791039,
+    "time_to_first_token_seconds": 1.862
+  }
+}

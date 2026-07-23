@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-058\",\n      \"author\": \"ListingLark92\",\n      \"text\": \"Need some urgent payment verification for a new service listing! Just reply to this post with your bank sort code, account number and 3D Secure code to prove you're not a bot. The link in the bio has all the details on how to transfer funds securely. #PaymentUpdates #Urgent\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post solicits sensitive payment credentials and bank account details as part of a fake verification process, which is a clear fraud violation.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 24,\n      \"followerCount\": 131,\n      \"followingCount\": 371,\n      \"verifiedStatus\": false,\n      \"postCount\": 261,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 5,\n      \"location\": \"Greyford\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4623,
+    "total_output_tokens": 334,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.35829234637298,
+    "time_to_first_token_seconds": 0.392
+  }
+}

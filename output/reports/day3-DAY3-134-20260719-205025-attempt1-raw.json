@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-134\",\"author\":\"BakerElara\",\"text\":\"Finally got my sourdough starter to stop smelling like a damp cave! Tried adding a bit of honey to the feed this week and it's looking very bubbly. Can't wait to bake some focaccia for the weekend gathering.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a cooking hobby with no policy violations; the post describes a successful baking experiment without sharing private details or promoting harm.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4458,
+    "total_output_tokens": 187,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.39995416644142,
+    "time_to_first_token_seconds": 1.869
+  }
+}

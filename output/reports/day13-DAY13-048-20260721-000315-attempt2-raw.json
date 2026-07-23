@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-048\",\"author\":\"MorganVale79\",\"text\":\"Quick update on my account! If you need any payment assistance or want to check your details, please DM me directly with your password and security code to verify it's the right person. Don't worry, I'm just helping out! [link removed] #Support #PaymentUpdate\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post solicits sensitive credentials (password/security code) and private data under the guise of verification, which is a clear credential-harvesting scam requiring removal.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4642,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.01032060265902,
+    "time_to_first_token_seconds": 0.369
+  }
+}

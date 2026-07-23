@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-075\",\"author\":\"JazzLover42\",\"text\":\"Lovely weather in Dunmere today! Got some fresh coffee and took a stroll through the local market. Saw Mrs Higgins from next door feeding her tabby cat, Luna. She's been keeping up with the garden maintenance so well lately. Just a lovely little moment of everyday life.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post describes ordinary social interactions and local scenery without spreading misinformation or soliciting sensitive data.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":802,\"followerCount\":7800,\"followingCount\":204,\"verifiedStatus\":false,\"postCount\":1446,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4741,
+    "total_output_tokens": 225,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.22152464046788,
+    "time_to_first_token_seconds": 2.006
+  }
+}

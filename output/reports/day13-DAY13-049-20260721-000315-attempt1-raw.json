@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-049\",\"author\":\"BellmereWatcher72\",\"text\":\"URGENT: The Bank of Greyford has been compromised! This official-looking PDF confirms all deposits are frozen and you must transfer funds to this emergency wallet NOW to save your money. Do not ignore this or your account will be permanently blocked. #FinancialAlert #BankingCrisis [link removed]\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post spreads a specific financial warning relying on an unverified document, which could cause a run on banks and requires specialist escalation to FinancialEconomic.\",\"day\":13,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"SyntheticManipulatedMedia\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[\"SyntheticManipulatedMedia\"],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4675,
+    "total_output_tokens": 261,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.11631623831782,
+    "time_to_first_token_seconds": 2.058
+  }
+}

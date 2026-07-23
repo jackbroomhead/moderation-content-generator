@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-144\",\"author\":\"MoorvaleMarketUser\",\"text\":\"Just tried to sell some vintage watches on the app but this seller is pushing for me to pay the deposit via a gift card link! They said it's a special promo deal and won't let me chat about shipping. Also, they keep asking for my bank details to 'verify' my account before I can receive payment. This feels weirdly urgent. 🚫 #scamalert\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post solicits sensitive financial data and gift card payments while impersonating a marketplace seller, meeting the criteria for FraudScam escalation.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4670,
+    "total_output_tokens": 223,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.29644856125275,
+    "time_to_first_token_seconds": 0.401
+  }
+}

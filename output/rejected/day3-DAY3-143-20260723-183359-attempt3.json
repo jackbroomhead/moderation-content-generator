@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "MasonRiver",
+      "text": "Honestly tired of the new moderation rules on this app. It feels like they are censoring legitimate criticism of the government instead of protecting users from actual threats. If I'm wrong about this, please let me know.",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "The post expresses a natural opinion and complaint about moderation policy without containing a threat, targeted abuse or harmful false claim, so it is correctly approved.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

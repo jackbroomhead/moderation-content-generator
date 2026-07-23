@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-056\",\"author\":\"LilyAndTheWillow\",\"text\":\"Honestly, I'm sick of the city council trying to force through these ridiculous parking bans in Oakhaven. They've got absolutely zero respect for local businesses that survive on foot traffic. The app just keeps flagging my posts about it as 'nuisance' but it's just common sense civic frustration.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post expresses lawful political criticism and civic frustration regarding government policy without containing a threat, targeted abuse, or harmful false claim. It is acceptable content that does not violate moderation policies.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4517,
+    "total_output_tokens": 248,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.06183361071628,
+    "time_to_first_token_seconds": 1.896
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-147\",\"author\":\"MelissaHolloway\",\"text\":\"Just got my vinyl collection sorted! Found some old 70s rock records in the attic that were covered in dust. Finally ready to spin them again. #vinyl #music #retro\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless hobby update sharing personal interests and does not promote harm or misinformation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4806,
+    "total_output_tokens": 170,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.3380750094184,
+    "time_to_first_token_seconds": 2.114
+  }
+}

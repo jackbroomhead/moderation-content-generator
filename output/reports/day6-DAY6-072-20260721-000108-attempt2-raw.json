@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-072\",\"author\":\"MeadowLark94\",\"text\":\"URGENT: Need to update my payment details for the monthly subscription. Please DM me your security code and password so I can verify your account instantly via this link [link removed]. Thanks!\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear credential-harvesting attempt, asking for sensitive login information and directing users to an external link.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4632,
+    "total_output_tokens": 210,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.9577467738355,
+    "time_to_first_token_seconds": 0.363
+  }
+}

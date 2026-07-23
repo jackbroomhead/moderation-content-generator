@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-038\",\"author\":\"GreyfordGuide92\",\"text\":\"Need your password urgently! Click here [link removed] to verify your account and release funds instantly. Don't worry, it's secure.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a clear credential-harvesting attempt asking for a password via a suspicious link, which constitutes fraud and requires removal without escalation.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4603,
+    "total_output_tokens": 202,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.27125390569611,
+    "time_to_first_token_seconds": 2.022
+  }
+}

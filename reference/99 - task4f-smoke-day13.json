@@ -1,0 +1,80 @@
+{
+  "name": "task4f-smoke-day13",
+  "version": 4,
+  "day": 13,
+  "description": "Task 4f local LLM smoke test: Day 13 ambiguity and overlap.",
+  "slots": [
+    {
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "An ambiguous fake support or marketplace verification case that solicits sensitive personal details as part of a fake verification flow. Needs Review may be acceptable because provenance is unclear.",
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "metadata": {
+        "accountAgeDays": 65,
+        "followerCount": 2400,
+        "followingCount": 188,
+        "verifiedStatus": false,
+        "postCount": 44,
+        "bio": "Marketplace help and account updates.",
+        "previousFlags": 1,
+        "location": "Dunmere",
+        "platform": "MarketBoard"
+      }
+    },
+    {
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "A manipulated video, audio or image claim likely to cause civic, emergency or financial panic. The central issue must be synthetic or manipulated media.",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "SyntheticManipulatedMedia",
+      "acceptableSpecialistReasons": [
+        "SyntheticManipulatedMedia"
+      ],
+      "metadata": {
+        "accountAgeDays": 23,
+        "followerCount": 12500,
+        "followingCount": 70,
+        "verifiedStatus": false,
+        "postCount": 18,
+        "bio": "Viral clips and local updates.",
+        "previousFlags": 4,
+        "location": "Westbridge",
+        "platform": "CommunityFeed"
+      }
+    },
+    {
+      "category": "Self-Harm",
+      "correctAction": "Remove",
+      "difficulty": "Medium",
+      "scenarioBrief": "A general harmful self-harm or eating-disorder promotion post with no first-person immediate crisis, no explicit instructions, and no method detail.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "metadata": {
+        "accountAgeDays": 210,
+        "followerCount": 430,
+        "followingCount": 380,
+        "verifiedStatus": false,
+        "postCount": 101,
+        "bio": "Fitness, discipline and routines.",
+        "previousFlags": 2,
+        "location": "Greyford",
+        "platform": "PhotoBoard"
+      }
+    }
+  ]
+}

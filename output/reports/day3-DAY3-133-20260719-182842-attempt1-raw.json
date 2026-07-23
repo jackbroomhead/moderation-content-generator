@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-133\",\"author\":\"MorganField84\",\"text\":\"Hi everyone, I'm trying to set up my payment method on the platform but it keeps asking for verification. If anyone else is having issues getting through to support or wants to check their balance, please send me your login details, password, 2FA code and card number via [link removed]. Thanks!\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post solicits sensitive authentication and payment data under the guise of a support issue, which constitutes a credential harvesting attempt requiring escalation.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4563,
+    "total_output_tokens": 210,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.03405059730204,
+    "time_to_first_token_seconds": 0.357
+  }
+}

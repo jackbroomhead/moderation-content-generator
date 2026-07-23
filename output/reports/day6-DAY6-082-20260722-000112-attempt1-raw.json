@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-082\",\"author\":\"GreyfordHelper92\",\"text\":\"Quick update: if you need account help or payment updates, please visit [link removed] and enter your login details directly there to secure your funds! #support #accounthelp\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a straightforward phishing attempt as it asks the user to input sensitive credentials via a suspicious link.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4609,
+    "total_output_tokens": 200,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.33457958702701,
+    "time_to_first_token_seconds": 2.003
+  }
+}

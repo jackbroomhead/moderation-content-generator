@@ -1,0 +1,28 @@
+﻿Status: completed
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260719-205834-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260719-205834-run.log
+
+Profile: nightly-test-8-day3 | Batch: 1 | Success: True | Attempts: 2
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260719-205846.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-pilot-20260719-205846-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-pilot-20260719-205835-semantic-failed.txt
+Error: 
+
+Profile: nightly-test-8-day6 | Batch: 1 | Success: True | Attempts: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260719-205851.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day6-pilot-20260719-205851-validation.txt
+Failure report: 
+Error: 
+
+Profile: nightly-test-8-day10 | Batch: 1 | Success: True | Attempts: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260719-205904.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-pilot-20260719-205904-validation.txt
+Failure report: 
+Error: 
+
+Profile: nightly-test-8-day13 | Batch: 1 | Success: True | Attempts: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260719-205917.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-pilot-20260719-205917-validation.txt
+Failure report: 
+Error: 
+

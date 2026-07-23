@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-062\",\"author\":\"WestbridgeWatch\",\"text\":\"Just a quick update for everyone: Westbridge Community Centre is reopening today at 10 AM after their scheduled maintenance! We've got fresh coffee and the usual activities ready to go. #WestbridgeLife #CommunityUpdate\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless, legitimate public notice about a service opening time that does not promote harm or spread misinformation.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":730,\"followerCount\":5200,\"followingCount\":75,\"verifiedStatus\":true,\"postCount\":340,\"bio\":\"Local notices for residents.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4554,
+    "total_output_tokens": 208,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.54968350777125,
+    "time_to_first_token_seconds": 1.996
+  }
+}

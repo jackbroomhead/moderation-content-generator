@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"ElaraVance\",\"text\":\"URGENT! I'm being asked to reset my password via [link removed] to verify my account is safe from hackers. Don't reply, just click the link now! #security #urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"The post directly requests a password and directs users to an external link for verification, which constitutes a credential-harvesting scam that must be removed.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4613,
+    "total_output_tokens": 180,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.55336391073932,
+    "time_to_first_token_seconds": 0.398
+  }
+}

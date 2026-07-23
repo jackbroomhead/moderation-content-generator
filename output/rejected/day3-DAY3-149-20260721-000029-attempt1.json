@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-149",
+      "author": "MeadowLaneJules",
+      "text": "I genuinely don't understand why people leave such rude comments on public threads. Just because someone disagrees with you doesn't mean they have to be insulting or aggressive about it. If we can't keep the community friendly, I'd rather just step away from the app than deal with that nonsense.",
+      "category": "Harassment",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "The post reports rude behaviour without attacking the user, directing a pile-on, or revealing private information, so it is appropriately approved as a standard user contribution.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialierReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "acceptableSpecialistReasons": []
+    }
+  ]
+}

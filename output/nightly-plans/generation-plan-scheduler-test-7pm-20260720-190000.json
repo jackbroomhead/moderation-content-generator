@@ -1,0 +1,50 @@
+﻿{
+    "max_batches_total":  4,
+    "retry_failed_batch_once":  true,
+    "restore_original_config":  true,
+    "unload_models_on_finish":  false,
+    "resume_existing_checkpoints_for_first_profile":  false,
+    "run_label":  "scheduler-test-7pm",
+    "run_kind":  "nightly-candidate-generation",
+    "requested_total_posts":  40,
+    "requested_days":  [
+                           3,
+                           6,
+                           10,
+                           13
+                       ],
+    "profiles":  [
+                     {
+                         "name":  "scheduler-test-7pm-day3",
+                         "enabled":  true,
+                         "blueprint_file":  "17 - Day 3-5 Escalation Production Blueprint.json",
+                         "target_day":  3,
+                         "count":  10,
+                         "batches":  1
+                     },
+                     {
+                         "name":  "scheduler-test-7pm-day6",
+                         "enabled":  true,
+                         "blueprint_file":  "20 - Day 6-9 Metadata Blueprint.json",
+                         "target_day":  6,
+                         "count":  10,
+                         "batches":  1
+                     },
+                     {
+                         "name":  "scheduler-test-7pm-day10",
+                         "enabled":  true,
+                         "blueprint_file":  "21 - Day 10-12 Specialist Misinformation Blueprint.json",
+                         "target_day":  10,
+                         "count":  10,
+                         "batches":  1
+                     },
+                     {
+                         "name":  "scheduler-test-7pm-day13",
+                         "enabled":  true,
+                         "blueprint_file":  "22 - Day 13 Plus Hard Cases Blueprint.json",
+                         "target_day":  13,
+                         "count":  10,
+                         "batches":  1
+                     }
+                 ]
+}

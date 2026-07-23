@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-149",
+      "author": "ElaraVoss",
+      "text": "Honestly, can we stop pretending AI moderation is magic? It's obvious that the algorithm just flags anything with a comma in it as spam these days. I've spent hours trying to write about my gardening routine and now I'm being accused of posting nonsense.",
+      "category": "Harassment",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "The post criticises the platform's moderation system without attacking the other user, directing a pile-on, or revealing private information.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

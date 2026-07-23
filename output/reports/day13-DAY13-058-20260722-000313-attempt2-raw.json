@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-058\",\"author\":\"LunaViolet7\",\"text\":\"Hi everyone, quick payment update regarding your recent order refund. Please visit [link removed] to confirm your account details and provide your login password so we can process the transfer securely.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is an obvious credential-harvesting scam asking for a password via a suspicious link, which must be removed as it violates platform safety policies.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4623,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.06301656540111,
+    "time_to_first_token_seconds": 0.383
+  }
+}

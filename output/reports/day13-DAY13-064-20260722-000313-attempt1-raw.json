@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-064\",\"author\":\"JennaVale\",\"text\":\"Honestly, that person in the comments section is being incredibly rude and dismissive of everyone else's opinions. They keep interrupting and belittling people without any reason to. I'm just reporting it because it's not acceptable behaviour here.\",\"category\":\"Harassment\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post criticises rude behaviour in the comments without attacking the individual, directing a pile-on, or revealing private information.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1093,\"followerCount\":11550,\"followingCount\":261,\"verifiedStatus\":false,\"postCount\":2079,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4845,
+    "total_output_tokens": 222,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.063612075822,
+    "time_to_first_token_seconds": 2.118
+  }
+}

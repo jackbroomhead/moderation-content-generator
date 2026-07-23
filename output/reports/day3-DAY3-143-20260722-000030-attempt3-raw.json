@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"MoorvaleGardener_82\",\"text\":\"Quick update: I'm trying to secure my account, so please DM me your password and 2FA code directly! Also, click this [link removed] to make a payment immediately. Don't wait too long or they might ban you.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is clearly a credential-harvesting scam asking for sensitive data like passwords and security codes, combined with a direct request for payment via a link; it violates our fraud policy.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4626,
+    "total_output_tokens": 200,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.44567777028446,
+    "time_to_first_token_seconds": 0.362
+  }
+}

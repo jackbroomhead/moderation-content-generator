@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Avoid repeated obvious credential-scam wording; use a fresher fraud or social-engineering pattern.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 816 (char 815)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

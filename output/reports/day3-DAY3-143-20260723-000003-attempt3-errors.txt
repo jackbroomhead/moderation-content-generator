@@ -1,0 +1,10 @@
+VALIDATION ERRORS
+Likely credential/payment/private-data scam should be Escalate / FraudScam once reasons are unlocked.
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes
+posts[0].isStoryPost

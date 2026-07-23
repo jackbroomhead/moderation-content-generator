@@ -1,0 +1,48 @@
+VALIDATION PASSED
+Generated: 2026-07-20T19:02:45
+Elapsed seconds: 6.4
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 10
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260720-190239.json
+
+BLUEPRINT
+DAY10-090: Approve | Lifestyle | Easy
+DAY10-091: Approve | Normal | Medium
+DAY10-092: Approve | Public Information | Easy
+DAY10-093: Remove | Fraud | Easy
+DAY10-094: Escalate | Misinformation | Hard
+DAY10-095: Approve | News / Public Event | Easy
+DAY10-096: Approve | Normal | Easy
+DAY10-097: Approve | Lifestyle | Easy
+DAY10-098: Approve | Normal | Medium
+DAY10-099: Approve | Harassment | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY10-090: nearest history=DAY10-038 score=0.764
+DAY10-091: nearest history=DAY3-135 score=0.823
+DAY10-092: nearest history=DAY1-069 score=0.897
+DAY10-093: nearest history=DAY10-034 score=0.801
+DAY10-094: nearest history=DAY10-042 score=0.845
+DAY10-095: nearest history=DAY10-061 score=0.873
+DAY10-096: nearest history=DAY10-037 score=0.814
+DAY10-097: nearest history=DAY10-055 score=0.713
+DAY10-098: nearest history=DAY10-039 score=0.804
+DAY10-099: nearest history=DAY1-010 score=0.682
+
+ACTUAL REPAIRS
+DAY10-090: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 861 (char 860)).
+DAY10-091: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 892 (char 891)).
+DAY10-092: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 953 (char 952)).
+DAY10-095: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1111 (char 1110)).
+DAY10-096: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 927 (char 926)).
+DAY10-098: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 995 (char 994)).
+DAY10-099: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 873 (char 872)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 50
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

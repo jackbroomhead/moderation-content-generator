@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-140\",\"author\":\"ElaraVines\",\"text\":\"Finally got my hands on that new loom kit I ordered last week! The tension adjustment is tricky but once you get the hang of it, making your own scarves feels so rewarding. Can't wait to start weaving some autumn colours into my collection.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post shares a personal hobby update about weaving without promoting harm, soliciting sensitive data, or spreading misinformation; the user is simply expressing satisfaction with a craft purchase and process.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4458,
+    "total_output_tokens": 196,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.7515152283563,
+    "time_to_first_token_seconds": 1.845
+  }
+}

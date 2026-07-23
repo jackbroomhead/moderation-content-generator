@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "MaraJenkins82",
+      "text": "Honestly tired of the constant noise from the developers' roadworks outside my place in Greyford. It's been going on for weeks and they haven't even posted the official warning signs yet, let alone any proper hours. Seems like a total oversight by the council.",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This post expresses frustration with local construction noise but contains no threat of violence, personal abuse, or false claims; it is a natural opinion and everyday complaint suitable for approval.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

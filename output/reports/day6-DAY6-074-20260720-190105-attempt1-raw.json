@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-074\",\"author\":\"MoorvaleMarketFan\",\"text\":\"Exciting news for everyone in Moorvale! The annual summer market is taking place next weekend at the town square. There will be local crafts, fresh produce, and live music all day. Come along and support our community businesses! #CommunityEvents #SummerMarket\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless announcement for a fictional market event with no policy violations.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4696,
+    "total_output_tokens": 221,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.27491090456316,
+    "time_to_first_token_seconds": 2.015
+  }
+}

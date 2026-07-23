@@ -1,0 +1,53 @@
+﻿{
+    "state":  "completed",
+    "updatedAt":  "2026-07-20T13:32:24",
+    "runLog":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260720-133144-run.log",
+    "summary":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260720-133144-summary.txt",
+    "manifest":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260720-133144-manifest.json",
+    "results":  [
+                    {
+                        "profile":  "postfix-manual-test-day3",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day3-pilot-20260720-133155.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260720-133155-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260720-133147-semantic-failed.txt",
+                        "error":  null
+                    },
+                    {
+                        "profile":  "postfix-manual-test-day6",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day6-pilot-20260720-133159.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260720-133159-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "postfix-manual-test-day10",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day10-pilot-20260720-133208.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260720-133208-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "postfix-manual-test-day13",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day13-pilot-20260720-133216.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260720-133216-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    }
+                ]
+}

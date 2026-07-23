@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-140\",\n      \"author\": \"BakingWithElara\",\n      \"text\": \"Finally got my sourdough starter to bubble! It's been a bit of a trial and error process, but I think the hydration level was just too low. Has anyone else tried feeding it with wholemeal flour lately? #sourdough #baking\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about a hobby that contains no policy violations, so it should be approved. The post shares a cooking experiment without promoting harm or revealing private details.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4458,
+    "total_output_tokens": 301,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.69495829568953,
+    "time_to_first_token_seconds": 1.838
+  }
+}

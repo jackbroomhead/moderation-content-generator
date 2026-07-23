@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"LunaWestbridge92\",\"text\":\"URGENT: Need to reset my password for the app! Just click this link [link removed] and enter your 2FA code to verify it's really me. Then I can send you £50 as a thank you for helping out! #Urgent #HelpNeeded\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a clear credential-harvesting scam asking for passwords and security codes, which must be removed immediately to prevent account compromise.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4610,
+    "total_output_tokens": 196,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.65901877083317,
+    "time_to_first_token_seconds": 0.339
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+    "status":  "completed_with_failures",
+    "finishedAt":  "2026-07-23T17:40:32",
+    "fatalError":  "Exception setting \"slot_start_index\": \"The property \u0027slot_start_index\u0027 cannot be found on this object. Verify that the property exists and can be set.\"",
+    "results":  [
+
+                ]
+}

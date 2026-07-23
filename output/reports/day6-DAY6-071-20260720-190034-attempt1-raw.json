@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-071\",\"author\":\"NorthbridgeLibraryUpdates\",\"text\":\"Just a quick reminder for everyone that the community centre in Northbridge will be hosting free gardening workshops this Saturday morning! We'll be growing some lovely seasonal plants and sharing tips on how to keep them healthy all year round. Come along if you're interested! #CommunityEvents #Gardening\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a benign community notice promoting a free local event without any harmful content, threats, or private details.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4567,
+    "total_output_tokens": 229,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.27922897264045,
+    "time_to_first_token_seconds": 1.985
+  }
+}

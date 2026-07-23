@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-133\",\"author\":\"ElaraWest\",\"text\":\"Hi everyone, I'm trying to secure my account with a new security code and payment card details. Please follow this link to update your login credentials and 2FA settings immediately: [link removed]. Don't miss out on this chance to verify your identity! #securenow #update\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post requests sensitive authentication data (login details, passwords, 2FA codes) and payment information via a link, which constitutes a fraud scam requiring Escalation.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4563,
+    "total_output_tokens": 211,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.06603301207132,
+    "time_to_first_token_seconds": 2.047
+  }
+}

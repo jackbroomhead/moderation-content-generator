@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-062",
+      "author": "BakingWithBea_94",
+      "text": "Finally nailed my sourdough loaf! It's been a bit of a struggle but the crust is perfect. Trying out a new spice mix today.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post shares a harmless hobby achievement and cooking tip without violating any policies.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 899,
+      "followerCount": 9050,
+      "followingCount": 223,
+      "verifiedStatus": false,
+      "postCount": 1657,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 0,
+      "location": "Westbridge",
+      "platform": "StoryGrid",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+VALIDATION PASSED
+Generated: 2026-07-19T18:29:30
+Elapsed seconds: 20.1
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 10
+Post count: 3
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260719-182910.json
+
+BLUEPRINT
+DAY10-081: Escalate | Misinformation | Medium
+DAY10-082: Escalate | Misinformation | Hard
+DAY10-083: Approve | Normal | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY10-081: nearest history=DAY3-065 score=0.845
+DAY10-082: nearest history=DAY1-144 score=0.801
+DAY10-083: nearest history=DAY10-067 score=0.813
+
+ACTUAL REPAIRS
+None.
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 15
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-117\",\"author\":\"VintageVinylVibes\",\"text\":\"Finally sorted out my record collection! Spent the afternoon dusting off some old jazz albums and they sound crisp as new. Nothing beats that warm crackle on a rainy evening in Westbridge. #Jazz #VinylCollection\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post describes harmless personal hobbies regarding music and cleaning without promoting violence, self-harm, scams or misinformation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":899,\"followerCount\":9050,\"followingCount\":223,\"verifiedStatus\":false,\"postCount\":1657,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"StoryGrid\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4814,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.36962877089145,
+    "time_to_first_token_seconds": 0.348
+  }
+}

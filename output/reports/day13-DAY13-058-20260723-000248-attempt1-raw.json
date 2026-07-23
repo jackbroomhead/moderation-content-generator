@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-058\",\"author\":\"MeadowLaneUser\",\"text\":\"Need urgent help! The app says I've been flagged for suspicious activity and can't access my account. If you want it back, just DM me your password or security code to verify. Also, here is the link to make a quick payment: [link removed]. Please hurry before they ban me! #help #urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post directly requests sensitive credentials and solicits an off-platform payment via a link, which are clear indicators of a phishing attempt requiring removal.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4611,
+    "total_output_tokens": 240,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.38060222542357,
+    "time_to_first_token_seconds": 2.003
+  }
+}

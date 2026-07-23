@@ -1,0 +1,51 @@
+﻿{
+    "status":  "completed",
+    "finishedAt":  "2026-07-19T18:29:55",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "task4f-smoke-day3",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day3-pilot-20260719-182842.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260719-182842-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260719-182823-semantic-failed.txt",
+                        "error":  null
+                    },
+                    {
+                        "profile":  "task4f-smoke-day6",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day6-pilot-20260719-182848.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260719-182848-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "task4f-smoke-day10",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day10-pilot-20260719-182910.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260719-182910-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "task4f-smoke-day13",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day13-pilot-20260719-182930.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260719-182930-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    }
+                ]
+}

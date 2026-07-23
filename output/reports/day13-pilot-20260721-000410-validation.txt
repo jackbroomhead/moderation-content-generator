@@ -1,0 +1,51 @@
+VALIDATION PASSED
+Generated: 2026-07-21T00:04:16
+Elapsed seconds: 5.2
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 13
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260721-000410.json
+
+BLUEPRINT
+DAY13-045: Approve | Lifestyle | Easy
+DAY13-046: Approve | Normal | Hard
+DAY13-047: Approve | Public Information | Easy
+DAY13-048: Remove | Fraud | Easy
+DAY13-049: Escalate | Misinformation | Hard
+DAY13-050: Approve | News / Public Event | Easy
+DAY13-051: Approve | Normal | Easy
+DAY13-052: Approve | Lifestyle | Easy
+DAY13-053: Approve | Normal | Hard
+DAY13-054: Approve | Harassment | Hard
+
+SEMANTIC DUPLICATE CHECK
+DAY13-045: nearest history=DAY10-084 score=0.727
+DAY13-046: nearest history=DAY10-091 score=0.774
+DAY13-047: nearest history=DAY10-079 score=0.814
+DAY13-048: nearest history=DAY10-103 score=0.868
+DAY13-049: nearest history=DAY13-039 score=0.823
+DAY13-050: nearest history=DAY1-115 score=0.805
+DAY13-051: nearest history=DAY10-037 score=0.853
+DAY13-052: nearest history=DAY10-084 score=0.846
+DAY13-053: nearest history=DAY10-039 score=0.821
+DAY13-054: nearest history=DAY10-109 score=0.831
+
+ACTUAL REPAIRS
+DAY13-046: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 919 (char 918)).
+DAY13-047: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 998 (char 997)).
+DAY13-048: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 986 (char 985)).
+DAY13-049: Applied authoritative blueprint value for acceptableEscalationReasons.
+DAY13-050: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 897 (char 896)).
+DAY13-051: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1034 (char 1033)).
+DAY13-052: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 979 (char 978)).
+DAY13-053: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 975 (char 974)).
+DAY13-054: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 962 (char 961)).
+DAY13-045: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 939 (char 938)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 50
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

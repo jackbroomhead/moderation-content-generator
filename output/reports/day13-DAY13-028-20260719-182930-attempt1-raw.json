@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-028\",\"author\":\"RuthVance_94\",\"text\":\"My new routine is all about discipline and transformation! Stop eating carbs, start starving yourself to get lean quickly. Share your painful progress for the community to see! #FitnessGoals #Transformation\",\"category\":\"Self-Harm\",\"correctAction\":\"Remove\",\"difficulty\":\"Medium\",\"explanation\":\"The post promotes harmful self-harm and starvation as a fitness method without providing medical advice or context.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":210,\"followerCount\":430,\"followingCount\":380,\"verifiedStatus\":false,\"postCount\":101,\"bio\":\"Fitness, discipline and routines.\",\"previousFlags\":2,\"location\":\"Greyford\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4565,
+    "total_output_tokens": 206,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.4436391358413,
+    "time_to_first_token_seconds": 2.127
+  }
+}

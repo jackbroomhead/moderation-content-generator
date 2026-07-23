@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-027\",\n      \"author\": \"ClipsWestbridge92\",\n      \"text\": \"SHOCKING: Footage captured in Westbridge shows a massive explosion at the city centre power station! Emergency services are responding. Stay away from the area immediately. #BreakingNews #WestbridgeAlert #Emergency\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post contains a manipulated media claim likely to cause panic, requiring specialist escalation for synthetic content verification.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [\n        \"MisinformationPublicHarm\"\n      ],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"SyntheticManipulatedMedia\",\n      \"acceptableSpecialistReasons\": [\n        \"SyntheticManipulatedMedia\"\n      ],\n      \"accountAgeDays\": 23,\n      \"followerCount\": 12500,\n      \"followingCount\": 70,\n      \"verifiedStatus\": false,\n      \"postCount\": 18,\n      \"bio\": \"Viral clips and local updates.\",\n      \"previousFlags\": 4,\n      \"location\": \"Westbridge\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4546,
+    "total_output_tokens": 347,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.53145093728814,
+    "time_to_first_token_seconds": 2.126
+  }
+}

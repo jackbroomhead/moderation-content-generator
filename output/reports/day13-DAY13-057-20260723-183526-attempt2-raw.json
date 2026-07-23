@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-057\",\n      \"author\": \"RiversideReader\",\n      \"text\": \"I'm absolutely done with the CommunityFeed app, honestly. Someone from your area is trying to drag you into a fight over nothing again. It's pathetic that you even bother replying to their nonsense. Just ignore them like everyone else does.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post targets a specific user with direct insults and attempts to incite conflict, which constitutes one-off abusive behaviour. While the tone is aggressive, it lacks the repetition or coordinated action required for an Escalate decision.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 108,\n      \"followerCount\": 623,\n      \"followingCount\": 815,\n      \"verifiedStatus\": false,\n      \"postCount\": 1257,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 3,\n      \"location\": \"Oakhaven\",\n      \"platform\": \"CommunityFeed\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4765,
+    "total_output_tokens": 340,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.60377195087223,
+    "time_to_first_token_seconds": 0.394
+  }
+}

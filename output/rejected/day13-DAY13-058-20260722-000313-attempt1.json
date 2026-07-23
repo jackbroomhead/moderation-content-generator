@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-058",
+      "author": "LiamHenderson94",
+      "text": "Quick update: my payment account has been flagged for suspicious activity, so please verify your login details and security codes via [link removed] to prevent any fraud. Thanks! #AccountHelp",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post asks users directly for passwords or security codes via a link, which constitutes an obvious credential-harvesting attempt that must be removed.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

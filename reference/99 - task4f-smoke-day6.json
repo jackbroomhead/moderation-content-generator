@@ -1,0 +1,78 @@
+{
+  "name": "task4f-smoke-day6",
+  "version": 4,
+  "day": 6,
+  "description": "Task 4f local LLM smoke test: Day 6 metadata and parent reasons.",
+  "slots": [
+    {
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "scenarioBrief": "A non-graphic dangerous challenge encouraging people to climb onto a moving vehicle, jump into a quarry or perform a no-safety-gear stunt. No named target or violence threat.",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "metadata": {
+        "accountAgeDays": 18,
+        "followerCount": 94,
+        "followingCount": 430,
+        "verifiedStatus": false,
+        "postCount": 12,
+        "bio": "Short clips and local dares.",
+        "previousFlags": 2,
+        "location": "Oakhaven",
+        "platform": "ClipLoop"
+      }
+    },
+    {
+      "category": "Harassment",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "A report or call-to-action showing repeated unwanted contact, brigading, mass reporting or multi-account harassment against a specific fictional user.",
+      "correctEscalationReason": "HarassmentAbuse",
+      "acceptableEscalationReasons": [
+        "HarassmentAbuse"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "metadata": {
+        "accountAgeDays": 640,
+        "followerCount": 1800,
+        "followingCount": 410,
+        "verifiedStatus": false,
+        "postCount": 522,
+        "bio": "Community discussions and creator updates.",
+        "previousFlags": 1,
+        "location": "Greyford",
+        "platform": "CommonThread"
+      }
+    },
+    {
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "scenarioBrief": "A legitimate local notice or correction about a fictional service, opening time, route change or community event. It should not repeat a harmful rumour as fact.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "metadata": {
+        "accountAgeDays": 730,
+        "followerCount": 5200,
+        "followingCount": 75,
+        "verifiedStatus": true,
+        "postCount": 340,
+        "bio": "Local notices for residents.",
+        "previousFlags": 0,
+        "location": "Westbridge",
+        "platform": "TownSquare"
+      }
+    }
+  ]
+}

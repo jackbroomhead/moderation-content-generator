@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-092\",\"author\":\"PromoKing42\",\"text\":\"🔥 LAST CHANCE! Grab our exclusive deals before they vanish forever! Don't miss out on this incredible opportunity! [link removed] #DealsAndPromotions #UrgentOffer #MustBuy\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is repetitive bulk promotion with excessive urgency and little genuine context, fitting the spam category which requires removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":101,\"followerCount\":582,\"followingCount\":778,\"verifiedStatus\":false,\"postCount\":1174,\"bio\":\"Deals and promotions.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4764,
+    "total_output_tokens": 209,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.48653691031878,
+    "time_to_first_token_seconds": 2.076
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-092\",\"author\":\"LibertyLark34\",\"text\":\"Just a heads up from the Town Hall: there will be some roadworks on High Street this coming Tuesday for maintenance. The bus route might take a slight detour, but everything should be back to normal by Wednesday. Thanks! #CommunityUpdate\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign notice about local transport and infrastructure; it does not constitute a threat or misinformation and is therefore approved.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4572,
+    "total_output_tokens": 225,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.22804059232915,
+    "time_to_first_token_seconds": 1.982
+  }
+}

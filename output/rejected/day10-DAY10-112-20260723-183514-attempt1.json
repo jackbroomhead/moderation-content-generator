@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-112",
+      "author": "GreyfordGardens42",
+      "text": "Need some help please, my account has been locked and I've lost access. If you reply with your password or security code to verify it's me, I can fix it instantly! Also check this link for a payment update: [link removed] #Help #Urgent",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post requests sensitive credential information and directs users to an external payment link, which constitutes a clear phishing attempt requiring removal.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

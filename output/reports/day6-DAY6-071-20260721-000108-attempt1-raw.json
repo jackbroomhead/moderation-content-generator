@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-071\",\"author\":\"NorthbridgeLibraryUpdate\",\"text\":\"Just wanted to let everyone know that our new community reading room at Northbridge Public Library is now open for drop-ins! We're running extended hours until 8pm on weekdays. Come check out the latest fiction collection or use our quiet study spaces.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign notice about a local service opening and operating hours, containing no sensitive data, threats, or harmful misinformation.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4556,
+    "total_output_tokens": 222,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.42359842621929,
+    "time_to_first_token_seconds": 1.949
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-112\",\"author\":\"LibertyLaneUpdates\",\"text\":\"Good news for everyone in Northbridge! The Central Library is hosting a free reading workshop this Saturday from 10am to 2pm. They'll have books on display and refreshments available. Come along if you're interested in catching up on some fiction or non-fiction. #CommunityEvent #Northbridge\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign community notice with no harmful content; it promotes a safe public event and does not violate any policies.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4563,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.45597104041462,
+    "time_to_first_token_seconds": 1.978
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-057\",\"author\":\"OakhavenScribe42\",\"text\":\"I'm absolutely done with the app's comment section. This person keeps tagging me in posts just to insult my work ethic and personal life. It's relentless harassment.\",\"category\":\"Harassment\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"This is a direct, one-off abusive attack against a user, which falls under Harassment and should be removed as it violates platform rules against targeted insults.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":108,\"followerCount\":623,\"followingCount\":815,\"verifiedStatus\":false,\"postCount\":1257,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":3,\"location\":\"Oakhaven\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4769,
+    "total_output_tokens": 215,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.87570712784871,
+    "time_to_first_token_seconds": 0.393
+  }
+}

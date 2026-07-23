@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-060",
+      "author": "MoorvaleMarketFan",
+      "text": "Exciting news from Moorvale! Our annual Summer Festival is taking place this Saturday at the Community Gardens. Expect live music, local artisan stalls, and a family-friendly quiz competition starting at 2 PM. Don't miss out on our special pop-up market with fresh produce and handmade crafts. Come support our community spirit! #MoorvaleFestival #SummerFun",
+      "category": "News / Public Event",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless announcement for a fictional festival and event; it does not spread misinformation, promote harm, or reveal private details, so it meets the criteria for Approve.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 705,
+      "followerCount": 6550,
+      "followingCount": 185,
+      "verifiedStatus": false,
+      "postCount": 1235,
+      "bio": "Fictional events, culture and local announcements.",
+      "previousFlags": 0,
+      "location": "Moorvale",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

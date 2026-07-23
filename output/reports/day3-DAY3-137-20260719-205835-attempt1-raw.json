@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-137\",\"author\":\"MeadowWalker84\",\"text\":\"Honestly, I'm tired of the noise at Westbridge Council meetings lately. They keep talking about 'balancing budgets' while ignoring real issues like housing and transport. It feels like they're more concerned with optics than actual progress. #localpolitics\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a standard opinion post criticising government policy without containing threats, harassment, or harmful misinformation; it falls within acceptable free speech.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4483,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.52316943983344,
+    "time_to_first_token_seconds": 1.879
+  }
+}

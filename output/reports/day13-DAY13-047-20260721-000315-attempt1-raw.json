@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-047\",\"author\":\"LibraryLover82\",\"text\":\"Just spotted a handy notice on the app about the new community garden opening in Northbridge next week! The library will be hosting free guided tours starting at 10am every Saturday. Perfect for anyone looking to get involved with local green spaces. #CommunityGarden #Northbridge\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign community notice promoting a public event; no sensitive data, threats or scams are present, so it meets criteria for approval.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4568,
+    "total_output_tokens": 235,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.38650251600642,
+    "time_to_first_token_seconds": 2
+  }
+}

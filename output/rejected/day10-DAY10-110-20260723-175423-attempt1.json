@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-110",
+      "author": "MandyListings",
+      "text": "Hi everyone, quick update on my account help and payment info. Please use the link removed to reset your password or send over your security code so we can verify you immediately.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post solicits sensitive credentials and a security code, which constitutes a credential-harvesting attempt that must be removed as a clear violation of platform safety.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

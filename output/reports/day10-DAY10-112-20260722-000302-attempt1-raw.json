@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-112\",\n      \"author\": \"NorthbridgeNotices\",\n      \"text\": \"Reminder: The main library in Northbridge will be closed for routine maintenance this Tuesday between 2pm and 4pm. We'll have a sign posted at the entrance. Apologies for any inconvenience! #librarynews\",\n      \"category\": \"Public Information\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a benign administrative notice about local facility hours that poses no risk to users or public safety, so it should be approved.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 414,\n      \"followerCount\": 2800,\n      \"followingCount\": 128,\n      \"verifiedStatus\": true,\n      \"postCount\": 602,\n      \"bio\": \"Fictional community notices and service updates.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"TownSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4795,
+    "total_output_tokens": 320,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.4056293389552,
+    "time_to_first_token_seconds": 2.134
+  }
+}

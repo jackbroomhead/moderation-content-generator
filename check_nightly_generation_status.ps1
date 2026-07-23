@@ -96,9 +96,12 @@ $LatestManifest = Get-LatestFile -Folder $Logs -Filter "generation-*-manifest.js
 
 $LatestCandidates = @()
 $LatestValidations = @()
+$LatestRunStatus = "<none>"
+$ExpectedDays = @(3, 6, 10, 13)
 if ($LatestManifest) {
     try {
         $Manifest = Get-Content -LiteralPath $LatestManifest.FullName -Raw | ConvertFrom-Json
+        $LatestRunStatus = [string]$Manifest.status
         foreach ($Result in @($Manifest.results)) {
             if ($Result.candidate) {
                 $LatestCandidates += [string]$Result.candidate
@@ -117,7 +120,22 @@ if ($LatestManifest) {
     }
 }
 
-if ($LatestCandidates.Count -eq 0 -and (Test-Path -LiteralPath $CandidateDir)) {
+if ($LatestPlan) {
+    try {
+        $Plan = Get-Content -LiteralPath $LatestPlan.FullName -Raw | ConvertFrom-Json
+        if ($Plan.requested_days) {
+            $ExpectedDays = @($Plan.requested_days | ForEach-Object { [int]$_ } | Sort-Object -Unique)
+        }
+        elseif ($Plan.profiles) {
+            $ExpectedDays = @($Plan.profiles | ForEach-Object { [int]$_.target_day } | Sort-Object -Unique)
+        }
+    }
+    catch {
+        $ExpectedDays = @(3, 6, 10, 13)
+    }
+}
+
+if (-not $LatestManifest -and $LatestCandidates.Count -eq 0 -and (Test-Path -LiteralPath $CandidateDir)) {
     $LatestCandidates = @(
         Get-ChildItem -LiteralPath $CandidateDir -Filter "*.json" -File -ErrorAction SilentlyContinue |
             Sort-Object LastWriteTime -Descending |
@@ -125,7 +143,7 @@ if ($LatestCandidates.Count -eq 0 -and (Test-Path -LiteralPath $CandidateDir)) {
             ForEach-Object { $_.FullName }
     )
 }
-if ($LatestValidations.Count -eq 0 -and (Test-Path -LiteralPath $ReportDir)) {
+if (-not $LatestManifest -and $LatestValidations.Count -eq 0 -and (Test-Path -LiteralPath $ReportDir)) {
     $LatestValidations = @(
         Get-ChildItem -LiteralPath $ReportDir -Filter "*-validation.txt" -File -ErrorAction SilentlyContinue |
             Sort-Object LastWriteTime -Descending |
@@ -164,12 +182,35 @@ if ($LatestValidations.Count -eq 0) {
     $ValidationPassed = $false
 }
 
+$GeneratedDays = @()
+foreach ($CandidatePath in $LatestCandidates) {
+    foreach ($Post in @(Read-Posts -Path $CandidatePath)) {
+        try {
+            $GeneratedDays += [int]$Post.day
+        }
+        catch {
+        }
+    }
+}
+$GeneratedDays = @($GeneratedDays | Sort-Object -Unique)
+$MissingDays = @($ExpectedDays | Where-Object { $GeneratedDays -notcontains [int]$_ })
+$LatestRunComplete = (
+    $LatestRunStatus -eq "completed" -and
+    $MissingDays.Count -eq 0
+)
+$LatestRunPartial = (
+    $LatestCandidates.Count -gt 0 -and
+    $MissingDays.Count -gt 0
+)
+
 $ReadyForReview = (
     -not $LockExists -and
     $Active.Count -eq 0 -and
     $LatestCandidates.Count -gt 0 -and
     $ValidationPassed -and
-    $BlockingErrors -eq 0
+    $BlockingErrors -eq 0 -and
+    $MissingDays.Count -eq 0 -and
+    $LatestRunStatus -eq "completed"
 )
 
 Write-Host "Nightly generation status"
@@ -184,6 +225,12 @@ Write-Host ""
 Write-Host "Latest generation plan: $(if ($LatestPlan) { $LatestPlan.FullName } else { '<none>' })"
 Write-Host "Latest generation manifest: $(if ($LatestManifest) { $LatestManifest.FullName } else { '<none>' })"
 Write-Host "Latest nightly report: $(if ($LatestNightlyReport) { $LatestNightlyReport.FullName } else { '<none>' })"
+Write-Host "Latest run status: $LatestRunStatus"
+Write-Host "Expected days: $($ExpectedDays -join ',')"
+Write-Host "Days generated: $($GeneratedDays -join ',')"
+Write-Host "Missing days: $($MissingDays -join ',')"
+Write-Host "Latest run complete: $LatestRunComplete"
+Write-Host "Latest run partial: $LatestRunPartial"
 Write-Host ""
 Write-Host "Latest candidate files:"
 if ($LatestCandidates.Count -gt 0) {

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-109\",\n      \"author\": \"Elara_Vest\",\n      \"text\": \"Really disappointed in how people treat others on this platform. Someone left a nasty comment about my post earlier and I'm just reporting the behaviour, not engaging with it. It's annoying to see rude comments flying around without anyone calling them out.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The user is calmly criticising rude behaviour and reporting it without attacking the individual, directing a pile-on, or revealing private information, which aligns with acceptable community conduct.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1093,\n      \"followerCount\": 11550,\n      \"followingCount\": 261,\n      \"verifiedStatus\": false,\n      \"postCount\": 2079,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4817,
+    "total_output_tokens": 332,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.1860917783469,
+    "time_to_first_token_seconds": 2.145
+  }
+}

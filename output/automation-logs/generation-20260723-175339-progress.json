@@ -1,0 +1,65 @@
+﻿{
+    "state":  "completed",
+    "updatedAt":  "2026-07-23T17:55:24",
+    "runLog":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260723-175339-run.log",
+    "summary":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260723-175339-summary.txt",
+    "manifest":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260723-175339-manifest.json",
+    "results":  [
+                    {
+                        "profile":  "hardening-test-8b-day3",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  3,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day3-pilot-20260723-175340.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260723-175340-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "hardening-test-8b-day6",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  6,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day6-pilot-20260723-175413.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260723-175413-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260723-175354-semantic-failed.txt",
+                        "error":  null
+                    },
+                    {
+                        "profile":  "hardening-test-8b-day10",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  10,
+                        "success":  true,
+                        "attempts":  3,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day10-pilot-20260723-175446.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260723-175446-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-DAY10-110-20260723-175435-failed.txt",
+                        "error":  null
+                    },
+                    {
+                        "profile":  "hardening-test-8b-day13",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  13,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day13-pilot-20260723-175458.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260723-175458-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    }
+                ]
+}

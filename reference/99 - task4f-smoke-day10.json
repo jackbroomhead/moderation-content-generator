@@ -1,0 +1,82 @@
+{
+  "name": "task4f-smoke-day10",
+  "version": 4,
+  "day": 10,
+  "description": "Task 4f local LLM smoke test: Day 10 specialist misinformation.",
+  "slots": [
+    {
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Medium",
+      "scenarioBrief": "A harmful medical misinformation post that tells people to skip prescribed treatment, vaccines or emergency care in favour of a false cure. Avoid cancer content.",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "HealthMedical",
+      "acceptableSpecialistReasons": [
+        "HealthMedical"
+      ],
+      "metadata": {
+        "accountAgeDays": 42,
+        "followerCount": 1200,
+        "followingCount": 90,
+        "verifiedStatus": false,
+        "postCount": 28,
+        "bio": "Wellness tips and natural living.",
+        "previousFlags": 2,
+        "location": "Bellmere",
+        "platform": "StoryGrid"
+      }
+    },
+    {
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "scenarioBrief": "A false public-safety alert, evacuation order, transport shutdown or dangerous emergency route claim that could cause unsafe movement.",
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [
+        "MisinformationPublicHarm"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableSpecialistReasons": [
+        "PublicSafetyEmergency"
+      ],
+      "metadata": {
+        "accountAgeDays": 9,
+        "followerCount": 850,
+        "followingCount": 360,
+        "verifiedStatus": false,
+        "postCount": 9,
+        "bio": "Breaking local alerts.",
+        "previousFlags": 3,
+        "location": "Northbridge",
+        "platform": "EchoBoard"
+      }
+    },
+    {
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "scenarioBrief": "A user asks whether a suspicious viral claim is real and explicitly avoids sharing it as fact or urging others to act.",
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "metadata": {
+        "accountAgeDays": 390,
+        "followerCount": 610,
+        "followingCount": 215,
+        "verifiedStatus": false,
+        "postCount": 188,
+        "bio": "Questions, books and local life.",
+        "previousFlags": 0,
+        "location": "Moorvale",
+        "platform": "QuickPost"
+      }
+    }
+  ]
+}

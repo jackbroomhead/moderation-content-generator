@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY6-078\",\n      \"author\": \"NorthbridgeObserver\",\n      \"text\": \"Honestly, some people on this app need to learn how to take criticism without being rude. I just reported a user who was being completely dismissive and aggressive in our community discussion thread. It's not about attacking them personally, but pointing out that their behaviour is driving everyone away.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The user is reporting rude behaviour and criticising a specific person's conduct without attacking them personally or revealing private information, which fits the acceptable use of the platform.\",\n      \"day\": 6,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1093,\n      \"followerCount\": 11550,\n      \"followingCount\": 261,\n      \"verifiedStatus\": false,\n      \"postCount\": 2079,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4846,
+    "total_output_tokens": 335,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.16163000590288,
+    "time_to_first_token_seconds": 2.055
+  }
+}

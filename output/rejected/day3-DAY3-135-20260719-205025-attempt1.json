@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-135",
+      "author": "MossyGarden",
+      "text": "Honestly, I'm tired of paying Â£20 a month for that streaming service they call 'the app'. They keep raising prices and the quality drops whenever it rains. If we're all going to be forced into these expensive subscriptions just to watch basic TV, maybe we should start supporting free-to-air channels instead. #BoycottStreaming",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This is a lawful consumer complaint regarding pricing and service quality without threatening harm or spreading false claims.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialationReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "acceptableSpecialistReasons": []
+    }
+  ]
+}

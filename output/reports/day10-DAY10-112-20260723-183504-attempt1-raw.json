@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-112\",\"author\":\"MasonRiley73\",\"text\":\"Help! Urgent payment needed via the app. Please DM your login credentials or 2FA code to verify. Payment link [link removed] active now.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post requests sensitive authentication details like passwords and security codes, which is a clear credential-harvesting scam requiring removal.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4888,
+    "total_output_tokens": 204,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.47977708565695,
+    "time_to_first_token_seconds": 0.469
+  }
+}

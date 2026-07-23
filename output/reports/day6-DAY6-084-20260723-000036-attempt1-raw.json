@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-084\",\"author\":\"GardenShowFanatic\",\"text\":\"Exciting news for all nature lovers! The annual Bloom Festival is taking place at the Moorvale Community Centre this Saturday. Expect live music, plant stalls, and a special exhibition on local wildlife. Doors open at 10am.\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post announces a harmless public event with no policy violations or sensitive details exposed.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4700,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.56556988869028,
+    "time_to_first_token_seconds": 2.028
+  }
+}

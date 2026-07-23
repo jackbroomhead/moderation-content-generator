@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"MeadowWalker92\",\"text\":\"Quick question - I'm being asked to verify my account details. They say it's urgent! Just click [link removed] and enter your password, 2FA code and card number to complete the process now.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear phishing attempt asking for sensitive credentials and payment information via a link. It requires immediate removal to prevent credential theft or financial harm.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4581,
+    "total_output_tokens": 184,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.97760846556844,
+    "time_to_first_token_seconds": 0.347
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-140\",\n      \"author\": \"BakerElara\",\n      \"text\": \"Finally cracked the recipe for my sourdough! The crust is perfectly crisp and the crumb is open. Took me three batches to get the hydration right, but it's worth every minute of kneading. #sourdough #baking\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about a cooking hobby; the post contains no policy violations, sensitive information, or harmful claims.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4458,
+    "total_output_tokens": 287,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.58052031024788,
+    "time_to_first_token_seconds": 1.89
+  }
+}

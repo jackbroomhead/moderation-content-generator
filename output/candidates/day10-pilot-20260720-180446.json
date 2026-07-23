@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-089",
+      "author": "BakerBeth72",
+      "text": "Just finished my sourdough loaf today! It came out perfect with a nice crust. Can't wait to slice it up for some sandwiches this weekend.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal update about a hobby and cooking achievement, containing no sensitive details or harmful claims.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 220,
+      "followerCount": 300,
+      "followingCount": 90,
+      "verifiedStatus": false,
+      "postCount": 180,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 1,
+      "location": "Westbridge",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

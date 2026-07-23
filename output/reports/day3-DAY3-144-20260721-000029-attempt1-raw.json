@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-144\",\"author\":\"MoorvaleMarketUser\",\"text\":\"Just tried to buy a vintage camera from a seller who claimed they were the original owner. They sent me photos of an ID card, but the name on it was different to what I saw in the profile picture. They also asked me to send my 2FA code to 'verify' the transaction before shipping. This looks like a complete fake! #scam #fraud\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post shows clear signs of social engineering, including impersonation and requests for security codes, which requires specialist verification.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4641,
+    "total_output_tokens": 217,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.47753404550275,
+    "time_to_first_token_seconds": 2.018
+  }
+}

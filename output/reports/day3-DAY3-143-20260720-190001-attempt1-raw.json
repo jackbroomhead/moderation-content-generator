@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"HelenFromMoorvale\",\"text\":\"Quick question for anyone who knows how this works: I'm trying to reset my account on [link removed] but it keeps asking me for a new security code and payment details. Can someone tell me if I need to send over my card number or just click through? #help\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post directly solicits sensitive security codes and asks for payment information, which constitutes a clear credential-harvesting attempt requiring removal.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4584,
+    "total_output_tokens": 195,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.22279173481584,
+    "time_to_first_token_seconds": 1.942
+  }
+}

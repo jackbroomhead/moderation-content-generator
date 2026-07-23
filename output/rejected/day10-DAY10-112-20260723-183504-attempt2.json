@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-112",
+      "author": "MintyPines74",
+      "text": "Quick update for anyone needing help with their EchoBoard account settings! Please use the link in my bio to reset your password or verify your security code immediately. Don't worry, it's totally safe and only takes a minute to complete your payment details via the app.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This is an obvious credential-harvesting attempt where the author directly requests passwords and security codes via [link removed]. The request for payment details through an external link confirms this is fraudulent activity requiring removal.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

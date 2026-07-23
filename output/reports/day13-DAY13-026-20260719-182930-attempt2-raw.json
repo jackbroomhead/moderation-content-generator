@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-026\",\n      \"author\": \"MarketHelperDun\",\n      \"text\": \"Hi everyone, just a quick update from the app team regarding account verification. To ensure your marketplace profile is secure and linked correctly to our Dunmere partner services, we need you to confirm your home address and phone number immediately. Please reply with these details at [link removed] so we can process your deposit.\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post solicits sensitive personal data (home address and phone number) as part of a fake verification flow, which characterises it as FraudScam. While the account metadata indicates previous flags, the primary violation is the extraction attempt.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"FraudScam\",\n      \"acceptableEscalationReasons\": [\n        \"PrivacySensitiveInfo\"\n      ],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 65,\n      \"followerCount\": 2400,\n      \"followingCount\": 188,\n      \"verifiedStatus\": false,\n      \"postCount\": 44,\n      \"bio\": \"Marketplace help and account updates.\",\n      \"previousFlags\": 1,\n      \"location\": \"Dunmere\",\n      \"platform\": \"MarketBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4530,
+    "total_output_tokens": 371,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 83.71384396822575,
+    "time_to_first_token_seconds": 0.399
+  }
+}

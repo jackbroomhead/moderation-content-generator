@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-142\",\"author\":\"LibraryLover7\",\"text\":\"Just wanted to share that Westbridge Community Library is hosting their usual autumn craft fair this Saturday from 10am until 4pm. There will be local artists selling handmade goods and a few free workshops on basic knitting techniques. Hope you can make it! #Westbridge #Crafts\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post is a harmless public notice about a community event with no sensitive data, threats or misinformation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4533,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.2135084285907,
+    "time_to_first_token_seconds": 1.875
+  }
+}

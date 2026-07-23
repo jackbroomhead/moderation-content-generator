@@ -1,0 +1,13 @@
+VALIDATION ERRORS
+posts.0: Additional properties are not allowed ('acceptableSpecialierReasons' was unexpected)
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 946 (char 945)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes
+posts[0].acceptableSpecialistReasons

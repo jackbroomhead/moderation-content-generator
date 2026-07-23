@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-142\",\n      \"author\": \"BookWorm_Bella\",\n      \"text\": \"Finally tracked down a rare copy of 'The Silent Sea' at the local library in Westbridge! The librarian was so helpful and I couldn't resist adding it to my TBR pile. Can't wait to dive into this one this weekend. #bookhaul #westbridge\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a standard personal update about acquiring a book; it contains no harmful content, requests for private data, or policy violations.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4758,
+    "total_output_tokens": 295,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.53613090894848,
+    "time_to_first_token_seconds": 0.361
+  }
+}

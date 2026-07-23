@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-063\",\"author\":\"JennaMills24\",\"text\":\"Right then, my brother-in-law has absolutely no idea how to operate a washing machine! He's been trying to figure out the settings for an hour now while I'm just standing there watching him. Honestly, it's a bit frustrating but at least he's not burning the house down. #FamilyLife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post shares a lighthearted family anecdote with mild frustration but contains no abuse, private information, or safety concerns.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4827,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.38106702243088,
+    "time_to_first_token_seconds": 1.999
+  }
+}

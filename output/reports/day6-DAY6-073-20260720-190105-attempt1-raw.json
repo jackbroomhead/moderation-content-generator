@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-073\",\"author\":\"BellmereListings24\",\"text\":\"Quick update for everyone on the platform! My listings and payment info are ready to go. Please check my bio for the latest deals and offers. Don't miss out on these great opportunities! #Deals #Updates #Offers\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post exhibits social-engineering signals typical of account takeover attempts, such as a generic bio focused on payment updates and the use of [link removed] to obscure verification details. While not a direct threat, the pattern requires specialist review to determine if the account is impersonating a legitimate user or soliciting sensitive data through deceptive means.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4650,
+    "total_output_tokens": 266,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.23889795766189,
+    "time_to_first_token_seconds": 1.933
+  }
+}

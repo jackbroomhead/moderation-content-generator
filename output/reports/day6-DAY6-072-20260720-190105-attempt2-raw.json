@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-072\",\"author\":\"LunaVineArt\",\"text\":\"Hi everyone, quick update on my listings. Please check the [link removed] for my latest offers and payment details. Don't miss out on these great deals! #Deals #Updates\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a straightforward phishing attempt asking users to follow a link for payments or credentials, which is a clear violation requiring removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4636,
+    "total_output_tokens": 208,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.82706341877252,
+    "time_to_first_token_seconds": 0.379
+  }
+}

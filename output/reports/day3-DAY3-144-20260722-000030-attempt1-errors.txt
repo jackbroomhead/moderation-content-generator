@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Contains an email address; use non-usable fictional context.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Unterminated string starting at: line 1 column 1088 (char 1087)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

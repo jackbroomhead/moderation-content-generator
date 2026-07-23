@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-143",
+      "author": "MintyPots92",
+      "text": "URGENT! Just got a message saying my account is locked. To unlock it, I need you to reply with your password and the 2FA code sent to your phone immediately. Please don't worry, this is just a security step! Click here to [link removed] and send details now.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post constitutes an obvious credential-harvesting scam where the author directly solicits passwords and security codes via a suspicious link, which is a clear Fraud violation requiring immediate removal.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "isStoryPost": false
+    }
+  ]
+}

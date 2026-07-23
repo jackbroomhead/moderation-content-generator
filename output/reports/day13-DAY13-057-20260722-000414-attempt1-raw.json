@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-057\",\"author\":\"NorthbridgeNexus42\",\"text\":\"Quick notice for everyone: The Northbridge Community Library is running its annual summer maintenance schedule from Tuesday 15th to Thursday 17th. We'll be reshelving the fiction collection and updating the digital catalogue system during these hours.\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a benign notice about local library maintenance and does not contain threats, scams, or private information, so it should be approved.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4859,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.79059939801833,
+    "time_to_first_token_seconds": 2.08
+  }
+}

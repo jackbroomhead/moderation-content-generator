@@ -1,0 +1,50 @@
+{
+  "blueprintName": "day3-escalation-production-v4",
+  "reservedIds": [
+    "DAY3-139"
+  ],
+  "posts": [
+    {
+      "id": "DAY3-139",
+      "author": "ElaraBloom",
+      "text": "Just finished my first attempt at sourdough bread using a starter I made from leftover store-bought yeast (yes, I know it's not technically sourdough but the crust is lovely!).\"category\":\"Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post describes a harmless hobby and cooking experiment without spreading misinformation or soliciting harm.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": "",
+      "category": "Lifestyle"
+    }
+  ],
+  "repairs": [
+    "DAY3-139: Repaired malformed JSON syntax before schema validation (original parser error: Expecting ',' delimiter: line 1 column 235 (char 234)).",
+    "DAY3-139: Applied authoritative blueprint value for category."
+  ],
+  "fallbacks": [],
+  "defaults": [
+    "DAY3-139: posts[0].profileImage",
+    "DAY3-139: posts[0].postImage",
+    "DAY3-139: posts[0].tags",
+    "DAY3-139: posts[0].scenario",
+    "DAY3-139: posts[0].notes"
+  ]
+}

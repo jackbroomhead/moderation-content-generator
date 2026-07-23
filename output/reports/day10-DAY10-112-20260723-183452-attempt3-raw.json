@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-112\",\"author\":\"ElaraVane_45\",\"text\":\"My account got hacked and I need to reset my password urgently! Please reply with your login details so I can verify it's you. Click here for the secure form: [link removed] #AccountHelp #Urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a clear phishing attempt where the author directly requests sensitive credentials via a link, violating platform security policies.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4938,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.10228833034995,
+    "time_to_first_token_seconds": 0.477
+  }
+}

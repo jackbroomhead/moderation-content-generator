@@ -43,6 +43,16 @@ $Plan = Get-Content $PlanPath -Raw | ConvertFrom-Json
 $Results = @()
 $AnyFailure = $false
 $FatalError = $null
+$DiversityRetrySuffix = @"
+NIGHTLY DIVERSITY RETRY:
+- Avoid every theme, setting and policy angle that failed earlier in this profile.
+- Avoid hobby/craft/baking/gardening/public-notice templates.
+- Do not use "finally finished", pottery, sourdough, candles, vinyl, library notices, community festivals, obvious credential-verification scams, or generic public-safety rumour templates.
+- Change scenario type, author voice, tone, text structure, metadata tuple and policy category where the blueprint allows it.
+- Prefer sharper conflicts and less familiar premises over safe filler.
+- For Day 10 and Day 13, prefer specialist misinformation, metadata-aware ambiguity, Needs Review-acceptable cases and hard escalation boundaries over easy approve filler.
+- Do not include raw JSON fragments such as "category": inside visible post text.
+"@
 
 function Write-RunLog {
     param([string]$Message)
@@ -101,6 +111,53 @@ function Get-NewestAfter {
         Where-Object { $_.LastWriteTime -ge $After } |
         Sort-Object LastWriteTime -Descending |
         Select-Object -First 1
+}
+
+function Count-PostsInCandidate {
+    param([string]$Path)
+    if (-not $Path -or -not (Test-Path -LiteralPath $Path)) {
+        return 0
+    }
+    try {
+        $Payload = Get-Content -LiteralPath $Path -Raw | ConvertFrom-Json
+        if ($Payload.posts) {
+            return @($Payload.posts).Count
+        }
+    }
+    catch {
+        return 0
+    }
+    return 0
+}
+
+function Set-ConfigProperty {
+    param(
+        [object]$ConfigObject,
+        [string]$Name,
+        [object]$Value
+    )
+
+    if ($ConfigObject.PSObject.Properties[$Name]) {
+        $ConfigObject.$Name = $Value
+    }
+    else {
+        $ConfigObject |
+            Add-Member `
+                -NotePropertyName $Name `
+                -NotePropertyValue $Value `
+                -Force
+    }
+}
+
+function Remove-ConfigProperty {
+    param(
+        [object]$ConfigObject,
+        [string]$Name
+    )
+
+    if ($ConfigObject.PSObject.Properties[$Name]) {
+        $ConfigObject.PSObject.Properties.Remove($Name)
+    }
 }
 
 try {
@@ -166,25 +223,94 @@ try {
                 Archive-Checkpoints "$($Profile.name)-batch$Batch-pre"
             }
 
-            $CurrentConfig = Get-Content $Config -Raw | ConvertFrom-Json
-            $CurrentConfig.blueprint_file = [string]$Profile.blueprint_file
-            $CurrentConfig.target_day = [int]$Profile.target_day
-            $CurrentConfig.count = [int]$Profile.count
-            $CurrentConfig |
-                ConvertTo-Json -Depth 20 |
-                Set-Content $Config -Encoding UTF8
-
             $BatchStarted = Get-Date
-            $MaxAttempts = if ($Plan.retry_failed_batch_once -eq $true) { 2 } else { 1 }
+            $PlanRetryAttempts = if ($Plan.retry_attempts_per_profile) {
+                [int]$Plan.retry_attempts_per_profile
+            }
+            elseif ($Plan.retry_failed_batch_once -eq $true) {
+                2
+            }
+            else {
+                1
+            }
+            $ProfileRetryAttempts = if ($Profile.retry_attempts) {
+                [int]$Profile.retry_attempts
+            }
+            else {
+                $PlanRetryAttempts
+            }
+            $MaxAttempts = [Math]::Max(1, $ProfileRetryAttempts)
             $Succeeded = $false
             $Candidate = $null
             $Validation = $null
             $FailureReport = $null
             $LastExitCode = $null
             $AttemptsUsed = 0
+            $GeneratedCount = 0
+            $FailureReason = ""
 
             for ($Attempt = 1; $Attempt -le $MaxAttempts; $Attempt++) {
                 $AttemptsUsed = $Attempt
+                if ($Attempt -gt 1 -and $FailureReport -and $FailureReport.Name -like "*semantic-failed.txt") {
+                    Archive-Checkpoints "$($Profile.name)-batch$Batch-semantic-retry$Attempt"
+                    Write-RunLog "Archived semantic-failure checkpoints before retry attempt $Attempt."
+                }
+
+                $CurrentConfig = Get-Content $Config -Raw | ConvertFrom-Json
+                Set-ConfigProperty `
+                    -ConfigObject $CurrentConfig `
+                    -Name "blueprint_file" `
+                    -Value ([string]$Profile.blueprint_file)
+                Set-ConfigProperty `
+                    -ConfigObject $CurrentConfig `
+                    -Name "target_day" `
+                    -Value ([int]$Profile.target_day)
+                Set-ConfigProperty `
+                    -ConfigObject $CurrentConfig `
+                    -Name "count" `
+                    -Value ([int]$Profile.count)
+                if ($Profile.slot_start_index -ne $null) {
+                    Set-ConfigProperty `
+                        -ConfigObject $CurrentConfig `
+                        -Name "slot_start_index" `
+                        -Value ([int]$Profile.slot_start_index)
+                }
+                else {
+                    Remove-ConfigProperty `
+                        -ConfigObject $CurrentConfig `
+                        -Name "slot_start_index"
+                }
+
+                $BaseSuffix = [string]$Profile.writer_prompt_suffix
+                if (-not $BaseSuffix) {
+                    $BaseSuffix = [string]$Plan.writer_prompt_suffix
+                }
+                if (-not $BaseSuffix) {
+                    $BaseSuffix = [string]$CurrentConfig.writer_prompt_suffix
+                }
+                if ($Attempt -gt 1) {
+                    $RetrySuffix = [string]$Profile.diversity_retry_prompt_suffix
+                    if (-not $RetrySuffix) {
+                        $RetrySuffix = [string]$Plan.diversity_retry_prompt_suffix
+                    }
+                    if (-not $RetrySuffix) {
+                        $RetrySuffix = $DiversityRetrySuffix
+                    }
+                    Set-ConfigProperty `
+                        -ConfigObject $CurrentConfig `
+                        -Name "writer_prompt_suffix" `
+                        -Value (($BaseSuffix, $RetrySuffix) -join "`n`n")
+                }
+                else {
+                    Set-ConfigProperty `
+                        -ConfigObject $CurrentConfig `
+                        -Name "writer_prompt_suffix" `
+                        -Value $BaseSuffix
+                }
+                $CurrentConfig |
+                    ConvertTo-Json -Depth 20 |
+                    Set-Content $Config -Encoding UTF8
+
                 Write-RunLog (
                     "Profile=$($Profile.name), batch=$Batch, " +
                     "attempt=$Attempt of $MaxAttempts"
@@ -230,13 +356,20 @@ try {
                     $ValidationPassed
                 ) {
                     $Succeeded = $true
+                    $GeneratedCount = Count-PostsInCandidate $Candidate.FullName
                     break
                 }
 
                 if ($Attempt -lt $MaxAttempts) {
+                    $FailureReason = if ($FailureReport) {
+                        "Latest failure report: $($FailureReport.FullName)"
+                    }
+                    else {
+                        "No validation report was produced."
+                    }
                     Write-RunLog (
                         "No valid candidate/validation pair was produced. " +
-                        "Retrying with accepted checkpoints preserved."
+                        "Retrying with diversity hardening."
                     )
                 }
             }
@@ -249,6 +382,14 @@ try {
             else {
                 $AnyFailure = $true
                 Archive-Checkpoints "$($Profile.name)-batch$Batch-failed"
+                if (-not $FailureReason) {
+                    $FailureReason = if ($FailureReport) {
+                        "Latest failure report: $($FailureReport.FullName)"
+                    }
+                    else {
+                        "No validated candidate was produced."
+                    }
+                }
                 Write-RunLog (
                     "Profile=$($Profile.name), batch=$Batch failed after " +
                     "$AttemptsUsed attempt(s)."
@@ -258,9 +399,12 @@ try {
             $Results += [pscustomobject]@{
                 profile = [string]$Profile.name
                 batch = $Batch
+                requestedCount = [int]$Profile.count
+                targetDay = [int]$Profile.target_day
                 success = $Succeeded
                 attempts = $AttemptsUsed
                 exitCode = $LastExitCode
+                generatedCount = $GeneratedCount
                 candidate = if ($Candidate) { $Candidate.FullName } else { $null }
                 validation = if ($Validation) { $Validation.FullName } else { $null }
                 failureReport = if ($FailureReport) {
@@ -273,7 +417,7 @@ try {
                     $null
                 }
                 else {
-                    "No validated candidate was produced."
+                    $FailureReason
                 }
             }
 
@@ -340,7 +484,9 @@ finally {
     foreach ($Result in $Results) {
         $Lines += (
             "Profile: $($Result.profile) | Batch: $($Result.batch) | " +
-            "Success: $($Result.success) | Attempts: $($Result.attempts)"
+            "Success: $($Result.success) | Attempts: $($Result.attempts) | " +
+            "Requested: $($Result.requestedCount) | Generated: $($Result.generatedCount) | " +
+            "Target day: $($Result.targetDay)"
         )
         $Lines += "Candidate: $($Result.candidate)"
         $Lines += "Validation: $($Result.validation)"

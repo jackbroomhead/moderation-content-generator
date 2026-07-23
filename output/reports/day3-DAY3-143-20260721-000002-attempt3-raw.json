@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-143\",\n      \"author\": \"MeganProudly92\",\n      \"text\": \"Hey everyone! Just noticed you're trying to log in from a new device, right? To keep your account safe, please reply with your password or 2FA code so I can verify it's you. Also, check out this amazing offer: buy now via the link [link removed] and pay instantly using your card details!\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a clear fraud attempt because it directly requests sensitive authentication data like passwords and security codes, and solicits payment information through a link.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4618,
+    "total_output_tokens": 302,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.19781777571528,
+    "time_to_first_token_seconds": 0.399
+  }
+}

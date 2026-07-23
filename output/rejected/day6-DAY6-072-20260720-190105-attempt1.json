@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-072",
+      "author": "MeadowRook92",
+      "text": "Need a quick favour, please. I'm trying to secure my account but they say I must reset my password and enter the 2FA code sent to my phone at [link removed] to verify it's really me before I can release funds.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This is a classic credential-harvesting attempt asking for sensitive security details like passwords and 2FA codes under the guise of verification, which requires immediate removal.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

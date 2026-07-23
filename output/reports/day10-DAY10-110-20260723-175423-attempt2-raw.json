@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-110\",\"author\":\"ElaraVine73\",\"text\":\"URGENT: Official support team noticed suspicious login from a different device! To secure your account immediately, please verify at [link removed] and enter your current password and 2FA code. We cannot process this without it.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post directly requests sensitive credentials and security codes to access an account, which constitutes a clear credential-harvesting fraud attempt requiring removal.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4605,
+    "total_output_tokens": 220,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.06003026523233,
+    "time_to_first_token_seconds": 0.424
+  }
+}

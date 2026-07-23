@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-033",
+      "author": "BakingWithBerries",
+      "text": "Finally nailed my sourdough! Tried adding some rye flour and the crust is perfect. #sourdough #baking",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal update about a hobby with no policy violations, so it should be approved.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 220,
+      "followerCount": 300,
+      "followingCount": 90,
+      "verifiedStatus": false,
+      "postCount": 180,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 1,
+      "location": "Westbridge",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

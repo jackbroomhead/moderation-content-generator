@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"Elara Vance\",\"text\":\"Honestly tired of the constant noise from the city council regarding traffic congestion on Westbridge High Street. They claim it's a priority, but I've been stuck in gridlock for hours trying to get to work. Is there anyone else feeling this frustration? #TrafficJams #WestbridgeLife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a natural opinion and everyday complaint about local government that does not contain any threat, targeted abuse, or harmful false claim.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4907,
+    "total_output_tokens": 193,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.31237746325687,
+    "time_to_first_token_seconds": 0.36
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-113",
+      "author": "MorganWestfield",
+      "text": "Hi everyone, just a quick update regarding my payment details. To secure your account and process the transfer, please send me your password and security code via [link removed]. I can't wait to see you on the other side! #help",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post is flagged as fraud because it directly requests sensitive credentials like a password and security code, which are clear signs of a phishing attempt.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

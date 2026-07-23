@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-115\",\"author\":\"FestivalFolk84\",\"text\":\"Just got word that the annual Spring Garden Show at Oakhaven Community Centre is happening next weekend! 🌸 They'll have a fantastic display of local plants, some live music from the band 'The Rusty Strings', and kids' craft workshops. It's always a lovely time to meet neighbours and enjoy the flowers. #CommunityEvents #GardenShow\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless announcement for a community event with no evidence of threats, scams, or misinformation; it promotes local culture safely.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4694,
+    "total_output_tokens": 254,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.25242138238036,
+    "time_to_first_token_seconds": 2.01
+  }
+}

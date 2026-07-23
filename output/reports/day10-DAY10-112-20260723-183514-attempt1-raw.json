@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-112\",\n      \"author\": \"GreyfordGardens42\",\n      \"text\": \"Need some help please, my account has been locked and I've lost access. If you reply with your password or security code to verify it's me, I can fix it instantly! Also check this link for a payment update: [link removed] #Help #Urgent\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post requests sensitive credential information and directs users to an external payment link, which constitutes a clear phishing attempt requiring removal.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 24,\n      \"followerCount\": 131,\n      \"followingCount\": 371,\n      \"verifiedStatus\": false,\n      \"postCount\": 261,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 5,\n      \"location\": \"Greyford\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4888,
+    "total_output_tokens": 329,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.6539029945113,
+    "time_to_first_token_seconds": 0.472
+  }
+}

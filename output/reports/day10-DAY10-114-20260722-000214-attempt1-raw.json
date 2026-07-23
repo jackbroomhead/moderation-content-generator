@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-114\",\"author\":\"MoorvaleWatch29\",\"text\":\"URGENT WARNING: Immediate evacuation required for all residents near Bellmere industrial zone due to severe structural instability and toxic air contamination! Do not leave your homes or enter any public transport. This is a critical safety alert from the platform. [link removed] #Evacuation #Bellmere #SafetyAlert\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes an unverified evacuation and contamination claim that could cause unsafe public movement, requiring specialist PublicSafetyEmergency escalation to verify provenance and prevent panic.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4653,
+    "total_output_tokens": 252,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.31334134227868,
+    "time_to_first_token_seconds": 1.983
+  }
+}

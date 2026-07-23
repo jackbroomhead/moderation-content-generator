@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-143\",\n      \"author\": \"SarahWestbridge92\",\n      \"text\": \"URGENT: Need to secure my account! If you want the free gift card or deposit, please reply with your password and security code now. Click [link removed] to verify immediately.\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a clear fraud attempt because it directly asks for a password and security code to grant a reward, which requires immediate removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4626,
+    "total_output_tokens": 269,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.32512577300903,
+    "time_to_first_token_seconds": 0.397
+  }
+}

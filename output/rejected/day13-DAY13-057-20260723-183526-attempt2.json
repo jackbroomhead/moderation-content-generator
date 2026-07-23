@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-057",
+      "author": "RiversideReader",
+      "text": "I'm absolutely done with the CommunityFeed app, honestly. Someone from your area is trying to drag you into a fight over nothing again. It's pathetic that you even bother replying to their nonsense. Just ignore them like everyone else does.",
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "This post targets a specific user with direct insults and attempts to incite conflict, which constitutes one-off abusive behaviour. While the tone is aggressive, it lacks the repetition or coordinated action required for an Escalate decision.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 108,
+      "followerCount": 623,
+      "followingCount": 815,
+      "verifiedStatus": false,
+      "postCount": 1257,
+      "bio": "Personal commentary and community discussion.",
+      "previousFlags": 3,
+      "location": "Oakhaven",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

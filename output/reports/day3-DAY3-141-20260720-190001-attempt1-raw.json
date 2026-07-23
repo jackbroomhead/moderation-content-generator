@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-141\",\"author\":\"ElaraMoss\",\"text\":\"Honestly, the new council tax rates in Westbridge are absolutely ridiculous. I've been trying to fix my leaky faucet for weeks and now this? It feels like they just want everyone struggling. Time to save up for a rainy day instead of paying these bills! #WestbridgeCouncil\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with government policy (council tax) but contains no threat, targeted abuse, or harmful false claims; it is a natural opinion.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4489,
+    "total_output_tokens": 198,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.17282961977762,
+    "time_to_first_token_seconds": 1.904
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-060\",\"author\":\"MoorvaleMarketFan\",\"text\":\"Exciting news for our local community! The Moorvale Spring Garden Show is officially back this weekend. We'll have live music, a flower competition, and plenty of stalls selling fresh produce from local growers. It's a wonderful day out for the whole family. #CommunityEvents #GardenShow\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless announcement for a community event and does not promote any harmful misinformation or violate safety policies.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4851,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.38458707056557,
+    "time_to_first_token_seconds": 2.096
+  }
+}

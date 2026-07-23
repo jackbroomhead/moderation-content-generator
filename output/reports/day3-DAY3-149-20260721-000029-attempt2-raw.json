@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-149\",\n      \"author\": \"HonestObserver72\",\n      \"text\": \"Really disappointed in how some people treat others on this app. Saw a post earlier where someone was being genuinely rude and dismissive, and the pile-on was getting toxic. I just wanted to call it out because constructive feedback is important but personal attacks aren't. We need to keep things civil for everyone's sake.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post calmly reports rude behaviour without directing a pile-on or revealing private information, making it an acceptable user contribution rather than a policy violation.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4870,
+    "total_output_tokens": 305,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.5233084614091,
+    "time_to_first_token_seconds": 0.398
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-090\",\"author\":\"BakingWithBlueberries\",\"text\":\"Finally cracked the recipe for my lemon drizzle cake! The texture was perfect and it's now a weekend staple in Westbridge. Who wants to try this one? #BakingLife #WeekendVibes\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update sharing a cooking achievement; no sensitive details, threats or scams are present.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4491,
+    "total_output_tokens": 211,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.2217271396984,
+    "time_to_first_token_seconds": 2.013
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-072\",\"author\":\"SunnySideListings\",\"text\":\"Need a hand with my login details for the app? Just click here [link removed] and enter your password, security code and card info to access the special support account. Quick and easy! #Support #Help\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post requests sensitive authentication data like passwords and security codes, which is a classic credential-harvesting attempt requiring removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4607,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.03578603990607,
+    "time_to_first_token_seconds": 2.033
+  }
+}

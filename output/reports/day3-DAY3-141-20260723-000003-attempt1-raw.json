@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-141\",\"author\":\"JennyFromNorthbridge\",\"text\":\"Honestly tired of how AI keeps getting blamed for everything these days. If people stop sharing their nonsense on it, maybe they'd stop using it as a scapegoat! #AI #TechTwitter\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses lawful political and anti-AI opinion regarding the use of AI technology; it does not promote harm or contain a false claim, so it is appropriate to Approve.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"Northbridge\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4497,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.93691619658414,
+    "time_to_first_token_seconds": 1.946
+  }
+}

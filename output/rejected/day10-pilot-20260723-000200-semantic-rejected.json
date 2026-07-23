@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-114",
+      "author": "MeadowLaneUpdates",
+      "text": "ALERT: Bellmere residents must evacuate immediately! The entire town is contaminated and water mains have burst everywhere due to a gas leak. Do not trust official reports, the danger is real right now. #Bellmere #Emergency",
+      "category": "Misinformation",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "This post spreads an unverified evacuation warning that could cause unsafe public movement; it requires specialist escalation for PublicSafetyEmergency.",
+      "day": 10,
+      "correctEscalationReason": "MisinformationPublicHarm",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "PublicSafetyEmergency",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 217,
+      "followerCount": 3100,
+      "followingCount": 256,
+      "verifiedStatus": false,
+      "postCount": 818,
+      "bio": "Public-interest claims and current discussions.",
+      "previousFlags": 0,
+      "location": "Bellmere",
+      "platform": "QuickPost",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

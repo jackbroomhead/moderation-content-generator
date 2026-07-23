@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-072\",\"author\":\"MeadowRook92\",\"text\":\"Need a quick favour, please. I'm trying to secure my account but they say I must reset my password and enter the 2FA code sent to my phone at [link removed] to verify it's really me before I can release funds.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a classic credential-harvesting attempt asking for sensitive security details like passwords and 2FA codes under the guise of verification, which requires immediate removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4607,
+    "total_output_tokens": 229,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.23987767146987,
+    "time_to_first_token_seconds": 0.354
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-085\",\"author\":\"MossyGarden72\",\"text\":\"The rain finally stopped after that miserable morning commute! My neighbours' dog came over to borrow some sugar for their tea and they looked absolutely soaked. We ended up sharing an umbrella on the way back. #goodneighbours #rainydays\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a light-hearted post about everyday life, neighbours, and weather with no policy violations.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":802,\"followerCount\":7800,\"followingCount\":204,\"verifiedStatus\":false,\"postCount\":1446,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4749,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.9089119164745,
+    "time_to_first_token_seconds": 2.062
+  }
+}

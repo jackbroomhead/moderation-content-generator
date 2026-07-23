@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-026",
+      "author": "MarketMaven_Jules",
+      "text": "Hi everyone, just a quick note! We're running our monthly 'Verified Seller Spotlight' event on MarketBoard next week to help you spot top-quality goods in Dunmere. To join the official panel and get early access to new listings, please DM us your full name and home address so we can add you to our secure verification group! Don't miss out! #DunmereMarket #VerifiedSellers",
+      "category": "Fraud",
+      "correctAction": "Escalate",
+      "difficulty": "Hard",
+      "explanation": "The post solicits sensitive personal details (full name and home address) under the guise of a 'secure verification group', which is a classic social-engineering tactic used to extract private data for fraud or identity theft.",
+      "day": 13,
+      "correctEscalationReason": "FraudScam",
+      "acceptableEscalationReasons": [
+        "PrivacySensitiveInfo"
+      ],
+      "allowNeedsReviewEscalation": true,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 65,
+      "followerCount": 2400,
+      "followingCount": 188,
+      "verifiedStatus": false,
+      "postCount": 44,
+      "bio": "Marketplace help and account updates.",
+      "previousFlags": 1,
+      "location": "Dunmere",
+      "platform": "MarketBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

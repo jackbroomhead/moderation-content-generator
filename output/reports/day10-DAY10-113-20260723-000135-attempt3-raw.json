@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-113\",\"author\":\"LarkAndRye\",\"text\":\"Urgent help needed for my payment! Please click [link removed] and send your password, security code or card details to complete this transaction immediately.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post asks users to provide sensitive credentials and payment information via a suspicious link, which is a clear credential-harvesting scam requiring removal.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4641,
+    "total_output_tokens": 206,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.04141194491173,
+    "time_to_first_token_seconds": 0.4
+  }
+}

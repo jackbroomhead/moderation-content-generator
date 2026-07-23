@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-135\",\"author\":\"MeadowWalker92\",\"text\":\"Honestly, the council is losing its mind with these new parking restrictions in Westbridge. You can't even get to your own front door without circling three times. It's a complete disaster for anyone trying to shop or visit family. Just typical bureaucracy gone wrong.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with government policy but contains no threat, abuse or harmful false claim, so it is approved as normal opinion.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4525,
+    "total_output_tokens": 190,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.70182350927317,
+    "time_to_first_token_seconds": 0.393
+  }
+}

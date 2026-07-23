@@ -1,0 +1,51 @@
+﻿{
+    "status":  "completed_with_failures",
+    "finishedAt":  "2026-07-21T00:04:16",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "nightly-day3",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260721-000029-semantic-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    },
+                    {
+                        "profile":  "nightly-day6",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day6-pilot-20260721-000108.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260721-000108-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "nightly-day10",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day10-pilot-20260721-000309.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260721-000309-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260721-000207-semantic-failed.txt",
+                        "error":  null
+                    },
+                    {
+                        "profile":  "nightly-day13",
+                        "batch":  1,
+                        "success":  true,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day13-pilot-20260721-000410.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260721-000410-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260721-000315-semantic-failed.txt",
+                        "error":  null
+                    }
+                ]
+}

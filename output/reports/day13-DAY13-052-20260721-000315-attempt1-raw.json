@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-052\",\"author\":\"CulinarySoul79\",\"text\":\"Just finished making my own sourdough starter using flour from the local mill in Westbridge! The smell is incredible and I can't wait to bake a loaf tonight. Also re-watching that classic film series on the platform, it's such a comforting watch. #BakingLife #FilmNights\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post shares harmless hobbies (baking, film watching) and fictional location details without soliciting private information or promoting harm.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":899,\"followerCount\":9050,\"followingCount\":223,\"verifiedStatus\":false,\"postCount\":1657,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":0,\"location\":\"Westbridge\",\"platform\":\"StoryGrid\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4802,
+    "total_output_tokens": 239,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.76271898450823,
+    "time_to_first_token_seconds": 2.131
+  }
+}

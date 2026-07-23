@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-089\",\"author\":\"BakerBeth72\",\"text\":\"Just finished my sourdough loaf today! It came out perfect with a nice crust. Can't wait to slice it up for some sandwiches this weekend.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a hobby and cooking achievement, containing no sensitive details or harmful claims.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4491,
+    "total_output_tokens": 199,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.34904855378066,
+    "time_to_first_token_seconds": 2.004
+  }
+}

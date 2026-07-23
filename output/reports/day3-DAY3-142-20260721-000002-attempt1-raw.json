@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-142\",\"author\":\"OakhavenReader\",\"text\":\"Just saw the update regarding the temporary roadworks on High Street in Oakhaven. The maintenance team will be working between 8am and 5pm starting Monday to resurface the junction near the library entrance. Please plan your journey carefully if you need to pass through during those hours. #communitynews\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a benign public notice about local maintenance and transport, not a threat or misinformation.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4541,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.66346164671974,
+    "time_to_first_token_seconds": 1.965
+  }
+}

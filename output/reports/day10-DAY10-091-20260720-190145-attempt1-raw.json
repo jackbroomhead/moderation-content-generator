@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-091\",\"author\":\"MossyHillUser\",\"text\":\"Honestly, I'm fed up with the council's new parking rules in Oakhaven. They've made it impossible to park near the shops without a permit, even for residents. It's absolute madness and they're not listening at all.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses frustration with government policy but contains no threats, targeted abuse, or harmful false claims.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4529,
+    "total_output_tokens": 218,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.17101467950906,
+    "time_to_first_token_seconds": 1.928
+  }
+}

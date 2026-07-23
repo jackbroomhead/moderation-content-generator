@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-110",
+      "author": "JulesMoorvale84",
+      "text": "Need to sort my bills ASAP! The app is running a special payment update on Greyford residents. Click [link removed] to verify your details and get the secure code needed to release funds. Don't miss out on this urgent transfer! #urgent #payments",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post directly asks for a security code and payment details via a link, which is an obvious credential-harvesting attempt that must be removed.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

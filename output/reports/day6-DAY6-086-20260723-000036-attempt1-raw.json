@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY6-086\",\n      \"author\": \"VintageVibes42\",\n      \"text\": \"Spent the afternoon restoring my old vinyl record collection! Found a rare copy of 'Midnight Jazz' that I've been hunting for years. Finally got it to play without that nasty crackle. #vinylcollector #jazzmusic\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is a harmless hobby update about collecting records and does not promote harm or spread misinformation.\",\n      \"day\": 6,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 899,\n      \"followerCount\": 9050,\n      \"followingCount\": 223,\n      \"verifiedStatus\": false,\n      \"postCount\": 1657,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 0,\n      \"location\": \"Westbridge\",\n      \"platform\": \"StoryGrid\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4791,
+    "total_output_tokens": 316,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.42504913746401,
+    "time_to_first_token_seconds": 2.04
+  }
+}

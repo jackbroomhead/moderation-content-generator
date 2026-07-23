@@ -1,0 +1,47 @@
+VALIDATION PASSED
+Generated: 2026-07-23T00:01:34
+Elapsed seconds: 5.0
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 6
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day6-pilot-20260723-000129.json
+
+BLUEPRINT
+DAY6-079: Approve | Lifestyle | Easy
+DAY6-080: Approve | Normal | Medium
+DAY6-081: Approve | Public Information | Easy
+DAY6-082: Remove | Fraud | Easy
+DAY6-083: Escalate | Fraud | Hard
+DAY6-084: Approve | News / Public Event | Easy
+DAY6-085: Approve | Normal | Easy
+DAY6-086: Approve | Lifestyle | Easy
+DAY6-087: Approve | Normal | Medium
+DAY6-088: Approve | Harassment | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY6-079: nearest history=DAY10-089 score=0.765
+DAY6-080: nearest history=DAY10-091 score=0.846
+DAY6-081: nearest history=DAY13-037 score=0.840
+DAY6-082: nearest history=DAY10-093 score=0.835
+DAY6-083: nearest history=DAY3-074 score=0.734
+DAY6-084: nearest history=DAY13-040 score=0.895
+DAY6-085: nearest history=DAY10-062 score=0.838
+DAY6-086: nearest history=DAY1-042 score=0.817
+DAY6-087: nearest history=DAY10-039 score=0.670
+DAY6-088: nearest history=DAY3-137 score=0.705
+
+ACTUAL REPAIRS
+DAY6-081: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1012 (char 1011)).
+DAY6-082: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 894 (char 893)).
+DAY6-083: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 955 (char 954)).
+DAY6-084: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 903 (char 902)).
+DAY6-085: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 890 (char 889)).
+DAY6-087: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 931 (char 930)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 50
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

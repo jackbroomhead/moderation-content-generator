@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-112",
+      "author": "MorganVale",
+      "text": "Urgent update for my EchoBoard followers! I've been asked to collect a small deposit for the new community project in Greyford. Please send your bank details and security code via [link removed] immediately so we can confirm eligibility before the deadline ends.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post asks users to provide sensitive financial information like bank details and security codes, which is a clear sign of a phishing attempt designed to steal credentials or money.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

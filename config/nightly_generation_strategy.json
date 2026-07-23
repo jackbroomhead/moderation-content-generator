@@ -1,0 +1,23 @@
+{
+  "retry_attempts_per_profile": 4,
+  "diversity_retry_prompt_suffix": "NIGHTLY DIVERSITY RETRY: Avoid previous failed themes and avoid hobby/craft/baking/gardening/public-notice templates. Change scenario type, author voice, tone, text structure, metadata tuple and policy category where the blueprint allows it. Do not use 'Finally got', 'Finally finished', 'Just managed', 'Just wanted to', 'Honestly tired', pottery, kiln, sourdough, candles, vinyl, gardening, guitar achievement posts, PromoKing-style urgent deals, Bellmere bank/market freeze panic, generic evacuation hoaxes, obvious credential-verification scams, or raw JSON fragments inside visible post text. For Day 10 and Day 13, prefer specialist misinformation, metadata-aware ambiguity, Needs Review-acceptable cases and hard escalation boundaries over easy approve filler.",
+  "default_focus": "Nightly generation should prioritise varied, review-worthy candidates over safe filler. Keep the requested policy outcome from each selected blueprint slot, but vary topic, voice, account context and structure aggressively. Safe posts may use book club logistics, harmless tech troubleshooting, sports training updates, volunteering rotas, school club notices, lost property, house move/admin, pet care, TV/film discussion, workplace admin, or marketplace listings without fraud. Remove posts should vary beyond obvious spam/phishing and may use repeated nuisance promotion, non-credible giveaway spam, low-level abusive insults without protected targeting, spammy engagement bait, non-dangerous false rumours that should be removed, or platform-rule violating self-promo. Escalate posts should vary across subtle social-engineering scams, privacy-sensitive info leaks, targeted harassment with context, public-safety misinformation, health misinformation, financial misinformation that is not a bank freeze, and ambiguous Needs Review-acceptable cases.",
+  "day_profiles": {
+    "3": {
+      "slot_start_index": 0,
+      "focus": "Day 3 should be simple but mixed across Approve, Remove and Escalate. Avoid craft/baking/gardening/kiln openings and obvious repeated credential-scam templates. Prefer everyday safe posts from book club, tech troubleshooting, sports training, lost property, pet care, workplace admin or harmless marketplace listing domains."
+    },
+    "6": {
+      "slot_start_index": 13,
+      "focus": "Day 6 must make account metadata materially affect the decision in at least some posts. Use account age, previous flags, verification status, post volume, platform, location, bio, repeat behaviour or mismatch between claimed identity and metadata; do not merely attach metadata to otherwise normal posts."
+    },
+    "10": {
+      "slot_start_index": 3,
+      "focus": "Day 10 must include specialist misinformation but should rotate away from Bellmere bank freeze, savings withdrawal panic, and generic evacuation hoaxes. Prefer health, financial, public-safety, civic or manipulated-media boundaries with plausible ambiguity and avoid easy Approve/Lifestyle filler."
+    },
+    "13": {
+      "slot_start_index": 15,
+      "focus": "Day 13 must avoid simple gaming achievements, pure hobby posts, and obvious urgent promo spam as main cases. Prefer hard harassment boundaries, fraud vs privacy overlaps, misinformation vs public-safety overlaps, Needs Review-acceptable ambiguity, metadata-relevant repeat offender cases, specialist misinformation ambiguity, and non-obvious escalation boundaries."
+    }
+  }
+}

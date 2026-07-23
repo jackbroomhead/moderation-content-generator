@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-070",
+      "author": "ClayAndTeaLover92",
+      "text": "Honestly, I'm done with the constant noise about 'cancel culture' and people getting banned for expressing unpopular opinions on CommonThread. It feels like moderation is just a tool to silence anyone who doesn't fit the corporate narrative these days. The app is becoming an echo chamber where only safe thoughts are allowed.",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Medium",
+      "explanation": "This post expresses frustration with platform moderation policies and criticises the environment but does not contain threats, targeted abuse, or harmful false claims; it is therefore appropriate to Approve.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 317,
+      "followerCount": 1550,
+      "followingCount": 109,
+      "verifiedStatus": false,
+      "postCount": 391,
+      "bio": "Everyday thoughts, hobbies and local life.",
+      "previousFlags": 0,
+      "location": "Oakhaven",
+      "platform": "CommonThread",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

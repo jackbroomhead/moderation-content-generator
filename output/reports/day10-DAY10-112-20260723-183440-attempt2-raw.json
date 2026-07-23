@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-112\",\n      \"author\": \"ListingLark45\",\n      \"text\": \"Need help urgently! My account is locked and I must verify my identity to get it back. Please click this link [link removed] to confirm your password, security code and card details so we can release the funds. Reply now!\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a clear credential-harvesting scam because it directly asks the user to provide passwords and security codes via a link, which constitutes FraudScam.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 24,\n      \"followerCount\": 131,\n      \"followingCount\": 371,\n      \"verifiedStatus\": false,\n      \"postCount\": 261,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 5,\n      \"location\": \"Greyford\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4754,
+    "total_output_tokens": 326,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.96749416504137,
+    "time_to_first_token_seconds": 0.38
+  }
+}

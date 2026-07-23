@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-112",
+      "author": "ElaraVane_45",
+      "text": "My account got hacked and I need to reset my password urgently! Please reply with your login details so I can verify it's you. Click here for the secure form: [link removed] #AccountHelp #Urgent",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This is a clear phishing attempt where the author directly requests sensitive credentials via a link, violating platform security policies.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-058\",\"author\":\"MoorvaleObserver72\",\"text\":\"Anyone else seeing these reports about the new Northbridge housing development being cancelled? The official statement says it's proceeding as planned, but this app is full of people claiming the council has lost all funding and work will stop immediately. Don't believe the panic posts spreading right now.\",\"category\":\"Misinformation\",\"correctAction\":\"Remove\",\"difficulty\":\"Hard\",\"explanation\":\"The post promotes a false civic/financial claim without evidence, contradicting official information, which warrants removal under misinformation policies.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":115,\"followerCount\":664,\"followingCount\":852,\"verifiedStatus\":false,\"postCount\":1340,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":4,\"location\":\"Northbridge\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4796,
+    "total_output_tokens": 227,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.78663868084308,
+    "time_to_first_token_seconds": 0.395
+  }
+}

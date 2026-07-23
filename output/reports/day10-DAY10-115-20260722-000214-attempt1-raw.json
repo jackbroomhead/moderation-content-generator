@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-115\",\"author\":\"MoorvaleMarketFan\",\"text\":\"Just heard the news! There's going to be a fantastic community festival happening at Moorvale Park this Saturday. They're having live music, food stalls selling local produce, and art displays from all our talented local creators. It promises to be a wonderful day for everyone in the neighbourhood! #CommunityFestival #Moorvale\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless event announcement promoting positive community activities without any safety risks or policy violations.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4688,
+    "total_output_tokens": 238,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.43576089496989,
+    "time_to_first_token_seconds": 2.078
+  }
+}

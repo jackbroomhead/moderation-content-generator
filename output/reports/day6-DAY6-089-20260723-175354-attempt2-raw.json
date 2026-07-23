@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-089\",\"author\":\"ClayPottersDunmere\",\"text\":\"Just dropped off the new kiln firing schedule for the Westbridge Ceramic Circle meetup next Tuesday! 5:30pm at the old factory entrance. Bring your own gloves if you want to help load the racks.\\n\\n#Community #Ceramics\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is an ordinary community event announcement with no harmful content, private details or calls to action.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1481,\"followerCount\":16550,\"followingCount\":337,\"verifiedStatus\":false,\"postCount\":2923,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4593,
+    "total_output_tokens": 226,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.06754206787724,
+    "time_to_first_token_seconds": 0.384
+  }
+}

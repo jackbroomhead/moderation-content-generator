@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-088\",\"author\":\"ElaraCrafts\",\"text\":\"Finally finished my latest pottery wheel project! It's a bit rustic but I love the glaze. Spent all weekend in the studio, it was so relaxing to get my hands dirty again. #Pottery #WeekendProject #CreativeFinds\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a hobby and creative achievement with no policy violations.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4491,
+    "total_output_tokens": 214,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.59026094530357,
+    "time_to_first_token_seconds": 1.995
+  }
+}

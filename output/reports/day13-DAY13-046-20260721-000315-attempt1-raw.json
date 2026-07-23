@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-046\",\"author\":\"ElaraJenkins\",\"text\":\"Honestly annoyed by these new government restrictions on local businesses. They're trying to shut down small shops in Oakhaven while letting the big chains operate freely. It's completely unfair! #LocalLife #BusinessRights\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"The post expresses a natural opinion and complaint about government policy without containing threats, targeted abuse or harmful false claims.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4530,
+    "total_output_tokens": 213,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.06150579386826,
+    "time_to_first_token_seconds": 1.932
+  }
+}

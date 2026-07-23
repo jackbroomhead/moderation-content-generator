@@ -1,0 +1,24 @@
+VALIDATION PASSED
+Generated: 2026-07-20T13:31:59
+Elapsed seconds: 3.9
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 3
+Post count: 1
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day3-pilot-20260720-133155.json
+
+BLUEPRINT
+DAY3-138: Approve | Lifestyle | Easy
+
+SEMANTIC DUPLICATE CHECK
+DAY3-138: nearest history=DAY6-065 score=0.879
+
+ACTUAL REPAIRS
+None.
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 5
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

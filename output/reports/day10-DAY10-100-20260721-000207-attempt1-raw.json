@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-100\",\"author\":\"CraftyClayCreations\",\"text\":\"Finally finished my new ceramic mug set! The glaze came out perfect after three attempts. Can't wait to use them for my morning tea this weekend. #pottery #homeprojects\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"The post is a harmless personal update about a hobby without any policy violations, so it is correctly Approved.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4491,
+    "total_output_tokens": 207,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.6037209282417,
+    "time_to_first_token_seconds": 1.868
+  }
+}

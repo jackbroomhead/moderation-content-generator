@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-088",
+      "author": "ElaraCrafts",
+      "text": "Finally finished my latest pottery wheel project! It's a bit rustic but I love the glaze. Spent all weekend in the studio, it was so relaxing to get my hands dirty again. #Pottery #WeekendProject #CreativeFinds",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal update about a hobby and creative achievement with no policy violations.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 220,
+      "followerCount": 300,
+      "followingCount": 90,
+      "verifiedStatus": false,
+      "postCount": 180,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 1,
+      "location": "Westbridge",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

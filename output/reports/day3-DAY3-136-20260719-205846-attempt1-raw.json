@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-136\",\"author\":\"ElenaCrafts\",\"text\":\"Just finished my first attempt at felting a small pouch! I used leftover wool scraps and it turned out better than I expected. So proud of myself for trying something new.\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a hobby and creative achievement, containing no threats, private information or harmful content.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4497,
+    "total_output_tokens": 168,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.21641039058936,
+    "time_to_first_token_seconds": 2.001
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-142",
+      "author": "BakerElara",
+      "text": "Finally got the sourdough starter to behave! It's been a bit of a temperamental process but it finally bubbled up nicely this morning. Baking my first loaf for the weekend book club at Oakhaven library. Who else is trying their hand at bread this month? #sourdough #baking",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal update about a hobby and creative achievement; it contains no policy violations or sensitive information.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

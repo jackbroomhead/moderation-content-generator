@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-054\",\"author\":\"RiverWalkNotes\",\"text\":\"Someone on the platform is being incredibly rude about my recent posts, calling me names and refusing to accept any feedback. I've tried blocking them but they keep finding ways to reply with more insults. It's getting exhausting dealing with this behaviour.\",\"category\":\"Harassment\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This post reports harassment without directing a pile-on or revealing private information, so it is correctly approved as user commentary.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1093,\"followerCount\":11550,\"followingCount\":261,\"verifiedStatus\":false,\"postCount\":2079,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4857,
+    "total_output_tokens": 220,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.99521306040953,
+    "time_to_first_token_seconds": 2.062
+  }
+}

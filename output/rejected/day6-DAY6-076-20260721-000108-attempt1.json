@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-076",
+      "author": "CreativeSoul89",
+      "text": "Finally finished my latest pottery project! It's a small tea set I made in Westbridge last weekend. Can't wait to see what others think of it.",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post is harmless personal content sharing a hobby and location without soliciting private data or promoting harm, so it is approved.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 899,
+      "followerCount": 9050,
+      "followingCount": 223,
+      "verifiedStatus": false,
+      "postCount": 1657,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 0,
+      "location": "Westbridge",
+      "platform": "StoryGrid",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

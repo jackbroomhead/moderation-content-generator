@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-039\",\n      \"author\": \"BellmereWatcher\",\n      \"text\": \"URGENT: The platform is circulating a verified notice stating that Bellmere Savings has collapsed and deposits are frozen. This claim relies on an official-looking document but isn't true. Please do not panic or withdraw funds based on this unverified alert.\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post spreads a false financial claim that could cause real-world harm, requiring specialist escalation for MisinformationPublicHarm and the FinancialEconomic reason. It does not contain actual threats or private data, so ThreatViolence or PrivacySensitiveInfo are incorrect.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"FinancialEconomic\",\n      \"acceptableSpecialistReasons\": [\n        \"SyntheticManipulatedMedia\"\n      ],\n      \"accountAgeDays\": 217,\n      \"followerCount\": 3100,\n      \"followingCount\": 256,\n      \"verifiedStatus\": false,\n      \"postCount\": 818,\n      \"bio\": \"Public-interest claims and current discussions.\",\n      \"previousFlags\": 0,\n      \"location\": \"Bellmere\",\n      \"platform\": \"QuickPost\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4646,
+    "total_output_tokens": 369,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.13099567431,
+    "time_to_first_token_seconds": 1.986
+  }
+}

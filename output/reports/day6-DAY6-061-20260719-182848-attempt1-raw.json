@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-061\",\"author\":\"MaraKensington\",\"text\":\"I'm getting overwhelmed by all these messages asking me to delete my account and join this 'exclusive group'. It's clearly harassment. #Greyford\",\"category\":\"Harassment\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The scenario involves repeated unwanted contact and a call-to-action to delete an account, which fits the criteria for HarassmentAbuse escalation due to the coordinated nature of the pressure.\",\"day\":6,\"correctEscalationReason\":\"HarassmentAbuse\",\"acceptableEscalationReasons\":[\"HarassmentAbuse\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":640,\"followerCount\":1800,\"followingCount\":410,\"verifiedStatus\":false,\"postCount\":522,\"bio\":\"Community discussions and creator updates.\",\"previousFlags\":1,\"location\":\"Greyford\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4534,
+    "total_output_tokens": 224,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.1839612291285,
+    "time_to_first_token_seconds": 2.055
+  }
+}

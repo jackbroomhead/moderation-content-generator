@@ -1,6 +1,6 @@
 param(
     [string]$TaskName = "Moderation Ensure LM Studio Models",
-    [string]$At = "00:45"
+    [string]$At = "23:45"
 )
 
 $ErrorActionPreference = "Stop"

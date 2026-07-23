@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-095\",\"author\":\"MoorvaleMarketNews\",\"text\":\"Exciting news from our local scene! The annual Moorvale Flower & Craft Fair is officially confirmed for this Saturday at the community centre. Expect a wide variety of stalls, live music from the band 'The Juniper Tones', and beautiful displays from our local gardeners. It's a great way to support local businesses and enjoy the weekend. Can't wait to see you all there! #CommunityEvents #MoorvaleFair\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless announcement promoting a fictional community event with no threats, scams, or private information exposed.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":705,\"followerCount\":6550,\"followingCount\":185,\"verifiedStatus\":false,\"postCount\":1235,\"bio\":\"Fictional events, culture and local announcements.\",\"previousFlags\":0,\"location\":\"Moorvale\",\"platform\":\"CommunityFeed\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4713,
+    "total_output_tokens": 263,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.15233829894011,
+    "time_to_first_token_seconds": 2.056
+  }
+}

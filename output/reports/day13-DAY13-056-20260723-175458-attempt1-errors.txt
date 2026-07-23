@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Uses a live-looking URL; use [link removed].
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 919 (char 918)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

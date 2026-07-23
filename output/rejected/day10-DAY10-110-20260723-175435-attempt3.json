@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-110",
+      "author": "MeadowLane_74",
+      "text": "URGENT: Need to fix my account immediately! Click this link [link removed] to verify your identity, enter your password and 2FA code. Once verified, I'll send a gift card for you as a reward. Don't miss out on this exclusive offer! #AccountHelp #PaymentUpdate",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post is removed because it directly solicits sensitive credentials like passwords and 2FA codes while attempting to process a payment through an external link, which constitutes clear credential-harvesting fraud.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

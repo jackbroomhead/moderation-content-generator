@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-057\",\"author\":\"NorthbridgeNotices\",\"text\":\"Just confirming that the library in Northbridge is fully reopened today at 9:00 AM following the temporary maintenance last week. We're also running a community service session on Saturday for local residents to help with sorting and storage. Please drop by if you need assistance! #community #libraryevents\",\"category\":\"Public Information\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is benign as it provides accurate public information about library hours and community services without spreading misinformation or soliciting private data.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":414,\"followerCount\":2800,\"followingCount\":128,\"verifiedStatus\":true,\"postCount\":602,\"bio\":\"Fictional community notices and service updates.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"TownSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4855,
+    "total_output_tokens": 234,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.17458265914946,
+    "time_to_first_token_seconds": 2.011
+  }
+}

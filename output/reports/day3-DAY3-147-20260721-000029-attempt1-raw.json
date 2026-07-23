@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-147\",\"author\":\"LunaPots\",\"text\":\"Just finished re-potting my fiddle leaf fig! The new terracotta pot is perfect and the soil was well-drained. It's so satisfying to see it perk up after a bit of repotting. #plantmom #houseplants\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post describes a harmless gardening activity and uses only fictional or generic terms; it contains no evidence of policy violations.\",\"day\":\"3\",\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4785,
+    "total_output_tokens": 185,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.66327413821696,
+    "time_to_first_token_seconds": 2.067
+  }
+}

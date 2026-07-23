@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"MeadowWalker72\",\"text\":\"Hey everyone, quick question about my account! I need to reset my password and verify my payment details urgently. Please DM me your login info or reply with the security code to [link removed]. Thanks in advance! #accounthelp #urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear credential-harvesting attempt, asking directly for a password and security code via a suspicious link. It requires immediate removal.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4589,
+    "total_output_tokens": 190,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.61200487459303,
+    "time_to_first_token_seconds": 2.047
+  }
+}

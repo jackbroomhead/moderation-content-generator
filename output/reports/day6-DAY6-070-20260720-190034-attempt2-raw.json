@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY6-070\",\n      \"author\": \"ClayBakerJess\",\n      \"text\": \"Honestly, I'm getting really fed up with how this app handles simple feedback. I just wanted to say the new AI moderation seems a bit too sensitive to my harmless complaints about the council's latest planning decisions. It feels like they're ignoring the real issues people are raising in Oakhaven.\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This post expresses frustration with platform moderation and local government but does not contain a threat, harmful false claim, or targeted abuse. It is a natural opinion piece that should be approved.\",\n      \"day\": 6,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 317,\n      \"followerCount\": 1550,\n      \"followingCount\": 109,\n      \"verifiedStatus\": false,\n      \"postCount\": 391,\n      \"bio\": \"Everyday thoughts, hobbies and local life.\",\n      \"previousFlags\": 0,\n      \"location\": \"Oakhaven\",\n      \"platform\": \"CommonThread\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4561,
+    "total_output_tokens": 342,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.85522599756493,
+    "time_to_first_token_seconds": 0.401
+  }
+}

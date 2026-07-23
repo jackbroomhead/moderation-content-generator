@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-067",
+      "author": "ElaraCrafts",
+      "text": "Finally finished my new woven basket! It took hours of patience but I'm so proud of the result. Perfect for storing yarn now. 🧶✨ #Handmade #WovenGoodies",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post is a harmless personal update about a hobby and creative achievement, containing no violations or sensitive details.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 220,
+      "followerCount": 300,
+      "followingCount": 90,
+      "verifiedStatus": false,
+      "postCount": 180,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 1,
+      "location": "Westbridge",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

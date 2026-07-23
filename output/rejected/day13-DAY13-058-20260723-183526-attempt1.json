@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-058",
+      "author": "NorthbridgeTrader",
+      "text": "Just wanted to share that the new council tax freeze starts today for all residents in Northbridge! No more bills, just free money from the state. #FreeMoney #CouncilTaxFreeze",
+      "category": "Misinformation",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "This post promotes a clear financial falsehood (a 'free money' scheme) as fact, which violates platform policies against spreading misleading claims about public funds.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 115,
+      "followerCount": 664,
+      "followingCount": 852,
+      "verifiedStatus": false,
+      "postCount": 1340,
+      "bio": "Public-interest claims and current discussions.",
+      "previousFlags": 4,
+      "location": "Northbridge",
+      "platform": "MarketBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

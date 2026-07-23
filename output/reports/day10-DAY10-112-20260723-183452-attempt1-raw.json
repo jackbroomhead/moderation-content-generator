@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-112\",\n      \"author\": \"SarahWestbridge\",\n      \"text\": \"Hi everyone, just to let you know I'll be updating my payment details on the app soon. Please use this link for your deposit: [link removed]. Password required for verification.\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a clear credential-harvesting attempt because it asks for a password and directs users to a payment link, which requires immediate removal.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 24,\n      \"followerCount\": 131,\n      \"followingCount\": 371,\n      \"verifiedStatus\": false,\n      \"postCount\": 261,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 5,\n      \"location\": \"Greyford\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4888,
+    "total_output_tokens": 311,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.71967627628497,
+    "time_to_first_token_seconds": 0.47
+  }
+}

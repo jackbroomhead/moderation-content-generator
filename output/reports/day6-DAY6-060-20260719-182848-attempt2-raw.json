@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-060\",\"author\":\"MorganWestcliff\",\"text\":\"Anyone up for the ultimate test? Get on top of a moving bus or jump into that quarry before it fills! The app has new dares and no safety gear needed. #DareChallenge #Oakhaven\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post promotes dangerous challenges involving moving vehicles and quaries without safety equipment, which constitutes MisinformationPublicHarm due to the risk of physical harm.\",\"day\":6,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"MisinformationPublicHarm\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":18,\"followerCount\":94,\"followingCount\":430,\"verifiedStatus\":false,\"postCount\":12,\"bio\":\"Short clips and local dares.\",\"previousFlags\":2,\"location\":\"Oakhaven\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4533,
+    "total_output_tokens": 229,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.63016433404006,
+    "time_to_first_token_seconds": 0.391
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-110\",\"author\":\"MeadowLane84\",\"text\":\"Need some quick cash for my rent in Greyford! Just click the link to verify your payment details so I can send yours securely. Don't miss out on this limited offer! #urgent #cashnow [link removed]\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a clear phishing attempt asking for sensitive payment verification via a link, which constitutes fraud and requires removal.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4686,
+    "total_output_tokens": 216,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.69549291806192,
+    "time_to_first_token_seconds": 0.49
+  }
+}

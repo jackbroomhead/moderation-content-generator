@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-078\",\"author\":\"MeadowHill\",\"text\":\"I think it's rude for people to leave negative comments on posts just because they don't agree with the topic. I'd rather not engage in that kind of behaviour and hope others will too.\",\"category\":\"Harassment\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post reports rude behaviour without attacking anyone or revealing private information, so it is appropriately approved as a valid user contribution.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":1093,\"followerCount\":11550,\"followingCount\":261,\"verifiedStatus\":false,\"postCount\":2079,\"bio\":\"Personal commentary and community discussion.\",\"previousFlags\":0,\"location\":\"Northbridge\",\"platform\":\"ClipLoop\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4837,
+    "total_output_tokens": 212,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.09797868750128,
+    "time_to_first_token_seconds": 2.063
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-061\",\"author\":\"MossyGarden84\",\"text\":\"That neighbour of mine, Mr Higgins, finally fixed his overgrown gate on Elm Street. Took him ages but it looks much better now! Also had a lovely chat with the local weather app about that bit of rain we're expecting later. #goodneighbours\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a standard, harmless social post sharing personal observations about a neighbour and weather forecast; it does not contain any threats, private information or harmful claims.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":802,\"followerCount\":7800,\"followingCount\":204,\"verifiedStatus\":false,\"postCount\":1446,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4765,
+    "total_output_tokens": 237,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.25444986756247,
+    "time_to_first_token_seconds": 2.15
+  }
+}

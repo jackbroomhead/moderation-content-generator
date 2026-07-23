@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-138",
+      "author": "ClayPotKatie72",
+      "text": "Finally nailed my sourdough starter! It's bubbly and smelling amazing. Baking today in the kitchen at home. #baking #sourdough #homemade",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post is a harmless personal update about a cooking hobby with no policy violations, so it should be approved.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

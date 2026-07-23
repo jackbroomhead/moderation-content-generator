@@ -173,6 +173,43 @@ PHONE_PATTERN = re.compile(
 LONG_NUMBER_PATTERN = re.compile(r"\b\d{8,19}\b")
 SORT_CODE_PATTERN = re.compile(r"\b\d{2}[- ]\d{2}[- ]\d{2}\b")
 HASHTAG_PATTERN = re.compile(r"(?<!\w)#[A-Za-z0-9_]+")
+JSON_FRAGMENT_PATTERN = re.compile(
+    r'(?i)"(?:posts|category|correctAction|difficulty|explanation|day|text)"\s*:'
+)
+JSON_OBJECT_FRAGMENT_PATTERN = re.compile(
+    r'(?is)(?:\{\s*"posts"\s*:|\{\s*"id"\s*:|\[\s*\{\s*"id"\s*:)'
+)
+REPEATED_OPENING_PATTERN = re.compile(
+    r"(?i)^\s*(?:finally got|finally finished|just managed|just wanted to|"
+    r"honestly tired|just finished|spent the afternoon|spent all afternoon|"
+    r"managed to finish|finished making)\b"
+)
+REPEATED_HOBBY_THEME_PATTERN = re.compile(
+    r"(?i)\b(?:sourdough|pottery|ceramic|kiln|candles?|vinyl|gardening|"
+    r"seedlings?|planters?|knitting|crochet|sketching|watercolou?r|"
+    r"crafts?|guitar)\b"
+)
+REPEATED_PUBLIC_NOTICE_PATTERN = re.compile(
+    r"(?i)\b(?:library|community centre|town hall|festival|maintenance|"
+    r"opening hours|closing early|drop-in session|annual fair|market day)\b"
+)
+REPEATED_CREDENTIAL_SCAM_PATTERN = re.compile(
+    r"(?i)\b(?:verify (?:your )?(?:account|identity)|account recovery|"
+    r"support team|security check|password|2fa|two[- ]factor|login details?|"
+    r"security code|card details?)\b"
+)
+PROMO_URGENT_PATTERN = re.compile(
+    r"(?i)\b(?:promoking|urgent|last chance|limited (?:time|offer|stock)|"
+    r"click now|act fast|deal of the day|90% off|shopnow)\b"
+)
+BANK_FREEZE_PATTERN = re.compile(
+    r"(?i)\b(?:bellmerewatcher|market freeze|bank freeze|"
+    r"savings withdrawals?|withdraw everything|check your balances?)\b"
+)
+DAY13_EASY_FILLER_PATTERN = re.compile(
+    r"(?i)\b(?:gaming achievement|achievement unlocked|high score|puzzle app|"
+    r"sourdough|pottery|ceramic|kiln|candles?|vinyl|gardening|crafts?|guitar)\b"
+)
 
 SELF_LABEL_PHRASES = {
     "this is a real threat",
@@ -624,14 +661,22 @@ def load_blueprint(
             f"Blueprint day {blueprint.get('day')} does not match target_day {target_day}."
         )
     requested_count = int(config["count"])
-    if requested_count < 1 or requested_count > len(slots):
+    slot_start_index = int(config.get("slot_start_index", 0) or 0)
+    if slot_start_index < 0:
+        raise GenerationError("slot_start_index cannot be negative.")
+    if requested_count < 1 or slot_start_index + requested_count > len(slots):
         raise GenerationError(
-            f"Blueprint contains {len(slots)} slots but config count is {requested_count}. "
-            "The count may be a smaller prefix for smoke testing, but cannot exceed the blueprint."
+            f"Blueprint contains {len(slots)} slots but config requested "
+            f"count={requested_count} from slot_start_index={slot_start_index}. "
+            "The requested window must fit inside the blueprint."
         )
-    slots = slots[:requested_count]
+    slots = slots[slot_start_index : slot_start_index + requested_count]
 
-    if requested_count == 25 and isinstance(blueprint.get("batchBalance"), dict):
+    if (
+        requested_count == 25
+        and slot_start_index == 0
+        and isinstance(blueprint.get("batchBalance"), dict)
+    ):
         expected_balance = blueprint["batchBalance"]
         actual_balance = {
             action: sum(1 for slot in slots if slot.get("correctAction") == action)
@@ -1274,6 +1319,125 @@ def schema_errors(payload: dict[str, Any], schema: dict[str, Any]) -> list[str]:
     ]
 
 
+def batch_quality_errors(posts: list[dict[str, Any]], target_day: int) -> list[str]:
+    errors: list[str] = []
+    opening_counts: dict[str, int] = {}
+    promo_count = 0
+    bank_freeze_count = 0
+
+    for post in posts:
+        post_id = str(post.get("id", "<unknown>"))
+        author = str(post.get("author", ""))
+        text = str(post.get("text", ""))
+        combined = f"{author} {text}"
+
+        if JSON_FRAGMENT_PATTERN.search(text) or JSON_OBJECT_FRAGMENT_PATTERN.search(text):
+            errors.append(
+                f"{post_id}: visible text contains JSON-like field/object fragments."
+            )
+
+        match = REPEATED_OPENING_PATTERN.search(text)
+        if match:
+            opening = match.group(0).strip().casefold()
+            opening_counts[opening] = opening_counts.get(opening, 0) + 1
+
+        if PROMO_URGENT_PATTERN.search(combined):
+            promo_count += 1
+
+        if BANK_FREEZE_PATTERN.search(combined):
+            bank_freeze_count += 1
+
+    repeated_openings = sorted(
+        opening for opening, count in opening_counts.items() if count > 1
+    )
+    if repeated_openings:
+        errors.append(
+            "Repeated low-diversity opening phrase(s) in batch: "
+            + ", ".join(repeated_openings)
+            + "."
+        )
+
+    if promo_count > 1:
+        errors.append(
+            "Batch repeats PromoKing/urgent-deal spam more than once; vary remove cases."
+        )
+
+    if bank_freeze_count > 1:
+        errors.append(
+            "Batch repeats Bellmere bank/market freeze misinformation more than once."
+        )
+
+    if target_day >= 13:
+        easy_filler_count = 0
+        obvious_spam_count = 0
+        hard_case_count = 0
+        for post in posts:
+            action = str(post.get("correctAction", ""))
+            category = str(post.get("category", ""))
+            difficulty = str(post.get("difficulty", ""))
+            reason = str(post.get("correctEscalationReason", ""))
+            needs_review = bool(post.get("allowNeedsReviewEscalation", False))
+            text = str(post.get("text", ""))
+            combined = f"{post.get('author', '')} {text}"
+            explanation = str(post.get("explanation", ""))
+            haystack = f"{combined} {explanation}".casefold()
+
+            if action == "Approve" and DAY13_EASY_FILLER_PATTERN.search(text):
+                easy_filler_count += 1
+            if action == "Remove" and category == "Spam" and (
+                difficulty == "Easy" or PROMO_URGENT_PATTERN.search(combined)
+            ):
+                obvious_spam_count += 1
+            if action == "Escalate" and needs_review:
+                hard_case_count += 1
+            if action == "Escalate" and reason in {
+                "HarassmentAbuse",
+                "FraudScam",
+                "PrivacySensitiveInfo",
+                "MisinformationPublicHarm",
+            }:
+                hard_case_count += 1
+            if (
+                difficulty == "Hard"
+                and action in {"Remove", "Escalate"}
+                and category in {
+                    "Harassment",
+                    "Fraud",
+                    "Privacy",
+                    "Misinformation",
+                    "Threat",
+                    "Self-Harm",
+                }
+            ):
+                hard_case_count += 1
+            if any(
+                phrase in haystack
+                for phrase in (
+                    "metadata",
+                    "previous flag",
+                    "repeat",
+                    "coordinated",
+                    "needs review",
+                    "ambiguous",
+                    "overlap",
+                )
+            ):
+                hard_case_count += 1
+
+        if easy_filler_count or obvious_spam_count:
+            errors.append(
+                "Day 13 batch contains simple approve filler or obvious promo spam; "
+                "use hard overlaps, metadata relevance, Needs Review or specialist ambiguity."
+            )
+        if hard_case_count == 0:
+            errors.append(
+                "Day 13 batch lacks hard overlap, metadata-relevant, Needs Review "
+                "or specialist ambiguity signals."
+            )
+
+    return errors
+
+
 def sentence_count(text: str) -> int:
     parts = re.split(r"(?<=[.!?])\s+", text.strip())
     return len([part for part in parts if part.strip()])
@@ -1304,6 +1468,61 @@ def editorial_quality_errors(
     if LONG_NUMBER_PATTERN.search(text) or SORT_CODE_PATTERN.search(text):
         errors.append(
             "Contains a usable-looking financial or account number; remove it."
+        )
+
+    if JSON_FRAGMENT_PATTERN.search(text) or JSON_OBJECT_FRAGMENT_PATTERN.search(text):
+        errors.append(
+            "Post text contains JSON-like field/object fragments such as \"posts\" "
+            "or \"category\":; "
+            "visible post text must not include raw JSON."
+        )
+
+    if REPEATED_OPENING_PATTERN.search(text):
+        errors.append(
+            "Avoid repeated low-diversity openings such as 'Finally finished...' "
+            "or hobby-completion templates."
+        )
+
+    if REPEATED_HOBBY_THEME_PATTERN.search(text):
+        errors.append(
+            "Avoid overused hobby/craft/baking/gardening themes in nightly output."
+        )
+
+    if REPEATED_PUBLIC_NOTICE_PATTERN.search(text):
+        errors.append(
+            "Avoid repeated public notice, library, maintenance or festival templates."
+        )
+
+    if REPEATED_CREDENTIAL_SCAM_PATTERN.search(text) and expected_category == "Fraud":
+        errors.append(
+            "Avoid repeated obvious credential-scam wording; use a fresher fraud or "
+            "social-engineering pattern."
+        )
+
+    day = int(post.get("day", 0) or 0)
+    difficulty = str(post.get("difficulty", "")).strip()
+    if day >= 13:
+        if expected_action == "Approve" and DAY13_EASY_FILLER_PATTERN.search(text):
+            errors.append(
+                "Day 13 nightly posts must not use simple gaming achievements, "
+                "pure hobby filler or Easy approve filler as main cases."
+            )
+        if expected_action == "Remove" and expected_category == "Spam" and (
+            difficulty == "Easy" or PROMO_URGENT_PATTERN.search(combined)
+        ):
+            errors.append(
+                "Day 13 nightly posts must not use obvious urgent promo spam as "
+                "a main case; use harder remove or overlap cases."
+            )
+    if (
+        day >= 10
+        and expected_action == "Escalate"
+        and str(post.get("correctEscalationReason", "")) == "MisinformationPublicHarm"
+        and BANK_FREEZE_PATTERN.search(combined)
+    ):
+        errors.append(
+            "Day 10+ specialist misinformation should vary beyond bank freeze, "
+            "market freeze or savings-withdrawal panic templates."
         )
 
     if expected_action == "Approve" and "[link removed]" in text.casefold():
@@ -1809,6 +2028,26 @@ def validate_post(
     ):
         errors.append("Author username duplicates another post in this batch.")
 
+    if expected_day >= 6:
+        metadata_tuple = tuple(
+            str(post.get(field, "")).casefold().strip()
+            for field in (
+                "location", "platform", "bio", "verifiedStatus", "previousFlags"
+            )
+        )
+        for other in accepted_posts:
+            other_tuple = tuple(
+                str(other.get(field, "")).casefold().strip()
+                for field in (
+                    "location", "platform", "bio", "verifiedStatus", "previousFlags"
+                )
+            )
+            if metadata_tuple == other_tuple:
+                errors.append(
+                    "Account metadata tuple duplicates another accepted post in this batch."
+                )
+                break
+
     generated_text = normalise_text(str(post.get("text", "")))
     for other in comparison_posts + accepted_posts:
         other_text = normalise_text(str(other.get("text", "")))
@@ -2166,6 +2405,18 @@ def main() -> int:
         failure = report_dir / f"day{target_day}-pilot-{timestamp}-final-schema-errors.txt"
         failure.write_text("\n".join(final_schema_errors) + "\n", encoding="utf-8")
         print(f"\nCombined batch failed final schema validation:\n  {failure}")
+        return 1
+
+    final_quality_errors = batch_quality_errors(generated_posts, target_day)
+    if final_quality_errors:
+        failure = report_dir / f"day{target_day}-pilot-{timestamp}-batch-quality-failed.txt"
+        failure.write_text(
+            "BATCH QUALITY CHECK FAILED\n\n"
+            + "\n".join(final_quality_errors)
+            + "\n",
+            encoding="utf-8",
+        )
+        print(f"\nCombined batch failed quality validation:\n  {failure}")
         return 1
 
     print("\nRunning semantic duplicate detection...")

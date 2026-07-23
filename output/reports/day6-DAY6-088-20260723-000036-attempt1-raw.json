@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY6-088\",\n      \"author\": \"RudeReviewer_24\",\n      \"text\": \"Saw a post earlier this morning claiming someone was being 'aggressive' for asking about prices in Westbridge. It's completely normal to question costs, and I'd appreciate if people stop spreading nonsense just because they don't like the seller. #fairplay\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post reports rude behaviour without attacking the user, directing a pile-on, or revealing private information.\",\n      \"day\": 6,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1093,\n      \"followerCount\": 11550,\n      \"followingCount\": 261,\n      \"verifiedStatus\": false,\n      \"postCount\": 2079,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4856,
+    "total_output_tokens": 323,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.28979389116628,
+    "time_to_first_token_seconds": 2.11
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-064\",\n      \"author\": \"NorthbridgeNosey\",\n      \"text\": \"Honestly, I'm not sure why people think it's okay to leave their bins out in the rain. It's rude and makes a mess for everyone else. If anyone wants to complain about neighbours being messy, they should just say so directly instead of starting an argument.\",\n      \"category\": \"Harassment\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The user is providing a constructive criticism regarding public nuisance and suggesting direct communication rather than inciting a pile-on or harassment. The post remains a lawful opinion.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1093,\n      \"followerCount\": 11550,\n      \"followingCount\": 261,\n      \"verifiedStatus\": false,\n      \"postCount\": 2079,\n      \"bio\": \"Personal commentary and community discussion.\",\n      \"previousFlags\": 0,\n      \"location\": \"Northbridge\",\n      \"platform\": \"ClipLoop\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4856,
+    "total_output_tokens": 336,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.8112038210418,
+    "time_to_first_token_seconds": 2.157
+  }
+}

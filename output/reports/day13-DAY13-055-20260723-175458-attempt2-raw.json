@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-055\",\n      \"author\": \"GardenerInGreyford\",\n      \"text\": \"Just spotted the new wildflower patch at the community centre in Dunmere! It's been a long wait for this to bloom, and the colours are absolutely stunning. Hope everyone gets out there soon to see it before the rain hits.\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is a harmless observation of a local event without any harmful claims, threats, or private details. It encourages community engagement and contains no policy violations.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 1481,\n      \"followerCount\": 16550,\n      \"followingCount\": 337,\n      \"verifiedStatus\": false,\n      \"postCount\": 2923,\n      \"bio\": \"Everyday thoughts, hobbies and local life.\",\n      \"previousFlags\": 0,\n      \"location\": \"Dunmere\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4598,
+    "total_output_tokens": 332,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.258865251023,
+    "time_to_first_token_seconds": 0.412
+  }
+}

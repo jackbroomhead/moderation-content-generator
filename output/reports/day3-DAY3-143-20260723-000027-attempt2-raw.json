@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-143\",\n      \"author\": \"MintyBee_92\",\n      \"text\": \"URGENT! Need to update my security details ASAP to claim my prize. Please reply with your password, 2FA code and bank info here: [link removed]. Don't wait!\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post requests sensitive authentication credentials and financial details via a link, which constitutes an obvious fraud or phishing attempt requiring removal.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4610,
+    "total_output_tokens": 269,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.27388136646657,
+    "time_to_first_token_seconds": 0.383
+  }
+}

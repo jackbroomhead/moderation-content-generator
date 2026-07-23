@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-056\",\n      \"author\": \"PromoKing_24\",\n      \"text\": \"🚨 LAST CHANCE! Get 90% OFF this incredible deal today only! Click now before it's gone! [link removed] Don't miss out on this amazing offer! #DealOfTheDay #LimitedTime #ShopNow\",\n      \"category\": \"Spam\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is clear spam due to repetitive bulk promotion, excessive urgency, and a lack of genuine context or value.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 101,\n      \"followerCount\": 582,\n      \"followingCount\": 778,\n      \"verifiedStatus\": false,\n      \"postCount\": 1174,\n      \"bio\": \"Deals and promotions.\",\n      \"previousFlags\": 2,\n      \"location\": \"Westbridge\",\n      \"platform\": \"QuickPost\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4603,
+    "total_output_tokens": 320,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.39504060455519,
+    "time_to_first_token_seconds": 0.334
+  }
+}

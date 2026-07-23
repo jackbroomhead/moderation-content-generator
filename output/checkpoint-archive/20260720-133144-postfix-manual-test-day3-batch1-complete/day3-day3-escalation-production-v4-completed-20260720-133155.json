@@ -1,0 +1,47 @@
+{
+  "blueprintName": "day3-escalation-production-v4",
+  "reservedIds": [
+    "DAY3-138"
+  ],
+  "posts": [
+    {
+      "id": "DAY3-138",
+      "author": "ClayAndGlaze_Jane",
+      "text": "Finally finished my first wheel-thrown bowl! It's still in the kiln, but I'm buzzing to see it come out tomorrow. Fingers crossed for a good glaze finish 🌟 #pottery #hobbytime",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This post describes a personal creative achievement regarding pottery without any policy violations; it is safe to approve.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ],
+  "repairs": [],
+  "fallbacks": [],
+  "defaults": [
+    "DAY3-138: posts[0].profileImage",
+    "DAY3-138: posts[0].postImage",
+    "DAY3-138: posts[0].tags",
+    "DAY3-138: posts[0].scenario",
+    "DAY3-138: posts[0].notes"
+  ]
+}

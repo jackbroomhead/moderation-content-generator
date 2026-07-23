@@ -1,0 +1,6 @@
+﻿Status: completed_with_failures
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260723-174032-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260723-174032-run.log
+
+Fatal error: Exception setting "slot_start_index": "The property 'slot_start_index' cannot be found on this object. Verify that the property exists and can be set."
+

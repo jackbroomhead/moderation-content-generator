@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-082\",\"author\":\"JennaHartley\",\"text\":\"Need to settle my rent ASAP! Please DM me your password and 2FA code to verify so I can process this payment via [link removed]. Urgent!! #rent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a straightforward phishing attempt asking for sensitive credentials and security codes, which requires immediate removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4609,
+    "total_output_tokens": 199,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.40256700021654,
+    "time_to_first_token_seconds": 0.355
+  }
+}

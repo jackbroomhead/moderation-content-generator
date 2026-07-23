@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-079\",\"author\":\"CraftyCupcakes\",\"text\":\"Just finished my latest gingerbread loaf experiment! Turned out perfectly golden with a nice crunch on top. Can't wait to try the new glaze recipe tomorrow. #baking #homemade\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a cooking hobby that does not spread misinformation, solicit harm, or reveal private information.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4862,
+    "total_output_tokens": 209,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.39765919614807,
+    "time_to_first_token_seconds": 1.997
+  }
+}

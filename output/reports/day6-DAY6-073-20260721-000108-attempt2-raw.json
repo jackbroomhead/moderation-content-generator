@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-073\",\"author\":\"BellmereFixer24\",\"text\":\"Hi everyone, just wanted to let you know that my profile has been updated with new payment details and a fresh listing on the platform. Please DM me your password and security code so I can verify your account instantly via this link [link removed]. Thanks!\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"The post requests sensitive credentials like a password and security code for account verification, which is a classic social-engineering attempt requiring specialist investigation.\",\"day\":6,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4677,
+    "total_output_tokens": 233,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.22517985045936,
+    "time_to_first_token_seconds": 0.369
+  }
+}

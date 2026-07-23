@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY10-102",
+      "author": "NorthbridgeLibraryUpdates",
+      "text": "Good news for everyone! The new community reading room at Northbridge Library is officially open today. We have extended opening hours until 7pm on weekdays and the children's section has been fully restocked with summer reads. Stop by to say hello to the team.",
+      "category": "Public Information",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a benign community service notice announcing legitimate library opening times and updates without any harmful content, threats, or privacy violations.",
+      "day": 10,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 414,
+      "followerCount": 2800,
+      "followingCount": 128,
+      "verifiedStatus": true,
+      "postCount": 602,
+      "bio": "Fictional community notices and service updates.",
+      "previousFlags": 0,
+      "location": "Northbridge",
+      "platform": "TownSquare",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

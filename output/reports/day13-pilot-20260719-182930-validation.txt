@@ -1,0 +1,28 @@
+VALIDATION PASSED
+Generated: 2026-07-19T18:29:55
+Elapsed seconds: 24.4
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 13
+Post count: 3
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260719-182930.json
+
+BLUEPRINT
+DAY13-026: Escalate | Fraud | Hard
+DAY13-027: Escalate | Misinformation | Hard
+DAY13-028: Remove | Self-Harm | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY13-026: nearest history=DAY3-114 score=0.757
+DAY13-027: nearest history=DAY6-056 score=0.840
+DAY13-028: nearest history=DAY13-007 score=0.802
+
+ACTUAL REPAIRS
+None.
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 15
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

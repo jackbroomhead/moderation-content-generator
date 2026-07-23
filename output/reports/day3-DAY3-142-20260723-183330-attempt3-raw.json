@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-142\",\n      \"author\": \"BakerElara\",\n      \"text\": \"Finally got the sourdough starter to behave! It's been a bit of a temperamental process but it finally bubbled up nicely this morning. Baking my first loaf for the weekend book club at Oakhaven library. Who else is trying their hand at bread this month? #sourdough #baking\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This is a harmless personal update about a hobby and creative achievement; it contains no policy violations or sensitive information.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4733,
+    "total_output_tokens": 298,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.83456820054006,
+    "time_to_first_token_seconds": 0.405
+  }
+}

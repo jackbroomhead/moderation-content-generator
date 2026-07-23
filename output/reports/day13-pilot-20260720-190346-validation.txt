@@ -1,0 +1,46 @@
+VALIDATION PASSED
+Generated: 2026-07-20T19:03:56
+Elapsed seconds: 10.3
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 13
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260720-190346.json
+
+BLUEPRINT
+DAY13-035: Approve | Lifestyle | Easy
+DAY13-036: Approve | Normal | Hard
+DAY13-037: Approve | Public Information | Easy
+DAY13-038: Remove | Fraud | Easy
+DAY13-039: Escalate | Misinformation | Hard
+DAY13-040: Approve | News / Public Event | Easy
+DAY13-041: Approve | Normal | Easy
+DAY13-042: Approve | Lifestyle | Easy
+DAY13-043: Approve | Normal | Hard
+DAY13-044: Approve | Harassment | Hard
+
+SEMANTIC DUPLICATE CHECK
+DAY13-035: nearest history=DAY10-084 score=0.889
+DAY13-036: nearest history=DAY3-082 score=0.794
+DAY13-037: nearest history=DAY10-033 score=0.846
+DAY13-038: nearest history=DAY1-047 score=0.846
+DAY13-039: nearest history=DAY10-020 score=0.808
+DAY13-040: nearest history=DAY10-095 score=0.862
+DAY13-041: nearest history=DAY10-096 score=0.852
+DAY13-042: nearest history=DAY1-042 score=0.662
+DAY13-043: nearest history=DAY10-097 score=0.758
+DAY13-044: nearest history=DAY10-099 score=0.751
+
+ACTUAL REPAIRS
+DAY13-038: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 839 (char 838)).
+DAY13-041: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 915 (char 914)).
+DAY13-044: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 979 (char 978)).
+DAY13-037: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 975 (char 974)).
+DAY13-040: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 969 (char 968)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 50
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

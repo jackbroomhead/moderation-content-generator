@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-083\",\n      \"author\": \"MoorvaleReader42\",\n      \"text\": \"Has anyone seen that viral post about a 'detox' cure? It's everywhere. Just wondering if it's true or another one of those scams.\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The user is asking for clarification and expressing uncertainty rather than promoting the claim as fact or urging action, which aligns with Approve criteria.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 390,\n      \"followerCount\": 610,\n      \"followingCount\": 215,\n      \"verifiedStatus\": false,\n      \"postCount\": 188,\n      \"bio\": \"Questions, books and local life.\",\n      \"previousFlags\": 0,\n      \"location\": \"Moorvale\",\n      \"platform\": \"QuickPost\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4560,
+    "total_output_tokens": 307,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.10062663998886,
+    "time_to_first_token_seconds": 2.095
+  }
+}

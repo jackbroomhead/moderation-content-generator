@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-043\",\n      \"author\": \"OakhavenGardener\",\n      \"text\": \"Worked on my new raised beds all afternoon and finally got the compost turned. It's a bit of a mess but I'm pleased with the progress! My partner thinks it looks chaotic, but I know what I'm doing. #GardeningLife\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The post shares a harmless hobby anecdote with mild humour and personal frustration; it does not contain private information, threats, or safety concerns.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 996,\n      \"followerCount\": 10300,\n      \"followingCount\": 242,\n      \"verifiedStatus\": false,\n      \"postCount\": 1868,\n      \"bio\": \"Everyday thoughts, hobbies and local life.\",\n      \"previousFlags\": 1,\n      \"location\": \"Oakhaven\",\n      \"platform\": \"PublicSquare\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4819,
+    "total_output_tokens": 333,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.25780982872774,
+    "time_to_first_token_seconds": 2.159
+  }
+}

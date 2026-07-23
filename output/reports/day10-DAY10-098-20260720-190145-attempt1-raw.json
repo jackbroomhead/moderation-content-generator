@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-098\",\"author\":\"ElenaRostova\",\"text\":\"Work day has been a proper grind today, honestly. The boss kept asking for updates every hour and I'm just trying to get through my shift without losing my mind. It's not like anyone is actually going to stop me from finishing my tasks, but the pressure is real. #WorkLife #Overtime\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post expresses mild frustration with work conditions but does not incite violence or threaten harm; it is a harmless expression of personal sentiment.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4859,
+    "total_output_tokens": 242,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.01771396195458,
+    "time_to_first_token_seconds": 2.066
+  }
+}

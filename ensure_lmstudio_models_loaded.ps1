@@ -74,8 +74,16 @@ function Test-Endpoint {
 
 function Get-LoadedModels {
     try {
-        $Raw = & lms ps --json 2>&1
-        if ($LASTEXITCODE -ne 0) {
+        $PreviousPreference = $ErrorActionPreference
+        $ErrorActionPreference = "Continue"
+        try {
+            $Raw = & lms ps --json 2>&1
+            $ExitCode = $LASTEXITCODE
+        }
+        finally {
+            $ErrorActionPreference = $PreviousPreference
+        }
+        if ($ExitCode -ne 0) {
             throw "lms ps --json failed: $Raw"
         }
         if (-not $Raw) {
@@ -124,8 +132,15 @@ function Load-ModelIfMissing {
     }
 
     Write-Log "Loading $Kind model: $ModelId"
-    $Output = & lms load $ModelId --identifier $ModelId --yes 2>&1
-    $Exit = $LASTEXITCODE
+    $PreviousPreference = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    try {
+        $Output = & lms load $ModelId --identifier $ModelId --yes 2>&1
+        $Exit = $LASTEXITCODE
+    }
+    finally {
+        $ErrorActionPreference = $PreviousPreference
+    }
     foreach ($Line in @($Output)) {
         if ($Line) {
             Write-Log "lms load: $Line"
@@ -134,6 +149,12 @@ function Load-ModelIfMissing {
     if ($Exit -ne 0) {
         throw "Failed to load $Kind model '$ModelId' with lms load. If this is the embedding model and the CLI cannot load it in this LM Studio version, load it manually in LM Studio and rerun this script."
     }
+
+    $Reloaded = Get-LoadedModels
+    if (-not (Test-ModelLoaded -LoadedModels $Reloaded -ModelId $ModelId)) {
+        throw "$Kind model '$ModelId' was not visible in 'lms ps --json' after lms load completed."
+    }
+    Write-Log "$Kind model verified after load: $ModelId"
 }
 
 if ($TimeoutSeconds -le 0) {

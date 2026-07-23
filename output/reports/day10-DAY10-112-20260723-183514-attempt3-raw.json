@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-112\",\"author\":\"MaraVoss\",\"text\":\"Hey everyone! Just to clear up the confusion on the app regarding those listings. If you're looking for support with your account, please ignore the messages asking for login details or security codes directly through [link removed]. I'm happy to help verify legitimate transactions via the official payment methods listed in my bio.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a direct credential-harvesting attempt where the author asks users to provide passwords or security codes, which is a violation requiring removal.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4963,
+    "total_output_tokens": 236,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.87205035339623,
+    "time_to_first_token_seconds": 0.502
+  }
+}

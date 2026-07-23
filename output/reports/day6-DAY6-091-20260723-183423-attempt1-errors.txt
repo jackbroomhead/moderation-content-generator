@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Avoid overused hobby/craft/baking/gardening themes in nightly output.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 845 (char 844)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

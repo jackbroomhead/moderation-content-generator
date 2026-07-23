@@ -1,0 +1,51 @@
+﻿{
+    "status":  "completed_with_failures",
+    "finishedAt":  "2026-07-22T00:04:29",
+    "fatalError":  null,
+    "results":  [
+                    {
+                        "profile":  "nightly-day3",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260722-000030-semantic-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    },
+                    {
+                        "profile":  "nightly-day6",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260722-000138-semantic-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    },
+                    {
+                        "profile":  "nightly-day10",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-pilot-20260722-000302-semantic-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    },
+                    {
+                        "profile":  "nightly-day13",
+                        "batch":  1,
+                        "success":  false,
+                        "attempts":  2,
+                        "exitCode":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260722-000414-semantic-failed.txt",
+                        "error":  "No validated candidate was produced."
+                    }
+                ]
+}

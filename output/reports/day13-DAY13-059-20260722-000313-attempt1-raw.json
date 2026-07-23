@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-059\",\n      \"author\": \"BellmereWatcher\",\n      \"text\": \"Official warning: The Bellmere Savings & Loan is facing a critical liquidity crisis. Citizens are urged to withdraw all funds immediately and move money to the 'Safe Haven' digital wallet before the platform goes offline at midnight. This document is verified by the Ministry of Finance. Do not trust local banks. #FinancialAlert #BellmereNews\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"The post promotes a fabricated financial emergency to cause panic and bank runs, utilizing an official-looking but unverified document. It requires specialist escalation for FinancialEconomic misinformation as it could lead to real-world harm.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": true,\n      \"correctSpecialistReason\": \"FinancialEconomic\",\n      \"acceptableSpecialistReasons\": [\n        \"SyntheticManipulatedMedia\"\n      ],\n      \"accountAgeDays\": 217,\n      \"followerCount\": 3100,\n      \"followingCount\": 256,\n      \"verifiedStatus\": false,\n      \"postCount\": 818,\n      \"bio\": \"Public-interest claims and current discussions.\",\n      \"previousFlags\": 0,\n      \"location\": \"Bellmere\",\n      \"platform\": \"QuickPost\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4658,
+    "total_output_tokens": 377,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.39336501113944,
+    "time_to_first_token_seconds": 2.067
+  }
+}

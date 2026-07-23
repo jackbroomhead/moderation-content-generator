@@ -1,0 +1,9 @@
+VALIDATION ERRORS
+Likely sustained harassment/brigading should be Escalate / HarassmentAbuse once reasons are unlocked.
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

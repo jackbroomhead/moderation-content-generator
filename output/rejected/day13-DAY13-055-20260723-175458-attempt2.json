@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-055",
+      "author": "GardenerInGreyford",
+      "text": "Just spotted the new wildflower patch at the community centre in Dunmere! It's been a long wait for this to bloom, and the colours are absolutely stunning. Hope everyone gets out there soon to see it before the rain hits.",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "The post is a harmless observation of a local event without any harmful claims, threats, or private details. It encourages community engagement and contains no policy violations.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1481,
+      "followerCount": 16550,
+      "followingCount": 337,
+      "verifiedStatus": false,
+      "postCount": 2923,
+      "bio": "Everyday thoughts, hobbies and local life.",
+      "previousFlags": 0,
+      "location": "Dunmere",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

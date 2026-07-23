@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-069\",\"author\":\"ClayCraftsAndTea\",\"text\":\"Finally finished my latest pottery bowl! I used a mix of local clays from Westbridge to give it that earthy feel. It's going on the kitchen shelf now. #Pottery #Handmade #HomeDecor\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless personal update about a hobby and creative achievement with no policy violations.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4489,
+    "total_output_tokens": 209,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.2664618285353,
+    "time_to_first_token_seconds": 2.003
+  }
+}

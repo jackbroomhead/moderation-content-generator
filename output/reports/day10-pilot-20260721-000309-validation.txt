@@ -1,0 +1,47 @@
+VALIDATION PASSED
+Generated: 2026-07-21T00:03:14
+Elapsed seconds: 5.0
+Chat model: qwen/qwen3.5-9b
+Embedding model: text-embedding-nomic-embed-text-v1.5
+Target day: 10
+Post count: 10
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260721-000309.json
+
+BLUEPRINT
+DAY10-100: Approve | Lifestyle | Easy
+DAY10-101: Approve | Normal | Medium
+DAY10-102: Approve | Public Information | Easy
+DAY10-103: Remove | Fraud | Easy
+DAY10-104: Escalate | Misinformation | Hard
+DAY10-105: Approve | News / Public Event | Easy
+DAY10-106: Approve | Normal | Easy
+DAY10-107: Approve | Lifestyle | Easy
+DAY10-108: Approve | Normal | Medium
+DAY10-109: Approve | Harassment | Medium
+
+SEMANTIC DUPLICATE CHECK
+DAY10-100: nearest history=DAY13-034 score=0.866
+DAY10-101: nearest history=DAY10-091 score=0.752
+DAY10-102: nearest history=DAY6-071 score=0.807
+DAY10-103: nearest history=DAY10-093 score=0.869
+DAY10-104: nearest history=DAY10-094 score=0.881
+DAY10-105: nearest history=DAY13-040 score=0.880
+DAY10-106: nearest history=DAY10-037 score=0.842
+DAY10-107: nearest history=DAY13-033 score=0.874
+DAY10-108: nearest history=DAY6-077 score=0.705
+DAY10-109: nearest history=DAY13-044 score=0.853
+
+ACTUAL REPAIRS
+DAY10-100: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 847 (char 846)).
+DAY10-101: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1015 (char 1014)).
+DAY10-105: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 991 (char 990)).
+DAY10-106: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 967 (char 966)).
+DAY10-108: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 1040 (char 1039)).
+DAY10-102: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 918 (char 917)).
+
+CONTENT FALLBACKS
+None.
+
+SCHEMA DEFAULTS ADDED: 50
+The master input/posts.json was not modified.
+Manual policy and writing review is still required.

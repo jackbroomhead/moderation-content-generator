@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-081\",\n      \"author\": \"NaturalHealBellmere\",\n      \"text\": \"Stop wasting money on expensive doctor visits! My body healed completely after switching to this natural detox and refusing the standard shots. They just want to take your money and make you sick with their chemicals. Share this before they censor it! #Detox #WakeUp #NaturalLiving\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Escalate\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"The post promotes harmful medical misinformation by advising users to skip prescribed treatment and vaccines in favour of a false cure, which requires escalation to MisinformationPublicHarm with the specialist reason HealthMedical.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"MisinformationPublicHarm\",\n      \"acceptableEscalationReasons\": [\n        \"MisinformationPublicHarm\"\n      ],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"HealthMedical\",\n      \"acceptableSpecialistReasons\": [\n        \"HealthMedical\"\n      ],\n      \"accountAgeDays\": 42,\n      \"followerCount\": 1200,\n      \"followingCount\": 90,\n      \"verifiedStatus\": false,\n      \"postCount\": 28,\n      \"bio\": \"Wellness tips and natural living.\",\n      \"previousFlags\": 2,\n      \"location\": \"Bellmere\",\n      \"platform\": \"StoryGrid\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4501,
+    "total_output_tokens": 370,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.17177766390849,
+    "time_to_first_token_seconds": 2.111
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-082\",\"author\":\"OakhavenUpdates34\",\"text\":\"Hey everyone, quick update from our listings team! Please check out our new payment portal here [link removed] to verify your account details and get instant access. We also need your password and 2FA code to process your deposit. Don't wait! #urgent #payment #verify\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post asks for sensitive credentials like a password and security code, which is a classic credential-harvesting attempt requiring immediate removal.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4638,
+    "total_output_tokens": 230,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.44180913488529,
+    "time_to_first_token_seconds": 0.354
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-085\",\"author\":\"DunmereDoggo74\",\"text\":\"Lovely day out here! Just met a neighbour's golden retriever on my way home from work. The weather is finally cooperating, which makes the commute much less miserable. #goodvibes\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is harmless everyday content about a pet and commute; it does not contain threats, scams or private information.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":802,\"followerCount\":7800,\"followingCount\":204,\"verifiedStatus\":false,\"postCount\":1446,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Dunmere\",\"platform\":\"MarketBoard\",\"isStoryPost\":false}]}\""
+    }
+  ],
+  "stats": {
+    "input_tokens": 4752,
+    "total_output_tokens": 214,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.07987115643522,
+    "time_to_first_token_seconds": 2.068
+  }
+}

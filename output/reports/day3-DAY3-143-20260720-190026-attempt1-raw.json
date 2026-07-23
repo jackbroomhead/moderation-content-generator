@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"MoorvaleGardener72\",\"text\":\"Just got an urgent message saying my bank account is frozen and I need to verify my details instantly via [link removed]. They asked for my password and security code! Don't do it. It's a scam.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post directly asks for sensitive credentials like passwords and security codes under false pretenses, which constitutes an obvious credential-harvesting attempt and must be removed.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4584,
+    "total_output_tokens": 188,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.09752266626833,
+    "time_to_first_token_seconds": 0.349
+  }
+}

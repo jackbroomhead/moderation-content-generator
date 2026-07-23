@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-059\",\"author\":\"ElenaVance\",\"text\":\"URGENT: The platform has released an official document confirming all major banks in Bellmere are facing immediate insolvency and that a run is starting now! Please withdraw your funds immediately before it's too late. This isn't a drill. #Bellmere #BankingCrisis #FinancialWarning\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post promotes a fabricated financial panic using an unverified document, which fits the FinancialEconomic misinformation specialist reason as it could cause real-world economic harm.\",\"day\":13,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[\"SyntheticManipulatedMedia\"],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"FinancialEconomic\",\"acceptableSpecialistReasons\":[\"SyntheticManipulatedMedia\"],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4676,
+    "total_output_tokens": 259,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.3539287819575,
+    "time_to_first_token_seconds": 2.094
+  }
+}

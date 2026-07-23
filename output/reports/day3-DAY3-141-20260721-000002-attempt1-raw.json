@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-141\",\"author\":\"MossyGarden92\",\"text\":\"The new council plans for Westbridge are absolute nonsense. They want to turn the community allotments into a generic car park and ban us from growing our own veg. It's a complete waste of space that was meant for locals. #Westbridge #CouncilRubbish\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This post expresses lawful criticism of government policy regarding land use, which is permitted content without spreading harmful false claims or threats.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4499,
+    "total_output_tokens": 191,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.52092198943126,
+    "time_to_first_token_seconds": 1.923
+  }
+}

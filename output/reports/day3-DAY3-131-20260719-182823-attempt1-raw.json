@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-131\",\n      \"author\": \"BakingWithBess\",\n      \"text\": \"Just spent the afternoon trying my hand at sourdough in Westbridge! The local community group is having a bake-off next weekend, so I'm eager to see how my crusty loaf turns out. Anyone else planning on entering? #sourdough #WestbridgeLife\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a harmless social sharing of a hobby and local event that does not violate any safety policies.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4445,
+    "total_output_tokens": 290,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.24996318083487,
+    "time_to_first_token_seconds": 1.942
+  }
+}

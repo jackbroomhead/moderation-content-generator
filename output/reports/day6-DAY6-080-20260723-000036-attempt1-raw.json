@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-080\",\"author\":\"ElaraMoss\",\"text\":\"Honestly can't stand the new traffic rules in Oakhaven anymore. It's a nightmare getting to work, especially with all these construction zones. The council really needs to sort it out before I give up on driving entirely.\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"This is a lawful expression of frustration regarding local infrastructure and traffic conditions, which falls under acceptable opinion and criticism without any threat or harmful misinformation.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4525,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.62614900362355,
+    "time_to_first_token_seconds": 1.892
+  }
+}

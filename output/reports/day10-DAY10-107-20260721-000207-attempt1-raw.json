@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-107\",\n      \"author\": \"LunaPatisserie\",\n      \"text\": \"Just perfected my sourdough recipe again! The crust is perfectly crispy and the crumb is so airy. Served it with a simple tomato basil salad for lunch today. #baking #foodie\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post shares a harmless hobby and food interest without promoting harm, soliciting private data, or spreading misinformation.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 899,\n      \"followerCount\": 9050,\n      \"followingCount\": 223,\n      \"verifiedStatus\": false,\n      \"postCount\": 1657,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 0,\n      \"location\": \"Westbridge\",\n      \"platform\": \"StoryGrid\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4764,
+    "total_output_tokens": 314,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.30411938716941,
+    "time_to_first_token_seconds": 2.067
+  }
+}

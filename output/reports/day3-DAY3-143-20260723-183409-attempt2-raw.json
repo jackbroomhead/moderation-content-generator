@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-143\",\n      \"author\": \"MossyHillWalker\",\n      \"text\": \"Honestly tired of the new council rules for dog walkers. They keep changing the fees and it's a complete nightmare trying to register online. Someone actually needs to tell them to stop playing games.\",\n      \"category\": \"Normal\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Medium\",\n      \"explanation\": \"This is a natural opinion and everyday complaint regarding government administration. It contains no threat, targeted abuse, or harmful false claim, so it should be approved as legitimate user feedback.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4935,
+    "total_output_tokens": 286,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.15752198365645,
+    "time_to_first_token_seconds": 0.404
+  }
+}

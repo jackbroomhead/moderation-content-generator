@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY10-103\",\n      \"author\": \"HelpDeskUpdates\",\n      \"text\": \"Need your login details and security code urgently to verify your account! Please click here to update your payment info now.\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"The post is an obvious credential-harvesting attempt that directly asks for a password and security code, which requires removal as a clear violation.\",\n      \"day\": 10,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 24,\n      \"followerCount\": 131,\n      \"followingCount\": 371,\n      \"verifiedStatus\": false,\n      \"postCount\": 261,\n      \"bio\": \"Account help, listings and payment updates.\",\n      \"previousFlags\": 5,\n      \"location\": \"Greyford\",\n      \"platform\": \"EchoBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4632,
+    "total_output_tokens": 296,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.84845192330238,
+    "time_to_first_token_seconds": 0.41
+  }
+}

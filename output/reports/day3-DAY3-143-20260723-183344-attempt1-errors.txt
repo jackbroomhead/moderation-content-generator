@@ -1,0 +1,13 @@
+VALIDATION ERRORS
+Visible post text should refer to 'the app' or 'the platform' rather than repeatedly naming a fictional platform.
+Avoid repeated low-diversity openings such as 'Finally finished...' or hobby-completion templates.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 871 (char 870)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-133\",\"author\":\"ElenaRivers92\",\"text\":\"Need help verifying my account support request? They sent me a message saying I must update my login details, password and 2FA code to complete the process before they can access my funds. Please check this link [link removed] to confirm your payment card details too.\",\"category\":\"Fraud\",\"correctAction\":\"Escalate\",\"difficulty\":\"Medium\",\"explanation\":\"This post requests sensitive credentials (login, password, 2FA) and payment card details via a link, which constitutes a clear credential theft attempt requiring specialist investigation.\",\"day\":3,\"correctEscalationReason\":\"FraudScam\",\"acceptableEscalationReasons\":[\"FraudScam\"],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4588,
+    "total_output_tokens": 209,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 84.26464582037278,
+    "time_to_first_token_seconds": 0.406
+  }
+}

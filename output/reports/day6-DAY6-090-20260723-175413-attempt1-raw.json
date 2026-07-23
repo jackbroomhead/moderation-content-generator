@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY6-090\",\"author\":\"PromoKing74\",\"text\":\"🚨URGENT! Don't miss out on our massive clearance sale ending NOW! Click [link removed] to grab these unbeatable deals before they vanish forever! Limited stock so act fast!!! #Deals #Sale #Urgent #ShopNow\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is repetitive bulk promotion with excessive urgency and no genuine context, which fits the Remove category for obvious spam.\",\"day\":6,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":101,\"followerCount\":582,\"followingCount\":778,\"verifiedStatus\":false,\"postCount\":1174,\"bio\":\"Deals and promotions.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4699,
+    "total_output_tokens": 219,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.10898407854604,
+    "time_to_first_token_seconds": 2.013
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-104\",\"author\":\"MoorvaleWatcher\",\"text\":\"BREAKING: Authorities in Bellmere have issued an urgent evacuation order for the entire district due to severe industrial contamination! Everyone must leave their homes immediately and head towards the Greyford border crossing. This is critical information from an unverified source but the danger is real. Please share this now before it's too late! #evacuation #Bellmere #emergency\",\"category\":\"Misinformation\",\"correctAction\":\"Escalate\",\"difficulty\":\"Hard\",\"explanation\":\"This post spreads an unverified evacuation and contamination claim that could cause unsafe public movement; as a PublicSafetyEmergency specialist reason is required from Day 10, the action must be Escalate with MisinformationPublicHarm.\",\"day\":10,\"correctEscalationReason\":\"MisinformationPublicHarm\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":true,\"correctSpecialistReason\":\"PublicSafetyEmergency\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":217,\"followerCount\":3100,\"followingCount\":256,\"verifiedStatus\":false,\"postCount\":818,\"bio\":\"Public-interest claims and current discussions.\",\"previousFlags\":0,\"location\":\"Bellmere\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4635,
+    "total_output_tokens": 277,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.05377319954671,
+    "time_to_first_token_seconds": 1.926
+  }
+}

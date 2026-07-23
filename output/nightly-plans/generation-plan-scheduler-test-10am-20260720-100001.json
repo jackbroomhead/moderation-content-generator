@@ -1,0 +1,23 @@
+﻿{
+    "max_batches_total":  1,
+    "retry_failed_batch_once":  true,
+    "restore_original_config":  true,
+    "unload_models_on_finish":  false,
+    "resume_existing_checkpoints_for_first_profile":  false,
+    "run_label":  "scheduler-test-10am",
+    "run_kind":  "nightly-candidate-generation",
+    "requested_total_posts":  40,
+    "requested_days":  [
+                           3
+                       ],
+    "profiles":  [
+                     {
+                         "name":  "scheduler-test-10am-day3",
+                         "enabled":  true,
+                         "blueprint_file":  "17 - Day 3-5 Escalation Production Blueprint.json",
+                         "target_day":  3,
+                         "count":  40,
+                         "batches":  1
+                     }
+                 ]
+}

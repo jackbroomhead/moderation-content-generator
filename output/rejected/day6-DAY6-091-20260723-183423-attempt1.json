@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-091",
+      "author": "ClayVinecrafts",
+      "text": "Just won the weekly pottery challenge on the platform! My little blue vase is finally ready. So proud of my progress this year.\n#clay #pottery #achievement",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless announcement of a personal achievement and hobby interest, containing no threats, private details or harmful claims.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1481,
+      "followerCount": 16550,
+      "followingCount": 337,
+      "verifiedStatus": false,
+      "postCount": 2923,
+      "bio": "Everyday thoughts, hobbies and local life.",
+      "previousFlags": 0,
+      "location": "Dunmere",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

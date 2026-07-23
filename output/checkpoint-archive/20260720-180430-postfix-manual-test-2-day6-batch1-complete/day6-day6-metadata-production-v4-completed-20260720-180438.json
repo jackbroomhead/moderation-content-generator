@@ -1,0 +1,49 @@
+{
+  "blueprintName": "day6-metadata-production-v4",
+  "reservedIds": [
+    "DAY6-068"
+  ],
+  "posts": [
+    {
+      "id": "DAY6-068",
+      "author": "CraftyKnitter92",
+      "text": "Just finished my latest cardigan! It took about 3 weeks to complete, but I'm really happy with the texture. Perfect for coming winter in Westbridge. #knitting #cardigan",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a harmless personal update about a hobby and creative achievement with no policy violations.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 220,
+      "followerCount": 300,
+      "followingCount": 90,
+      "verifiedStatus": false,
+      "postCount": 180,
+      "bio": "Creative projects, food and weekend interests.",
+      "previousFlags": 1,
+      "location": "Westbridge",
+      "platform": "PhotoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ],
+  "repairs": [
+    "DAY6-068: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 829 (char 828))."
+  ],
+  "fallbacks": [],
+  "defaults": [
+    "DAY6-068: posts[0].profileImage",
+    "DAY6-068: posts[0].postImage",
+    "DAY6-068: posts[0].tags",
+    "DAY6-068: posts[0].scenario",
+    "DAY6-068: posts[0].notes"
+  ]
+}

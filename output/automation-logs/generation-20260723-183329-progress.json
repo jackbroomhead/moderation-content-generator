@@ -1,0 +1,65 @@
+﻿{
+    "state":  "completed_with_failures",
+    "updatedAt":  "2026-07-23T18:35:52",
+    "runLog":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260723-183329-run.log",
+    "summary":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260723-183329-summary.txt",
+    "manifest":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\automation-logs\\generation-20260723-183329-manifest.json",
+    "results":  [
+                    {
+                        "profile":  "hardening-test-8c-day3",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  3,
+                        "success":  true,
+                        "attempts":  4,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day3-pilot-20260723-183409.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-pilot-20260723-183409-validation.txt",
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day3-DAY3-143-20260723-183359-failed.txt",
+                        "error":  null
+                    },
+                    {
+                        "profile":  "hardening-test-8c-day6",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  6,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day6-pilot-20260723-183423.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day6-pilot-20260723-183423-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    },
+                    {
+                        "profile":  "hardening-test-8c-day10",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  10,
+                        "success":  false,
+                        "attempts":  4,
+                        "exitCode":  0,
+                        "generatedCount":  0,
+                        "candidate":  null,
+                        "validation":  null,
+                        "failureReport":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-DAY10-112-20260723-183514-failed.txt",
+                        "error":  "Latest failure report: C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day10-DAY10-112-20260723-183504-failed.txt"
+                    },
+                    {
+                        "profile":  "hardening-test-8c-day13",
+                        "batch":  1,
+                        "requestedCount":  2,
+                        "targetDay":  13,
+                        "success":  true,
+                        "attempts":  1,
+                        "exitCode":  0,
+                        "generatedCount":  2,
+                        "candidate":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\candidates\\day13-pilot-20260723-183526.json",
+                        "validation":  "C:\\Users\\jackb\\Documents\\Game Dev\\ModeratorPOC\\Content_Generator\\output\\reports\\day13-pilot-20260723-183526-validation.txt",
+                        "failureReport":  null,
+                        "error":  null
+                    }
+                ]
+}

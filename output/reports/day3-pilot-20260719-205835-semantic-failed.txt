@@ -1,0 +1,9 @@
+SEMANTIC DUPLICATE CHECK FAILED
+
+DAY3-136 is semantically too similar to history post DAY10-084 (0.912 >= 0.900).
+
+NEAREST-HISTORY SCORES
+DAY3-136: nearest history=DAY10-084 score=0.912
+DAY3-137: nearest history=DAY3-135 score=0.751
+
+Rejected posts were removed from the checkpoint. Run the generator again to regenerate only those slots.

@@ -1,0 +1,28 @@
+﻿Status: completed_with_failures
+Manifest: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260720-190000-manifest.json
+Run log: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\automation-logs\generation-20260720-190000-run.log
+
+Profile: scheduler-test-7pm-day3 | Batch: 1 | Success: False | Attempts: 2
+Candidate: 
+Validation: 
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day3-DAY3-143-20260720-190026-failed.txt
+Error: No validated candidate was produced.
+
+Profile: scheduler-test-7pm-day6 | Batch: 1 | Success: False | Attempts: 2
+Candidate: 
+Validation: 
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day6-pilot-20260720-190105-semantic-failed.txt
+Error: No validated candidate was produced.
+
+Profile: scheduler-test-7pm-day10 | Batch: 1 | Success: True | Attempts: 2
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day10-pilot-20260720-190239.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-pilot-20260720-190239-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day10-pilot-20260720-190145-semantic-failed.txt
+Error: 
+
+Profile: scheduler-test-7pm-day13 | Batch: 1 | Success: True | Attempts: 2
+Candidate: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\candidates\day13-pilot-20260720-190346.json
+Validation: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-pilot-20260720-190346-validation.txt
+Failure report: C:\Users\jackb\Documents\Game Dev\ModeratorPOC\Content_Generator\output\reports\day13-pilot-20260720-190246-semantic-failed.txt
+Error: 
+

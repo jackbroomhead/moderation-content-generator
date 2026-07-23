@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY3-143\",\n      \"author\": \"MoorvaleGardener92\",\n      \"text\": \"Hi everyone, I need a bit of help urgently! Someone claiming to be from the bank has sent me a message via [link removed] asking for my security code and full password to verify my account. Please don't click that link or share any details!\",\n      \"category\": \"Fraud\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a clear credential-harvesting scam asking for sensitive security codes and passwords, which requires immediate removal to prevent account compromise.\",\n      \"day\": 3,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": \"\",\n      \"followerCount\": \"\",\n      \"followingCount\": \"\",\n      \"verifiedStatus\": \"\",\n      \"postCount\": \"\",\n      \"bio\": \"\",\n      \"previousFlags\": \"\",\n      \"location\": \"\",\n      \"platform\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4610,
+    "total_output_tokens": 287,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.61637723281622,
+    "time_to_first_token_seconds": 0.378
+  }
+}

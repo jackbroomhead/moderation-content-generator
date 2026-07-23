@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-042\",\n      \"author\": \"VintageVinylDave\",\n      \"text\": \"Finally tracked down a pristine copy of 'Midnight Echoes' by the fictional synth-pop group Neon Horizon. The cover art is stunning and the sound quality on this reissue is incredible. Highly recommend for anyone who loves 80s nostalgia mixed with modern production. #MusicDiscovery #RetroVibes\",\n      \"category\": \"Lifestyle\",\n      \"correctAction\": \"Approve\",\n      \"difficulty\": \"Easy\",\n      \"explanation\": \"This post is a standard user sharing a positive review of a fictional music album without spreading misinformation, soliciting harm, or revealing private information. The content is harmless and falls within acceptable lifestyle discussion.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 899,\n      \"followerCount\": 9050,\n      \"followingCount\": 223,\n      \"verifiedStatus\": false,\n      \"postCount\": 1657,\n      \"bio\": \"Creative projects, food and weekend interests.\",\n      \"previousFlags\": 0,\n      \"location\": \"Westbridge\",\n      \"platform\": \"StoryGrid\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4802,
+    "total_output_tokens": 351,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 85.9864606845894,
+    "time_to_first_token_seconds": 0.345
+  }
+}

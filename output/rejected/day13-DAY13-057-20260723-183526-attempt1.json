@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY13-057",
+      "author": "MossyGardens",
+      "text": "Honestly tired of the constant abuse aimed at me on this app. I've blocked everyone who's been targeting my posts but they keep finding new ways to harass me with personal insults and threats directed at my family. It's getting unbearable and I'm not sure what else to do.",
+      "category": "Harassment",
+      "correctAction": "Remove",
+      "difficulty": "Hard",
+      "explanation": "The post describes a victim reporting harassment, which is acceptable content rather than the violation itself. The user has blocked the harassers and is seeking support, making this an appropriate case for removal as it does not constitute active harm or a policy violation.",
+      "day": 13,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 108,
+      "followerCount": 623,
+      "followingCount": 815,
+      "verifiedStatus": false,
+      "postCount": 1257,
+      "bio": "Personal commentary and community discussion.",
+      "previousFlags": 3,
+      "location": "Oakhaven",
+      "platform": "CommunityFeed",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

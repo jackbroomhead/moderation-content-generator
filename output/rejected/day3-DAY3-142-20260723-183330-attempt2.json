@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY3-142",
+      "author": "BookWorm_Bella",
+      "text": "Finally tracked down a rare copy of 'The Silent Sea' at the local library in Westbridge! The librarian was so helpful and I couldn't resist adding it to my TBR pile. Can't wait to dive into this one this weekend. #bookhaul #westbridge",
+      "category": "Lifestyle",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a standard personal update about acquiring a book; it contains no harmful content, requests for private data, or policy violations.",
+      "day": 3,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": "",
+      "followerCount": "",
+      "followingCount": "",
+      "verifiedStatus": "",
+      "postCount": "",
+      "bio": "",
+      "previousFlags": "",
+      "location": "",
+      "platform": "",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

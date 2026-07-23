@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-045\",\"author\":\"CraftyClayAndCandles\",\"text\":\"Finally got around to making a batch of beeswax candles today! The scent is absolutely divine, and I managed to twist them into some unique shapes. Can't wait to see how they look when lit. #HomeDecor #DIY\",\"category\":\"Lifestyle\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This post is a harmless personal update about a hobby (candle making) with no threats, private details, or harmful misinformation; it fits standard lifestyle content.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":220,\"followerCount\":300,\"followingCount\":90,\"verifiedStatus\":false,\"postCount\":180,\"bio\":\"Creative projects, food and weekend interests.\",\"previousFlags\":1,\"location\":\"Westbridge\",\"platform\":\"PhotoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4865,
+    "total_output_tokens": 230,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.20492996528561,
+    "time_to_first_token_seconds": 1.995
+  }
+}

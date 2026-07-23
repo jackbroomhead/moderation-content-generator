@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-145\",\"author\":\"OakhavenEvents\",\"text\":\"Just a friendly announcement that we're hosting our annual Summer Market in Westbridge next Saturday! We'll have local artisans, live music, and food stalls from 9am to 5pm. Bring the family! 🎉🍓 #WestbridgeMarket #CommunityEvent #SummerFun\",\"category\":\"News / Public Event\",\"correctAction\":\"Approve\",\"difficulty\":\"Easy\",\"explanation\":\"This is a harmless community event announcement with no threats, scams, or private details.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4696,
+    "total_output_tokens": 189,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.69974619670506,
+    "time_to_first_token_seconds": 2.081
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "DAY6-072",
+      "author": "LunaVale94",
+      "text": "Hi everyone, just a quick update! Please note that I have updated my profile with new account help and payment details. You can find all the necessary information here [link removed]. Don't forget to check your messages for important updates on listings.",
+      "category": "Fraud",
+      "correctAction": "Remove",
+      "difficulty": "Easy",
+      "explanation": "This post is a clear credential-harvesting attempt as it asks users to visit an external link to obtain account help and payment details, which aligns with the Fraud category and warrants removal.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 24,
+      "followerCount": 131,
+      "followingCount": 371,
+      "verifiedStatus": false,
+      "postCount": 261,
+      "bio": "Account help, listings and payment updates.",
+      "previousFlags": 5,
+      "location": "Greyford",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ]
+}

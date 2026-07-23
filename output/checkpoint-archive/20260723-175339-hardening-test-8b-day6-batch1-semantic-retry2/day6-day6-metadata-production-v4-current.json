@@ -1,0 +1,50 @@
+{
+  "blueprintName": "day6-metadata-production-v4",
+  "reservedIds": [
+    "DAY6-089",
+    "DAY6-090"
+  ],
+  "posts": [
+    {
+      "id": "DAY6-089",
+      "author": "DunmereHiker42",
+      "text": "Finally joined the Westbridge Mountain Club this weekend! It's such a great place to get outdoors without the crowds. If anyone wants tips on which trails are best for beginners, DM me! #hiking #outdoors",
+      "category": "Normal",
+      "correctAction": "Approve",
+      "difficulty": "Easy",
+      "explanation": "This is a standard hobby post sharing a positive experience and offering community advice; no sensitive data, threats or policy violations are present.",
+      "day": 6,
+      "correctEscalationReason": "",
+      "acceptableEscalationReasons": [],
+      "allowNeedsReviewEscalation": false,
+      "correctSpecialistReason": "",
+      "acceptableSpecialistReasons": [],
+      "accountAgeDays": 1481,
+      "followerCount": 16550,
+      "followingCount": 337,
+      "verifiedStatus": false,
+      "postCount": 2923,
+      "bio": "Everyday thoughts, hobbies and local life.",
+      "previousFlags": 0,
+      "location": "Dunmere",
+      "platform": "EchoBoard",
+      "isStoryPost": false,
+      "profileImage": "",
+      "postImage": "",
+      "tags": [],
+      "scenario": "",
+      "notes": ""
+    }
+  ],
+  "repairs": [
+    "DAY6-089: Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 908 (char 907))."
+  ],
+  "fallbacks": [],
+  "defaults": [
+    "DAY6-089: posts[0].profileImage",
+    "DAY6-089: posts[0].postImage",
+    "DAY6-089: posts[0].tags",
+    "DAY6-089: posts[0].scenario",
+    "DAY6-089: posts[0].notes"
+  ]
+}

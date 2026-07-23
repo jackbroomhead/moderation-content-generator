@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY3-143\",\"author\":\"MoorvaleHomes_92\",\"text\":\"URGENT: Your account is suspended for unpaid taxes. Click this link [link removed] to verify your identity and release funds immediately using your password and security code! #urgent\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post asks for sensitive login details and payment verification, which characterises a clear credential-harvesting scam requiring removal.\",\"day\":3,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":\"\",\"followerCount\":\"\",\"followingCount\":\"\",\"verifiedStatus\":\"\",\"postCount\":\"\",\"bio\":\"\",\"previousFlags\":\"\",\"location\":\"\",\"platform\":\"\",\"isStoryPost:false}]}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4613,
+    "total_output_tokens": 174,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 86.17790586698192,
+    "time_to_first_token_seconds": 0.362
+  }
+}

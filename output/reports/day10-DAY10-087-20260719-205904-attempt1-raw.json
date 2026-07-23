@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-087\",\"author\":\"ElaraVine\",\"text\":\"Honestly, can we talk about the ridiculous queue at the local market today? Took over an hour just to get in, and half the stalls were empty. The council really needs to sort out their planning for these events or charge a proper entry fee so people don't waste time. #market #frustrated\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Medium\",\"explanation\":\"The post expresses general public frustration with a service issue and planning, which is lawful opinion.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":317,\"followerCount\":1550,\"followingCount\":109,\"verifiedStatus\":false,\"postCount\":391,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":0,\"location\":\"Oakhaven\",\"platform\":\"CommonThread\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4519,
+    "total_output_tokens": 230,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.05035181588927,
+    "time_to_first_token_seconds": 1.897
+  }
+}

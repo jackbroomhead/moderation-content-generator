@@ -1,0 +1,12 @@
+VALIDATION ERRORS
+Likely credential/payment/private-data scam should be Escalate / FraudScam once reasons are unlocked.
+
+REPAIRS
+Repaired malformed JSON syntax before schema validation (original parser error: Extra data: line 1 column 864 (char 863)).
+
+DEFAULTS ADDED
+posts[0].profileImage
+posts[0].postImage
+posts[0].tags
+posts[0].scenario
+posts[0].notes

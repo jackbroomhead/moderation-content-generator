@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\n  \"posts\": [\n    {\n      \"id\": \"DAY13-058\",\n      \"author\": \"NorthbridgeTrader\",\n      \"text\": \"Just wanted to share that the new council tax freeze starts today for all residents in Northbridge! No more bills, just free money from the state. #FreeMoney #CouncilTaxFreeze\",\n      \"category\": \"Misinformation\",\n      \"correctAction\": \"Remove\",\n      \"difficulty\": \"Hard\",\n      \"explanation\": \"This post promotes a clear financial falsehood (a 'free money' scheme) as fact, which violates platform policies against spreading misleading claims about public funds.\",\n      \"day\": 13,\n      \"correctEscalationReason\": \"\",\n      \"acceptableEscalationReasons\": [],\n      \"allowNeedsReviewEscalation\": false,\n      \"correctSpecialistReason\": \"\",\n      \"acceptableSpecialistReasons\": [],\n      \"accountAgeDays\": 115,\n      \"followerCount\": 664,\n      \"followingCount\": 852,\n      \"verifiedStatus\": false,\n      \"postCount\": 1340,\n      \"bio\": \"Public-interest claims and current discussions.\",\n      \"previousFlags\": 4,\n      \"location\": \"Northbridge\",\n      \"platform\": \"MarketBoard\",\n      \"isStoryPost\": false\n    }\n  ]\n}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4768,
+    "total_output_tokens": 314,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.31836944902665,
+    "time_to_first_token_seconds": 2.016
+  }
+}

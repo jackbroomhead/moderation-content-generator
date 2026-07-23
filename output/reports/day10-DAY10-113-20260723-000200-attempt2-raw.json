@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY10-113\",\"author\":\"MintyGarden74\",\"text\":\"URGENT: Need to update my payment details ASAP! Please reply with your password and 2FA code to unlock your account. Click here [link removed] to send them securely.\",\"category\":\"Fraud\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This is a clear credential-harvesting scam asking for passwords and security codes via a link, which requires immediate removal as a fraud violation.\",\"day\":10,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":24,\"followerCount\":131,\"followingCount\":371,\"verifiedStatus\":false,\"postCount\":261,\"bio\":\"Account help, listings and payment updates.\",\"previousFlags\":5,\"location\":\"Greyford\",\"platform\":\"EchoBoard\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4641,
+    "total_output_tokens": 214,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.44374956863007,
+    "time_to_first_token_seconds": 0.366
+  }
+}

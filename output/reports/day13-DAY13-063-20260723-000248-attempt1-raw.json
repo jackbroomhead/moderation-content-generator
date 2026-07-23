@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-063\",\"author\":\"ElaraVoss\",\"text\":\"Honestly, work has been a right drag this week. My boss keeps sending emails at midnight and I'm exhausted. Plus, my partner thinks I've become too grumpy for our anniversary dinner next weekend. Feeling really drained by the stress but hoping it settles soon! #worklife\",\"category\":\"Normal\",\"correctAction\":\"Approve\",\"difficulty\":\"Hard\",\"explanation\":\"This is a harmless personal anecdote expressing mild frustration and exhaustion without targeting anyone or revealing private information.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":996,\"followerCount\":10300,\"followingCount\":242,\"verifiedStatus\":false,\"postCount\":1868,\"bio\":\"Everyday thoughts, hobbies and local life.\",\"previousFlags\":1,\"location\":\"Oakhaven\",\"platform\":\"PublicSquare\",\"isStoryPost\":false}]}`"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4853,
+    "total_output_tokens": 228,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 88.04785169034497,
+    "time_to_first_token_seconds": 2.105
+  }
+}

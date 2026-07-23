@@ -1,0 +1,16 @@
+{
+  "model_instance_id": "qwen/qwen3.5-9b",
+  "output": [
+    {
+      "type": "message",
+      "content": "{\"posts\":[{\"id\":\"DAY13-056\",\"author\":\"RapidOffers92\",\"text\":\"URGENT! 50% OFF EVERYTHING IN STORE NOW! 🚨 CLICK HERE TO CLAIM BEFORE IT VANISHES! ⏳ https://promo.fake/deal #FlashSale #Deals #LimitedTime\",\"category\":\"Spam\",\"correctAction\":\"Remove\",\"difficulty\":\"Easy\",\"explanation\":\"This post is flagged as spam because it consists of repetitive, urgent promotional language with no genuine context or substance. The excessive use of urgency markers and a generic link indicates bulk advertising rather than organic user engagement.\",\"day\":13,\"correctEscalationReason\":\"\",\"acceptableEscalationReasons\":[],\"allowNeedsReviewEscalation\":false,\"correctSpecialistReason\":\"\",\"acceptableSpecialistReasons\":[],\"accountAgeDays\":101,\"followerCount\":582,\"followingCount\":778,\"verifiedStatus\":false,\"postCount\":1174,\"bio\":\"Deals and promotions.\",\"previousFlags\":2,\"location\":\"Westbridge\",\"platform\":\"QuickPost\",\"isStoryPost\":false}]}}"
+    }
+  ],
+  "stats": {
+    "input_tokens": 4583,
+    "total_output_tokens": 232,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 87.49520096365404,
+    "time_to_first_token_seconds": 1.991
+  }
+}
